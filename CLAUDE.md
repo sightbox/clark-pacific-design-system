@@ -17,6 +17,7 @@ Guidance for Claude Code sessions working on this repo and its Figma file.
 - Orange is never text on Primary/Blue or Dark Charcoal. Modules sit on white; only CTA banners, the footer and the announcement bar carry colour. Green is for sustainability content only. Teal only inside the Infinite Facade® logo. Black, light gray and #241F20 are retired.
 - Radius 0 except circles, pagination dots and the 26×6 active pill.
 - Every page section is a library instance or a frame named `Page-specific / …`. Desktop and Mobile pages have the same sections in the same order.
+- Footer and Brand Sign-off Band instances keep the component's own copy on every page (the mobile components are condensed on purpose — never push the source page's footer copy into them).
 - Page copy is FPO (placement copy): when copy doesn't fit a component, merge body paragraphs or trim, and record it in the page's Build notes panel. Don't ask the user about copy fit — decide and note it.
 - Follow the source HTML where it differs from the README, and flag the difference on the cover (`00 · Cover` → Page order & flags frame).
 - Don't detach instances. Fix things in the component when they should apply everywhere, and keep Desktop and Mobile variants in step.

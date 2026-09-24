@@ -69,7 +69,7 @@ for(const sec of SPEC.sections){const notes={tag:sec.tag,kind:sec.kind,unplaced:
       if(p.overlay){inst.layoutPositioning='ABSOLUTE';inst.x=0;}
       if(p.set==='Hero'||!p.overlay)heroTop=heroTop??inst.y;
       notes.variant=(notes.variant?notes.variant+' + ':'')+p.set+(p.variant?' · '+p.variant.replace(/, Breakpoint=\w+/,''):'');
-      if(p.texts&&p.texts.length)await fill(inst,p.texts,notes);
+      if(p.texts&&p.texts.length&&!['Footer','Brand Sign-off Band'].includes(p.set))await fill(inst,p.texts,notes); // global bands keep the component's own copy
       if(p.icons&&p.icons.length){const ICON=new Set(SPEC.iconIds);const its=inst.findAll(n=>n.type==='INSTANCE'&&shown(n)&&n.mainComponent&&ICON.has(n.mainComponent.id));
         if(its.length===p.icons.length){let sw=0;for(let k=0;k<its.length;k++){if(its[k].mainComponent.id!==p.icons[k]){const ic=await figma.getNodeByIdAsync(p.icons[k]);if(ic){its[k].swapComponent(ic);sw++;}}}if(sw)notes.hidden.push(sw+' icon(s) swapped');}
         else notes.unplaced.push('icons: page has '+p.icons.length+', component has '+its.length+' (not swapped)');}}
