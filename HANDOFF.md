@@ -34,7 +34,7 @@ This package contains the complete web design system for the Clark Pacific websi
 
 | What | Link |
 |---|---|
-| Repository | [sightbox/clark-pacific-design-system](https://github.com/sightbox/clark-pacific-design-system) (private — ask for access) |
+| Repository | [sightbox/clark-pacific-design-system](https://github.com/sightbox/clark-pacific-design-system) (public, read-only) |
 | Elementor Global Colors & Fonts | [`tokens/elementor-globals.md`](tokens/elementor-globals.md) |
 | CSS variables + type classes | [`tokens/tokens.css`](tokens/tokens.css) |
 | Tokens as JSON | [`tokens/colors.json`](tokens/colors.json) · [`tokens/typography.json`](tokens/typography.json) |

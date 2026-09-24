@@ -2,7 +2,7 @@
 
 The handoff repo for the Clark Pacific web design system. The design itself lives in Figma; this repo holds everything around it: design tokens for the build, the source brief, the tooling that built the Figma file, and the documentation.
 
-**Repository:** https://github.com/sightbox/clark-pacific-design-system (private)
+**Repository:** https://github.com/sightbox/clark-pacific-design-system (public, read-only)
 **Figma file:** [CP-Design-System-3](https://www.figma.com/design/gwXCIJW8u9a6s3txBv30M2/CP-Design-System-3) (file key `gwXCIJW8u9a6s3txBv30M2`)
 Start with its **00 · Cover** (flags and page order) and **00 · Guide** (how to use the file).
 
