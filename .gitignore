@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.log
+# generated use_figma call bodies (re-create with tooling/pages/batch.js, gen.js, mkstore.js)
+tooling/pages/batch_*.js
+tooling/pages/call_*.js
+tooling/pages/dict_*.js
+tooling/pages/store_*.js

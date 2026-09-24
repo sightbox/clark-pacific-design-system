@@ -1,0 +1,819 @@
+{
+ "file": "our-approach.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Desktop",
+   "id": "19:174",
+   "score": 23.6,
+   "fit": 1,
+   "hr": 0.97,
+   "vh": 890,
+   "h": 864,
+   "pieces": [
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Desktop",
+     "id": "19:174",
+     "overrides": [
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Our Approach"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 2,
+       "new": "Building differently"
+      },
+      {
+       "old": "A complete prefabricated data center solution.",
+       "occ": 1,
+       "new": "since 1952."
+      },
+      {
+       "old": "Structural precast systems and exterior wall panels for mission-critical data centers — integrating early design-assist and in-house manufacturing to support accelerated schedules, sustainability goals, and project predictability.",
+       "occ": 1,
+       "new": "Clark Pacific is the single source of responsibility through collaborative design, advanced manufacturing, and efficient delivery — delivering high-quality, cost-effective prefabricated building systems with less risk."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products",
+       "occ": 1
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 1
+      },
+      {
+       "old": "Get Started",
+       "occ": 1
+      },
+      {
+       "old": "View Webinar",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6"
+     ],
+     "texts": [
+      {
+       "c": "Clark Pacific is expanding to the Pacific Northwest — new plant opening Q3 2026.",
+       "r": "body"
+      },
+      {
+       "c": "Learn more →",
+       "r": "title"
+      },
+      {
+       "c": "Our Products",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Projects",
+       "r": "label"
+      },
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Contact",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Building differently",
+       "r": "head"
+      },
+      {
+       "c": "since 1952.",
+       "r": "head"
+      },
+      {
+       "c": "Clark Pacific is the single source of responsibility through collaborative design, advanced manufacturing, and efficient delivery — delivering high-quality, cost-effective prefabricated building systems with less risk.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 4,
+   "nhide": 5,
+   "hideItems": []
+  },
+  {
+   "top": 864,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+   "id": "21:197",
+   "score": 4.1,
+   "fit": 0.75,
+   "hr": 0.91,
+   "vh": 593,
+   "h": 651,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+     "id": "21:197",
+     "overrides": [
+      {
+       "old": "Prefabricated Systems",
+       "occ": 1,
+       "new": "The Clark Pacific Difference"
+      },
+      {
+       "old": "High performance building envelope with reduced risk",
+       "occ": 1,
+       "new": "Offsite manufacturing. Better outcomes.",
+       "runs": [
+        [
+         23,
+         300
+        ],
+        [
+         16,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "A prefabricated building envelope designed to streamline coordination and construction — with factory-installed insulation and off-the-shelf connections.",
+       "occ": 1,
+       "new": "With over five decades of proven experience and industry-leading products, we breathe new life into construction with a smarter, more efficient path from design to project completion."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Learn More",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "The Clark Pacific Difference",
+       "r": "label"
+      },
+      {
+       "c": "Offsite manufacturing. Better outcomes.",
+       "r": "head",
+       "w": [
+        [
+         23,
+         300,
+         45
+        ],
+        [
+         16,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Our offsite manufacturing approach reduces overall project risk through improved cost and schedule certainty as well as greater supply chain controls — without compromising a project's overall design.",
+       "r": "body"
+      },
+      {
+       "c": "With over five decades of proven experience and industry-leading products, we breathe new life into construction with a smarter, more efficient path from design to project completion.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Our offsite manufacturing approach reduces overall project risk through improved cost and schedule certainty as well as greater supply chain controls — without compromising a project's overall design."
+   ],
+   "nov": 3,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 1515,
+   "tag": "Icon Grid",
+   "kind": "instance",
+   "set": "Icon Grid",
+   "variant": "Layout=4-col spacious, Breakpoint=Desktop",
+   "id": "25:494",
+   "score": 26.8,
+   "fit": 1,
+   "hr": 0.72,
+   "vh": 550,
+   "h": 761,
+   "pieces": [
+    {
+     "set": "Icon Grid",
+     "variant": "Layout=4-col spacious, Breakpoint=Desktop",
+     "id": "25:494",
+     "overrides": [
+      {
+       "old": "Advantages of a prefabricated precast data center",
+       "occ": 1,
+       "new": "Why choose offsite construction?",
+       "runs": [
+        [
+         11,
+         300
+        ],
+        [
+         21,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Parallel offsite fabrication.",
+       "occ": 1,
+       "new": "Traditional construction today is risky. Due to labor shortages, material availability, and budget and schedule uncertainty, the risks are high. Offsite manufacturing changes the equation."
+      },
+      {
+       "old": "Lower Total Cost",
+       "occ": 1,
+       "new": "Reduced Site Labor"
+      },
+      {
+       "old": "Reduced rework.",
+       "occ": 1,
+       "new": "Minimize site waste, traffic, and safety exposure. Factory production shifts the majority of work off the active jobsite."
+      },
+      {
+       "old": "Faster Schedule",
+       "occ": 2,
+       "new": "Accelerated Schedules"
+      },
+      {
+       "old": "Parallel offsite fabrication.",
+       "occ": 2,
+       "new": "Offsite construction improves schedules by 30–50%. Manufacturing of the structure runs parallel to site and foundation work."
+      },
+      {
+       "old": "Predictable Delivery",
+       "occ": 1,
+       "new": "Budget Certainty"
+      },
+      {
+       "old": "Factory-controlled production + delivery.",
+       "occ": 1,
+       "new": "Offsite construction provides cost certainty — locking in price early and protecting the owner from field-driven scope changes."
+      },
+      {
+       "old": "Sustainable, Low-Carbon Options",
+       "occ": 1,
+       "new": "Material Waste + Control"
+      },
+      {
+       "old": "Lower embodied carbon.",
+       "occ": 1,
+       "new": "Manufacturing reduces construction waste and supply chain risks through factory precision and controlled inventory management."
+      },
+      {
+       "old": "Resilient and Durable Materials",
+       "occ": 1,
+       "new": "Time to Revenue"
+      },
+      {
+       "old": "Fire and weather resistant.",
+       "occ": 1,
+       "new": "Take ownership of the asset sooner. Compressed schedules mean earlier occupancy, earlier operations, and earlier return on investment."
+      },
+      {
+       "old": "Sustainable, Low-Carbon Options",
+       "occ": 2,
+       "new": "Higher Quality"
+      },
+      {
+       "old": "Lower embodied carbon.",
+       "occ": 2,
+       "new": "Manufacturing delivers quality assurance and control throughout the process — consistent tolerances, finish quality, and structural performance."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Faster Schedule",
+       "occ": 1
+      }
+     ],
+     "hideItems": [
+      1
+     ],
+     "icons": [
+      "5:114",
+      "5:56",
+      "5:66",
+      "5:83",
+      "5:39",
+      "5:47"
+     ],
+     "texts": [
+      {
+       "c": "Why choose offsite construction?",
+       "r": "head",
+       "w": [
+        [
+         11,
+         300,
+         49
+        ],
+        [
+         21,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "Traditional construction today is risky. Due to labor shortages, material availability, and budget and schedule uncertainty, the risks are high. Offsite manufacturing changes the equation.",
+       "r": "body"
+      },
+      {
+       "c": "Reduced Site Labor",
+       "r": "label"
+      },
+      {
+       "c": "Minimize site waste, traffic, and safety exposure. Factory production shifts the majority of work off the active jobsite.",
+       "r": "body"
+      },
+      {
+       "c": "Accelerated Schedules",
+       "r": "label"
+      },
+      {
+       "c": "Offsite construction improves schedules by 30–50%. Manufacturing of the structure runs parallel to site and foundation work.",
+       "r": "body"
+      },
+      {
+       "c": "Budget Certainty",
+       "r": "label"
+      },
+      {
+       "c": "Offsite construction provides cost certainty — locking in price early and protecting the owner from field-driven scope changes.",
+       "r": "body"
+      },
+      {
+       "c": "Material Waste + Control",
+       "r": "label"
+      },
+      {
+       "c": "Manufacturing reduces construction waste and supply chain risks through factory precision and controlled inventory management.",
+       "r": "body"
+      },
+      {
+       "c": "Time to Revenue",
+       "r": "label"
+      },
+      {
+       "c": "Take ownership of the asset sooner. Compressed schedules mean earlier occupancy, earlier operations, and earlier return on investment.",
+       "r": "body"
+      },
+      {
+       "c": "Higher Quality",
+       "r": "label"
+      },
+      {
+       "c": "Manufacturing delivers quality assurance and control throughout the process — consistent tolerances, finish quality, and structural performance.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 14,
+   "nhide": 1,
+   "hideItems": [
+    1
+   ]
+  },
+  {
+   "top": 2276,
+   "tag": "CTA Banner / Dark Charcoal",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Dark Charcoal, Layout=Content left, Breakpoint=Desktop",
+   "id": "23:220",
+   "score": 7.6,
+   "fit": 1,
+   "hr": 0.55,
+   "vh": 485,
+   "h": 265,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Dark Charcoal, Layout=Content left, Breakpoint=Desktop",
+     "id": "23:220",
+     "overrides": [
+      {
+       "old": "Sustainability",
+       "occ": 1,
+       "new": "Podcast"
+      },
+      {
+       "old": "Building a more sustainable future",
+       "occ": 1,
+       "new": "Building Forward: The Podcast",
+       "runs": [
+        [
+         18,
+         300
+        ],
+        [
+         11,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Lower-carbon mixes, zero-waste operations, and EPDs on every product. Building better means building responsibly.",
+       "occ": 1,
+       "new": "Stream our latest episodes on prefabricated systems and streamlined workflows transforming the industry."
+      },
+      {
+       "old": "Download EPD",
+       "occ": 1,
+       "new": "Listen Now"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Our Approach",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Podcast",
+       "r": "label"
+      },
+      {
+       "c": "Building Forward: The Podcast",
+       "r": "head",
+       "w": [
+        [
+         18,
+         300,
+         35
+        ],
+        [
+         11,
+         600,
+         35
+        ]
+       ]
+      },
+      {
+       "c": "Stream our latest episodes on prefabricated systems and streamlined workflows transforming the industry.",
+       "r": "body"
+      },
+      {
+       "c": "Listen Now",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 4,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 2541,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": -1.5,
+   "fit": 0.4,
+   "hr": 0.51,
+   "vh": 445,
+   "h": 868,
+   "pieces": [],
+   "unplaced": [
+    "Our System",
+    "Our approach follows a proven, repeatable system — from early design-assist engagement through manufacturing, logistics, and erection. Every phase is engineered for efficiency, quality, and predictability.",
+    "In-House Manufacturing + QA/QC",
+    "Predictable Logistics + Delivery",
+    "One team, one contract, one point of accountability"
+   ],
+   "nov": 6,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3409,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": -0.9,
+   "fit": 0.42,
+   "hr": 0.48,
+   "vh": 445,
+   "h": 920,
+   "pieces": [],
+   "unplaced": [
+    "Technology",
+    "Our approach to Building Information Modeling (BIM) is personal as a manufacturer. We depend on the latest technology to design for manufacturing (DfMA) and strive for the most efficient design for constructability.",
+    "Because we are self-performers of work beyond customary build-in-place, our details and constructability feedback are administered with more precision and quality.",
+    "Rebar and miscellaneous metal fabrication",
+    "Bill of Materials",
+    "Drawings (no intermediate CAD steps)",
+    "Diagrammatics (Work Instructions)"
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 4329,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+   "id": "23:206",
+   "score": 5.2,
+   "fit": 1,
+   "hr": 0.73,
+   "vh": 513,
+   "h": 376,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+     "id": "23:206",
+     "overrides": [
+      {
+       "old": "Ready to accelerate your next project?",
+       "occ": 1,
+       "new": "Prefabrication is most successful when it's part of the strategy",
+       "runs": [
+        [
+         44,
+         300
+        ],
+        [
+         20,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Our team works as an extension of yours — from early design-assist through construction, with single-source accountability throughout.",
+       "occ": 1,
+       "new": "Early engagement unlocks the full value of offsite construction. Let's talk about your next project today."
+      },
+      {
+       "old": "View Projects",
+       "occ": 1,
+       "new": "Get Started Today"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Talk to an Expert",
+       "occ": 1
+      },
+      {
+       "old": "Talk to an Expert",
+       "occ": 2
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Prefabrication is most successful when it's part of the strategy",
+       "r": "head",
+       "w": [
+        [
+         44,
+         300,
+         45
+        ],
+        [
+         20,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Early engagement unlocks the full value of offsite construction. Let's talk about your next project today.",
+       "r": "body"
+      },
+      {
+       "c": "Get Started Today",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 4705,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5104,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

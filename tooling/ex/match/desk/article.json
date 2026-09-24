@@ -1,0 +1,419 @@
+{
+ "file": "article.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Editorial header",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Editorial header, Breakpoint=Desktop",
+   "id": "19:270",
+   "score": -3.2,
+   "fit": 0,
+   "hr": 0.99,
+   "vh": 414,
+   "h": 411,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:29",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:76",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Editorial header, Breakpoint=Desktop",
+     "id": "19:270",
+     "overrides": [],
+     "hide": [
+      {
+       "old": "Insights › Building Envelope",
+       "occ": 1
+      },
+      {
+       "old": "Article",
+       "occ": 1
+      },
+      {
+       "old": "How prefabrication is compressing the schedule",
+       "occ": 1
+      },
+      {
+       "old": "March 12, 2026",
+       "occ": 1
+      },
+      {
+       "old": "•",
+       "occ": 1
+      },
+      {
+       "old": "By Jordan Ellis",
+       "occ": 1
+      },
+      {
+       "old": "•",
+       "occ": 2
+      },
+      {
+       "old": "6 min read",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6"
+     ],
+     "texts": []
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 8,
+   "hideItems": []
+  },
+  {
+   "top": 411,
+   "tag": "One-off: Article Body",
+   "kind": "page-specific",
+   "h": 1178
+  },
+  {
+   "top": 1589,
+   "tag": "Related Content Row",
+   "kind": "instance",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Desktop",
+   "id": "27:677",
+   "score": 26.2,
+   "fit": 1,
+   "hr": 0.79,
+   "vh": 650,
+   "h": 823,
+   "pieces": [
+    {
+     "set": "Related Content Row",
+     "variant": "Breakpoint=Desktop",
+     "id": "27:677",
+     "overrides": [
+      {
+       "old": "Related projects",
+       "occ": 1,
+       "new": "Related articles",
+       "runs": [
+        [
+         8,
+         300
+        ],
+        [
+         8,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 1,
+       "new": "Blog"
+      },
+      {
+       "old": "Torrey View",
+       "occ": 1,
+       "new": "Why Prefabricated Concrete Is Ideal for Data Center Construction"
+      },
+      {
+       "old": "San Diego, CA · 2025",
+       "occ": 1,
+       "new": "How to meet demand by building data centers faster with prefabricated concrete. Improve certainty, cut timelines by 40% and enhance design flexibility."
+      },
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "Case Study"
+      },
+      {
+       "old": "UC Davis West Village",
+       "occ": 1,
+       "new": "Broadway Plaza Parking Garage Redevelopment"
+      },
+      {
+       "old": "Davis, CA · 2024",
+       "occ": 1,
+       "new": "As part of a master plan to redevelop Broadway Plaza, The Macerich Company partnered with Clark Pacific to deliver two new parking garages."
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Blog"
+      },
+      {
+       "old": "Silicon Valley Hub",
+       "occ": 1,
+       "new": "Maximizing Efficiency with Design for Execution, Manufacturing, Logistics, and Assembly (DfEMLA)"
+      },
+      {
+       "old": "Santa Clara, CA · 2025",
+       "occ": 1,
+       "new": "In today's construction landscape, speed, efficiency, and precision are more important than ever."
+      }
+     ],
+     "hide": [
+      {
+       "old": "View All",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Related articles",
+       "r": "head",
+       "w": [
+        [
+         8,
+         300,
+         35
+        ],
+        [
+         8,
+         600,
+         35
+        ]
+       ]
+      },
+      {
+       "c": "Blog",
+       "r": "label"
+      },
+      {
+       "c": "Why Prefabricated Concrete Is Ideal for Data Center Construction",
+       "r": "title"
+      },
+      {
+       "c": "How to meet demand by building data centers faster with prefabricated concrete. Improve certainty, cut timelines by 40% and enhance design flexibility.",
+       "r": "body"
+      },
+      {
+       "c": "Read More",
+       "r": "label"
+      },
+      {
+       "c": "Case Study",
+       "r": "label"
+      },
+      {
+       "c": "Broadway Plaza Parking Garage Redevelopment",
+       "r": "title"
+      },
+      {
+       "c": "As part of a master plan to redevelop Broadway Plaza, The Macerich Company partnered with Clark Pacific to deliver two new parking garages.",
+       "r": "body"
+      },
+      {
+       "c": "Read More",
+       "r": "label"
+      },
+      {
+       "c": "Blog",
+       "r": "label"
+      },
+      {
+       "c": "Maximizing Efficiency with Design for Execution, Manufacturing, Logistics, and Assembly (DfEMLA)",
+       "r": "title"
+      },
+      {
+       "c": "In today's construction landscape, speed, efficiency, and precision are more important than ever.",
+       "r": "body"
+      },
+      {
+       "c": "Read More",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 10,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 2412,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2811,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

@@ -1,0 +1,361 @@
+{
+ "file": "article.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Editorial header",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Editorial header, Breakpoint=Mobile",
+   "id": "19:325",
+   "score": -1.6,
+   "fit": 0,
+   "hr": 0.56,
+   "vh": 504,
+   "h": 283,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Editorial header, Breakpoint=Mobile",
+     "id": "19:325",
+     "overrides": [],
+     "hide": [
+      {
+       "old": "Insights › Blog",
+       "occ": 1
+      },
+      {
+       "old": "Sustainability",
+       "occ": 1
+      },
+      {
+       "old": "Article headline in two weights",
+       "occ": 1
+      },
+      {
+       "old": "Sept 3, 2026 · Author Name · 6 min read",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": []
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 4,
+   "hideItems": []
+  },
+  {
+   "top": 283,
+   "tag": "One-off: Article Body",
+   "kind": "page-specific",
+   "h": 2221
+  },
+  {
+   "top": 2504,
+   "tag": "Related Content Row",
+   "kind": "page-specific",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:727",
+   "score": 1.5,
+   "fit": 0.46,
+   "hr": 0.31,
+   "vh": 563,
+   "h": 1836,
+   "pieces": [],
+   "unplaced": [
+    "Blog",
+    "Why Prefabricated Concrete Is Ideal for Data Center Construction",
+    "How to meet demand by building data centers faster with prefabricated concrete. Improve certainty, cut timelines by 40% and enhance design flexibility.",
+    "Read More",
+    "Case Study",
+    "As part of a master plan to redevelop Broadway Plaza, The Macerich Company partnered with Clark Pacific to deliver two new parking garages.",
+    "In today's construction landscape, speed, efficiency, and precision are more important than ever."
+   ],
+   "nov": 6,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4340,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4733,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

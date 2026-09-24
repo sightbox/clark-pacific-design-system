@@ -1,0 +1,950 @@
+{
+ "file": "lab-solutions.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 12.5,
+   "fit": 0.88,
+   "hr": 0.9,
+   "vh": 771,
+   "h": 853,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1,
+       "new": "Lab Solutions"
+      },
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Life Sciences · R&D · Advanced Technology"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "Lab"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "Solutions."
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "High-performing, prefabricated laboratory facilities. Utilizing components similar to the NetZERO Building Platform, Clark Pacific delivers complete structural lab systems for life sciences, R&D, and advanced technology."
+      },
+      {
+       "old": "Start a Conversation",
+       "occ": 1,
+       "new": "Download Datasheet"
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Products · Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Lab Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Life Sciences · R&D · Advanced Technology",
+       "r": "label"
+      },
+      {
+       "c": "Lab",
+       "r": "head"
+      },
+      {
+       "c": "Solutions.",
+       "r": "head"
+      },
+      {
+       "c": "High-performing, prefabricated laboratory facilities. Utilizing components similar to the NetZERO Building Platform, Clark Pacific delivers complete structural lab systems for life sciences, R&D, and advanced technology.",
+       "r": "body"
+      },
+      {
+       "c": "Download Datasheet",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Products · Structural Solutions"
+   ],
+   "nov": 7,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 853,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 1.8,
+   "fit": 0.6,
+   "hr": 0.71,
+   "vh": 732,
+   "h": 522,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+     "id": "21:408",
+     "overrides": [
+      {
+       "old": "Mission Critical Solutions",
+       "occ": 1,
+       "new": "mips"
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Optimal Vibration Control"
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 2,
+       "new": "Our structural lab solution offers the most economical solution for achieving premium-level vibration performance compared to all competing structural systems. Floor framing is designed for structural efficiency and superior strength and stiffness — allowing total grid spacing freedom and RMS velocities as low as 2,000 mips with significantly fewer columns."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Block body copy.",
+       "occ": 1
+      },
+      {
+       "old": "Building Envelope Systems",
+       "occ": 1
+      },
+      {
+       "old": "Learn More",
+       "occ": 2
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "2,000",
+       "r": "head"
+      },
+      {
+       "c": "mips",
+       "r": "label"
+      },
+      {
+       "c": "Optimal Vibration Control",
+       "r": "label"
+      },
+      {
+       "c": "Achieve 2,000 mips with fewer columns",
+       "r": "head",
+       "w": [
+        [
+         24,
+         300,
+         26
+        ],
+        [
+         13,
+         600,
+         26
+        ]
+       ]
+      },
+      {
+       "c": "Our structural lab solution offers the most economical solution for achieving premium-level vibration performance compared to all competing structural systems. Floor framing is designed for structural efficiency and superior strength and stiffness — allowing total grid spacing freedom and RMS velocities as low as 2,000 mips with significantly fewer columns.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "2,000",
+    "Achieve 2,000 mips with fewer columns"
+   ],
+   "nov": 3,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 1375,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": -14.4,
+   "fit": 0.24,
+   "hr": 0.58,
+   "vh": 732,
+   "h": 1266,
+   "pieces": [],
+   "unplaced": [
+    "Design Freedom",
+    "Flexible design",
+    "Achieve spans up to 48' on a 33' column grid — simplifying current and future tenant improvements for the most demanding life sciences and R&D programs.",
+    "Achieve spans up to 48' on a 33' column grid",
+    "Simplify current and future tenant improvements",
+    "Up to 2' wide unplanned floor openings permitted without additional reinforcing",
+    "Easily add stairways — no additional framing required",
+    "Designate office space for additional energy and cost savings",
+    "Integrates with Infinite Facade® or other conventional facade systems",
+    "Horizontal penetrations in beams for routing pipes and conduits",
+    "Resilient structure",
+    "Live Load",
+    "100 psf+",
+    "100,000 lb equipment — anywhere on roof",
+    "2-hour UL fire resistant",
+    "Type 1B and 1A"
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 2641,
+   "tag": "Card / Standard (grid)",
+   "kind": "instance",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:727",
+   "score": 6.6,
+   "fit": 0.71,
+   "hr": 0.56,
+   "vh": 563,
+   "h": 999,
+   "pieces": [
+    {
+     "set": "Related Content Row",
+     "variant": "Breakpoint=Mobile",
+     "id": "27:727",
+     "overrides": [
+      {
+       "old": "Related projects",
+       "occ": 1,
+       "new": "Designed for the most demanding uses",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         19,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Project name",
+       "occ": 1,
+       "new": "Life Sciences"
+      },
+      {
+       "old": "Envelope",
+       "occ": 1,
+       "new": "R&D Facilities"
+      },
+      {
+       "old": "Project name",
+       "occ": 2,
+       "new": "Advanced Technology"
+      },
+      {
+       "old": "View All",
+       "occ": 1,
+       "new": "Mixed Office + Lab"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Parking",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Applications",
+       "r": "label"
+      },
+      {
+       "c": "Designed for the most demanding uses",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         30
+        ],
+        [
+         19,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific Lab Solutions deliver important cost savings and superior performance and flexibility across a range of life sciences, R&D, and advanced technology programs — leveraging decades of structural design expertise.",
+       "r": "body"
+      },
+      {
+       "c": "Life Sciences",
+       "r": "label"
+      },
+      {
+       "c": "R&D Facilities",
+       "r": "label"
+      },
+      {
+       "c": "Advanced Technology",
+       "r": "label"
+      },
+      {
+       "c": "Mixed Office + Lab",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Applications",
+    "Clark Pacific Lab Solutions deliver important cost savings and superior performance and flexibility across a range of life sciences, R&D, and advanced technology programs — leveraging decades of structural design expertise."
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 3639,
+   "tag": "CARBONSHIELD",
+   "kind": "instance",
+   "set": "CARBONSHIELD®",
+   "variant": "Breakpoint=Mobile",
+   "id": "32:1037",
+   "score": 6.7,
+   "fit": 0.8,
+   "hr": 0.76,
+   "vh": 652,
+   "h": 859,
+   "pieces": [
+    {
+     "set": "CARBONSHIELD®",
+     "variant": "Breakpoint=Mobile",
+     "id": "32:1037",
+     "overrides": [
+      {
+       "old": "CARBONSHIELD®",
+       "occ": 1,
+       "new": "Proprietary Concrete Mix"
+      },
+      {
+       "old": "Building for the future",
+       "occ": 1,
+       "new": "Building for the future",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         6,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Approved CARBONSHIELD copy: 25% of portland cement replaced, ~20% less embodied carbon.",
+       "occ": 1,
+       "new": "It replaces 25% of the portland cement in our concrete mixes, reducing embodied carbon by roughly 20%. Our goal is double this by 2030, through our continuous R&D efforts and material partnerships."
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Download CARBONSHIELD® Datasheet"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Proprietary Concrete Mix",
+       "r": "label"
+      },
+      {
+       "c": "Building for the future",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         30
+        ],
+        [
+         6,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "CARBONSHIELD® is a unique and proprietary concrete mix developed by Clark Pacific that provides the same performance as traditional mixes and is standard in our structural products.",
+       "r": "body"
+      },
+      {
+       "c": "It replaces 25% of the portland cement in our concrete mixes, reducing embodied carbon by roughly 20%. Our goal is double this by 2030, through our continuous R&D efforts and material partnerships.",
+       "r": "body"
+      },
+      {
+       "c": "Download CARBONSHIELD® Datasheet",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "CARBONSHIELD® is a unique and proprietary concrete mix developed by Clark Pacific that provides the same performance as traditional mixes and is standard in our structural products."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4498,
+   "tag": "Related Content Row",
+   "kind": "instance",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:727",
+   "score": 6.6,
+   "fit": 0.71,
+   "hr": 0.87,
+   "vh": 563,
+   "h": 648,
+   "pieces": [
+    {
+     "set": "Related Content Row",
+     "variant": "Breakpoint=Mobile",
+     "id": "27:727",
+     "overrides": [
+      {
+       "old": "Related projects",
+       "occ": 1,
+       "new": "Related: NetZero Building Platform",
+       "runs": [
+        [
+         9,
+         300
+        ],
+        [
+         25,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Parking",
+       "occ": 1,
+       "new": "NetZero Building Platform"
+      },
+      {
+       "old": "Project name",
+       "occ": 1,
+       "new": "Learn More"
+      },
+      {
+       "old": "Envelope",
+       "occ": 1,
+       "new": "Explore Structural Solutions"
+      },
+      {
+       "old": "View All",
+       "occ": 1,
+       "new": "View Products"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Project name",
+       "occ": 2
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:210",
+      "5:215"
+     ],
+     "texts": [
+      {
+       "c": "Related: NetZero Building Platform",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         26
+        ],
+        [
+         25,
+         600,
+         26
+        ]
+       ]
+      },
+      {
+       "c": "NetZero Building Platform",
+       "r": "label"
+      },
+      {
+       "c": "The complete structural office building solution — combining structure, radiant mechanical, and Infinite Facade® for 40% less whole life carbon.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "Explore Structural Solutions",
+       "r": "label"
+      },
+      {
+       "c": "From data centers to parking structures, Clark Pacific's full structural solutions portfolio.",
+       "r": "body"
+      },
+      {
+       "c": "View Products",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "The complete structural office building solution — combining structure, radiant mechanical, and Infinite Facade® for 40% less whole life carbon.",
+    "From data centers to parking structures, Clark Pacific's full structural solutions portfolio."
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 5146,
+   "tag": "Featured Resources",
+   "kind": "page-specific",
+   "set": "Featured Resources",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:888",
+   "score": -4.6,
+   "fit": 0.33,
+   "hr": 0.28,
+   "vh": 517,
+   "h": 1854,
+   "pieces": [],
+   "unplaced": [
+    "Resources",
+    "View All Resources",
+    "Technical Document",
+    "Infinite Facade® Testing Overview",
+    "A summary of the testing programme behind the Infinite Facade system, including performance results for air, water and structural loading.",
+    "Read More",
+    "Parking Design Guide",
+    "Planning and design guidance for prefabricated parking structures, from bay layouts and circulation through to finish selection.",
+    "Building Forward",
+    "Conversations with industry leaders, innovators and experts on the strategies and best practices shaping how we design and build."
+   ],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 7000,
+   "tag": "CTA Banner / Light",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Light, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:365",
+   "score": 4.7,
+   "fit": 0.75,
+   "hr": 0.64,
+   "vh": 273,
+   "h": 426,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Light, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:365",
+     "overrides": [
+      {
+       "old": "Start a conversation",
+       "occ": 1,
+       "new": "Explore your options for a new lab project",
+       "runs": [
+        [
+         27,
+         300
+        ],
+        [
+         15,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Supporting sentence.",
+       "occ": 1,
+       "new": "Our structural engineers specialize in lab and life sciences facilities — bringing the same prefabricated efficiency that transformed the office and data center markets."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Explore your options for a new lab project",
+       "r": "head",
+       "w": [
+        [
+         27,
+         300,
+         30
+        ],
+        [
+         15,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Our structural engineers specialize in lab and life sciences facilities — bringing the same prefabricated efficiency that transformed the office and data center markets.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Download Datasheet",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Download Datasheet"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 7426,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 7818,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

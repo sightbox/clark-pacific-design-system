@@ -1,0 +1,609 @@
+{
+ "file": "leadership.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 6.8,
+   "fit": 1,
+   "hr": 0.95,
+   "vh": 771,
+   "h": 733,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Company · Leadership"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "People who build"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "with purpose."
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "Our leadership team brings together decades of experience in engineering, manufacturing, and construction — united by a belief that prefabricated systems deliver better buildings."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1
+      },
+      {
+       "old": "Start a Conversation",
+       "occ": 1
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Company · Leadership",
+       "r": "label"
+      },
+      {
+       "c": "People who build",
+       "r": "head"
+      },
+      {
+       "c": "with purpose.",
+       "r": "head"
+      },
+      {
+       "c": "Our leadership team brings together decades of experience in engineering, manufacturing, and construction — united by a belief that prefabricated systems deliver better buildings.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 4,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 733,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Mobile",
+   "id": "21:358",
+   "score": 5.6,
+   "fit": 1,
+   "hr": 0.6,
+   "vh": 327,
+   "h": 547,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Bulleted, Breakpoint=Mobile",
+     "id": "21:358",
+     "overrides": [
+      {
+       "old": "What's included",
+       "occ": 1,
+       "new": "Experienced in every phase of the building process",
+       "runs": [
+        [
+         11,
+         600
+        ],
+        [
+         39,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Engineered before components arrive on site",
+       "occ": 1,
+       "new": "From structural engineering to plant operations, from sales to sustainability — our executive team has navigated every discipline required to deliver complex prefabricated building systems on demanding schedules."
+      },
+      {
+       "old": "Faster erection and earlier dry-in",
+       "occ": 1,
+       "new": "They share a single conviction: that manufacturing precision, early engagement, and single-source accountability produce fundamentally better buildings than traditional construction."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Structure, enclosure and openings in one system",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Experienced in every phase of the building process",
+       "r": "head",
+       "w": [
+        [
+         11,
+         600,
+         26
+        ],
+        [
+         39,
+         300,
+         26
+        ]
+       ]
+      },
+      {
+       "c": "From structural engineering to plant operations, from sales to sustainability — our executive team has navigated every discipline required to deliver complex prefabricated building systems on demanding schedules.",
+       "r": "body"
+      },
+      {
+       "c": "They share a single conviction: that manufacturing precision, early engagement, and single-source accountability produce fundamentally better buildings than traditional construction.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 1280,
+   "tag": "Leadership Card",
+   "kind": "page-specific",
+   "set": "Leadership Grid",
+   "variant": "Breakpoint=Mobile",
+   "id": "29:928",
+   "score": -37,
+   "fit": 0.12,
+   "hr": 0.22,
+   "vh": 353,
+   "h": 1608,
+   "pieces": [],
+   "unplaced": [
+    "Our leadership team",
+    "Hover over a portrait to read a bio.",
+    "Ron has led Clark Pacific for over two decades, steering the company's expansion into data centers, building envelope systems, and sustainable construction — while preserving the family culture that has defined the company since 1952.",
+    "Ron",
+    "Ball",
+    "Chief Executive Officer",
+    "Brian oversees all plant operations, project delivery, and quality programs across Clark Pacific's four manufacturing facilities, ensuring every project meets the company's standards for precision and on-time performance.",
+    "Brian",
+    "Carrig",
+    "President & Chief Operating Officer",
+    "Diane leads financial planning, risk management, and capital investment strategy, supporting Clark Pacific's long-term growth and its expansion into new markets and manufacturing facilities.",
+    "Diane",
+    "Olson",
+    "Chief Financial Officer",
+    "Marcus leads a team of structural and design engineers who engage with architects and owners from the earliest project phases — using design-assist to optimize systems before a single panel is cast.",
+    "Marcus",
+    "Webb",
+    "VP, Engineering",
+    "Sarah drives Clark Pacific's market strategy across data centers, building envelope, parking, and structural sectors — building long-term relationships with developers, GCs, and design teams throughout the Western US.",
+    "Sarah",
+    "Mendez",
+    "VP, Sales & Business Development",
+    "Kevin manages manufacturing across all four plants, with a relentless focus on safety, quality, continuous process improvement, and workforce development at every level of the organization.",
+    "Kevin",
+    "Tran",
+    "VP, Operations",
+    "Priya leads Clark Pacific's environmental strategy, including EPD publication, low-carbon mix design, green building certification support, and the NetZero Building Platform product roadmap.",
+    "Nair",
+    "VP, Sustainability & Innovation",
+    "VP, Project Delivery"
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2887,
+   "tag": "Leadership Card",
+   "kind": "page-specific",
+   "set": "Leadership Grid",
+   "variant": "Breakpoint=Mobile",
+   "id": "29:928",
+   "score": -7.3,
+   "fit": 0.22,
+   "hr": 0.81,
+   "vh": 353,
+   "h": 436,
+   "pieces": [],
+   "unplaced": [
+    "Board of directors",
+    "William Clark III",
+    "Chairman, Clark Pacific Board of Directors",
+    "Margaret Clark-Ellis",
+    "Board Director, Clark Family Representative",
+    "Thomas Reeve",
+    "Dr. Linda Cho"
+   ],
+   "nov": 2,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 3323,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:349",
+   "score": 3.2,
+   "fit": 0.6,
+   "hr": 0.15,
+   "vh": 305,
+   "h": 2021,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:349",
+     "overrides": [
+      {
+       "old": "Ready to build different?",
+       "occ": 1,
+       "new": "Become part of the Clark Pacific story",
+       "runs": [
+        [
+         19,
+         300
+        ],
+        [
+         19,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Talk to our team about your next project.",
+       "occ": 1,
+       "new": "We're always looking for talented engineers, project managers, manufacturing professionals, and business leaders who want to build something that matters."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Join the Team",
+       "r": "label"
+      },
+      {
+       "c": "Become part of the Clark Pacific story",
+       "r": "head",
+       "w": [
+        [
+         19,
+         300,
+         30
+        ],
+        [
+         19,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "We're always looking for talented engineers, project managers, manufacturing professionals, and business leaders who want to build something that matters.",
+       "r": "body"
+      },
+      {
+       "c": "View Open Positions",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Join the Team",
+    "View Open Positions"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5344,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5737,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

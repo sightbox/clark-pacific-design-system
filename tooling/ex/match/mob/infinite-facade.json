@@ -1,0 +1,898 @@
+{
+ "file": "infinite-facade.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 11,
+   "fit": 0.78,
+   "hr": 0.81,
+   "vh": 771,
+   "h": 956,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1,
+       "new": "Building Envelope"
+      },
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Building Envelope Systems"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "Infinite"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "Facade®"
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "Infinite Facade® offers a highly customizable, prefabricated building envelope solution that streamlines design and construction. With customizable aesthetics, accommodating full-height windows, and a single-source approach, it reduces risk while delivering a high-performance facade with architectural freedom."
+      },
+      {
+       "old": "Start a Conversation",
+       "occ": 1,
+       "new": "Explore the System"
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:33",
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope",
+       "r": "body"
+      },
+      {
+       "c": "Infinite Facade®",
+       "r": "title"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "label"
+      },
+      {
+       "c": "Infinite",
+       "r": "head"
+      },
+      {
+       "c": "Facade®",
+       "r": "head"
+      },
+      {
+       "c": "Infinite Facade® offers a highly customizable, prefabricated building envelope solution that streamlines design and construction. With customizable aesthetics, accommodating full-height windows, and a single-source approach, it reduces risk while delivering a high-performance facade with architectural freedom.",
+       "r": "body"
+      },
+      {
+       "c": "Explore the System",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Products",
+    "Infinite Facade®"
+   ],
+   "nov": 7,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 956,
+   "tag": "One-off: Section Divider",
+   "kind": "page-specific",
+   "h": 1
+  },
+  {
+   "top": 957,
+   "tag": "System Overview + Materials",
+   "kind": "page-specific",
+   "set": "System Overview + Materials",
+   "variant": "Breakpoint=Mobile",
+   "id": "32:1142",
+   "score": -0.6,
+   "fit": 0.4,
+   "hr": 0.37,
+   "vh": 610,
+   "h": 1632,
+   "pieces": [],
+   "unplaced": [
+    "Infinite Facade® combines precast, glazing and weather barrier into one panelized envelope, designed, manufactured and installed by a single team.",
+    "Fluid-applied membrane",
+    "Factory-applied under controlled conditions for a continuous, inspected barrier across every panel.",
+    "Closed-cell spray foam",
+    "Factory-applied under controlled conditions for a continuous, inspected barrier across every panel.",
+    "Factory-applied under controlled conditions for a continuous, inspected barrier across every panel."
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2589,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 0.6,
+   "fit": 0.45,
+   "hr": 0.28,
+   "vh": 732,
+   "h": 2637,
+   "pieces": [],
+   "unplaced": [
+    "System Configurations",
+    "Designed as one. Built to perform.",
+    "IF 75",
+    "IF 85",
+    "Punched openings align with the top of the panel — minimizing horizontal joints and providing approximately 6\" of additional vision glass from the interior.",
+    "IF 100"
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 5226,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": -5.4,
+   "fit": 0.33,
+   "hr": 0.5,
+   "vh": 732,
+   "h": 1473,
+   "pieces": [],
+   "unplaced": [
+    "Exterior finish options are limitless",
+    "In addition to the wide variety of colors and textures available in traditional precast, other materials can be cast into the exterior veneer — brick, terracotta, and stone. Form liners allow an endless number of geometric patterns and reveals.",
+    "View Finishes Guide",
+    "Light Sandblast",
+    "Medium Sandblast",
+    "Heavy Sandblast",
+    "Stone",
+    "Terra Cotta",
+    "Formliner",
+    "Brick"
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 6699,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 4.2,
+   "fit": 0.67,
+   "hr": 0.96,
+   "vh": 732,
+   "h": 704,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+     "id": "21:408",
+     "overrides": [
+      {
+       "old": "Mission Critical Solutions",
+       "occ": 1,
+       "new": "Performance Standards"
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 1,
+       "new": "Infinite Facade® is designed and tested to meet or exceed industry performance standards — giving your design team the data needed for specifications and energy compliance."
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 2,
+       "new": "Performance tests passed across air infiltration, water penetration, structural loading, thermal performance and seismic movement."
+      },
+      {
+       "old": "Learn More",
+       "occ": 2,
+       "new": "Download the Infinite Facade® Testing Overview"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Learn More",
+       "occ": 1
+      },
+      {
+       "old": "Building Envelope Systems",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Performance Standards",
+       "r": "label"
+      },
+      {
+       "c": "Tested and proven",
+       "r": "head",
+       "w": [
+        [
+         11,
+         300,
+         30
+        ],
+        [
+         6,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Infinite Facade® is designed and tested to meet or exceed industry performance standards — giving your design team the data needed for specifications and energy compliance.",
+       "r": "body"
+      },
+      {
+       "c": "24",
+       "r": "head"
+      },
+      {
+       "c": "Performance tests passed across air infiltration, water penetration, structural loading, thermal performance and seismic movement.",
+       "r": "body"
+      },
+      {
+       "c": "Download the Infinite Facade® Testing Overview",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Tested and proven",
+    "24"
+   ],
+   "nov": 4,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 7403,
+   "tag": "Stats Row",
+   "kind": "instance",
+   "set": "Stats Row",
+   "variant": "Breakpoint=Mobile",
+   "id": "31:935",
+   "score": 12.1,
+   "fit": 0.88,
+   "hr": 0.76,
+   "vh": 295,
+   "h": 386,
+   "pieces": [
+    {
+     "set": "Stats Row",
+     "variant": "Breakpoint=Mobile",
+     "id": "31:935",
+     "overrides": [
+      {
+       "old": "2,216+",
+       "occ": 1,
+       "new": "40%",
+       "runs": [
+        [
+         2,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Megawatts",
+       "occ": 1,
+       "new": "Less cement than traditional concrete systems"
+      },
+      {
+       "old": "32",
+       "occ": 1,
+       "new": "100+",
+       "runs": [
+        [
+         3,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Data centers",
+       "occ": 1,
+       "new": "Available finishes, including textures, colors, glazing and metal panel"
+      },
+      {
+       "old": "Sq ft delivered",
+       "occ": 1,
+       "new": "Point of contact through design, occupancy and warranty"
+      },
+      {
+       "old": "~20%",
+       "occ": 1,
+       "new": "30%",
+       "runs": [
+        [
+         2,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Less embodied carbon",
+       "occ": 1,
+       "new": "Accelerated construction schedule"
+      }
+     ],
+     "hide": [
+      {
+       "old": "13M+",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "40%",
+       "r": "head",
+       "w": [
+        [
+         2,
+         600,
+         40
+        ],
+        [
+         1,
+         600,
+         22
+        ]
+       ]
+      },
+      {
+       "c": "Less cement than traditional concrete systems",
+       "r": "body"
+      },
+      {
+       "c": "100+",
+       "r": "head",
+       "w": [
+        [
+         3,
+         600,
+         40
+        ],
+        [
+         1,
+         600,
+         22
+        ]
+       ]
+      },
+      {
+       "c": "Available finishes, including textures, colors, glazing and metal panel",
+       "r": "body"
+      },
+      {
+       "c": "1",
+       "r": "glyph"
+      },
+      {
+       "c": "Point of contact through design, occupancy and warranty",
+       "r": "body"
+      },
+      {
+       "c": "30%",
+       "r": "head",
+       "w": [
+        [
+         2,
+         600,
+         40
+        ],
+        [
+         1,
+         600,
+         22
+        ]
+       ]
+      },
+      {
+       "c": "Accelerated construction schedule",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 7,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 7789,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 2.7,
+   "fit": 0.57,
+   "hr": 0.74,
+   "vh": 732,
+   "h": 986,
+   "pieces": [],
+   "unplaced": [
+    "The right envelope for your sustainability goals",
+    "Infinite Facade® supports a wide range of green building certification goals. Up to 4\" of factory-installed HFO spray-foam insulation meets demanding energy code requirements — including CA Title 24 and WSEC.",
+    "Reduces heating energy ~30% vs. typical construction assemblies"
+   ],
+   "nov": 4,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 8774,
+   "tag": "Projects Photo Mosaic",
+   "kind": "page-specific",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Mobile",
+   "id": "28:845",
+   "score": 1.2,
+   "fit": 0.45,
+   "hr": 0.67,
+   "vh": 1050,
+   "h": 1564,
+   "pieces": [],
+   "unplaced": [
+    "View All Projects",
+    "Cal State LA Student Housing East",
+    "IF 75 and IF 85 configurations delivering a complex facade across a 900-unit student housing campus in Los Angeles.",
+    "View Project",
+    "High-performance Infinite Facade® panels delivering full-height glazing and premium finish quality on a landmark mixed-use tower.",
+    "First large-scale Infinite Facade® project for Kieran Timberlake — award-winning envelope delivered on a compressed academic schedule."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 10338,
+   "tag": "Related Content Row",
+   "kind": "page-specific",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:727",
+   "score": 1.5,
+   "fit": 0.46,
+   "hr": 0.85,
+   "vh": 563,
+   "h": 663,
+   "pieces": [],
+   "unplaced": [
+    "Architectural Precast",
+    "Extremely durable with flexibility in shapes, finishes, and embedded materials.",
+    "Learn More",
+    "GFRC",
+    "Lightweight, sculptural panels ideal for high seismic zones and complex geometries.",
+    "Factory-installed glazing systems integrated directly into the Infinite Facade® frame.",
+    "100+ standard colors, textures, form liners, and embedded materials for any design vision."
+   ],
+   "nov": 6,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 11001,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:349",
+   "score": 4.7,
+   "fit": 0.75,
+   "hr": 0.81,
+   "vh": 305,
+   "h": 376,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:349",
+     "overrides": [
+      {
+       "old": "Ready to build different?",
+       "occ": 1,
+       "new": "Ready to rethink your building envelope?",
+       "runs": [
+        [
+         22,
+         300
+        ],
+        [
+         18,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Talk to our team about your next project.",
+       "occ": 1,
+       "new": "Our envelope specialists engage early — from schematic design through installation — with single-source accountability from contract through warranty."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to rethink your building envelope?",
+       "r": "head",
+       "w": [
+        [
+         22,
+         300,
+         30
+        ],
+        [
+         18,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Our envelope specialists engage early — from schematic design through installation — with single-source accountability from contract through warranty.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Download Datasheet",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Download Datasheet"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 11377,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 11769,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

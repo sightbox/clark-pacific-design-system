@@ -1,0 +1,932 @@
+{
+ "file": "accelgen.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Desktop",
+   "id": "19:174",
+   "score": 33.2,
+   "fit": 1,
+   "hr": 0.95,
+   "vh": 890,
+   "h": 936,
+   "pieces": [
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Desktop",
+     "id": "19:174",
+     "overrides": [
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Products · Data Centers"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 1,
+       "new": "AccelGen™"
+      },
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Prefabricated Power Buildings"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 2,
+       "new": "AccelGen™"
+      },
+      {
+       "old": "A complete prefabricated data center solution.",
+       "occ": 1,
+       "new": "Factory-built power infrastructure for mission-critical facilities."
+      },
+      {
+       "old": "Structural precast systems and exterior wall panels for mission-critical data centers — integrating early design-assist and in-house manufacturing to support accelerated schedules, sustainability goals, and project predictability.",
+       "occ": 1,
+       "new": "Prefabricated generator enclosures and power buildings — engineered to complement the complete AccelCore™ data center structural package, delivering faster electrical infrastructure and greater predictability on complex campus programs."
+      },
+      {
+       "old": "Get Started",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      },
+      {
+       "old": "View Webinar",
+       "occ": 1,
+       "new": "Explore AccelCore™"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6",
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Clark Pacific is expanding to the Pacific Northwest — new plant opening Q3 2026.",
+       "r": "body"
+      },
+      {
+       "c": "Learn more →",
+       "r": "title"
+      },
+      {
+       "c": "Our Products",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Projects",
+       "r": "label"
+      },
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Contact",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Products · Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "AccelGen™",
+       "r": "body"
+      },
+      {
+       "c": "Prefabricated Power Buildings",
+       "r": "label"
+      },
+      {
+       "c": "AccelGen™",
+       "r": "head"
+      },
+      {
+       "c": "Factory-built power infrastructure for mission-critical facilities.",
+       "r": "head"
+      },
+      {
+       "c": "Prefabricated generator enclosures and power buildings — engineered to complement the complete AccelCore™ data center structural package, delivering faster electrical infrastructure and greater predictability on complex campus programs.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Explore AccelCore™",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 8,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 936,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": 7.2,
+   "fit": 1,
+   "hr": 0.86,
+   "vh": 445,
+   "h": 516,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Bulleted, Breakpoint=Desktop",
+     "id": "21:231",
+     "overrides": [
+      {
+       "old": "Advantages of a Clark Pacific building system",
+       "occ": 1,
+       "new": "Complete the Accel™ data center package",
+       "runs": [
+        [
+         12,
+         600
+        ],
+        [
+         27,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Factory-installed insulation meets target R-values without field rework",
+       "occ": 1,
+       "new": "AccelGen™ brings the same factory-built efficiency of AccelCore™ and AccelDeck™ to the electrical infrastructure side of data center delivery — generator enclosures, power distribution buildings, and switchgear rooms fabricated off-site and coordinated with the structural package."
+      },
+      {
+       "old": "Off-site fabrication runs parallel to sitework, compressing the schedule",
+       "occ": 1,
+       "new": "By building generator enclosures and power buildings in the factory, Clark Pacific eliminates the field coordination challenges that typically arise between structural concrete, MEP contractors, and electrical infrastructure — delivering a single-source solution for the entire campus shell."
+      },
+      {
+       "old": "Single-source accountability from design-assist through erection and warranty",
+       "occ": 1,
+       "new": "AccelGen™ is coordinated with the AccelCore™ structural grid, AccelDeck™ mechanical platform, and AccelShell™ enclosure system — so all components arrive as a cohesive, pre-engineered package."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Built for performance",
+       "occ": 1
+      },
+      {
+       "old": "Learn More",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Complete the Accel™ data center package",
+       "r": "head",
+       "w": [
+        [
+         12,
+         600,
+         45
+        ],
+        [
+         27,
+         300,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "AccelGen™ brings the same factory-built efficiency of AccelCore™ and AccelDeck™ to the electrical infrastructure side of data center delivery — generator enclosures, power distribution buildings, and switchgear rooms fabricated off-site and coordinated with the structural package.",
+       "r": "body"
+      },
+      {
+       "c": "By building generator enclosures and power buildings in the factory, Clark Pacific eliminates the field coordination challenges that typically arise between structural concrete, MEP contractors, and electrical infrastructure — delivering a single-source solution for the entire campus shell.",
+       "r": "body"
+      },
+      {
+       "c": "AccelGen™ is coordinated with the AccelCore™ structural grid, AccelDeck™ mechanical platform, and AccelShell™ enclosure system — so all components arrive as a cohesive, pre-engineered package.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 4,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 1452,
+   "tag": "Icon Grid",
+   "kind": "instance",
+   "set": "Icon Grid",
+   "variant": "Layout=3-col spacious, Breakpoint=Desktop",
+   "id": "25:405",
+   "score": 26,
+   "fit": 1,
+   "hr": 0.84,
+   "vh": 550,
+   "h": 653,
+   "pieces": [
+    {
+     "set": "Icon Grid",
+     "variant": "Layout=3-col spacious, Breakpoint=Desktop",
+     "id": "25:405",
+     "overrides": [
+      {
+       "old": "Advantages of a prefabricated precast data center",
+       "occ": 1,
+       "new": "AccelGen™ key features",
+       "runs": [
+        [
+         10,
+         300
+        ],
+        [
+         12,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Structural Flexibility",
+       "occ": 1,
+       "new": "Generator Enclosures"
+      },
+      {
+       "old": "Adapts to future expansion.",
+       "occ": 1,
+       "new": "Factory-built precast concrete generator rooms and enclosures — fire-resistant, secure, and fully coordinated with the structural grid."
+      },
+      {
+       "old": "Faster Schedule",
+       "occ": 1,
+       "new": "Power Distribution Buildings"
+      },
+      {
+       "old": "Parallel offsite fabrication.",
+       "occ": 1,
+       "new": "Prefabricated switchgear rooms and power distribution buildings delivered as complete factory-built assemblies — ready to integrate with site electrical systems."
+      },
+      {
+       "old": "Lower Total Cost",
+       "occ": 1,
+       "new": "Campus Integration"
+      },
+      {
+       "old": "Reduced rework.",
+       "occ": 1,
+       "new": "Coordinated with AccelCore™ structural grid, AccelDeck™ mechanical platform, and AccelShell™ enclosure system — all components engineered as a cohesive package."
+      },
+      {
+       "old": "Predictable Delivery",
+       "occ": 1,
+       "new": "Coordinated MEP Interfaces"
+      },
+      {
+       "old": "Factory-controlled production + delivery.",
+       "occ": 1,
+       "new": "Generator rooms pre-engineered with conduit sleeves, cable tray routes, exhaust penetrations, and fuel system interfaces — reducing field coordination."
+      },
+      {
+       "old": "Sustainable, Low-Carbon Options",
+       "occ": 1,
+       "new": "Faster Electrical Infrastructure"
+      },
+      {
+       "old": "Lower embodied carbon.",
+       "occ": 1,
+       "new": "Factory production runs parallel to civil and structural work — electrical scope delivered on the same accelerated timeline as the structural package."
+      },
+      {
+       "old": "Resilient and Durable Materials",
+       "occ": 1,
+       "new": "Single-Source Accountability"
+      },
+      {
+       "old": "Fire and weather resistant.",
+       "occ": 1,
+       "new": "One team responsible for generator enclosures, power buildings, structural shell, mechanical platform, and wall panels — from design through warranty."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:139",
+      "5:142",
+      "5:145",
+      "5:148",
+      "5:151",
+      "5:154"
+     ],
+     "texts": [
+      {
+       "c": "AccelGen™ key features",
+       "r": "head",
+       "w": [
+        [
+         10,
+         300,
+         45
+        ],
+        [
+         12,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Generator Enclosures",
+       "r": "label"
+      },
+      {
+       "c": "Factory-built precast concrete generator rooms and enclosures — fire-resistant, secure, and fully coordinated with the structural grid.",
+       "r": "body"
+      },
+      {
+       "c": "Power Distribution Buildings",
+       "r": "label"
+      },
+      {
+       "c": "Prefabricated switchgear rooms and power distribution buildings delivered as complete factory-built assemblies — ready to integrate with site electrical systems.",
+       "r": "body"
+      },
+      {
+       "c": "Campus Integration",
+       "r": "label"
+      },
+      {
+       "c": "Coordinated with AccelCore™ structural grid, AccelDeck™ mechanical platform, and AccelShell™ enclosure system — all components engineered as a cohesive package.",
+       "r": "body"
+      },
+      {
+       "c": "Coordinated MEP Interfaces",
+       "r": "label"
+      },
+      {
+       "c": "Generator rooms pre-engineered with conduit sleeves, cable tray routes, exhaust penetrations, and fuel system interfaces — reducing field coordination.",
+       "r": "body"
+      },
+      {
+       "c": "Faster Electrical Infrastructure",
+       "r": "label"
+      },
+      {
+       "c": "Factory production runs parallel to civil and structural work — electrical scope delivered on the same accelerated timeline as the structural package.",
+       "r": "body"
+      },
+      {
+       "c": "Single-Source Accountability",
+       "r": "label"
+      },
+      {
+       "c": "One team responsible for generator enclosures, power buildings, structural shell, mechanical platform, and wall panels — from design through warranty.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 13,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2105,
+   "tag": "Stats Row",
+   "kind": "instance",
+   "set": "Stats Row",
+   "variant": "Breakpoint=Desktop",
+   "id": "31:921",
+   "score": 2.8,
+   "fit": 0.56,
+   "hr": 0.95,
+   "vh": 291,
+   "h": 276,
+   "pieces": [
+    {
+     "set": "Stats Row",
+     "variant": "Breakpoint=Desktop",
+     "id": "31:921",
+     "overrides": [
+      {
+       "old": "Years pioneering prefabricated construction.",
+       "occ": 1,
+       "new": "source"
+      },
+      {
+       "old": "Western states served from regional plants.",
+       "occ": 1,
+       "new": "One team, one contract — structural shell and power infrastructure coordinated together"
+      },
+      {
+       "old": "100%",
+       "occ": 1,
+       "new": "Factory"
+      },
+      {
+       "old": "Metal, wood & concrete scrap diverted from landfill.",
+       "occ": 1,
+       "new": "built"
+      },
+      {
+       "old": "Single source — design, engineering & manufacturing.",
+       "occ": 1,
+       "new": "Generator enclosures and power rooms fabricated in controlled conditions — not field-built steel"
+      }
+     ],
+     "hide": [
+      {
+       "old": "70+",
+       "occ": 1
+      },
+      {
+       "old": "11",
+       "occ": 1
+      },
+      {
+       "old": "1",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "4–8",
+       "r": "glyph"
+      },
+      {
+       "c": "additional weeks saved",
+       "r": "body"
+      },
+      {
+       "c": "Schedule compression when AccelGen™ is coordinated with AccelCore™ and AccelDeck™",
+       "r": "body"
+      },
+      {
+       "c": "1",
+       "r": "glyph"
+      },
+      {
+       "c": "source",
+       "r": "body"
+      },
+      {
+       "c": "One team, one contract — structural shell and power infrastructure coordinated together",
+       "r": "body"
+      },
+      {
+       "c": "Factory",
+       "r": "head"
+      },
+      {
+       "c": "built",
+       "r": "body"
+      },
+      {
+       "c": "Generator enclosures and power rooms fabricated in controlled conditions — not field-built steel",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "additional weeks saved",
+    "Schedule compression when AccelGen™ is coordinated with AccelCore™ and AccelDeck™"
+   ],
+   "nov": 5,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 2381,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Desktop",
+   "id": "21:299",
+   "score": 12.6,
+   "fit": 0.69,
+   "hr": 0.63,
+   "vh": 772,
+   "h": 489,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Stacked list + photo, Breakpoint=Desktop",
+     "id": "21:299",
+     "overrides": [
+      {
+       "old": "Mission Critical Solutions",
+       "occ": 1,
+       "new": "AccelCore™"
+      },
+      {
+       "old": "Prefabricated concrete structural products engineered and manufactured to meet precise standards for data centers and advanced manufacturing.",
+       "occ": 1,
+       "new": "Full structural precast system — shell, floor systems, enclosure, and embeds."
+      },
+      {
+       "old": "Building Envelope Systems",
+       "occ": 1,
+       "new": "AccelShell™"
+      },
+      {
+       "old": "Single-source, prefabricated building envelope solutions that maximize owner value and architectural freedom.",
+       "occ": 1,
+       "new": "Insulated wall panels — cladding or load-bearing, with 100+ finish options and R-15 to R-25 thermal range."
+      },
+      {
+       "old": "Parking Structures | Design-Build",
+       "occ": 1,
+       "new": "AccelDeck™"
+      },
+      {
+       "old": "From entitlement to handover, we manage the full lifecycle of parking structure design and construction.",
+       "occ": 1,
+       "new": "Prefabricated elevated chiller support system — 4–8 weeks of additional schedule savings."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "The complete Accel™ system",
+       "r": "head",
+       "w": [
+        [
+         13,
+         300,
+         45
+        ],
+        [
+         13,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "AccelCore™",
+       "r": "title"
+      },
+      {
+       "c": "Full structural precast system — shell, floor systems, enclosure, and embeds.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "AccelShell™",
+       "r": "title"
+      },
+      {
+       "c": "Insulated wall panels — cladding or load-bearing, with 100+ finish options and R-15 to R-25 thermal range.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "AccelDeck™",
+       "r": "title"
+      },
+      {
+       "c": "Prefabricated elevated chiller support system — 4–8 weeks of additional schedule savings.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "AccelGen™",
+       "r": "title"
+      },
+      {
+       "c": "Prefabricated power buildings — generator rooms and electrical infrastructure built in the factory.",
+       "r": "body"
+      },
+      {
+       "c": "Current Page",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "The complete Accel™ system",
+    "AccelGen™",
+    "Prefabricated power buildings — generator rooms and electrical infrastructure built in the factory.",
+    "Current Page"
+   ],
+   "nov": 6,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2870,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+   "id": "23:206",
+   "score": 7.8,
+   "fit": 1,
+   "hr": 0.69,
+   "vh": 513,
+   "h": 352,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+     "id": "23:206",
+     "overrides": [
+      {
+       "old": "Ready to accelerate your next project?",
+       "occ": 1,
+       "new": "Ready to explore AccelGen™ for your campus?",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         9,
+         600
+        ],
+        [
+         17,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Our team works as an extension of yours — from early design-assist through construction, with single-source accountability throughout.",
+       "occ": 1,
+       "new": "AccelGen™ is most effective when coordinated early with the structural package. Talk to our team about integrating power infrastructure into your prefabricated data center plan."
+      },
+      {
+       "old": "View Projects",
+       "occ": 1,
+       "new": "Explore AccelCore™"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Talk to an Expert",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to explore AccelGen™ for your campus?",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         45
+        ],
+        [
+         9,
+         600,
+         45
+        ],
+        [
+         17,
+         300,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "AccelGen™ is most effective when coordinated early with the structural package. Talk to our team about integrating power infrastructure into your prefabricated data center plan.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Explore AccelCore™",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 3222,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3622,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

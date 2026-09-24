@@ -1,0 +1,3 @@
+{"name":"Brand Sign-off Band","group":"01 · Global","desc":"Closing brand statement band above the footer: tagline, short brand paragraph, centred text link.",
+ "variants":[{"props":{"Breakpoint":"Desktop"},"src":"desk/d-brand-sign-off-band","bp":"Desktop"},
+             {"props":{"Breakpoint":"Mobile"},"src":"mob/m-signoff","bp":"Mobile"}]}

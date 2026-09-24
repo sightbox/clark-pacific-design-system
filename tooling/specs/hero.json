@@ -1,0 +1,11 @@
+{"name":"Hero","group":"02 · Heroes","desc":"Page heroes. Standard interior: full-bleed #52565A photo placeholder with 45° accent line and 100×100 white notch, transparent header on top, then breadcrumb + eyebrow + two-column intro on white (headline left; body + CTAs right, tops aligned). Homepage overlay is the only overlaid-text hero. Index = photo + title below. Editorial banner = title inside image band. Editorial header = title + meta on white. Photos are placeholders — drop real images into the Placeholder frames.",
+ "variants":[
+  {"props":{"Type":"Standard interior","Breakpoint":"Desktop"},"src":"desk/d-hero-standard-interior","drop":["0.6"],"bp":"Desktop"},
+  {"props":{"Type":"Homepage overlay","Breakpoint":"Desktop"},"src":"desk/d-hero-homepage-overlay","path":"0","bp":"Desktop"},
+  {"props":{"Type":"Index","Breakpoint":"Desktop"},"src":"desk/d-hero-index","bp":"Desktop"},
+  {"props":{"Type":"Editorial banner","Breakpoint":"Desktop"},"src":"desk/d-hero-editorial-banner","path":"0","bp":"Desktop"},
+  {"props":{"Type":"Editorial header","Breakpoint":"Desktop"},"src":"desk/d-hero-editorial-header","bp":"Desktop"},
+  {"props":{"Type":"Standard interior","Breakpoint":"Mobile"},"src":"mob/m-hero-standard","bp":"Mobile"},
+  {"props":{"Type":"Homepage overlay","Breakpoint":"Mobile"},"src":"mob/m-hero-home","bp":"Mobile"},
+  {"props":{"Type":"Index","Breakpoint":"Mobile"},"src":"mob/m-hero-index","bp":"Mobile"},
+  {"props":{"Type":"Editorial header","Breakpoint":"Mobile"},"src":"mob/m-hero-editorial","bp":"Mobile"}]}

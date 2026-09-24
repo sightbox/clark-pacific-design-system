@@ -1,0 +1,523 @@
+{
+ "file": "finishes.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Desktop",
+   "id": "19:174",
+   "score": 33.4,
+   "fit": 1,
+   "hr": 0.83,
+   "vh": 890,
+   "h": 1069,
+   "pieces": [
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Desktop",
+     "id": "19:174",
+     "overrides": [
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Building Envelope"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 1,
+       "new": "Finishes"
+      },
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Building Envelope Systems"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 2,
+       "new": "Infinite"
+      },
+      {
+       "old": "A complete prefabricated data center solution.",
+       "occ": 1,
+       "new": "options."
+      },
+      {
+       "old": "Structural precast systems and exterior wall panels for mission-critical data centers — integrating early design-assist and in-house manufacturing to support accelerated schedules, sustainability goals, and project predictability.",
+       "occ": 1,
+       "new": "100+ standard colors, textures, and finish combinations — plus virtually unlimited custom options. Every facade tells a different story."
+      },
+      {
+       "old": "View Webinar",
+       "occ": 1,
+       "new": "Download Finishes Guide"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Get Started",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6",
+      "5:33",
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Clark Pacific is expanding to the Pacific Northwest — new plant opening Q3 2026.",
+       "r": "body"
+      },
+      {
+       "c": "Learn more →",
+       "r": "title"
+      },
+      {
+       "c": "Our Products",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Projects",
+       "r": "label"
+      },
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Contact",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Products",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope",
+       "r": "body"
+      },
+      {
+       "c": "Finishes",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "label"
+      },
+      {
+       "c": "Infinite",
+       "r": "head"
+      },
+      {
+       "c": "options.",
+       "r": "head"
+      },
+      {
+       "c": "100+ standard colors, textures, and finish combinations — plus virtually unlimited custom options. Every facade tells a different story.",
+       "r": "body"
+      },
+      {
+       "c": "Download Finishes Guide",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 7,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 1069,
+   "tag": "One-off: Finish Categories",
+   "kind": "page-specific",
+   "h": 964
+  },
+  {
+   "top": 2033,
+   "tag": "One-off: Full Swatch Grid",
+   "kind": "page-specific",
+   "h": 890
+  },
+  {
+   "top": 2923,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": 5.1,
+   "fit": 0.63,
+   "hr": 0.58,
+   "vh": 445,
+   "h": 772,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Bulleted, Breakpoint=Desktop",
+     "id": "21:231",
+     "overrides": [
+      {
+       "old": "Advantages of a Clark Pacific building system",
+       "occ": 1,
+       "new": "The possibilities are endless",
+       "runs": [
+        [
+         22,
+         300
+        ],
+        [
+         7,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Factory-installed insulation meets target R-values without field rework",
+       "occ": 1,
+       "new": "Form liners for unlimited geometric patterns and reveals"
+      },
+      {
+       "old": "Off-site fabrication runs parallel to sitework, compressing the schedule",
+       "occ": 1,
+       "new": "Sandblast levels from light to heavy texture"
+      },
+      {
+       "old": "Single-source accountability from design-assist through erection and warranty",
+       "occ": 1,
+       "new": "Stain and pigment applications for custom color matching"
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Download Finishes Guide"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Built for performance",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Custom Options",
+       "r": "label"
+      },
+      {
+       "c": "The possibilities are endless",
+       "r": "head",
+       "w": [
+        [
+         22,
+         300,
+         45
+        ],
+        [
+         7,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Custom-made forms create concrete panels in precise dimensions and shapes. Varying sands, aggregates, and pigments achieve specific color effects. Stone, tile, or brick veneers can be cast into panels at the plant.",
+       "r": "body"
+      },
+      {
+       "c": "Brick, terra cotta, and stone cast into the veneer",
+       "r": "body"
+      },
+      {
+       "c": "Form liners for unlimited geometric patterns and reveals",
+       "r": "body"
+      },
+      {
+       "c": "Sandblast levels from light to heavy texture",
+       "r": "body"
+      },
+      {
+       "c": "Stain and pigment applications for custom color matching",
+       "r": "body"
+      },
+      {
+       "c": "Download Finishes Guide",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Custom Options",
+    "Custom-made forms create concrete panels in precise dimensions and shapes. Varying sands, aggregates, and pigments achieve specific color effects. Stone, tile, or brick veneers can be cast into panels at the plant.",
+    "Brick, terra cotta, and stone cast into the veneer"
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 3695,
+   "tag": "Finishes Guide",
+   "kind": "instance",
+   "set": "Finishes Guide · Graphic CTA",
+   "variant": "Breakpoint=Desktop",
+   "id": "32:1052",
+   "score": 10.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 682,
+   "h": 682,
+   "pieces": [
+    {
+     "set": "Finishes Guide · Graphic CTA",
+     "variant": "Breakpoint=Desktop",
+     "id": "32:1052",
+     "overrides": [
+      {
+       "old": "A wide range of standard colors, forms, textures, and finish combinations for our integrated envelope systems.",
+       "occ": 1,
+       "new": "The complete catalog of standard colors, forms, textures, and finish combinations for our integrated envelope systems — with specification notes for each."
+      },
+      {
+       "old": "Facade Systems Comparison (PDF)",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:122"
+     ],
+     "texts": [
+      {
+       "c": "Free Download",
+       "r": "label"
+      },
+      {
+       "c": "Standard finishes guide",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         45
+        ],
+        [
+         14,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "The complete catalog of standard colors, forms, textures, and finish combinations for our integrated envelope systems — with specification notes for each.",
+       "r": "body"
+      },
+      {
+       "c": "Download the Guide",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4377,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4776,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

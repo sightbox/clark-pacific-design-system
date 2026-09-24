@@ -1,0 +1,671 @@
+{
+ "file": "glass-and-glazing.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 11,
+   "fit": 0.78,
+   "hr": 0.93,
+   "vh": 771,
+   "h": 829,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1,
+       "new": "Glass & Glazing"
+      },
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Building Envelope Systems"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "Glass &"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "Glazing."
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "Factory-installed glazing systems integrated directly into the Infinite Facade® frame — delivering full-height glass, precise tolerances, and high-performance thermal properties without field installation risk."
+      },
+      {
+       "old": "Start a Conversation",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Explore Infinite Facade®"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:33",
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope",
+       "r": "body"
+      },
+      {
+       "c": "Glass & Glazing",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "label"
+      },
+      {
+       "c": "Glass &",
+       "r": "head"
+      },
+      {
+       "c": "Glazing.",
+       "r": "head"
+      },
+      {
+       "c": "Factory-installed glazing systems integrated directly into the Infinite Facade® frame — delivering full-height glass, precise tolerances, and high-performance thermal properties without field installation risk.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Explore Infinite Facade®",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Products",
+    "Building Envelope"
+   ],
+   "nov": 7,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 829,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 5.7,
+   "fit": 0.8,
+   "hr": 0.78,
+   "vh": 732,
+   "h": 940,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+     "id": "21:408",
+     "overrides": [
+      {
+       "old": "Mission Critical Solutions",
+       "occ": 1,
+       "new": "The Factory Advantage"
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 1,
+       "new": "Traditional glazing installation is one of the most weather-dependent, labor-intensive, and schedule-sensitive phases of envelope construction. Clark Pacific eliminates that risk by installing glass in a controlled factory environment — then delivering fully-glazed panels to site ready to crane into position."
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 2,
+       "new": "Factory-installed glazing delivers tighter tolerances, consistent quality across every panel, and dramatically faster on-site installation — compressing the overall envelope schedule."
+      },
+      {
+       "old": "Learn More",
+       "occ": 2,
+       "new": "Learn About Infinite Facade®"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Learn More",
+       "occ": 1
+      },
+      {
+       "old": "Building Envelope Systems",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "The Factory Advantage",
+       "r": "label"
+      },
+      {
+       "c": "Glass installed in the factory, not the field",
+       "r": "head",
+       "w": [
+        [
+         23,
+         300,
+         30
+        ],
+        [
+         22,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Traditional glazing installation is one of the most weather-dependent, labor-intensive, and schedule-sensitive phases of envelope construction. Clark Pacific eliminates that risk by installing glass in a controlled factory environment — then delivering fully-glazed panels to site ready to crane into position.",
+       "r": "body"
+      },
+      {
+       "c": "Factory-installed glazing delivers tighter tolerances, consistent quality across every panel, and dramatically faster on-site installation — compressing the overall envelope schedule.",
+       "r": "body"
+      },
+      {
+       "c": "Learn About Infinite Facade®",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Glass installed in the factory, not the field"
+   ],
+   "nov": 4,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 1768,
+   "tag": "One-off: Glazing Configurations",
+   "kind": "page-specific",
+   "h": 1161
+  },
+  {
+   "top": 2929,
+   "tag": "One-off: Performance Standards",
+   "kind": "page-specific",
+   "h": 963
+  },
+  {
+   "top": 3892,
+   "tag": "Projects Photo Mosaic",
+   "kind": "instance",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Mobile",
+   "id": "28:845",
+   "score": 5.7,
+   "fit": 0.63,
+   "hr": 0.71,
+   "vh": 1050,
+   "h": 1484,
+   "pieces": [
+    {
+     "set": "Projects Photo Mosaic",
+     "variant": "Breakpoint=Mobile",
+     "id": "28:845",
+     "overrides": [
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "View All Projects"
+      },
+      {
+       "old": "Structural Projects",
+       "occ": 1,
+       "new": "The Grand LA"
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 1,
+       "new": "Cal State LA Student Housing East"
+      },
+      {
+       "old": "View All Projects",
+       "occ": 1,
+       "new": "2100 Kettner"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Featured projects",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         30
+        ],
+        [
+         8,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "View All Projects",
+       "r": "label"
+      },
+      {
+       "c": "The Grand LA",
+       "r": "label"
+      },
+      {
+       "c": "Full-height IF 100 glazing system delivering a floor-to-ceiling glass aesthetic across a landmark mixed-use tower in downtown Los Angeles.",
+       "r": "body"
+      },
+      {
+       "c": "Cal State LA Student Housing East",
+       "r": "label"
+      },
+      {
+       "c": "IF 75 punched window system across 900 student housing units — factory-installed for schedule certainty on a tight academic calendar.",
+       "r": "body"
+      },
+      {
+       "c": "2100 Kettner",
+       "r": "label"
+      },
+      {
+       "c": "IF 85 configuration providing enhanced vision glass and a refined horizontal rhythm across this San Diego mixed-use development.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Full-height IF 100 glazing system delivering a floor-to-ceiling glass aesthetic across a landmark mixed-use tower in downtown Los Angeles.",
+    "IF 75 punched window system across 900 student housing units — factory-installed for schedule certainty on a tight academic calendar.",
+    "IF 85 configuration providing enhanced vision glass and a refined horizontal rhythm across this San Diego mixed-use development."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5376,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:349",
+   "score": 6.2,
+   "fit": 1,
+   "hr": 0.87,
+   "vh": 305,
+   "h": 351,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:349",
+     "overrides": [
+      {
+       "old": "Ready to build different?",
+       "occ": 1,
+       "new": "Let's talk about your glazing strategy",
+       "runs": [
+        [
+         22,
+         300
+        ],
+        [
+         16,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Talk to our team about your next project.",
+       "occ": 1,
+       "new": "Our facade specialists can advise on the right Infinite Facade® configuration and glazing type to meet your aesthetic, energy, and schedule goals."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Let's talk about your glazing strategy",
+       "r": "head",
+       "w": [
+        [
+         22,
+         300,
+         30
+        ],
+        [
+         16,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Our facade specialists can advise on the right Infinite Facade® configuration and glazing type to meet your aesthetic, energy, and schedule goals.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5727,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6119,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

@@ -1,0 +1,819 @@
+{
+ "file": "accelshell.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 11,
+   "fit": 0.78,
+   "hr": 0.83,
+   "vh": 771,
+   "h": 928,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1,
+       "new": "AccelShell™"
+      },
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Insulated Wall Panel"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "AccelShell™"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "The new standard for insulated wall panels."
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "Customizable to meet project-specific thermal performance and finish requirements. Load-bearing or cladding only. Ideal for commercial buildings and data centers — manufactured offsite and delivered ready to install."
+      },
+      {
+       "old": "Start a Conversation",
+       "occ": 1,
+       "new": "Download Finishes Guide"
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:33",
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "body"
+      },
+      {
+       "c": "Data Centers / Building Envelope",
+       "r": "body"
+      },
+      {
+       "c": "AccelShell™",
+       "r": "body"
+      },
+      {
+       "c": "Insulated Wall Panel",
+       "r": "label"
+      },
+      {
+       "c": "AccelShell™",
+       "r": "head"
+      },
+      {
+       "c": "The new standard for insulated wall panels.",
+       "r": "head"
+      },
+      {
+       "c": "Customizable to meet project-specific thermal performance and finish requirements. Load-bearing or cladding only. Ideal for commercial buildings and data centers — manufactured offsite and delivered ready to install.",
+       "r": "body"
+      },
+      {
+       "c": "Download Finishes Guide",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Products",
+    "Data Centers / Building Envelope"
+   ],
+   "nov": 7,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 928,
+   "tag": "Quote Band",
+   "kind": "instance",
+   "set": "Quote Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "22:212",
+   "score": 8.2,
+   "fit": 1,
+   "hr": 0.58,
+   "vh": 313,
+   "h": 544,
+   "pieces": [
+    {
+     "set": "Quote Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "22:212",
+     "overrides": [
+      {
+       "old": "Pull-quote runs at 22px on mobile with the keyword in SemiBold.",
+       "occ": 1,
+       "new": "Through our partnership with Clark Pacific, we feel confident taking on more projects which has helped us grow our data center business. They are a consistent and reliable partner that anticipates our needs and delivers high quality solutions that fit the project requirements and schedule.",
+       "runs": [
+        [
+         148,
+         300
+        ],
+        [
+         31,
+         600
+        ],
+        [
+         111,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Name Surname",
+       "occ": 1,
+       "new": "J.T. Magen"
+      },
+      {
+       "old": "Title · Organization",
+       "occ": 1,
+       "new": "General Contractor"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "“",
+       "r": "glyph"
+      },
+      {
+       "c": "Through our partnership with Clark Pacific, we feel confident taking on more projects which has helped us grow our data center business. They are a consistent and reliable partner that anticipates our needs and delivers high quality solutions that fit the project requirements and schedule.",
+       "r": "title",
+       "w": [
+        [
+         148,
+         300,
+         22
+        ],
+        [
+         31,
+         600,
+         22
+        ],
+        [
+         111,
+         300,
+         22
+        ]
+       ]
+      },
+      {
+       "c": "J.T. Magen",
+       "r": "label"
+      },
+      {
+       "c": "General Contractor",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 1472,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 6.6,
+   "fit": 0.71,
+   "hr": 0.74,
+   "vh": 732,
+   "h": 985,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+     "id": "21:408",
+     "overrides": [
+      {
+       "old": "Mission Critical Solutions",
+       "occ": 1,
+       "new": "Applications"
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 1,
+       "new": "AccelShell™ insulated wall panels deliver superior thermal performance, durability, and finish versatility across a wide range of building types — from hyperscale data centers to institutional facilities."
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Industrial / Warehouse"
+      },
+      {
+       "old": "Building Envelope Systems",
+       "occ": 1,
+       "new": "Commercial"
+      },
+      {
+       "old": "Learn More",
+       "occ": 2,
+       "new": "Institutional"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Block body copy.",
+       "occ": 2
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Applications",
+       "r": "label"
+      },
+      {
+       "c": "Built for the most demanding use cases",
+       "r": "head",
+       "w": [
+        [
+         14,
+         300,
+         30
+        ],
+        [
+         24,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "AccelShell™ insulated wall panels deliver superior thermal performance, durability, and finish versatility across a wide range of building types — from hyperscale data centers to institutional facilities.",
+       "r": "body"
+      },
+      {
+       "c": "Data Centers",
+       "r": "label"
+      },
+      {
+       "c": "Industrial / Warehouse",
+       "r": "label"
+      },
+      {
+       "c": "Commercial",
+       "r": "label"
+      },
+      {
+       "c": "Institutional",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Built for the most demanding use cases",
+    "Data Centers"
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 2456,
+   "tag": "Assembly + Specifications",
+   "kind": "page-specific",
+   "set": "Assembly + Specifications",
+   "variant": "Breakpoint=Mobile",
+   "id": "33:1066",
+   "score": -6.3,
+   "fit": 0.37,
+   "hr": 0.37,
+   "vh": 817,
+   "h": 2211,
+   "pieces": [],
+   "unplaced": [
+    "Configuration",
+    "Cladding only OR load-bearing",
+    "Insulation Type",
+    "Continuous (factory-installed)",
+    "Typical R-Value Range",
+    "R-15 to R-25",
+    "Download Finishes Guide",
+    "Energy Efficiency",
+    "Continuous factory-installed insulation meets demanding R-value targets without field rework.",
+    "Reduced Maintenance + Superior Durability",
+    "Precast concrete exterior delivers long service life with minimal upkeep compared to curtain wall alternatives. 100+ aesthetic options to meet design goals.",
+    "Speed of Construction",
+    "Panels arrive ready to install — enclosure work proceeds faster, enabling earlier dry-in.",
+    "Exceptional Quality",
+    "Factory-controlled production delivers consistent tolerances, finish quality, and weatherproofing panel to panel.",
+    "Fewer field trades on site — just-in-time delivery reduces congestion and site safety exposures.",
+    "100+ standard options plus virtually unlimited custom finishes — designed to meet any aesthetic goal."
+   ],
+   "nov": 10,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 4667,
+   "tag": "FAQ Accordion",
+   "kind": "instance",
+   "set": "FAQ Accordion",
+   "variant": "Breakpoint=Mobile",
+   "id": "9:25",
+   "score": 10.8,
+   "fit": 0.67,
+   "hr": 0.46,
+   "vh": 462,
+   "h": 997,
+   "pieces": [
+    {
+     "set": "FAQ Accordion",
+     "variant": "Breakpoint=Mobile",
+     "id": "9:25",
+     "overrides": [
+      {
+       "old": "Open question, first by default",
+       "occ": 1,
+       "new": "What is AccelShell™?"
+      },
+      {
+       "old": "Answer copy at 15px.",
+       "occ": 1,
+       "new": "AccelShell™ is Clark Pacific's prefabricated insulated wall panel and enclosure solution for data centers and other critical facilities. The system combines a durable precast concrete exterior, continuous insulation, interior concrete wythe, engineered connections, and coordinated joint detailing into a factory-produced wall assembly."
+      },
+      {
+       "old": "Closed question",
+       "occ": 1,
+       "new": "Can AccelShell™ be used as cladding or as a load-bearing wall system?"
+      },
+      {
+       "old": "Closed question",
+       "occ": 2,
+       "new": "How does AccelShell™ support durability, fire performance, and sustainability?"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Frequently asked questions",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         9,
+         600,
+         32
+        ]
+       ]
+      },
+      {
+       "c": "What is AccelShell™?",
+       "r": "label"
+      },
+      {
+       "c": "–",
+       "r": "glyph"
+      },
+      {
+       "c": "AccelShell™ is Clark Pacific's prefabricated insulated wall panel and enclosure solution for data centers and other critical facilities. The system combines a durable precast concrete exterior, continuous insulation, interior concrete wythe, engineered connections, and coordinated joint detailing into a factory-produced wall assembly.",
+       "r": "body"
+      },
+      {
+       "c": "Why choose AccelShell™ instead of a conventional field-built wall system?",
+       "r": "label"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "How does AccelShell™ improve schedule?",
+       "r": "label"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "Can AccelShell™ be used as cladding or as a load-bearing wall system?",
+       "r": "label"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "How does AccelShell™ support durability, fire performance, and sustainability?",
+       "r": "label"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Why choose AccelShell™ instead of a conventional field-built wall system?",
+    "How does AccelShell™ improve schedule?"
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5664,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:349",
+   "score": 4.7,
+   "fit": 0.75,
+   "hr": 0.81,
+   "vh": 305,
+   "h": 376,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:349",
+     "overrides": [
+      {
+       "old": "Ready to build different?",
+       "occ": 1,
+       "new": "Ready to specify AccelShell™?",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         12,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Talk to our team about your next project.",
+       "occ": 1,
+       "new": "Our team works with owners and architects early in the design phase to ensure the right thermal performance and finish for your project."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to specify AccelShell™?",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         30
+        ],
+        [
+         12,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Our team works with owners and architects early in the design phase to ensure the right thermal performance and finish for your project.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Download Finishes Guide",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Download Finishes Guide"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6040,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6432,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+{"name": "System Overview + Materials", "group": "07 \u00b7 Product Detail & Media", "desc": "System overview intro (headline + lead) then a 3-up materials grid with accent bars.", "variants": [{"props": {"Breakpoint": "Desktop"}, "src": "desk/d-system-overview-materials", "bp": "Desktop"}, {"props": {"Breakpoint": "Mobile"}, "src": "mob/m-overview", "bp": "Mobile"}]}

@@ -1,0 +1,13 @@
+{
+  "name": "cp-design-system-tooling",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scripts that built the Clark Pacific web design system in Figma (extractor, planner, matcher, page builder, checks).",
+  "type": "commonjs",
+  "scripts": {
+    "tokens": "node build-tokens.js"
+  },
+  "dependencies": {
+    "playwright-core": "^1.63.0"
+  }
+}

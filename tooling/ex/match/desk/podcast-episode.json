@@ -1,0 +1,636 @@
+{
+ "file": "podcast-episode.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Editorial header",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Editorial header, Breakpoint=Desktop",
+   "id": "19:270",
+   "score": -4.7,
+   "fit": 0.36,
+   "hr": 0.72,
+   "vh": 414,
+   "h": 578,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:29",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:76",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Editorial header, Breakpoint=Desktop",
+     "id": "19:270",
+     "overrides": [
+      {
+       "old": "Insights › Building Envelope",
+       "occ": 1,
+       "new": "Spotify"
+      },
+      {
+       "old": "Article",
+       "occ": 1,
+       "new": "Apple Podcasts"
+      },
+      {
+       "old": "March 12, 2026",
+       "occ": 1,
+       "new": "Google Podcasts"
+      },
+      {
+       "old": "By Jordan Ellis",
+       "occ": 1,
+       "new": "Building Forward"
+      },
+      {
+       "old": "6 min read",
+       "occ": 1,
+       "new": "The Podcast · Ep. 12"
+      }
+     ],
+     "hide": [
+      {
+       "old": "How prefabrication is compressing the schedule",
+       "occ": 1
+      },
+      {
+       "old": "•",
+       "occ": 1
+      },
+      {
+       "old": "•",
+       "occ": 2
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6",
+      "5:33",
+      "5:33",
+      "5:222",
+      "5:129",
+      "5:159"
+     ],
+     "texts": [
+      {
+       "c": "Insights",
+       "r": "body"
+      },
+      {
+       "c": "Podcast",
+       "r": "body"
+      },
+      {
+       "c": "Episode 12",
+       "r": "body"
+      },
+      {
+       "c": "Episode 12",
+       "r": "label"
+      },
+      {
+       "c": "42 min",
+       "r": "body"
+      },
+      {
+       "c": "·",
+       "r": "glyph"
+      },
+      {
+       "c": "Architecture",
+       "r": "body"
+      },
+      {
+       "c": "Building for the Future: The Art of Prefabrication for Architecture",
+       "r": "head",
+       "w": [
+        [
+         25,
+         200,
+         45
+        ],
+        [
+         42,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "-30",
+       "r": "body"
+      },
+      {
+       "c": "Spotify",
+       "r": "label"
+      },
+      {
+       "c": "Apple Podcasts",
+       "r": "label"
+      },
+      {
+       "c": "Google Podcasts",
+       "r": "label"
+      },
+      {
+       "c": "Building Forward",
+       "r": "label"
+      },
+      {
+       "c": "The Podcast · Ep. 12",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Insights",
+    "Podcast",
+    "Episode 12",
+    "Episode 12",
+    "42 min",
+    "Architecture",
+    "Building for the Future: The Art of Prefabrication for Architecture",
+    "-30"
+   ],
+   "nov": 5,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 578,
+   "tag": "One-off: Episode Body",
+   "kind": "page-specific",
+   "h": 1117
+  },
+  {
+   "top": 1695,
+   "tag": "Filterable Index Grid",
+   "kind": "instance",
+   "set": "Filterable Index Grid",
+   "variant": "Breakpoint=Desktop",
+   "id": "27:749",
+   "score": 4,
+   "fit": 0.64,
+   "hr": 0.92,
+   "vh": 641,
+   "h": 589,
+   "pieces": [
+    {
+     "set": "Filterable Index Grid",
+     "variant": "Breakpoint=Desktop",
+     "id": "27:749",
+     "overrides": [
+      {
+       "old": "All",
+       "occ": 1,
+       "new": "All Episodes"
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Episode 11 · 38 min",
+       "runs": [
+        [
+         8,
+         600
+        ],
+        [
+         2,
+         600
+        ],
+        [
+         3,
+         600
+        ],
+        [
+         6,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "Episode 10 · 35 min",
+       "runs": [
+        [
+         8,
+         600
+        ],
+        [
+         2,
+         600
+        ],
+        [
+         3,
+         600
+        ],
+        [
+         6,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Sacramento Commons Garage",
+       "occ": 1,
+       "new": "Sustainability at Scale: What EPDs Actually Tell You"
+      },
+      {
+       "old": "Fortinet HQ",
+       "occ": 1,
+       "new": "09"
+      },
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Episode 09 · 44 min",
+       "runs": [
+        [
+         8,
+         600
+        ],
+        [
+         2,
+         600
+        ],
+        [
+         3,
+         600
+        ],
+        [
+         6,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Aurora Data Campus",
+       "occ": 1,
+       "new": "The Case for Off-Site Manufacturing"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Search projects",
+       "occ": 1
+      },
+      {
+       "old": "Parking",
+       "occ": 1
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 1
+      },
+      {
+       "old": "1,200 stalls · PARC",
+       "occ": 1
+      },
+      {
+       "old": "View Project",
+       "occ": 1
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 2
+      },
+      {
+       "old": "Sunnyvale, CA · Infinite Facade®",
+       "occ": 1
+      },
+      {
+       "old": "View Project",
+       "occ": 2
+      },
+      {
+       "old": "Phase II · 2025",
+       "occ": 1
+      },
+      {
+       "old": "View Project",
+       "occ": 3
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "More episodes",
+       "r": "head",
+       "w": [
+        [
+         5,
+         300,
+         35
+        ],
+        [
+         8,
+         600,
+         35
+        ]
+       ]
+      },
+      {
+       "c": "All Episodes",
+       "r": "label"
+      },
+      {
+       "c": "11",
+       "r": "title"
+      },
+      {
+       "c": "Episode 11 · 38 min",
+       "r": "label",
+       "w": [
+        [
+         8,
+         600,
+         11
+        ],
+        [
+         2,
+         600,
+         11
+        ],
+        [
+         3,
+         600,
+         11
+        ],
+        [
+         6,
+         600,
+         11
+        ]
+       ]
+      },
+      {
+       "c": "Data Centers and the Precast Advantage",
+       "r": "title"
+      },
+      {
+       "c": "10",
+       "r": "title"
+      },
+      {
+       "c": "Episode 10 · 35 min",
+       "r": "label",
+       "w": [
+        [
+         8,
+         600,
+         11
+        ],
+        [
+         2,
+         600,
+         11
+        ],
+        [
+         3,
+         600,
+         11
+        ],
+        [
+         6,
+         600,
+         11
+        ]
+       ]
+      },
+      {
+       "c": "Sustainability at Scale: What EPDs Actually Tell You",
+       "r": "title"
+      },
+      {
+       "c": "09",
+       "r": "title"
+      },
+      {
+       "c": "Episode 09 · 44 min",
+       "r": "label",
+       "w": [
+        [
+         8,
+         600,
+         11
+        ],
+        [
+         2,
+         600,
+         11
+        ],
+        [
+         3,
+         600,
+         11
+        ],
+        [
+         6,
+         600,
+         11
+        ]
+       ]
+      },
+      {
+       "c": "The Case for Off-Site Manufacturing",
+       "r": "title"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "More episodes",
+    "11",
+    "Data Centers and the Precast Advantage",
+    "10"
+   ],
+   "nov": 7,
+   "nhide": 10,
+   "hideItems": []
+  },
+  {
+   "top": 2284,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2683,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+{"name":"Announcement Bar","group":"01 · Global","desc":"Site-wide announcement strip on Dark Charcoal. Message + white 'Learn more →' link. Sits above the header.",
+ "variants":[{"props":{"Breakpoint":"Desktop"},"src":"desk/d-announcement-bar","path":"0","bp":"Desktop","names":["Message","Link"]},
+             {"props":{"Breakpoint":"Mobile"},"src":"mobadd/m-announcement","bp":"Mobile","names":["Message","Link"]}]}

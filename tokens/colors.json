@@ -1,0 +1,347 @@
+[
+  {
+    "name": "Primary/Blue",
+    "cssVar": "--cp-primary-blue",
+    "description": "Primary buttons, CTA banner surface, accent bars",
+    "type": "color",
+    "hex": "#004A9F",
+    "opacity": 1,
+    "css": "#004A9F",
+    "flagged": false
+  },
+  {
+    "name": "Accent/Orange",
+    "cssVar": "--cp-accent-orange",
+    "description": "Accent bars (40×3), text-link hover, active nav bar, active pagination pill. Never as type on a dark surface",
+    "type": "color",
+    "hex": "#FF8600",
+    "opacity": 1,
+    "css": "#FF8600",
+    "flagged": false
+  },
+  {
+    "name": "Sustainability/Green",
+    "cssVar": "--cp-sustainability-green",
+    "description": "Sustainability content only",
+    "type": "color",
+    "hex": "#009663",
+    "opacity": 1,
+    "css": "#009663",
+    "flagged": false
+  },
+  {
+    "name": "Text/Dark Charcoal",
+    "cssVar": "--cp-text-dark-charcoal",
+    "description": "All headline and body type; also the dark surface (footer, announcement bar, dark CTA)",
+    "type": "color",
+    "hex": "#52565A",
+    "opacity": 1,
+    "css": "#52565A",
+    "flagged": false
+  },
+  {
+    "name": "Neutral/Mid Gray",
+    "cssVar": "--cp-neutral-mid-gray",
+    "description": "Tertiary text, labels",
+    "type": "color",
+    "hex": "#7F8A92",
+    "opacity": 1,
+    "css": "#7F8A92",
+    "flagged": false
+  },
+  {
+    "name": "Neutral/BG Alt",
+    "cssVar": "--cp-neutral-bg-alt",
+    "description": "Boxed elements inside modules; light placeholders",
+    "type": "color",
+    "hex": "#F0F0F0",
+    "opacity": 1,
+    "css": "#F0F0F0",
+    "flagged": false
+  },
+  {
+    "name": "Neutral/Border",
+    "cssVar": "--cp-neutral-border",
+    "description": "Strokes and dividers only, never text",
+    "type": "color",
+    "hex": "#DEDFE0",
+    "opacity": 1,
+    "css": "#DEDFE0",
+    "flagged": false
+  },
+  {
+    "name": "Neutral/White",
+    "cssVar": "--cp-neutral-white",
+    "description": "Module background",
+    "type": "color",
+    "hex": "#FFFFFF",
+    "opacity": 1,
+    "css": "#FFFFFF",
+    "flagged": false
+  },
+  {
+    "name": "Overlay/Scrim",
+    "cssVar": "--cp-overlay-scrim",
+    "description": "Photo overlays (Leadership bio, photo CTAs)",
+    "type": "color",
+    "hex": "#52565A",
+    "opacity": 0.84,
+    "css": "rgba(82, 86, 90, 0.84)",
+    "flagged": false
+  },
+  {
+    "name": "Overlay/On-dark divider",
+    "cssVar": "--cp-overlay-on-dark-divider",
+    "description": "Dividers on dark surfaces",
+    "type": "color",
+    "hex": "#FFFFFF",
+    "opacity": 0.25,
+    "css": "rgba(255, 255, 255, 0.25)",
+    "flagged": false
+  },
+  {
+    "name": "Text/Faded",
+    "cssVar": "--cp-text-faded",
+    "description": "Decorative faded numerals on white",
+    "type": "color",
+    "hex": "#52565A",
+    "opacity": 0.28,
+    "css": "rgba(82, 86, 90, 0.28)",
+    "flagged": false
+  },
+  {
+    "name": "Text/Faded on dark",
+    "cssVar": "--cp-text-faded-on-dark",
+    "description": "Decorative faded numerals on dark",
+    "type": "color",
+    "hex": "#FFFFFF",
+    "opacity": 0.38,
+    "css": "rgba(255, 255, 255, 0.38)",
+    "flagged": false
+  },
+  {
+    "name": "Track/Light",
+    "cssVar": "--cp-track-light",
+    "description": "Text-link track on light",
+    "type": "color",
+    "hex": "#000000",
+    "opacity": 0.12,
+    "css": "rgba(0, 0, 0, 0.12)",
+    "flagged": false
+  },
+  {
+    "name": "Outline/On-dark",
+    "cssVar": "--cp-outline-on-dark",
+    "description": "On-dark secondary button outline",
+    "type": "color",
+    "hex": "#FFFFFF",
+    "opacity": 0.55,
+    "css": "rgba(255, 255, 255, 0.55)",
+    "flagged": false
+  },
+  {
+    "name": "Flagged/On-dark muted",
+    "cssVar": "--cp-flagged-on-dark-muted",
+    "description": "FLAG: #FFFFFF @30%. In approved source (muted text/separators on dark) but not on the token list. Confirm or remap.",
+    "type": "color",
+    "hex": "#FFFFFF",
+    "opacity": 0.3,
+    "css": "rgba(255, 255, 255, 0.3)",
+    "flagged": true
+  },
+  {
+    "name": "Flagged/Accent line on photo",
+    "cssVar": "--cp-flagged-accent-line-on-photo",
+    "description": "FLAG: #FFFFFF @32%. Hero 45° accent line. Not on the token list. Confirm or remap.",
+    "type": "color",
+    "hex": "#FFFFFF",
+    "opacity": 0.32,
+    "css": "rgba(255, 255, 255, 0.32)",
+    "flagged": true
+  },
+  {
+    "name": "Flagged/Dot inactive",
+    "cssVar": "--cp-flagged-dot-inactive",
+    "description": "FLAG: #000000 @18%. Video carousel inactive dots. Not on the token list (pagination spec says 6px gray dot). Confirm or remap.",
+    "type": "color",
+    "hex": "#000000",
+    "opacity": 0.18,
+    "css": "rgba(0, 0, 0, 0.18)",
+    "flagged": true
+  },
+  {
+    "name": "State/Primary Hover",
+    "cssVar": "--cp-state-primary-hover",
+    "description": "#003D84 — Primary button hover (README Interactions).",
+    "type": "color",
+    "hex": "#003D84",
+    "opacity": 1,
+    "css": "#003D84",
+    "flagged": false
+  },
+  {
+    "name": "State/Hover fill on light",
+    "cssVar": "--cp-state-hover-fill-on-light",
+    "description": "Secondary button hover: 12% of Dark Charcoal outline.",
+    "type": "color",
+    "hex": "#52565A",
+    "opacity": 0.12,
+    "css": "rgba(82, 86, 90, 0.12)",
+    "flagged": false
+  },
+  {
+    "name": "State/Hover fill on dark",
+    "cssVar": "--cp-state-hover-fill-on-dark",
+    "description": "On-dark button hover: 12% white fill.",
+    "type": "color",
+    "hex": "#FFFFFF",
+    "opacity": 0.12,
+    "css": "rgba(255, 255, 255, 0.12)",
+    "flagged": false
+  },
+  {
+    "name": "Overlay/Header scrim",
+    "cssVar": "--cp-overlay-header-scrim",
+    "description": "Top-down scrim behind the header over photos.",
+    "type": "gradient",
+    "css": "linear-gradient(to bottom, rgba(82, 86, 90, 0.84) 0%, rgba(82, 86, 90, 0.27) 70%, rgba(82, 86, 90, 0.07) 100%)",
+    "stops": [
+      {
+        "hex": "#52565A",
+        "alpha": 0.84,
+        "position": 0
+      },
+      {
+        "hex": "#52565A",
+        "alpha": 0.27,
+        "position": 0.7
+      },
+      {
+        "hex": "#52565A",
+        "alpha": 0.07,
+        "position": 1
+      }
+    ],
+    "flagged": false
+  },
+  {
+    "name": "Overlay/Header scrim · Strong",
+    "cssVar": "--cp-overlay-header-scrim-strong",
+    "description": "Stronger header scrim (Products open).",
+    "type": "gradient",
+    "css": "linear-gradient(to bottom, rgba(82, 86, 90, 0.89) 0%, rgba(82, 86, 90, 0.41) 75%, rgba(82, 86, 90, 0.14) 100%)",
+    "stops": [
+      {
+        "hex": "#52565A",
+        "alpha": 0.89,
+        "position": 0
+      },
+      {
+        "hex": "#52565A",
+        "alpha": 0.41,
+        "position": 0.75
+      },
+      {
+        "hex": "#52565A",
+        "alpha": 0.14,
+        "position": 1
+      }
+    ],
+    "flagged": false
+  },
+  {
+    "name": "Overlay/Hero scrim",
+    "cssVar": "--cp-overlay-hero-scrim",
+    "description": "Top-down photo scrim on heroes. Replaces a retired black (#000000) gradient.",
+    "type": "gradient",
+    "css": "linear-gradient(to bottom, rgba(82, 86, 90, 0.55) 0%, rgba(82, 86, 90, 0.16) 52%, rgba(82, 86, 90, 0) 100%)",
+    "stops": [
+      {
+        "hex": "#52565A",
+        "alpha": 0.55,
+        "position": 0
+      },
+      {
+        "hex": "#52565A",
+        "alpha": 0.16,
+        "position": 0.52
+      },
+      {
+        "hex": "#52565A",
+        "alpha": 0,
+        "position": 1
+      }
+    ],
+    "flagged": false
+  },
+  {
+    "name": "Overlay/Photo scrim · Top & bottom",
+    "cssVar": "--cp-overlay-photo-scrim-top-and-bottom",
+    "description": "Two-ended photo scrim. Replaces a retired black gradient.",
+    "type": "gradient",
+    "css": "linear-gradient(to bottom, rgba(82, 86, 90, 0.35) 0%, rgba(82, 86, 90, 0) 30%, rgba(82, 86, 90, 0) 45%, rgba(82, 86, 90, 0.45) 100%)",
+    "stops": [
+      {
+        "hex": "#52565A",
+        "alpha": 0.35,
+        "position": 0
+      },
+      {
+        "hex": "#52565A",
+        "alpha": 0,
+        "position": 0.3
+      },
+      {
+        "hex": "#52565A",
+        "alpha": 0,
+        "position": 0.45
+      },
+      {
+        "hex": "#52565A",
+        "alpha": 0.45,
+        "position": 1
+      }
+    ],
+    "flagged": false
+  },
+  {
+    "name": "Overlay/CTA photo scrim",
+    "cssVar": "--cp-overlay-cta-photo-scrim",
+    "description": "Bottom-weighted scrim on photo CTA banners. Replaces a retired black gradient.",
+    "type": "gradient",
+    "css": "linear-gradient(to bottom, rgba(82, 86, 90, 0) 30%, rgba(82, 86, 90, 0.5) 100%)",
+    "stops": [
+      {
+        "hex": "#52565A",
+        "alpha": 0,
+        "position": 0.3
+      },
+      {
+        "hex": "#52565A",
+        "alpha": 0.5,
+        "position": 1
+      }
+    ],
+    "flagged": false
+  },
+  {
+    "name": "Overlay/Video scrim",
+    "cssVar": "--cp-overlay-video-scrim",
+    "description": "Bottom-up scrim behind video controls and captions. Replaces a retired black gradient.",
+    "type": "gradient",
+    "css": "linear-gradient(to top, rgba(82, 86, 90, 0.75) 0%, rgba(82, 86, 90, 0) 100%)",
+    "stops": [
+      {
+        "hex": "#52565A",
+        "alpha": 0.75,
+        "position": 0
+      },
+      {
+        "hex": "#52565A",
+        "alpha": 0,
+        "position": 1
+      }
+    ],
+    "flagged": false
+  }
+]

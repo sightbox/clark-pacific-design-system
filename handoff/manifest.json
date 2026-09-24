@@ -1,0 +1,818 @@
+{
+  "desktopKit": [
+    {
+      "group": "01 · Global",
+      "components": [
+        {
+          "id": "d-header-states",
+          "name": "Header / States"
+        },
+        {
+          "id": "d-announcement-bar",
+          "name": "Announcement Bar"
+        },
+        {
+          "id": "d-brand-sign-off-band",
+          "name": "Brand Sign-off Band"
+        },
+        {
+          "id": "d-footer-single-band",
+          "name": "Footer / Single band"
+        }
+      ]
+    },
+    {
+      "group": "02 · Heroes",
+      "components": [
+        {
+          "id": "d-hero-standard-interior",
+          "name": "Hero / Standard interior"
+        },
+        {
+          "id": "d-hero-homepage-overlay",
+          "name": "Hero / Homepage overlay"
+        },
+        {
+          "id": "d-hero-index",
+          "name": "Hero / Index"
+        },
+        {
+          "id": "d-hero-editorial-banner",
+          "name": "Hero / Editorial banner"
+        },
+        {
+          "id": "d-hero-editorial-header",
+          "name": "Hero / Editorial header"
+        }
+      ]
+    },
+    {
+      "group": "03 · Content Panels",
+      "components": [
+        {
+          "id": "d-split-content-4-variants",
+          "name": "Split Content / 4 variants"
+        },
+        {
+          "id": "d-split-content-horizontal-icon-callout",
+          "name": "Split Content / Horizontal icon callout"
+        },
+        {
+          "id": "d-split-content-40-60-stacked-list-photo",
+          "name": "Split Content / 40-60 stacked list + photo"
+        },
+        {
+          "id": "d-quote-band",
+          "name": "Quote Band"
+        },
+        {
+          "id": "d-faq-accordion",
+          "name": "FAQ Accordion"
+        },
+        {
+          "id": "d-comparison-table",
+          "name": "Comparison Table"
+        }
+      ]
+    },
+    {
+      "group": "04 · CTAs & Buttons",
+      "components": [
+        {
+          "id": "d-button-text-link",
+          "name": "Button + Text Link"
+        },
+        {
+          "id": "d-cta-banner-blue-dark-charcoal",
+          "name": "CTA Banner / Blue + Dark Charcoal"
+        },
+        {
+          "id": "d-cta-banner-light",
+          "name": "CTA Banner / Light"
+        },
+        {
+          "id": "d-cta-banner-full-photo-overlay",
+          "name": "CTA Banner / Full-photo overlay"
+        }
+      ]
+    },
+    {
+      "group": "05 · Cards & Grids",
+      "components": [
+        {
+          "id": "d-canonical-card-4-variants",
+          "name": "Canonical Card / 4 variants"
+        },
+        {
+          "id": "d-featured-resources",
+          "name": "Featured Resources"
+        },
+        {
+          "id": "d-related-content-row",
+          "name": "Related Content Row"
+        },
+        {
+          "id": "d-filterable-index-grid",
+          "name": "Filterable Index Grid"
+        },
+        {
+          "id": "d-icon-grid-headline-left-2-3",
+          "name": "Icon Grid / Headline left 2×3"
+        },
+        {
+          "id": "d-icon-grid-4-col-with-body",
+          "name": "Icon Grid / 4-col with body"
+        },
+        {
+          "id": "d-icon-grid-3-col-spacious",
+          "name": "Icon Grid / 3-col spacious"
+        },
+        {
+          "id": "d-icon-grid-4-col-spacious",
+          "name": "Icon Grid / 4-col spacious"
+        },
+        {
+          "id": "d-projects-photo-mosaic",
+          "name": "Projects Photo Mosaic"
+        },
+        {
+          "id": "d-image-gallery",
+          "name": "Image Gallery"
+        },
+        {
+          "id": "d-leadership-card",
+          "name": "Leadership Card"
+        }
+      ]
+    },
+    {
+      "group": "06 · Data & Company",
+      "components": [
+        {
+          "id": "d-stats-row",
+          "name": "Stats Row"
+        },
+        {
+          "id": "d-timeline-vertical",
+          "name": "Timeline / Vertical"
+        },
+        {
+          "id": "d-process-steps",
+          "name": "Process Steps"
+        },
+        {
+          "id": "d-core-values",
+          "name": "Core Values"
+        },
+        {
+          "id": "d-benefits-grid",
+          "name": "Benefits Grid"
+        }
+      ]
+    },
+    {
+      "group": "07 · Product Detail & Media",
+      "components": [
+        {
+          "id": "d-carbonshield",
+          "name": "CARBONSHIELD®"
+        },
+        {
+          "id": "d-assembly-specifications",
+          "name": "Assembly + Specifications"
+        },
+        {
+          "id": "d-finishes-guide-graphic-cta",
+          "name": "Finishes Guide · Graphic CTA"
+        },
+        {
+          "id": "d-system-overview-materials",
+          "name": "System Overview + Materials"
+        },
+        {
+          "id": "d-video-module-4-variants",
+          "name": "Video Module / 4 variants"
+        }
+      ]
+    },
+    {
+      "group": "08 · Forms",
+      "components": [
+        {
+          "id": "d-form-contact",
+          "name": "Form / Contact"
+        },
+        {
+          "id": "d-form-newsletter",
+          "name": "Form / Newsletter"
+        }
+      ]
+    }
+  ],
+  "mobileKit": [
+    {
+      "id": "m-header",
+      "name": "Header / Over photo"
+    },
+    {
+      "id": "m-menu",
+      "name": "Header / Menu open"
+    },
+    {
+      "id": "m-announcement",
+      "name": "Announcement Bar"
+    },
+    {
+      "id": "m-signoff",
+      "name": "Brand Sign-off Band"
+    },
+    {
+      "id": "m-footer",
+      "name": "Footer"
+    },
+    {
+      "id": "m-hero-standard",
+      "name": "Hero / Standard interior"
+    },
+    {
+      "id": "m-hero-home",
+      "name": "Hero / Homepage overlay"
+    },
+    {
+      "id": "m-hero-index",
+      "name": "Hero / Index"
+    },
+    {
+      "id": "m-hero-editorial",
+      "name": "Hero / Editorial header"
+    },
+    {
+      "id": "m-split",
+      "name": "Split Content / Stacked"
+    },
+    {
+      "id": "m-split-bullets",
+      "name": "Split Content / Bulleted"
+    },
+    {
+      "id": "m-icon-callout",
+      "name": "Horizontal Icon Callout"
+    },
+    {
+      "id": "m-stacked-list",
+      "name": "Stacked List + Photo"
+    },
+    {
+      "id": "m-quote",
+      "name": "Quote Band"
+    },
+    {
+      "id": "m-faq",
+      "name": "FAQ Accordion"
+    },
+    {
+      "id": "m-compare",
+      "name": "Comparison Table"
+    },
+    {
+      "id": "m-cta-blue",
+      "name": "CTA Banner / Blue"
+    },
+    {
+      "id": "m-cta-charcoal",
+      "name": "CTA Banner / Dark Charcoal"
+    },
+    {
+      "id": "m-cta-light",
+      "name": "CTA Banner / Light"
+    },
+    {
+      "id": "m-cta-photo",
+      "name": "CTA Banner / Full-photo overlay"
+    },
+    {
+      "id": "m-buttons",
+      "name": "Button + Text Link"
+    },
+    {
+      "id": "m-card",
+      "name": "Canonical Card / Standard"
+    },
+    {
+      "id": "m-resources",
+      "name": "Featured Resources / Swipe row"
+    },
+    {
+      "id": "m-related",
+      "name": "Related Content Row"
+    },
+    {
+      "id": "m-index",
+      "name": "Filterable Index Grid"
+    },
+    {
+      "id": "m-icongrid",
+      "name": "Icon Grid"
+    },
+    {
+      "id": "m-mosaic",
+      "name": "Projects Photo Mosaic"
+    },
+    {
+      "id": "m-gallery",
+      "name": "Image Gallery"
+    },
+    {
+      "id": "m-leader",
+      "name": "Leadership Card"
+    },
+    {
+      "id": "m-stats",
+      "name": "Stats Row"
+    },
+    {
+      "id": "m-timeline",
+      "name": "Timeline / Vertical"
+    },
+    {
+      "id": "m-process",
+      "name": "Process Steps"
+    },
+    {
+      "id": "m-values",
+      "name": "Core Values"
+    },
+    {
+      "id": "m-benefits",
+      "name": "Benefits Grid"
+    },
+    {
+      "id": "m-carbonshield",
+      "name": "CARBONSHIELD®"
+    },
+    {
+      "id": "m-assembly",
+      "name": "Assembly + Specifications"
+    },
+    {
+      "id": "m-finishes",
+      "name": "Finishes Guide · Graphic CTA"
+    },
+    {
+      "id": "m-overview",
+      "name": "System Overview + Materials"
+    },
+    {
+      "id": "m-video",
+      "name": "Video Module"
+    },
+    {
+      "id": "m-form",
+      "name": "Form / Contact"
+    },
+    {
+      "id": "m-announcement",
+      "name": "Announcement Bar"
+    },
+    {
+      "id": "m-stacked-list",
+      "name": "Stacked List + Photo"
+    },
+    {
+      "id": "m-related",
+      "name": "Related Content Row"
+    },
+    {
+      "id": "m-benefits",
+      "name": "Benefits Grid"
+    }
+  ],
+  "pages": [
+    {
+      "file": "about-us.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Split Content",
+        "Stats Row",
+        "Core Values",
+        "Timeline",
+        "Split Content",
+        "Split Content",
+        "Split Content",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "accelcore.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Icon Grid",
+        "Stats Row",
+        "Video Module",
+        "CARBONSHIELD",
+        "Split Content",
+        "FAQ Accordion",
+        "Related Content Row",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "acceldeck.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Icon Grid",
+        "Comparison Table",
+        "Assembly + Specifications",
+        "FAQ Accordion",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "accelgen.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Split Content",
+        "Icon Grid",
+        "Stats Row",
+        "Split Content",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "accelshell.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Quote Band",
+        "Split Content",
+        "Assembly + Specifications",
+        "FAQ Accordion",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "architectural-precast.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Icon Grid",
+        "Assembly + Specifications",
+        "Split Content",
+        "Projects Photo Mosaic",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "article.html",
+      "sections": [
+        "Header + Hero / Editorial header",
+        "One-off: Article Body",
+        "Related Content Row"
+      ]
+    },
+    {
+      "file": "blog.html",
+      "sections": [
+        "Header + Hero / Index",
+        "Filterable Index Grid"
+      ]
+    },
+    {
+      "file": "building-envelope.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Card / Standard (grid)",
+        "Split Content",
+        "Icon Grid",
+        "Split Content",
+        "Projects Photo Mosaic",
+        "Finishes Guide",
+        "CTA Banner / Light"
+      ]
+    },
+    {
+      "file": "careers.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Split Content",
+        "Split Content",
+        "Benefits Grid",
+        "Core Values",
+        "One-off: Open Positions",
+        "Split Content",
+        "Quote Band",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "contact.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Form / Contact",
+        "One-off: Locations",
+        "Split Content"
+      ]
+    },
+    {
+      "file": "data-centers.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Card / Standard (grid)",
+        "Icon Grid",
+        "Stats Row",
+        "Split Content",
+        "Process Steps",
+        "One-off: Structural Components Strip",
+        "Finishes Guide",
+        "Featured Resources",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "design-assist.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Split Content",
+        "Icon Grid",
+        "Image Gallery",
+        "Projects Photo Mosaic",
+        "Featured Resources",
+        "CTA Banner / Light"
+      ]
+    },
+    {
+      "file": "design-build.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "One-off: Tagline Statement Band",
+        "Split Content",
+        "Icon Grid",
+        "Finishes Guide",
+        "Quote Band",
+        "Image Gallery",
+        "Projects Photo Mosaic",
+        "Featured Resources",
+        "CTA Banner / Light"
+      ]
+    },
+    {
+      "file": "finishes.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "One-off: Finish Categories",
+        "One-off: Full Swatch Grid",
+        "Split Content",
+        "Finishes Guide"
+      ]
+    },
+    {
+      "file": "gfrc.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Split Content",
+        "Assembly + Specifications",
+        "Projects Photo Mosaic",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "glass-and-glazing.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Split Content",
+        "One-off: Glazing Configurations",
+        "One-off: Performance Standards",
+        "Projects Photo Mosaic",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "homepage.html",
+      "sections": [
+        "Header + Hero / Homepage overlay",
+        "Split Content",
+        "Filterable Index Grid",
+        "Projects Photo Mosaic",
+        "Split Content",
+        "CTA Banner / Blue",
+        "Brand Sign-off Band"
+      ]
+    },
+    {
+      "file": "in-the-news.html",
+      "sections": [
+        "Header + Hero / Index",
+        "Filterable Index Grid"
+      ]
+    },
+    {
+      "file": "infinite-facade.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "One-off: Section Divider",
+        "System Overview + Materials",
+        "Split Content",
+        "Split Content",
+        "Split Content",
+        "Stats Row",
+        "Split Content",
+        "Projects Photo Mosaic",
+        "Related Content Row",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "lab-solutions.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Split Content",
+        "Split Content",
+        "Card / Standard (grid)",
+        "CARBONSHIELD",
+        "Related Content Row",
+        "Featured Resources",
+        "CTA Banner / Light"
+      ]
+    },
+    {
+      "file": "leadership.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Split Content",
+        "Leadership Card",
+        "Leadership Card",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "netzero-building-platform.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Video Module",
+        "CARBONSHIELD",
+        "Split Content",
+        "Icon Grid",
+        "Split Content",
+        "Split Content",
+        "Split Content",
+        "Quote Band",
+        "FAQ Accordion",
+        "Projects Photo Mosaic",
+        "Featured Resources",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "news-article.html",
+      "sections": [
+        "Header + Hero / Editorial header",
+        "One-off: Article Body",
+        "Related Content Row"
+      ]
+    },
+    {
+      "file": "our-approach.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Split Content",
+        "Icon Grid",
+        "CTA Banner / Dark Charcoal",
+        "Split Content",
+        "Split Content",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "parc.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Video Module",
+        "Icon Grid",
+        "Icon Grid",
+        "CARBONSHIELD",
+        "Finishes Guide",
+        "Quote Band",
+        "FAQ Accordion",
+        "Image Gallery",
+        "Projects Photo Mosaic",
+        "Featured Resources",
+        "CTA Banner / Light"
+      ]
+    },
+    {
+      "file": "parking.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Card / Standard (grid)",
+        "Split Content",
+        "Stats Row",
+        "Projects Photo Mosaic",
+        "Quote Band",
+        "FAQ Accordion",
+        "Featured Resources",
+        "CTA Banner / Light"
+      ]
+    },
+    {
+      "file": "phmf.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Split Content",
+        "Projects Photo Mosaic",
+        "Featured Resources",
+        "CTA Banner / Light"
+      ]
+    },
+    {
+      "file": "podcast-episode.html",
+      "sections": [
+        "Header + Hero / Editorial header",
+        "One-off: Episode Body",
+        "Filterable Index Grid"
+      ]
+    },
+    {
+      "file": "podcast.html",
+      "sections": [
+        "Header + Hero / Index",
+        "One-off: Latest Episode Featured",
+        "Filterable Index Grid",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "project-detail.html",
+      "sections": [
+        "Header + Hero / Editorial header",
+        "One-off: Project Title + Location Band",
+        "One-off: Main Content + Sidebar",
+        "Quote Band",
+        "Related Content Row",
+        "Related Content Row",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "projects.html",
+      "sections": [
+        "Header + Hero / Index",
+        "Filterable Index Grid",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "resources.html",
+      "sections": [
+        "Header + Hero / Index",
+        "Filterable Index Grid"
+      ]
+    },
+    {
+      "file": "structural-solutions.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Card / Standard (grid)",
+        "Icon Grid",
+        "Quote Band",
+        "FAQ Accordion",
+        "Projects Photo Mosaic",
+        "Featured Resources",
+        "CTA Banner / Blue"
+      ]
+    },
+    {
+      "file": "sustainability.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Stats Row",
+        "Icon Grid",
+        "Split Content",
+        "One-off: EPD & Credentials",
+        "Video Module",
+        "CTA Banner / Light"
+      ]
+    },
+    {
+      "file": "trade-partner.html",
+      "sections": [
+        "Header + Hero / Standard interior",
+        "Split Content",
+        "One-off: Two Paths",
+        "Projects Photo Mosaic"
+      ]
+    },
+    {
+      "file": "webinar-detail.html",
+      "sections": [
+        "Header + Hero / Editorial header",
+        "One-off: Video + Sidebar",
+        "Filterable Index Grid"
+      ]
+    },
+    {
+      "file": "webinars.html",
+      "sections": [
+        "Header + Hero / Index",
+        "Filterable Index Grid"
+      ]
+    }
+  ]
+}

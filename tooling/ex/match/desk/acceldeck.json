@@ -1,0 +1,1069 @@
+{
+ "file": "acceldeck.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Desktop",
+   "id": "19:174",
+   "score": 33.2,
+   "fit": 1,
+   "hr": 0.95,
+   "vh": 890,
+   "h": 844,
+   "pieces": [
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Desktop",
+     "id": "19:174",
+     "overrides": [
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Products · Data Centers"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 1,
+       "new": "AccelDeck™"
+      },
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Elevated Chiller Support System"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 2,
+       "new": "AccelDeck™"
+      },
+      {
+       "old": "A complete prefabricated data center solution.",
+       "occ": 1,
+       "new": "Accelerates schedules an additional 4–8 weeks."
+      },
+      {
+       "old": "Structural precast systems and exterior wall panels for mission-critical data centers — integrating early design-assist and in-house manufacturing to support accelerated schedules, sustainability goals, and project predictability.",
+       "occ": 1,
+       "new": "Clark Pacific's prefabricated AccelDeck™ complements the total prefabricated structural system — further accelerating the construction schedule, streamlining chiller installation, and improving long-term accessibility."
+      },
+      {
+       "old": "Get Started",
+       "occ": 1,
+       "new": "Download Datasheet"
+      },
+      {
+       "old": "View Webinar",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6",
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Clark Pacific is expanding to the Pacific Northwest — new plant opening Q3 2026.",
+       "r": "body"
+      },
+      {
+       "c": "Learn more →",
+       "r": "title"
+      },
+      {
+       "c": "Our Products",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Projects",
+       "r": "label"
+      },
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Contact",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Products · Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "AccelDeck™",
+       "r": "body"
+      },
+      {
+       "c": "Elevated Chiller Support System",
+       "r": "label"
+      },
+      {
+       "c": "AccelDeck™",
+       "r": "head"
+      },
+      {
+       "c": "Accelerates schedules an additional 4–8 weeks.",
+       "r": "head"
+      },
+      {
+       "c": "Clark Pacific's prefabricated AccelDeck™ complements the total prefabricated structural system — further accelerating the construction schedule, streamlining chiller installation, and improving long-term accessibility.",
+       "r": "body"
+      },
+      {
+       "c": "Download Datasheet",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 8,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 844,
+   "tag": "Icon Grid",
+   "kind": "instance",
+   "set": "Icon Grid",
+   "variant": "Layout=3-col spacious, Breakpoint=Desktop",
+   "id": "25:405",
+   "score": 26,
+   "fit": 1,
+   "hr": 0.99,
+   "vh": 550,
+   "h": 546,
+   "pieces": [
+    {
+     "set": "Icon Grid",
+     "variant": "Layout=3-col spacious, Breakpoint=Desktop",
+     "id": "25:405",
+     "overrides": [
+      {
+       "old": "Advantages of a prefabricated precast data center",
+       "occ": 1,
+       "new": "AccelDeck™ advantages",
+       "runs": [
+        [
+         11,
+         300
+        ],
+        [
+         10,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Structural Flexibility",
+       "occ": 1,
+       "new": "Elevated Chiller Decks"
+      },
+      {
+       "old": "Adapts to future expansion.",
+       "occ": 1,
+       "new": "Elevated support for chillers, tanks, and cooling equipment above the building — preserving grade-level circulation and site perimeter."
+      },
+      {
+       "old": "Faster Schedule",
+       "occ": 1,
+       "new": "Long Span Structural Deck"
+      },
+      {
+       "old": "Parallel offsite fabrication.",
+       "occ": 1,
+       "new": "Clear spans support heavy equipment and flexible layouts — customizable beam profile and spacing accommodates most chiller models."
+      },
+      {
+       "old": "Lower Total Cost",
+       "occ": 1,
+       "new": "Factory-Integrated MEP"
+      },
+      {
+       "old": "Reduced rework.",
+       "occ": 1,
+       "new": "Structural embeds allow direct mechanical and electrical connections — plant-installed Unistrut supports chilled-water piping and related equipment."
+      },
+      {
+       "old": "Predictable Delivery",
+       "occ": 1,
+       "new": "Mechanical Expansion Zones"
+      },
+      {
+       "old": "Factory-controlled production + delivery.",
+       "occ": 1,
+       "new": "Day 1 & Day 2 zones enable infrastructure expansion without redesign — future capacity planned from the start."
+      },
+      {
+       "old": "Sustainable, Low-Carbon Options",
+       "occ": 1,
+       "new": "Integrated Hanging Hardware"
+      },
+      {
+       "old": "Lower embodied carbon.",
+       "occ": 1,
+       "new": "Plant-installed Unistrut and embeds enable piping, cable trays, and AHUs to be hung directly from the structure without field drilling."
+      },
+      {
+       "old": "Resilient and Durable Materials",
+       "occ": 1,
+       "new": "Embedded Pathways + Conduit Sleeves"
+      },
+      {
+       "old": "Fire and weather resistant.",
+       "occ": 1,
+       "new": "Built-in raceways and supports streamline field installation of MEP and electrical systems."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "AccelDeck™ advantages",
+       "r": "head",
+       "w": [
+        [
+         11,
+         300,
+         49
+        ],
+        [
+         10,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "Elevated Chiller Decks",
+       "r": "label"
+      },
+      {
+       "c": "Elevated support for chillers, tanks, and cooling equipment above the building — preserving grade-level circulation and site perimeter.",
+       "r": "body"
+      },
+      {
+       "c": "Long Span Structural Deck",
+       "r": "label"
+      },
+      {
+       "c": "Clear spans support heavy equipment and flexible layouts — customizable beam profile and spacing accommodates most chiller models.",
+       "r": "body"
+      },
+      {
+       "c": "Factory-Integrated MEP",
+       "r": "label"
+      },
+      {
+       "c": "Structural embeds allow direct mechanical and electrical connections — plant-installed Unistrut supports chilled-water piping and related equipment.",
+       "r": "body"
+      },
+      {
+       "c": "Mechanical Expansion Zones",
+       "r": "label"
+      },
+      {
+       "c": "Day 1 & Day 2 zones enable infrastructure expansion without redesign — future capacity planned from the start.",
+       "r": "body"
+      },
+      {
+       "c": "Integrated Hanging Hardware",
+       "r": "label"
+      },
+      {
+       "c": "Plant-installed Unistrut and embeds enable piping, cable trays, and AHUs to be hung directly from the structure without field drilling.",
+       "r": "body"
+      },
+      {
+       "c": "Embedded Pathways + Conduit Sleeves",
+       "r": "label"
+      },
+      {
+       "c": "Built-in raceways and supports streamline field installation of MEP and electrical systems.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 13,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 1390,
+   "tag": "Comparison Table",
+   "kind": "instance",
+   "set": "Comparison Table",
+   "variant": "Breakpoint=Desktop",
+   "id": "22:220",
+   "score": -2.2,
+   "fit": 0.6,
+   "hr": 0.7,
+   "vh": 640,
+   "h": 911,
+   "pieces": [
+    {
+     "set": "Comparison Table",
+     "variant": "Breakpoint=Desktop",
+     "id": "22:220",
+     "overrides": [
+      {
+       "old": "PHMF vs. conventional shear wall",
+       "occ": 1,
+       "new": "Elevated mechanical platform vs. at-grade mechanical yard",
+       "runs": [
+        [
+         29,
+         300
+        ],
+        [
+         28,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Weeks faster — fabricated off-site in parallel with sitework",
+       "occ": 1,
+       "new": "AccelDeck™ moves chillers and primary distribution above the data center — keeping grade-level circulation, walls, and site perimeter clean. The prefabricated platform organizes routing, access, embeds, and equipment support into one repeatable system for faster, more predictable installation."
+      },
+      {
+       "old": "Field-dependent, weather-exposed",
+       "occ": 1,
+       "new": "Traditional at-grade chiller yards consume valuable site area and crowd the perimeter with exposed equipment, piping, headers, and field-built steel — increasing trade coordination, constraining access, and reducing flexibility for generators, electrical yards, and future expansion."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific",
+       "occ": 1
+      },
+      {
+       "old": "PHMF",
+       "occ": 1
+      },
+      {
+       "old": "Cast-in-place shear wall",
+       "occ": 1
+      },
+      {
+       "old": "Construction schedule",
+       "occ": 1
+      },
+      {
+       "old": "Sequential — formed, poured and cured on-site",
+       "occ": 1
+      },
+      {
+       "old": "Seismic performance",
+       "occ": 1
+      },
+      {
+       "old": "High-ductility rocking system, self-centering",
+       "occ": 1
+      },
+      {
+       "old": "Conventional stiffness, residual drift",
+       "occ": 1
+      },
+      {
+       "old": "Site labor",
+       "occ": 1
+      },
+      {
+       "old": "Minimal — set and connect",
+       "occ": 1
+      },
+      {
+       "old": "Extensive forming and rebar tying",
+       "occ": 1
+      },
+      {
+       "old": "Quality control",
+       "occ": 1
+      },
+      {
+       "old": "Factory QA under controlled conditions",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:117",
+      "5:136"
+     ],
+     "texts": [
+      {
+       "c": "Elevated mechanical platform vs. at-grade mechanical yard",
+       "r": "head",
+       "w": [
+        [
+         29,
+         300,
+         45
+        ],
+        [
+         28,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "AccelDeck™ Elevated",
+       "r": "title"
+      },
+      {
+       "c": "AccelDeck™ moves chillers and primary distribution above the data center — keeping grade-level circulation, walls, and site perimeter clean. The prefabricated platform organizes routing, access, embeds, and equipment support into one repeatable system for faster, more predictable installation.",
+       "r": "body"
+      },
+      {
+       "c": "Traditional At-Grade",
+       "r": "title"
+      },
+      {
+       "c": "Traditional at-grade chiller yards consume valuable site area and crowd the perimeter with exposed equipment, piping, headers, and field-built steel — increasing trade coordination, constraining access, and reducing flexibility for generators, electrical yards, and future expansion.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "AccelDeck™ Elevated",
+    "Traditional At-Grade"
+   ],
+   "nov": 3,
+   "nhide": 13,
+   "hideItems": []
+  },
+  {
+   "top": 2301,
+   "tag": "Assembly + Specifications",
+   "kind": "instance",
+   "set": "Assembly + Specifications",
+   "variant": "Breakpoint=Desktop",
+   "id": "33:1020",
+   "score": 16.5,
+   "fit": 0.72,
+   "hr": 0.92,
+   "vh": 1090,
+   "h": 1180,
+   "pieces": [
+    {
+     "set": "Assembly + Specifications",
+     "variant": "Breakpoint=Desktop",
+     "id": "33:1020",
+     "overrides": [
+      {
+       "old": "Assembly + specifications",
+       "occ": 1,
+       "new": "Supporting next-generation data centers",
+       "runs": [
+        [
+         27,
+         300
+        ],
+        [
+         12,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Panel thickness",
+       "occ": 1,
+       "new": "Customizable Grids"
+      },
+      {
+       "old": "Maximum panel size",
+       "occ": 1,
+       "new": "Load Capacity"
+      },
+      {
+       "old": "Finish options",
+       "occ": 1,
+       "new": "Integration"
+      },
+      {
+       "old": "Connections",
+       "occ": 1,
+       "new": "Built-in features"
+      },
+      {
+       "old": "Spec value",
+       "occ": 4,
+       "new": "Embedded Strut-Channel Inserts"
+      },
+      {
+       "old": "Spec value",
+       "occ": 5,
+       "new": "Easy Installation and Maintenance"
+      },
+      {
+       "old": "High-Rise Office + Residential",
+       "occ": 1,
+       "new": "Moveable Grates"
+      },
+      {
+       "old": "Emphasizing prestige, luxury, and architectural appeal — with the durability to perform for decades.",
+       "occ": 1,
+       "new": "Factory-installed grating with moveable sections improves maintenance access in completed data centers."
+      },
+      {
+       "old": "Lower-Rise Commercial",
+       "occ": 1,
+       "new": "Integrated Hardware for Hanging Loads"
+      },
+      {
+       "old": "Where economy and durability are paramount — cost-effective production without sacrificing quality or design.",
+       "occ": 1,
+       "new": "Plant-installed, embedded strut-channel inserts support chilled-water piping, cable trays, and related mechanical equipment."
+      },
+      {
+       "old": "Mission Critical + Secure",
+       "occ": 1,
+       "new": "Accelerated Construction"
+      },
+      {
+       "old": "Supports blast and ballistics performance requirements — ideal for government, defense, and mission-critical facilities.",
+       "occ": 1,
+       "new": "Incorporating AccelDeck™ into a prefabricated precast data center can reduce project timelines by months — an additional 4–8 weeks of schedule compression."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Spec value",
+       "occ": 1
+      },
+      {
+       "old": "Spec value",
+       "occ": 2
+      },
+      {
+       "old": "Spec value",
+       "occ": 3
+      },
+      {
+       "old": "Fire rating",
+       "occ": 1
+      },
+      {
+       "old": "Right for your project type",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:117",
+      "5:117",
+      "5:117",
+      "5:117",
+      "5:117"
+     ],
+     "texts": [
+      {
+       "c": "Supporting next-generation data centers",
+       "r": "head",
+       "w": [
+        [
+         27,
+         300,
+         45
+        ],
+        [
+         12,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Customizable Grids",
+       "r": "label"
+      },
+      {
+       "c": "Beam profile and spacing accommodates most chiller models — giving owners flexibility to procure different chillers late in the manufacturing phase, even allowing future replacements without modifying the underlying support.",
+       "r": "body"
+      },
+      {
+       "c": "Load Capacity",
+       "r": "label"
+      },
+      {
+       "c": "Standard configuration supports chiller, tanks, and equipment with weights up to 40,000 lbs. Design can be customized to accommodate more challenging configurations.",
+       "r": "body"
+      },
+      {
+       "c": "Integration",
+       "r": "label"
+      },
+      {
+       "c": "Fully compatible with Clark Pacific's AccelCore™ structural system, ensuring durability, longevity, and seamless integration with the overall project.",
+       "r": "body"
+      },
+      {
+       "c": "Built-in features",
+       "r": "label"
+      },
+      {
+       "c": "Embedded Strut-Channel Inserts",
+       "r": "title"
+      },
+      {
+       "c": "Simplifies pipe and equipment installations, creating flexible attachment points for hanging MEP and IT loads without field drilling.",
+       "r": "body"
+      },
+      {
+       "c": "Easy Installation and Maintenance",
+       "r": "title"
+      },
+      {
+       "c": "Six foot plus heights provide easy access for maintenance and future equipment upgrades — planned from day one.",
+       "r": "body"
+      },
+      {
+       "c": "Moveable Grates",
+       "r": "title"
+      },
+      {
+       "c": "Factory-installed grating with moveable sections improves maintenance access in completed data centers.",
+       "r": "body"
+      },
+      {
+       "c": "Integrated Hardware for Hanging Loads",
+       "r": "title"
+      },
+      {
+       "c": "Plant-installed, embedded strut-channel inserts support chilled-water piping, cable trays, and related mechanical equipment.",
+       "r": "body"
+      },
+      {
+       "c": "Accelerated Construction",
+       "r": "title"
+      },
+      {
+       "c": "Incorporating AccelDeck™ into a prefabricated precast data center can reduce project timelines by months — an additional 4–8 weeks of schedule compression.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Beam profile and spacing accommodates most chiller models — giving owners flexibility to procure different chillers late in the manufacturing phase, even allowing future replacements without modifying the underlying support.",
+    "Standard configuration supports chiller, tanks, and equipment with weights up to 40,000 lbs. Design can be customized to accommodate more challenging configurations.",
+    "Fully compatible with Clark Pacific's AccelCore™ structural system, ensuring durability, longevity, and seamless integration with the overall project.",
+    "Simplifies pipe and equipment installations, creating flexible attachment points for hanging MEP and IT loads without field drilling.",
+    "Six foot plus heights provide easy access for maintenance and future equipment upgrades — planned from day one."
+   ],
+   "nov": 13,
+   "nhide": 5,
+   "hideItems": []
+  },
+  {
+   "top": 3481,
+   "tag": "FAQ Accordion",
+   "kind": "instance",
+   "set": "FAQ Accordion",
+   "variant": "Breakpoint=Desktop",
+   "id": "9:2",
+   "score": 15.8,
+   "fit": 1,
+   "hr": 0.96,
+   "vh": 661,
+   "h": 635,
+   "pieces": [
+    {
+     "set": "FAQ Accordion",
+     "variant": "Breakpoint=Desktop",
+     "id": "9:2",
+     "overrides": [
+      {
+       "old": "Frequently Asked Questions",
+       "occ": 1,
+       "new": "Frequently asked questions",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         9,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "What is Infinite Facade® and what's included?",
+       "occ": 1,
+       "new": "What is AccelDeck™?"
+      },
+      {
+       "old": "A unitized prefabricated building envelope — a structural frame with your choice of Concrete or GFRC skin, off-the-shelf high-tolerance connections, and up to 4\" of factory-installed HFO spray-foam insulation.",
+       "occ": 1,
+       "new": "AccelDeck™ is Clark Pacific's prefabricated mechanical platform solution for data centers. It supports and coordinates rooftop mechanical equipment, MEP platform zones, access areas, embeds, penetrations, grating, support points, and equipment interfaces as part of a more complete prefabricated building strategy."
+      },
+      {
+       "old": "What finishes and veneers can be applied to the frame?",
+       "occ": 1,
+       "new": "Why choose AccelDeck™ instead of a field-built steel mechanical platform?"
+      },
+      {
+       "old": "How does Infinite Facade improve the construction schedule?",
+       "occ": 1,
+       "new": "How does AccelDeck™ support heavy loads and future flexibility?"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Can it accommodate full-height windows and custom geometry?",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Frequently asked questions",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         9,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "What is AccelDeck™?",
+       "r": "title"
+      },
+      {
+       "c": "–",
+       "r": "glyph"
+      },
+      {
+       "c": "AccelDeck™ is Clark Pacific's prefabricated mechanical platform solution for data centers. It supports and coordinates rooftop mechanical equipment, MEP platform zones, access areas, embeds, penetrations, grating, support points, and equipment interfaces as part of a more complete prefabricated building strategy.",
+       "r": "body"
+      },
+      {
+       "c": "Why choose AccelDeck™ instead of a field-built steel mechanical platform?",
+       "r": "title"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "How does AccelDeck™ support heavy loads and future flexibility?",
+       "r": "title"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 5,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 4116,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+   "id": "23:206",
+   "score": 7.8,
+   "fit": 1,
+   "hr": 0.73,
+   "vh": 513,
+   "h": 376,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+     "id": "23:206",
+     "overrides": [
+      {
+       "old": "Ready to accelerate your next project?",
+       "occ": 1,
+       "new": "Learn how AccelDeck™ can improve your project schedule",
+       "runs": [
+        [
+         38,
+         300
+        ],
+        [
+         16,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Our team works as an extension of yours — from early design-assist through construction, with single-source accountability throughout.",
+       "occ": 1,
+       "new": "Coordinate AccelDeck™ into your prefabricated data center package for an additional 4–8 weeks of schedule compression."
+      },
+      {
+       "old": "View Projects",
+       "occ": 1,
+       "new": "Download Datasheet"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Talk to an Expert",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Learn how AccelDeck™ can improve your project schedule",
+       "r": "head",
+       "w": [
+        [
+         38,
+         300,
+         45
+        ],
+        [
+         16,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Coordinate AccelDeck™ into your prefabricated data center package for an additional 4–8 weeks of schedule compression.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Download Datasheet",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 4492,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4891,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

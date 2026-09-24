@@ -1,0 +1,1085 @@
+{
+ "file": "data-centers.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 11.6,
+   "fit": 1,
+   "hr": 0.86,
+   "vh": 771,
+   "h": 894,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Products · Data Centers"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "Prefabricated precast"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "data center solutions."
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "Structural precast systems and exterior wall panels for mission-critical facilities — with early design-assist and in-house manufacturing for accelerated schedules and project predictability."
+      },
+      {
+       "old": "Start a Conversation",
+       "occ": 1,
+       "new": "Explore Our Systems"
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Products · Data Centers",
+       "r": "label"
+      },
+      {
+       "c": "Prefabricated precast",
+       "r": "head"
+      },
+      {
+       "c": "data center solutions.",
+       "r": "head"
+      },
+      {
+       "c": "Structural precast systems and exterior wall panels for mission-critical facilities — with early design-assist and in-house manufacturing for accelerated schedules and project predictability.",
+       "r": "body"
+      },
+      {
+       "c": "Explore Our Systems",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 6,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 894,
+   "tag": "Card / Standard (grid)",
+   "kind": "page-specific",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:727",
+   "score": -4.5,
+   "fit": 0.35,
+   "hr": 0.25,
+   "vh": 563,
+   "h": 2270,
+   "pieces": [],
+   "unplaced": [
+    "Full Structural Systems",
+    "AccelCore™",
+    "Proven, scalable, and repeatable precast solutions for data centers and advanced manufacturing facilities — offering expedited schedules and robust structural resilience.",
+    "Learn More",
+    "Insulated Wall Panel",
+    "AccelShell™",
+    "A practical solution for commercial, industrial, and data center projects, whether used as cladding or as a load-bearing system. Customizable to project-specific thermal requirements.",
+    "AccelDeck™",
+    "A high-density prestressed deck system engineered to carry AI-era white-space loads and heavy rooftop mechanical platforms without compromise on schedule or cost.",
+    "AccelGen™",
+    "A factory-built mechanical platform system that further accelerates the construction schedule and streamlines chiller installation for hyperscale data center facilities."
+   ],
+   "nov": 6,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3163,
+   "tag": "Icon Grid",
+   "kind": "instance",
+   "set": "Icon Grid",
+   "variant": "Layout=Headline left 2×3, Breakpoint=Mobile",
+   "id": "25:613",
+   "score": 10.5,
+   "fit": 0.64,
+   "hr": 0.29,
+   "vh": 438,
+   "h": 1518,
+   "pieces": [
+    {
+     "set": "Icon Grid",
+     "variant": "Layout=Headline left 2×3, Breakpoint=Mobile",
+     "id": "25:613",
+     "overrides": [
+      {
+       "old": "Offsite benefits",
+       "occ": 1,
+       "new": "Structural data center advantages",
+       "runs": [
+        [
+         23,
+         300
+        ],
+        [
+         10,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Accelerated schedules",
+       "occ": 1,
+       "new": "Lower Total Cost"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 1,
+       "new": "Reduced rework, fewer field trades, and predictable logistics translate directly to tens of millions in savings per project."
+      },
+      {
+       "old": "Budget certainty",
+       "occ": 1,
+       "new": "Predictable Delivery"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 2,
+       "new": "Factory-controlled production and just-in-time delivery from our regional plants ensure panels arrive on your schedule, every time."
+      },
+      {
+       "old": "Less waste",
+       "occ": 1,
+       "new": "Sustainable, Low-Carbon"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 3,
+       "new": "CARBONSHIELD® mix designs reduce embodied carbon by 40% vs. traditional concrete — with EPDs available for every project."
+      },
+      {
+       "old": "Higher quality",
+       "occ": 1,
+       "new": "Resilient + Durable"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 4,
+       "new": "Precast concrete is inherently fire-resistant and seismically capable — built to protect your investment for decades."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:92",
+      "5:56",
+      "5:66",
+      "5:103",
+      "5:39",
+      "5:47"
+     ],
+     "texts": [
+      {
+       "c": "Why Clark Pacific",
+       "r": "label"
+      },
+      {
+       "c": "Structural data center advantages",
+       "r": "head",
+       "w": [
+        [
+         23,
+         300,
+         32
+        ],
+        [
+         10,
+         600,
+         32
+        ]
+       ]
+      },
+      {
+       "c": "Structural Flexibility",
+       "r": "label"
+      },
+      {
+       "c": "Precast systems adapt to future expansion — floor loads, column spacing, and openings can be engineered for tomorrow's demands.",
+       "r": "body"
+      },
+      {
+       "c": "Faster Schedule",
+       "r": "label"
+      },
+      {
+       "c": "Parallel offsite fabrication compresses the critical path by two to four months on a typical 100-megawatt data center build.",
+       "r": "body"
+      },
+      {
+       "c": "Lower Total Cost",
+       "r": "label"
+      },
+      {
+       "c": "Reduced rework, fewer field trades, and predictable logistics translate directly to tens of millions in savings per project.",
+       "r": "body"
+      },
+      {
+       "c": "Predictable Delivery",
+       "r": "label"
+      },
+      {
+       "c": "Factory-controlled production and just-in-time delivery from our regional plants ensure panels arrive on your schedule, every time.",
+       "r": "body"
+      },
+      {
+       "c": "Sustainable, Low-Carbon",
+       "r": "label"
+      },
+      {
+       "c": "CARBONSHIELD® mix designs reduce embodied carbon by 40% vs. traditional concrete — with EPDs available for every project.",
+       "r": "body"
+      },
+      {
+       "c": "Resilient + Durable",
+       "r": "label"
+      },
+      {
+       "c": "Precast concrete is inherently fire-resistant and seismically capable — built to protect your investment for decades.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Why Clark Pacific",
+    "Structural Flexibility",
+    "Precast systems adapt to future expansion — floor loads, column spacing, and openings can be engineered for tomorrow's demands.",
+    "Faster Schedule",
+    "Parallel offsite fabrication compresses the critical path by two to four months on a typical 100-megawatt data center build."
+   ],
+   "nov": 9,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4681,
+   "tag": "Stats Row",
+   "kind": "instance",
+   "set": "Stats Row",
+   "variant": "Breakpoint=Mobile",
+   "id": "31:935",
+   "score": 17.2,
+   "fit": 1,
+   "hr": 1,
+   "vh": 295,
+   "h": 294,
+   "pieces": [
+    {
+     "set": "Stats Row",
+     "variant": "Breakpoint=Mobile",
+     "id": "31:935",
+     "overrides": [
+      {
+       "old": "Sq ft delivered",
+       "occ": 1,
+       "new": "Sq ft of structural and enclosure systems"
+      },
+      {
+       "old": "Less embodied carbon",
+       "occ": 1,
+       "new": "Less embodied carbon with CARBONSHIELD®"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "2,216+",
+       "r": "head",
+       "w": [
+        [
+         5,
+         600,
+         40
+        ],
+        [
+         1,
+         600,
+         22
+        ]
+       ]
+      },
+      {
+       "c": "Megawatts",
+       "r": "body"
+      },
+      {
+       "c": "32",
+       "r": "head"
+      },
+      {
+       "c": "Data centers",
+       "r": "body"
+      },
+      {
+       "c": "13M+",
+       "r": "head",
+       "w": [
+        [
+         3,
+         600,
+         40
+        ],
+        [
+         1,
+         600,
+         22
+        ]
+       ]
+      },
+      {
+       "c": "Sq ft of structural and enclosure systems",
+       "r": "body"
+      },
+      {
+       "c": "~20%",
+       "r": "head",
+       "w": [
+        [
+         3,
+         600,
+         40
+        ],
+        [
+         1,
+         600,
+         22
+        ]
+       ]
+      },
+      {
+       "c": "Less embodied carbon with CARBONSHIELD®",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4975,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 5.7,
+   "fit": 0.8,
+   "hr": 0.8,
+   "vh": 732,
+   "h": 920,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+     "id": "21:408",
+     "overrides": [
+      {
+       "old": "Mission Critical Solutions",
+       "occ": 1,
+       "new": "Our Approach"
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 1,
+       "new": "Our offsite manufacturing approach reduces overall project risk through improved cost and schedule certainty and greater supply chain control — without compromising a project's overall design."
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 2,
+       "new": "Factory-fabricated structural components arrive on-site ready to erect, running parallel to foundation and MEP work to compress the critical path by two to four months on a typical 100MW facility."
+      },
+      {
+       "old": "Learn More",
+       "occ": 2,
+       "new": "Discover How We Are Different"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Learn More",
+       "occ": 1
+      },
+      {
+       "old": "Building Envelope Systems",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Why precast works for mission-critical data centers",
+       "r": "head",
+       "w": [
+        [
+         22,
+         300,
+         30
+        ],
+        [
+         16,
+         600,
+         30
+        ],
+        [
+         13,
+         300,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Our offsite manufacturing approach reduces overall project risk through improved cost and schedule certainty and greater supply chain control — without compromising a project's overall design.",
+       "r": "body"
+      },
+      {
+       "c": "Factory-fabricated structural components arrive on-site ready to erect, running parallel to foundation and MEP work to compress the critical path by two to four months on a typical 100MW facility.",
+       "r": "body"
+      },
+      {
+       "c": "Discover How We Are Different",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Why precast works for mission-critical data centers"
+   ],
+   "nov": 4,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 5895,
+   "tag": "Process Steps",
+   "kind": "instance",
+   "set": "Process Steps",
+   "variant": "Breakpoint=Mobile",
+   "id": "31:968",
+   "score": 6.4,
+   "fit": 0.6,
+   "hr": 0.32,
+   "vh": 408,
+   "h": 1260,
+   "pieces": [
+    {
+     "set": "Process Steps",
+     "variant": "Breakpoint=Mobile",
+     "id": "31:968",
+     "overrides": [
+      {
+       "old": "Design",
+       "occ": 1,
+       "new": "Early Design-Assist + Test Fit Services"
+      },
+      {
+       "old": "Step description.",
+       "occ": 1,
+       "new": "Our engineers engage at schematic design to optimize the structural system for your site, program, and schedule — before a single component is cast."
+      },
+      {
+       "old": "Manufacture",
+       "occ": 1,
+       "new": "Predictable Logistics + Installation"
+      },
+      {
+       "old": "Step description.",
+       "occ": 2,
+       "new": "Just-in-time delivery from our regional plants and a dedicated erection crew ensure panels arrive and go up on your schedule, every time."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Changing the game for data center construction",
+       "r": "head",
+       "w": [
+        [
+         22,
+         300,
+         32
+        ],
+        [
+         24,
+         600,
+         32
+        ]
+       ]
+      },
+      {
+       "c": "01",
+       "r": "head"
+      },
+      {
+       "c": "Early Design-Assist + Test Fit Services",
+       "r": "label"
+      },
+      {
+       "c": "Our engineers engage at schematic design to optimize the structural system for your site, program, and schedule — before a single component is cast.",
+       "r": "body"
+      },
+      {
+       "c": "02",
+       "r": "head"
+      },
+      {
+       "c": "In-House Manufacturing + QA/QC",
+       "r": "label"
+      },
+      {
+       "c": "Every component is manufactured in our California plants under rigorous quality control — with factory precision that field-built systems cannot match.",
+       "r": "body"
+      },
+      {
+       "c": "03",
+       "r": "head"
+      },
+      {
+       "c": "Predictable Logistics + Installation",
+       "r": "label"
+      },
+      {
+       "c": "Just-in-time delivery from our regional plants and a dedicated erection crew ensure panels arrive and go up on your schedule, every time.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Changing the game for data center construction",
+    "In-House Manufacturing + QA/QC",
+    "Every component is manufactured in our California plants under rigorous quality control — with factory precision that field-built systems cannot match.",
+    "03"
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 7155,
+   "tag": "One-off: Structural Components Strip",
+   "kind": "page-specific",
+   "h": 1286
+  },
+  {
+   "top": 8441,
+   "tag": "Finishes Guide",
+   "kind": "instance",
+   "set": "Finishes Guide · Graphic CTA",
+   "variant": "Breakpoint=Mobile",
+   "id": "32:1086",
+   "score": 4.9,
+   "fit": 0.75,
+   "hr": 0.26,
+   "vh": 619,
+   "h": 2361,
+   "pieces": [
+    {
+     "set": "Finishes Guide · Graphic CTA",
+     "variant": "Breakpoint=Mobile",
+     "id": "32:1086",
+     "overrides": [
+      {
+       "old": "Standard finishes guide",
+       "occ": 1,
+       "new": "AccelShell™ finishes guide",
+       "runs": [
+        [
+         12,
+         300
+        ],
+        [
+         14,
+         600
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:122"
+     ],
+     "texts": [
+      {
+       "c": "Free Download",
+       "r": "label"
+      },
+      {
+       "c": "AccelShell™ finishes guide",
+       "r": "head",
+       "w": [
+        [
+         12,
+         300,
+         30
+        ],
+        [
+         14,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Explore a wide range of standard colors, forms, textures, and finish combinations for our insulated wall panel systems — making it easy to align performance with aesthetics.",
+       "r": "body"
+      },
+      {
+       "c": "Download the Guide",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Explore a wide range of standard colors, forms, textures, and finish combinations for our insulated wall panel systems — making it easy to align performance with aesthetics."
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 10802,
+   "tag": "Featured Resources",
+   "kind": "page-specific",
+   "set": "Featured Resources",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:888",
+   "score": -4.8,
+   "fit": 0.33,
+   "hr": 0.28,
+   "vh": 517,
+   "h": 1828,
+   "pieces": [],
+   "unplaced": [
+    "Resources",
+    "View All Resources",
+    "Case Study",
+    "Mission Critical Data Centers",
+    "How Clark Pacific partnered with a leading wholesale data center developer to deliver three hyperscale facilities at unmatched speed and scale.",
+    "Read More",
+    "Full Structural Prefabricated Data Centers",
+    "Learn how prefabrication offers an efficient and more sustainable way to construct data centers, covering structural shell, envelope and mechanical integration.",
+    "AccelShell™ Finishes Guide",
+    "Standard colors, forms, textures and finish combinations for insulated wall panel systems."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 12630,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:349",
+   "score": 3.2,
+   "fit": 0.6,
+   "hr": 0.35,
+   "vh": 305,
+   "h": 872,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:349",
+     "overrides": [
+      {
+       "old": "Ready to build different?",
+       "occ": 1,
+       "new": "Ready to accelerate your next data center project?",
+       "runs": [
+        [
+         30,
+         300
+        ],
+        [
+         20,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Talk to our team about your next project.",
+       "occ": 1,
+       "new": "Our design-assist team works as an extension of yours — from early test fit through erection, with single-source accountability throughout."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Start a Conversation",
+       "r": "label"
+      },
+      {
+       "c": "Ready to accelerate your next data center project?",
+       "r": "head",
+       "w": [
+        [
+         30,
+         300,
+         32
+        ],
+        [
+         20,
+         600,
+         32
+        ]
+       ]
+      },
+      {
+       "c": "Our design-assist team works as an extension of yours — from early test fit through erection, with single-source accountability throughout.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "View Projects",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Start a Conversation",
+    "View Projects"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 13502,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 13894,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

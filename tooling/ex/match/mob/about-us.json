@@ -1,0 +1,964 @@
+{
+ "file": "about-us.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 11.6,
+   "fit": 1,
+   "hr": 0.98,
+   "vh": 771,
+   "h": 756,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Company"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "About"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "Clark Pacific."
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "To advance industrialized construction innovations and products for a safer, more sustainable, and predictable building environment."
+      },
+      {
+       "old": "Start a Conversation",
+       "occ": 1,
+       "new": "Our Story"
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Meet the Team"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "About",
+       "r": "head"
+      },
+      {
+       "c": "Clark Pacific.",
+       "r": "head"
+      },
+      {
+       "c": "To advance industrialized construction innovations and products for a safer, more sustainable, and predictable building environment.",
+       "r": "body"
+      },
+      {
+       "c": "Our Story",
+       "r": "label"
+      },
+      {
+       "c": "Meet the Team",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 6,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 756,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Mobile",
+   "id": "21:358",
+   "score": 8,
+   "fit": 1,
+   "hr": 0.34,
+   "vh": 327,
+   "h": 963,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Bulleted, Breakpoint=Mobile",
+     "id": "21:358",
+     "overrides": [
+      {
+       "old": "What's included",
+       "occ": 1,
+       "new": "From concrete to complete building systems",
+       "runs": [
+        [
+         13,
+         600
+        ],
+        [
+         29,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Structure, enclosure and openings in one system",
+       "occ": 1,
+       "new": "Founded as Tecon Pacific in 1963, Clark Pacific began in West Sacramento on a four-acre site with fifteen employees and James Clark as its general manager. With the support of dedicated engineering, manufacturing facilities, and field teams, the company grew rapidly during the early years of the industry in California. As new methods emerged for forming, casting, finishing, shipping, and on-site installation, Clark Pacific built those capabilities into a disciplined, repeatable delivery model used across diverse project types on the West Coast."
+      },
+      {
+       "old": "Engineered before components arrive on site",
+       "occ": 1,
+       "new": "Today, Clark Pacific is owned and managed by Jim Clark’s sons, Donald Clark and Robert Clark. They are committed to advancing prefabricated building systems with an emphasis on performance, resilience, and better project outcomes."
+      },
+      {
+       "old": "Faster erection and earlier dry-in",
+       "occ": 1,
+       "new": "A third generation of the Clark family is now helping lead the company’s next chapter, expanding nationally to support large-scale programs with an emphasis on speed, sustainability, and disciplined execution."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "From concrete to complete building systems",
+       "r": "head",
+       "w": [
+        [
+         13,
+         600,
+         30
+        ],
+        [
+         29,
+         300,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Founded as Tecon Pacific in 1963, Clark Pacific began in West Sacramento on a four-acre site with fifteen employees and James Clark as its general manager. With the support of dedicated engineering, manufacturing facilities, and field teams, the company grew rapidly during the early years of the industry in California. As new methods emerged for forming, casting, finishing, shipping, and on-site installation, Clark Pacific built those capabilities into a disciplined, repeatable delivery model used across diverse project types on the West Coast.",
+       "r": "body"
+      },
+      {
+       "c": "Today, Clark Pacific is owned and managed by Jim Clark’s sons, Donald Clark and Robert Clark. They are committed to advancing prefabricated building systems with an emphasis on performance, resilience, and better project outcomes.",
+       "r": "body"
+      },
+      {
+       "c": "A third generation of the Clark family is now helping lead the company’s next chapter, expanding nationally to support large-scale programs with an emphasis on speed, sustainability, and disciplined execution.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 1719,
+   "tag": "Stats Row",
+   "kind": "instance",
+   "set": "Stats Row",
+   "variant": "Breakpoint=Mobile",
+   "id": "31:935",
+   "score": 12.1,
+   "fit": 0.88,
+   "hr": 0.92,
+   "vh": 295,
+   "h": 271,
+   "pieces": [
+    {
+     "set": "Stats Row",
+     "variant": "Breakpoint=Mobile",
+     "id": "31:935",
+     "overrides": [
+      {
+       "old": "2,216+",
+       "occ": 1,
+       "new": "63+",
+       "runs": [
+        [
+         2,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Megawatts",
+       "occ": 1,
+       "new": "Years in business"
+      },
+      {
+       "old": "Data centers",
+       "occ": 1,
+       "new": "Manufacturing facilities"
+      },
+      {
+       "old": "13M+",
+       "occ": 1,
+       "new": "1000+",
+       "runs": [
+        [
+         4,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Sq ft delivered",
+       "occ": 1,
+       "new": "Employees"
+      },
+      {
+       "old": "~20%",
+       "occ": 1,
+       "new": "500M+",
+       "runs": [
+        [
+         4,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Less embodied carbon",
+       "occ": 1,
+       "new": "Sq ft manufactured"
+      }
+     ],
+     "hide": [
+      {
+       "old": "32",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "63+",
+       "r": "head",
+       "w": [
+        [
+         2,
+         600,
+         40
+        ],
+        [
+         1,
+         600,
+         22
+        ]
+       ]
+      },
+      {
+       "c": "Years in business",
+       "r": "body"
+      },
+      {
+       "c": "4",
+       "r": "glyph"
+      },
+      {
+       "c": "Manufacturing facilities",
+       "r": "body"
+      },
+      {
+       "c": "1000+",
+       "r": "head",
+       "w": [
+        [
+         4,
+         600,
+         40
+        ],
+        [
+         1,
+         600,
+         22
+        ]
+       ]
+      },
+      {
+       "c": "Employees",
+       "r": "body"
+      },
+      {
+       "c": "500M+",
+       "r": "head",
+       "w": [
+        [
+         4,
+         600,
+         40
+        ],
+        [
+         1,
+         600,
+         22
+        ]
+       ]
+      },
+      {
+       "c": "Sq ft manufactured",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 7,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 1990,
+   "tag": "Core Values",
+   "kind": "page-specific",
+   "set": "Core Values",
+   "variant": "Breakpoint=Mobile",
+   "id": "30:987",
+   "score": -0.9,
+   "fit": 0.4,
+   "hr": 0.66,
+   "vh": 296,
+   "h": 446,
+   "pieces": [],
+   "unplaced": [
+    "What We Stand For",
+    "Our core values",
+    "Well-being"
+   ],
+   "nov": 0,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 2436,
+   "tag": "Timeline",
+   "kind": "page-specific",
+   "set": "Timeline",
+   "variant": "Breakpoint=Mobile",
+   "id": "31:1051",
+   "score": -15.8,
+   "fit": 0.18,
+   "hr": 0.25,
+   "vh": 417,
+   "h": 1682,
+   "pieces": [],
+   "unplaced": [
+    "Our History",
+    "Six decades of building different",
+    "Founded",
+    "Founded by Jim Clark",
+    "2008",
+    "Expansion",
+    "Woodland manufacturing plant opened",
+    "Innovation",
+    "Infinite Facade® launches",
+    "2017",
+    "New Market",
+    "Mission Critical Division",
+    "Expansion",
+    "National expansion"
+   ],
+   "nov": 1,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 4118,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 2.1,
+   "fit": 0.5,
+   "hr": 0.79,
+   "vh": 732,
+   "h": 924,
+   "pieces": [],
+   "unplaced": [
+    "Full-service manufacturer",
+    "Design and Engineering Services",
+    "Manufacturing and Quality Control",
+    "Transportation and Logistics",
+    "Erection and Build Services"
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 5041,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Image left 50/50, Breakpoint=Mobile",
+   "id": "21:334",
+   "score": 2.1,
+   "fit": 0.67,
+   "hr": 0.85,
+   "vh": 660,
+   "h": 772,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Image left 50/50, Breakpoint=Mobile",
+     "id": "21:334",
+     "overrides": [
+      {
+       "old": "Section headline keyword",
+       "occ": 1,
+       "new": "People who lead with purpose",
+       "runs": [
+        [
+         16,
+         300
+        ],
+        [
+         12,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Meet Our Leadership"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Body copy at 16px on mobile. Image always stacks first, whichever side it sits on at desktop.",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Our Team",
+       "r": "label"
+      },
+      {
+       "c": "People who lead with purpose",
+       "r": "head",
+       "w": [
+        [
+         16,
+         300,
+         30
+        ],
+        [
+         12,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Meet Our Leadership",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Our Team"
+   ],
+   "nov": 2,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 5813,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Image left 50/50, Breakpoint=Mobile",
+   "id": "21:334",
+   "score": 6.2,
+   "fit": 1,
+   "hr": 0.72,
+   "vh": 660,
+   "h": 475,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Image left 50/50, Breakpoint=Mobile",
+     "id": "21:334",
+     "overrides": [
+      {
+       "old": "Section headline keyword",
+       "occ": 1,
+       "new": "Sustainable\nPractices",
+       "runs": [
+        [
+         11,
+         600
+        ],
+        [
+         1,
+         400
+        ],
+        [
+         9,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Body copy at 16px on mobile. Image always stacks first, whichever side it sits on at desktop.",
+       "occ": 1,
+       "new": "Our sustainability plan embodies considerations for our impact on people, the environment, and the economy. At Clark Pacific we understand that sustainability requires a holistic approach throughout everything we do."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:39"
+     ],
+     "texts": [
+      {
+       "c": "Sustainable\nPractices",
+       "r": "head",
+       "w": [
+        [
+         11,
+         600,
+         26
+        ],
+        [
+         1,
+         400,
+         26
+        ],
+        [
+         9,
+         300,
+         26
+        ]
+       ]
+      },
+      {
+       "c": "Our sustainability plan embodies considerations for our impact on people, the environment, and the economy. At Clark Pacific we understand that sustainability requires a holistic approach throughout everything we do.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6288,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:349",
+   "score": 3.2,
+   "fit": 0.6,
+   "hr": 0.65,
+   "vh": 305,
+   "h": 471,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:349",
+     "overrides": [
+      {
+       "old": "Ready to build different?",
+       "occ": 1,
+       "new": "Interested in partnering with Clark Pacific?",
+       "runs": [
+        [
+         30,
+         300
+        ],
+        [
+         14,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Talk to our team about your next project.",
+       "occ": 1,
+       "new": "Our design-assist team works with architects and owners from the earliest stages to optimize the system, reduce risk, and deliver better outcomes."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Start a Conversation",
+       "r": "label"
+      },
+      {
+       "c": "Interested in partnering with Clark Pacific?",
+       "r": "head",
+       "w": [
+        [
+         30,
+         300,
+         32
+        ],
+        [
+         14,
+         600,
+         32
+        ]
+       ]
+      },
+      {
+       "c": "Our design-assist team works with architects and owners from the earliest stages to optimize the system, reduce risk, and deliver better outcomes.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "View Projects",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Start a Conversation",
+    "View Projects"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6759,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 7152,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

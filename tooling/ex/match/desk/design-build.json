@@ -1,0 +1,1079 @@
+{
+ "file": "design-build.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Desktop",
+   "id": "19:174",
+   "score": 33.2,
+   "fit": 1,
+   "hr": 0.94,
+   "vh": 890,
+   "h": 838,
+   "pieces": [
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Desktop",
+     "id": "19:174",
+     "overrides": [
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Products · Parking"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 1,
+       "new": "Design-Build"
+      },
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Single Point of Contact"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 2,
+       "new": "Design-"
+      },
+      {
+       "old": "A complete prefabricated data center solution.",
+       "occ": 1,
+       "new": "Build."
+      },
+      {
+       "old": "Structural precast systems and exterior wall panels for mission-critical data centers — integrating early design-assist and in-house manufacturing to support accelerated schedules, sustainability goals, and project predictability.",
+       "occ": 1,
+       "new": "Clark Pacific can do what other parking structure builders cannot. We design, manufacture and build the complete parking structure — owning the process end-to-end for improved project management experience, plus budget and schedule certainty."
+      },
+      {
+       "old": "Get Started",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      },
+      {
+       "old": "View Webinar",
+       "occ": 1,
+       "new": "View Projects"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6",
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Clark Pacific is expanding to the Pacific Northwest — new plant opening Q3 2026.",
+       "r": "body"
+      },
+      {
+       "c": "Learn more →",
+       "r": "title"
+      },
+      {
+       "c": "Our Products",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Projects",
+       "r": "label"
+      },
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Contact",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Products · Parking",
+       "r": "body"
+      },
+      {
+       "c": "Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "Single Point of Contact",
+       "r": "label"
+      },
+      {
+       "c": "Design-",
+       "r": "head"
+      },
+      {
+       "c": "Build.",
+       "r": "head"
+      },
+      {
+       "c": "Clark Pacific can do what other parking structure builders cannot. We design, manufacture and build the complete parking structure — owning the process end-to-end for improved project management experience, plus budget and schedule certainty.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "View Projects",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 8,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 838,
+   "tag": "One-off: Tagline Statement Band",
+   "kind": "page-specific",
+   "h": 305
+  },
+  {
+   "top": 1143,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+   "id": "21:197",
+   "score": 4.1,
+   "fit": 0.75,
+   "hr": 0.88,
+   "vh": 593,
+   "h": 671,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+     "id": "21:197",
+     "overrides": [
+      {
+       "old": "Prefabricated Systems",
+       "occ": 1,
+       "new": "Schedule Advantage"
+      },
+      {
+       "old": "High performance building envelope with reduced risk",
+       "occ": 1,
+       "new": "Accelerated project delivery",
+       "runs": [
+        [
+         20,
+         300
+        ],
+        [
+         8,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "A prefabricated building envelope designed to streamline coordination and construction — with factory-installed insulation and off-the-shelf connections.",
+       "occ": 1,
+       "new": "Our approach follows a standard Design for Manufacturing and Assembly (DfMA) process. When coupled with PARC, our prefabricated parking system and build team, we offer an extremely efficient delivery method."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Learn More",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Schedule Advantage",
+       "r": "label"
+      },
+      {
+       "c": "Accelerated project delivery",
+       "r": "head",
+       "w": [
+        [
+         20,
+         300,
+         45
+        ],
+        [
+         8,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Offsite construction can deliver projects 30–50% faster than traditional methods. Manufacturing of the structure occurs simultaneously with site and foundation work — schedule delays due to weather are significantly reduced since the majority of construction takes place in a controlled environment.",
+       "r": "body"
+      },
+      {
+       "c": "Our approach follows a standard Design for Manufacturing and Assembly (DfMA) process. When coupled with PARC, our prefabricated parking system and build team, we offer an extremely efficient delivery method.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Offsite construction can deliver projects 30–50% faster than traditional methods. Manufacturing of the structure occurs simultaneously with site and foundation work — schedule delays due to weather are significantly reduced since the majority of construction takes place in a controlled environment."
+   ],
+   "nov": 3,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 1814,
+   "tag": "Icon Grid",
+   "kind": "instance",
+   "set": "Icon Grid",
+   "variant": "Layout=Headline left 2×3, Breakpoint=Desktop",
+   "id": "25:222",
+   "score": 14,
+   "fit": 1,
+   "hr": 0.74,
+   "vh": 310,
+   "h": 417,
+   "pieces": [
+    {
+     "set": "Icon Grid",
+     "variant": "Layout=Headline left 2×3, Breakpoint=Desktop",
+     "id": "25:222",
+     "overrides": [
+      {
+       "old": "Advantages of a Clark Pacific\ndata center",
+       "occ": 1,
+       "new": "Prefabrication + Design-Build delivers",
+       "runs": [
+        [
+         30,
+         300
+        ],
+        [
+         8,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Superior Technical Advantages",
+       "occ": 1,
+       "new": "Accelerated Construction Schedules"
+      },
+      {
+       "old": "Faster Schedule",
+       "occ": 1,
+       "new": "Reduce Site Impacts"
+      },
+      {
+       "old": "Lower Cost",
+       "occ": 1,
+       "new": "Safer Job Sites"
+      },
+      {
+       "old": "Predictable",
+       "occ": 1,
+       "new": "Less Construction Waste"
+      },
+      {
+       "old": "Sustainable",
+       "occ": 1,
+       "new": "Budget Certainty"
+      },
+      {
+       "old": "Resilient",
+       "occ": 1,
+       "new": "Higher Quality Product"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:56",
+      "5:114",
+      "5:103",
+      "5:83",
+      "5:66",
+      "5:47"
+     ],
+     "texts": [
+      {
+       "c": "Prefabrication + Design-Build delivers",
+       "r": "head",
+       "w": [
+        [
+         30,
+         300,
+         45
+        ],
+        [
+         8,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Accelerated Construction Schedules",
+       "r": "label"
+      },
+      {
+       "c": "Reduce Site Impacts",
+       "r": "label"
+      },
+      {
+       "c": "Safer Job Sites",
+       "r": "label"
+      },
+      {
+       "c": "Less Construction Waste",
+       "r": "label"
+      },
+      {
+       "c": "Budget Certainty",
+       "r": "label"
+      },
+      {
+       "c": "Higher Quality Product",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 7,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2231,
+   "tag": "Finishes Guide",
+   "kind": "instance",
+   "set": "Finishes Guide · Graphic CTA",
+   "variant": "Breakpoint=Desktop",
+   "id": "32:1052",
+   "score": 5.4,
+   "fit": 1,
+   "hr": 0.42,
+   "vh": 682,
+   "h": 283,
+   "pieces": [
+    {
+     "set": "Finishes Guide · Graphic CTA",
+     "variant": "Breakpoint=Desktop",
+     "id": "32:1052",
+     "overrides": [
+      {
+       "old": "Standard finishes guide",
+       "occ": 1,
+       "new": "The Parking Design Guide",
+       "runs": [
+        [
+         4,
+         300
+        ],
+        [
+         20,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "A wide range of standard colors, forms, textures, and finish combinations for our integrated envelope systems.",
+       "occ": 1,
+       "new": "Planning and design guidance for prefabricated parking structures — bay layouts, circulation, seismic systems, and finish options."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Free Download",
+       "occ": 1
+      },
+      {
+       "old": "Facade Systems Comparison (PDF)",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "The Parking Design Guide",
+       "r": "head",
+       "w": [
+        [
+         4,
+         300,
+         35
+        ],
+        [
+         20,
+         600,
+         35
+        ]
+       ]
+      },
+      {
+       "c": "Planning and design guidance for prefabricated parking structures — bay layouts, circulation, seismic systems, and finish options.",
+       "r": "body"
+      },
+      {
+       "c": "Download the Guide",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 2,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 2514,
+   "tag": "Quote Band",
+   "kind": "instance",
+   "set": "Quote Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "22:205",
+   "score": 8.2,
+   "fit": 1,
+   "hr": 0.79,
+   "vh": 483,
+   "h": 611,
+   "pieces": [
+    {
+     "set": "Quote Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "22:205",
+     "overrides": [
+      {
+       "old": "Clark Pacific delivered our building envelope months ahead of schedule — the single-source model removed the coordination risk we’d carried on every prior project.",
+       "occ": 1,
+       "new": "UC Davis Health Campus is currently in an explosive growth curve. Working in partnership with the Clark Pacific team on Parking Structure 4 over the last 18 months has totally changed our approach on our impacted urban campus. The offsite manufacturing, quality of product and speed to market proved so successful that they are now our chosen team for Parking Structure 5.",
+       "runs": [
+        [
+         168,
+         300
+        ],
+        [
+         28,
+         600
+        ],
+        [
+         176,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Dana Reyes",
+       "occ": 1,
+       "new": "Stephen J. Reiland"
+      },
+      {
+       "old": "VP of Construction · Meridian Development",
+       "occ": 1,
+       "new": "Project Manager Supervisor, Capital Projects · UC Davis Health"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "“",
+       "r": "glyph"
+      },
+      {
+       "c": "UC Davis Health Campus is currently in an explosive growth curve. Working in partnership with the Clark Pacific team on Parking Structure 4 over the last 18 months has totally changed our approach on our impacted urban campus. The offsite manufacturing, quality of product and speed to market proved so successful that they are now our chosen team for Parking Structure 5.",
+       "r": "head",
+       "w": [
+        [
+         168,
+         300,
+         30
+        ],
+        [
+         28,
+         600,
+         30
+        ],
+        [
+         176,
+         300,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Stephen J. Reiland",
+       "r": "label"
+      },
+      {
+       "c": "Project Manager Supervisor, Capital Projects · UC Davis Health",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3125,
+   "tag": "Image Gallery",
+   "kind": "instance",
+   "set": "Image Gallery",
+   "variant": "Breakpoint=Desktop",
+   "id": "28:857",
+   "score": 4.3,
+   "fit": 0.75,
+   "hr": 0.99,
+   "vh": 1205,
+   "h": 1222,
+   "pieces": [
+    {
+     "set": "Image Gallery",
+     "variant": "Breakpoint=Desktop",
+     "id": "28:857",
+     "overrides": [
+      {
+       "old": "Kilroy Oyster Point",
+       "occ": 1,
+       "new": "316 Vernon Street"
+      },
+      {
+       "old": "South elevation — 4,100 architectural precast panels in a light sandblast finish, erected in 19 weeks.",
+       "occ": 1,
+       "new": "316 Vernon Street — prefabricated structure delivered on an accelerated schedule."
+      }
+     ],
+     "hide": [
+      {
+       "old": "1 / 5",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Project gallery",
+       "r": "head",
+       "w": [
+        [
+         8,
+         300,
+         45
+        ],
+        [
+         7,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "316 Vernon Street",
+       "r": "label"
+      },
+      {
+       "c": "01 / 05",
+       "r": "title"
+      },
+      {
+       "c": "316 Vernon Street — prefabricated structure delivered on an accelerated schedule.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "01 / 05"
+   ],
+   "nov": 2,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 4348,
+   "tag": "Projects Photo Mosaic",
+   "kind": "instance",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Desktop",
+   "id": "28:824",
+   "score": 5.7,
+   "fit": 0.63,
+   "hr": 1,
+   "vh": 696,
+   "h": 693,
+   "pieces": [
+    {
+     "set": "Projects Photo Mosaic",
+     "variant": "Breakpoint=Desktop",
+     "id": "28:824",
+     "overrides": [
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "View All Projects"
+      },
+      {
+       "old": "Structural Projects",
+       "occ": 1,
+       "new": "UC Davis Health Parking Structure IV"
+      },
+      {
+       "old": "Building Envelope Projects",
+       "occ": 1,
+       "new": "CSU Sacramento Parking Structure 5"
+      },
+      {
+       "old": "View Projects",
+       "occ": 1,
+       "new": "Coleman Highline Parking Structure 2"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Featured projects",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         45
+        ],
+        [
+         8,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "View All Projects",
+       "r": "label"
+      },
+      {
+       "c": "UC Davis Health Parking Structure IV",
+       "r": "label"
+      },
+      {
+       "c": "PCI Design Award winner — Design-Build delivery on an active healthcare campus with zero disruption to clinical operations.",
+       "r": "body"
+      },
+      {
+       "c": "CSU Sacramento Parking Structure 5",
+       "r": "label"
+      },
+      {
+       "c": "Design-Build delivery on an active university campus — completing the structure on time during an active academic year.",
+       "r": "body"
+      },
+      {
+       "c": "Coleman Highline Parking Structure 2",
+       "r": "label"
+      },
+      {
+       "c": "Design-Build on a mixed-use Silicon Valley campus — high-quality precast delivered adjacent to active EV-charging commercial operations.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "PCI Design Award winner — Design-Build delivery on an active healthcare campus with zero disruption to clinical operations.",
+    "Design-Build delivery on an active university campus — completing the structure on time during an active academic year.",
+    "Design-Build on a mixed-use Silicon Valley campus — high-quality precast delivered adjacent to active EV-charging commercial operations."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5041,
+   "tag": "Featured Resources",
+   "kind": "instance",
+   "set": "Featured Resources",
+   "variant": "Breakpoint=Desktop",
+   "id": "27:829",
+   "score": 33,
+   "fit": 1,
+   "hr": 1,
+   "vh": 855,
+   "h": 855,
+   "pieces": [
+    {
+     "set": "Featured Resources",
+     "variant": "Breakpoint=Desktop",
+     "id": "27:829",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Resources",
+       "r": "label"
+      },
+      {
+       "c": "Featured resources",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         45
+        ],
+        [
+         9,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "View All Resources",
+       "r": "label"
+      },
+      {
+       "c": "Technical Document",
+       "r": "label"
+      },
+      {
+       "c": "Infinite Facade® Testing Overview",
+       "r": "head"
+      },
+      {
+       "c": "A summary of the testing programme behind the Infinite Facade system, including performance results for air, water and structural loading.",
+       "r": "body"
+      },
+      {
+       "c": "Read More",
+       "r": "label"
+      },
+      {
+       "c": "Design Guide",
+       "r": "label"
+      },
+      {
+       "c": "Parking Design Guide",
+       "r": "head"
+      },
+      {
+       "c": "Planning and design guidance for prefabricated parking structures, from bay layouts and circulation through to finish selection.",
+       "r": "body"
+      },
+      {
+       "c": "Read More",
+       "r": "label"
+      },
+      {
+       "c": "Podcast",
+       "r": "label"
+      },
+      {
+       "c": "Building Forward",
+       "r": "head"
+      },
+      {
+       "c": "Conversations with industry leaders, innovators and experts on the strategies and best practices shaping how we design and build.",
+       "r": "body"
+      },
+      {
+       "c": "Read More",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5896,
+   "tag": "CTA Banner / Light",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Light, Layout=Centered · two buttons, Breakpoint=Desktop",
+   "id": "23:290",
+   "score": 8.2,
+   "fit": 1,
+   "hr": 0.85,
+   "vh": 349,
+   "h": 297,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Light, Layout=Centered · two buttons, Breakpoint=Desktop",
+     "id": "23:290",
+     "overrides": [
+      {
+       "old": "Ready to make the case for resilient design?",
+       "occ": 1,
+       "new": "Interested in Design-Build?",
+       "runs": [
+        [
+         14,
+         300
+        ],
+        [
+         13,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Engage our structural engineers early and we can walk the seismic design, span capabilities and cost implications for your specific site and program.",
+       "occ": 1,
+       "new": "We design, manufacture, and build — owning 90%+ of costs and delivering budget certainty from contract through a 5-year warranty."
+      },
+      {
+       "old": "Watch the Webinar",
+       "occ": 1,
+       "new": "Become a Trade Partner"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Interested in Design-Build?",
+       "r": "head",
+       "w": [
+        [
+         14,
+         300,
+         45
+        ],
+        [
+         13,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "We design, manufacture, and build — owning 90%+ of costs and delivering budget certainty from contract through a 5-year warranty.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6193,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6592,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

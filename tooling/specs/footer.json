@@ -1,0 +1,3 @@
+{"name":"Footer","group":"01 · Global","desc":"Single-band footer on Dark Charcoal: brand + social icons, link columns, 'Stay in the Loop' newsletter strip with Blue submit, legal bar. Mobile collapses link columns into accordion rows.",
+ "variants":[{"props":{"Breakpoint":"Desktop"},"src":"desk/d-footer-single-band","path":"0.1","bp":"Desktop"},
+             {"props":{"Breakpoint":"Mobile"},"src":"mob/m-footer","bp":"Mobile"}]}

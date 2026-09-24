@@ -1,0 +1,931 @@
+{
+ "file": "sustainability.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 10.1,
+   "fit": 0.86,
+   "hr": 0.94,
+   "vh": 771,
+   "h": 819,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Sustainability"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "for a more"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "sustainable future."
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "From lower-carbon concrete mixes to zero-waste manufacturing, sustainability isn't a program — it's how we build."
+      },
+      {
+       "old": "Start a Conversation",
+       "occ": 1,
+       "new": "Download Our EPD"
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Our Approach"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Sustainability",
+       "r": "label"
+      },
+      {
+       "c": "Building different",
+       "r": "head"
+      },
+      {
+       "c": "for a more",
+       "r": "head"
+      },
+      {
+       "c": "sustainable future.",
+       "r": "head"
+      },
+      {
+       "c": "From lower-carbon concrete mixes to zero-waste manufacturing, sustainability isn't a program — it's how we build.",
+       "r": "body"
+      },
+      {
+       "c": "Download Our EPD",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Building different"
+   ],
+   "nov": 6,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 819,
+   "tag": "Stats Row",
+   "kind": "instance",
+   "set": "Stats Row",
+   "variant": "Breakpoint=Mobile",
+   "id": "31:935",
+   "score": 16,
+   "fit": 1,
+   "hr": 0.81,
+   "vh": 295,
+   "h": 362,
+   "pieces": [
+    {
+     "set": "Stats Row",
+     "variant": "Breakpoint=Mobile",
+     "id": "31:935",
+     "overrides": [
+      {
+       "old": "2,216+",
+       "occ": 1,
+       "new": "40%"
+      },
+      {
+       "old": "Megawatts",
+       "occ": 1,
+       "new": "Less cement than traditional concrete mixes"
+      },
+      {
+       "old": "32",
+       "occ": 1,
+       "new": "100%"
+      },
+      {
+       "old": "Data centers",
+       "occ": 1,
+       "new": "Metal, wood & concrete scrap diverted from landfill"
+      },
+      {
+       "old": "13M+",
+       "occ": 1,
+       "new": "60%"
+      },
+      {
+       "old": "Sq ft delivered",
+       "occ": 1,
+       "new": "Lower GWP vs. traditional curtain wall systems"
+      },
+      {
+       "old": "~20%",
+       "occ": 1,
+       "new": "30%"
+      },
+      {
+       "old": "Less embodied carbon",
+       "occ": 1,
+       "new": "Reduction in heating energy vs. conventional assemblies"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "40%",
+       "r": "head"
+      },
+      {
+       "c": "Less cement than traditional concrete mixes",
+       "r": "body"
+      },
+      {
+       "c": "100%",
+       "r": "head"
+      },
+      {
+       "c": "Metal, wood & concrete scrap diverted from landfill",
+       "r": "body"
+      },
+      {
+       "c": "60%",
+       "r": "head"
+      },
+      {
+       "c": "Lower GWP vs. traditional curtain wall systems",
+       "r": "body"
+      },
+      {
+       "c": "30%",
+       "r": "head"
+      },
+      {
+       "c": "Reduction in heating energy vs. conventional assemblies",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 8,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 1181,
+   "tag": "Icon Grid",
+   "kind": "instance",
+   "set": "Icon Grid",
+   "variant": "Layout=Headline left 2×3, Breakpoint=Mobile",
+   "id": "25:613",
+   "score": 10.5,
+   "fit": 0.64,
+   "hr": 0.37,
+   "vh": 438,
+   "h": 1190,
+   "pieces": [
+    {
+     "set": "Icon Grid",
+     "variant": "Layout=Headline left 2×3, Breakpoint=Mobile",
+     "id": "25:613",
+     "overrides": [
+      {
+       "old": "Offsite benefits",
+       "occ": 1,
+       "new": "How we demonstrate sustainability every day",
+       "runs": [
+        [
+         19,
+         300
+        ],
+        [
+         14,
+         600
+        ],
+        [
+         10,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Accelerated schedules",
+       "occ": 1,
+       "new": "Factory Efficiency"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 1,
+       "new": "Controlled off-site manufacturing eliminates redundant jobsite deliveries, material overruns, and weather-related waste inherent to field construction."
+      },
+      {
+       "old": "Budget certainty",
+       "occ": 1,
+       "new": "Environmental Product Declarations"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 2,
+       "new": "Third-party verified EPDs published for Architectural Precast, Infinite Facade®, and GFRC — so your team has the data you need for LEED and reporting."
+      },
+      {
+       "old": "Less waste",
+       "occ": 1,
+       "new": "LEED Contribution"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 3,
+       "new": "Clark Pacific products support LEED v4 credits across Materials & Resources, Energy & Atmosphere, and Indoor Environmental Quality categories."
+      },
+      {
+       "old": "Higher quality",
+       "occ": 1,
+       "new": "NetZero Building Platform"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 4,
+       "new": "Our integrated structural and envelope system is designed to help project teams model and achieve net-zero operational carbon performance targets."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:39",
+      "5:83",
+      "5:114",
+      "5:72",
+      "5:66",
+      "5:92"
+     ],
+     "texts": [
+      {
+       "c": "Our Commitments",
+       "r": "label"
+      },
+      {
+       "c": "How we demonstrate sustainability every day",
+       "r": "head",
+       "w": [
+        [
+         19,
+         300,
+         32
+        ],
+        [
+         14,
+         600,
+         32
+        ],
+        [
+         10,
+         300,
+         32
+        ]
+       ]
+      },
+      {
+       "c": "Low-Carbon Mix Designs",
+       "r": "label"
+      },
+      {
+       "c": "Supplementary cementitious materials replace up to 40% of Portland cement, dramatically reducing embodied carbon in every panel we produce.",
+       "r": "body"
+      },
+      {
+       "c": "Zero-Waste Manufacturing",
+       "r": "label"
+      },
+      {
+       "c": "100% diversion of metal, wood, and concrete scrap from landfill across all four production facilities through reuse and recycling partnerships.",
+       "r": "body"
+      },
+      {
+       "c": "Factory Efficiency",
+       "r": "label"
+      },
+      {
+       "c": "Controlled off-site manufacturing eliminates redundant jobsite deliveries, material overruns, and weather-related waste inherent to field construction.",
+       "r": "body"
+      },
+      {
+       "c": "Environmental Product Declarations",
+       "r": "label"
+      },
+      {
+       "c": "Third-party verified EPDs published for Architectural Precast, Infinite Facade®, and GFRC — so your team has the data you need for LEED and reporting.",
+       "r": "body"
+      },
+      {
+       "c": "LEED Contribution",
+       "r": "label"
+      },
+      {
+       "c": "Clark Pacific products support LEED v4 credits across Materials & Resources, Energy & Atmosphere, and Indoor Environmental Quality categories.",
+       "r": "body"
+      },
+      {
+       "c": "NetZero Building Platform",
+       "r": "label"
+      },
+      {
+       "c": "Our integrated structural and envelope system is designed to help project teams model and achieve net-zero operational carbon performance targets.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Our Commitments",
+    "Low-Carbon Mix Designs",
+    "Supplementary cementitious materials replace up to 40% of Portland cement, dramatically reducing embodied carbon in every panel we produce.",
+    "Zero-Waste Manufacturing",
+    "100% diversion of metal, wood, and concrete scrap from landfill across all four production facilities through reuse and recycling partnerships."
+   ],
+   "nov": 9,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2371,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 5.7,
+   "fit": 0.8,
+   "hr": 0.84,
+   "vh": 732,
+   "h": 872,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+     "id": "21:408",
+     "overrides": [
+      {
+       "old": "Mission Critical Solutions",
+       "occ": 1,
+       "new": "Responsible Manufacturing"
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 1,
+       "new": "Off-site manufacturing inherently reduces environmental impact. Our controlled factory environment eliminates jobsite waste, minimizes redundant material deliveries, and dramatically reduces the embodied carbon of construction."
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 2,
+       "new": "Every facility operates a zero-landfill scrap program — metal, wood, and concrete byproducts are 100% diverted through reuse and recycling partnerships."
+      },
+      {
+       "old": "Learn More",
+       "occ": 2,
+       "new": "Our Manufacturing Process"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Learn More",
+       "occ": 1
+      },
+      {
+       "old": "Building Envelope Systems",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Responsible Manufacturing",
+       "r": "label"
+      },
+      {
+       "c": "Sustainability starts in the factory",
+       "r": "head",
+       "w": [
+        [
+         25,
+         300,
+         30
+        ],
+        [
+         11,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Off-site manufacturing inherently reduces environmental impact. Our controlled factory environment eliminates jobsite waste, minimizes redundant material deliveries, and dramatically reduces the embodied carbon of construction.",
+       "r": "body"
+      },
+      {
+       "c": "Every facility operates a zero-landfill scrap program — metal, wood, and concrete byproducts are 100% diverted through reuse and recycling partnerships.",
+       "r": "body"
+      },
+      {
+       "c": "Our Manufacturing Process",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Sustainability starts in the factory"
+   ],
+   "nov": 4,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 3242,
+   "tag": "One-off: EPD & Credentials",
+   "kind": "page-specific",
+   "h": 1744
+  },
+  {
+   "top": 4986,
+   "tag": "Video Module",
+   "kind": "instance",
+   "set": "Video Module",
+   "variant": "Layout=Full width, Breakpoint=Mobile",
+   "id": "36:1158",
+   "score": 4.7,
+   "fit": 0.75,
+   "hr": 0.76,
+   "vh": 446,
+   "h": 589,
+   "pieces": [
+    {
+     "set": "Video Module",
+     "variant": "Layout=Full width, Breakpoint=Mobile",
+     "id": "36:1158",
+     "overrides": [
+      {
+       "old": "Video module headline",
+       "occ": 1,
+       "new": "Infinitely responsible",
+       "runs": [
+        [
+         11,
+         300
+        ],
+        [
+         11,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Supporting copy.",
+       "occ": 1,
+       "new": "A closer look at how Clark Pacific's off-site manufacturing model reduces embodied carbon, site waste, and construction emissions across the project lifecycle."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:125"
+     ],
+     "texts": [
+      {
+       "c": "Watch",
+       "r": "label"
+      },
+      {
+       "c": "Infinitely responsible",
+       "r": "head",
+       "w": [
+        [
+         11,
+         300,
+         26
+        ],
+        [
+         11,
+         600,
+         26
+        ]
+       ]
+      },
+      {
+       "c": "A closer look at how Clark Pacific's off-site manufacturing model reduces embodied carbon, site waste, and construction emissions across the project lifecycle.",
+       "r": "body"
+      },
+      {
+       "c": "Watch the Video",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Watch the Video"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5575,
+   "tag": "CTA Banner / Light",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Light, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:365",
+   "score": 4.7,
+   "fit": 0.75,
+   "hr": 0.63,
+   "vh": 273,
+   "h": 436,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Light, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:365",
+     "overrides": [
+      {
+       "old": "Start a conversation",
+       "occ": 1,
+       "new": "Building a more sustainable future starts here",
+       "runs": [
+        [
+         16,
+         300
+        ],
+        [
+         11,
+         600
+        ],
+        [
+         19,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Supporting sentence.",
+       "occ": 1,
+       "new": "Lower-carbon mixes, zero-waste operations, and third-party verified EPDs on every product. We make it easy to meet your green building goals."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Building a more sustainable future starts here",
+       "r": "head",
+       "w": [
+        [
+         16,
+         300,
+         30
+        ],
+        [
+         11,
+         600,
+         30
+        ],
+        [
+         19,
+         300,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Lower-carbon mixes, zero-waste operations, and third-party verified EPDs on every product. We make it easy to meet your green building goals.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Download EPD",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Download EPD"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6011,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6404,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

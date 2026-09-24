@@ -1,0 +1,912 @@
+{
+ "file": "architectural-precast.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Desktop",
+   "id": "19:174",
+   "score": 35.8,
+   "fit": 1,
+   "hr": 0.94,
+   "vh": 890,
+   "h": 838,
+   "pieces": [
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Desktop",
+     "id": "19:174",
+     "overrides": [
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Building Envelope"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 1,
+       "new": "Architectural Precast"
+      },
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Building Envelope Systems"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 2,
+       "new": "Architectural"
+      },
+      {
+       "old": "A complete prefabricated data center solution.",
+       "occ": 1,
+       "new": "precast."
+      },
+      {
+       "old": "Structural precast systems and exterior wall panels for mission-critical data centers — integrating early design-assist and in-house manufacturing to support accelerated schedules, sustainability goals, and project predictability.",
+       "occ": 1,
+       "new": "True owner value — high durability, low maintenance, excellent fire resistance, and energy efficiency. An ideal solution from luxury high-rise towers to economical commercial structures."
+      },
+      {
+       "old": "Get Started",
+       "occ": 1,
+       "new": "View Finishes Guide"
+      },
+      {
+       "old": "View Webinar",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:6",
+      "5:33",
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Clark Pacific is expanding to the Pacific Northwest — new plant opening Q3 2026.",
+       "r": "body"
+      },
+      {
+       "c": "Learn more →",
+       "r": "title"
+      },
+      {
+       "c": "Our Products",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Projects",
+       "r": "label"
+      },
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Contact",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Products",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope",
+       "r": "body"
+      },
+      {
+       "c": "Architectural Precast",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "label"
+      },
+      {
+       "c": "Architectural",
+       "r": "head"
+      },
+      {
+       "c": "precast.",
+       "r": "head"
+      },
+      {
+       "c": "True owner value — high durability, low maintenance, excellent fire resistance, and energy efficiency. An ideal solution from luxury high-rise towers to economical commercial structures.",
+       "r": "body"
+      },
+      {
+       "c": "View Finishes Guide",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 8,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 838,
+   "tag": "Icon Grid",
+   "kind": "instance",
+   "set": "Icon Grid",
+   "variant": "Layout=4-col spacious, Breakpoint=Desktop",
+   "id": "25:494",
+   "score": 5.8,
+   "fit": 0.6,
+   "hr": 0.77,
+   "vh": 550,
+   "h": 712,
+   "pieces": [
+    {
+     "set": "Icon Grid",
+     "variant": "Layout=4-col spacious, Breakpoint=Desktop",
+     "id": "25:494",
+     "overrides": [
+      {
+       "old": "Advantages of a prefabricated precast data center",
+       "occ": 1,
+       "new": "Durable. Versatile. Economical.",
+       "runs": [
+        [
+         20,
+         300
+        ],
+        [
+         11,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Adapts to future expansion.",
+       "occ": 1,
+       "new": "Our Architectural Precast provides aesthetic versatility and an economical choice — cost-effective production without sacrificing design."
+      },
+      {
+       "old": "Parallel offsite fabrication.",
+       "occ": 1,
+       "new": "Supports embedded materials (brick, terracotta, stone)"
+      },
+      {
+       "old": "Reduced rework.",
+       "occ": 1,
+       "new": "Ideal for blast and ballistics performance requirements"
+      },
+      {
+       "old": "Parallel offsite fabrication.",
+       "occ": 2,
+       "new": "CEC Energy Efficiency Category: Light Mass"
+      },
+      {
+       "old": "Factory-controlled production + delivery.",
+       "occ": 1,
+       "new": "Superior resistance to fire, weather, and impact. A long service life with minimal maintenance compared to other cladding types."
+      },
+      {
+       "old": "Lower embodied carbon.",
+       "occ": 1,
+       "new": "Virtually limitless design potential — reveals, patterns, custom colors, textures, and embedded materials at minimal additional cost."
+      },
+      {
+       "old": "Fire and weather resistant.",
+       "occ": 1,
+       "new": "Precast concrete requires minimal maintenance over its lifespan — reducing operating costs for owners over the life of the building."
+      },
+      {
+       "old": "Lower embodied carbon.",
+       "occ": 2,
+       "new": "Cost-effective production at scale — factory efficiency and single-source delivery reduce overall project cost without sacrificing design quality."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Structural Flexibility",
+       "occ": 1
+      },
+      {
+       "old": "Faster Schedule",
+       "occ": 1
+      },
+      {
+       "old": "Lower Total Cost",
+       "occ": 1
+      },
+      {
+       "old": "Faster Schedule",
+       "occ": 2
+      },
+      {
+       "old": "Predictable Delivery",
+       "occ": 1
+      },
+      {
+       "old": "Sustainable, Low-Carbon Options",
+       "occ": 1
+      },
+      {
+       "old": "Resilient and Durable Materials",
+       "occ": 1
+      },
+      {
+       "old": "Sustainable, Low-Carbon Options",
+       "occ": 2
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:117",
+      "5:117",
+      "5:117"
+     ],
+     "texts": [
+      {
+       "c": "True Owner Value",
+       "r": "label"
+      },
+      {
+       "c": "Durable. Versatile. Economical.",
+       "r": "head",
+       "w": [
+        [
+         20,
+         300,
+         45
+        ],
+        [
+         11,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Architectural precast concrete has quietly revolutionized the built environment — from city centers to industrial parks — creating a dramatic range of architectural expression across the West Coast and the nation.",
+       "r": "body"
+      },
+      {
+       "c": "Our Architectural Precast provides aesthetic versatility and an economical choice — cost-effective production without sacrificing design.",
+       "r": "body"
+      },
+      {
+       "c": "Supports embedded materials (brick, terracotta, stone)",
+       "r": "body"
+      },
+      {
+       "c": "Ideal for blast and ballistics performance requirements",
+       "r": "body"
+      },
+      {
+       "c": "CEC Energy Efficiency Category: Light Mass",
+       "r": "body"
+      },
+      {
+       "c": "Durable",
+       "r": "title"
+      },
+      {
+       "c": "Superior resistance to fire, weather, and impact. A long service life with minimal maintenance compared to other cladding types.",
+       "r": "body"
+      },
+      {
+       "c": "Aesthetic Flexibility",
+       "r": "title"
+      },
+      {
+       "c": "Virtually limitless design potential — reveals, patterns, custom colors, textures, and embedded materials at minimal additional cost.",
+       "r": "body"
+      },
+      {
+       "c": "Low Maintenance",
+       "r": "title"
+      },
+      {
+       "c": "Precast concrete requires minimal maintenance over its lifespan — reducing operating costs for owners over the life of the building.",
+       "r": "body"
+      },
+      {
+       "c": "Economical",
+       "r": "title"
+      },
+      {
+       "c": "Cost-effective production at scale — factory efficiency and single-source delivery reduce overall project cost without sacrificing design quality.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "True Owner Value",
+    "Architectural precast concrete has quietly revolutionized the built environment — from city centers to industrial parks — creating a dramatic range of architectural expression across the West Coast and the nation.",
+    "Durable",
+    "Aesthetic Flexibility",
+    "Low Maintenance",
+    "Economical"
+   ],
+   "nov": 9,
+   "nhide": 8,
+   "hideItems": []
+  },
+  {
+   "top": 1550,
+   "tag": "Assembly + Specifications",
+   "kind": "instance",
+   "set": "Assembly + Specifications",
+   "variant": "Breakpoint=Desktop",
+   "id": "33:1020",
+   "score": 34.6,
+   "fit": 0.9,
+   "hr": 1,
+   "vh": 1090,
+   "h": 1090,
+   "pieces": [
+    {
+     "set": "Assembly + Specifications",
+     "variant": "Breakpoint=Desktop",
+     "id": "33:1020",
+     "overrides": [
+      {
+       "old": "Panel thickness",
+       "occ": 1,
+       "new": "Concrete Thickness"
+      },
+      {
+       "old": "Spec value",
+       "occ": 1,
+       "new": "5″ baseline with 3/4″ reveals"
+      },
+      {
+       "old": "Maximum panel size",
+       "occ": 1,
+       "new": "Baseline System Weight"
+      },
+      {
+       "old": "Spec value",
+       "occ": 2,
+       "new": "65 psf (opaque); ~49 psf (WWR 30/70)"
+      },
+      {
+       "old": "Finish options",
+       "occ": 1,
+       "new": "Typical Panel Size"
+      },
+      {
+       "old": "Spec value",
+       "occ": 3,
+       "new": "10' × 30' typical; 15' × 35' max"
+      },
+      {
+       "old": "Connections",
+       "occ": 1,
+       "new": "Returns"
+      },
+      {
+       "old": "Spec value",
+       "occ": 4,
+       "new": "Up to 2'–6\""
+      },
+      {
+       "old": "Fire rating",
+       "occ": 1,
+       "new": "Energy Category"
+      },
+      {
+       "old": "Spec value",
+       "occ": 5,
+       "new": "CEC Light Mass"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:117",
+      "5:117",
+      "5:117"
+     ],
+     "texts": [
+      {
+       "c": "Assembly + specifications",
+       "r": "head",
+       "w": [
+        [
+         11,
+         300,
+         45
+        ],
+        [
+         14,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Composition",
+       "r": "label"
+      },
+      {
+       "c": "Concrete + optional spray foam",
+       "r": "title"
+      },
+      {
+       "c": "Concrete Thickness",
+       "r": "label"
+      },
+      {
+       "c": "5″ baseline with 3/4″ reveals",
+       "r": "title"
+      },
+      {
+       "c": "Baseline System Weight",
+       "r": "label"
+      },
+      {
+       "c": "65 psf (opaque); ~49 psf (WWR 30/70)",
+       "r": "title"
+      },
+      {
+       "c": "Typical Panel Size",
+       "r": "label"
+      },
+      {
+       "c": "10' × 30' typical; 15' × 35' max",
+       "r": "title"
+      },
+      {
+       "c": "Returns",
+       "r": "label"
+      },
+      {
+       "c": "Up to 2'–6\"",
+       "r": "title"
+      },
+      {
+       "c": "Energy Category",
+       "r": "label"
+      },
+      {
+       "c": "CEC Light Mass",
+       "r": "title"
+      },
+      {
+       "c": "Right for your project type",
+       "r": "label"
+      },
+      {
+       "c": "High-Rise Office + Residential",
+       "r": "title"
+      },
+      {
+       "c": "Emphasizing prestige, luxury, and architectural appeal — with the durability to perform for decades.",
+       "r": "body"
+      },
+      {
+       "c": "Lower-Rise Commercial",
+       "r": "title"
+      },
+      {
+       "c": "Where economy and durability are paramount — cost-effective production without sacrificing quality or design.",
+       "r": "body"
+      },
+      {
+       "c": "Mission Critical + Secure",
+       "r": "title"
+      },
+      {
+       "c": "Supports blast and ballistics performance requirements — ideal for government, defense, and mission-critical facilities.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Composition",
+    "Concrete + optional spray foam"
+   ],
+   "nov": 10,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2640,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+   "id": "21:197",
+   "score": 6.5,
+   "fit": 0.8,
+   "hr": 0.78,
+   "vh": 593,
+   "h": 759,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+     "id": "21:197",
+     "overrides": [
+      {
+       "old": "Prefabricated Systems",
+       "occ": 1,
+       "new": "Design Potential"
+      },
+      {
+       "old": "High performance building envelope with reduced risk",
+       "occ": 1,
+       "new": "Virtually limitless aesthetic versatility",
+       "runs": [
+        [
+         20,
+         300
+        ],
+        [
+         21,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "A prefabricated building envelope designed to streamline coordination and construction — with factory-installed insulation and off-the-shelf connections.",
+       "occ": 1,
+       "new": "Specific color effects are achieved through varying sands, aggregates, and pigments. Stone, tile, or brick veneers can be attached, cast into, or replicated in architectural precast panels at the plant — allowing dramatic aesthetic effects at minimal additional cost."
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Download the Finishes Guide"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Design Potential",
+       "r": "label"
+      },
+      {
+       "c": "Virtually limitless aesthetic versatility",
+       "r": "head",
+       "w": [
+        [
+         20,
+         300,
+         49
+        ],
+        [
+         21,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "Custom-made forms create concrete panels in precise dimensions and shapes. Reveals, joints, patterns, and other expressive detailing are introduced at the panel surface — all in the factory, before delivery to site.",
+       "r": "body"
+      },
+      {
+       "c": "Specific color effects are achieved through varying sands, aggregates, and pigments. Stone, tile, or brick veneers can be attached, cast into, or replicated in architectural precast panels at the plant — allowing dramatic aesthetic effects at minimal additional cost.",
+       "r": "body"
+      },
+      {
+       "c": "Download the Finishes Guide",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Custom-made forms create concrete panels in precise dimensions and shapes. Reveals, joints, patterns, and other expressive detailing are introduced at the panel surface — all in the factory, before delivery to site."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3399,
+   "tag": "Projects Photo Mosaic",
+   "kind": "page-specific",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Desktop",
+   "id": "28:824",
+   "score": 1.2,
+   "fit": 0.45,
+   "hr": 0.94,
+   "vh": 696,
+   "h": 743,
+   "pieces": [],
+   "unplaced": [
+    "View All Projects",
+    "Manchester Pacific Gateway",
+    "Navy Administration Building — complex panel geometry with embedded masonry detailing meeting federal security requirements.",
+    "View Project",
+    "Landmark mixed-use tower featuring distinctive multi-color precast panels that define the Oakland skyline.",
+    "Architectural precast delivering a contextually sensitive facade that reflects the industrial heritage of West Oakland."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4142,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+   "id": "23:206",
+   "score": 7.8,
+   "fit": 1,
+   "hr": 0.69,
+   "vh": 513,
+   "h": 352,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+     "id": "23:206",
+     "overrides": [
+      {
+       "old": "Ready to accelerate your next project?",
+       "occ": 1,
+       "new": "Ready to explore what's possible?",
+       "runs": [
+        [
+         24,
+         300
+        ],
+        [
+         9,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Our team works as an extension of yours — from early design-assist through construction, with single-source accountability throughout.",
+       "occ": 1,
+       "new": "Our facade specialists work with your team from schematic design to deliver architectural precast panels that achieve your vision — on schedule and on budget."
+      },
+      {
+       "old": "View Projects",
+       "occ": 1,
+       "new": "Download Finishes Guide"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Talk to an Expert",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to explore what's possible?",
+       "r": "head",
+       "w": [
+        [
+         24,
+         300,
+         45
+        ],
+        [
+         9,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Our facade specialists work with your team from schematic design to deliver architectural precast panels that achieve your vision — on schedule and on budget.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Download Finishes Guide",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 4494,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4893,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

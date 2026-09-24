@@ -1,0 +1,780 @@
+{
+ "file": "careers.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Desktop",
+   "id": "19:174",
+   "score": 28.4,
+   "fit": 1,
+   "hr": 0.93,
+   "vh": 890,
+   "h": 832,
+   "pieces": [
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Desktop",
+     "id": "19:174",
+     "overrides": [
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Company · Careers"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 2,
+       "new": "Build the future"
+      },
+      {
+       "old": "A complete prefabricated data center solution.",
+       "occ": 1,
+       "new": "with us."
+      },
+      {
+       "old": "Structural precast systems and exterior wall panels for mission-critical data centers — integrating early design-assist and in-house manufacturing to support accelerated schedules, sustainability goals, and project predictability.",
+       "occ": 1,
+       "new": "We're looking for ambitious builders — engineers, craftspeople, and leaders who want to work on the structures that define California."
+      },
+      {
+       "old": "Get Started",
+       "occ": 1,
+       "new": "View Open Positions"
+      },
+      {
+       "old": "View Webinar",
+       "occ": 1,
+       "new": "Our Culture"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products",
+       "occ": 1
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6"
+     ],
+     "texts": [
+      {
+       "c": "Clark Pacific is expanding to the Pacific Northwest — new plant opening Q3 2026.",
+       "r": "body"
+      },
+      {
+       "c": "Learn more →",
+       "r": "title"
+      },
+      {
+       "c": "Our Products",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Projects",
+       "r": "label"
+      },
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Contact",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Company · Careers",
+       "r": "label"
+      },
+      {
+       "c": "Build the future",
+       "r": "head"
+      },
+      {
+       "c": "with us.",
+       "r": "head"
+      },
+      {
+       "c": "We're looking for ambitious builders — engineers, craftspeople, and leaders who want to work on the structures that define California.",
+       "r": "body"
+      },
+      {
+       "c": "View Open Positions",
+       "r": "label"
+      },
+      {
+       "c": "Our Culture",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 6,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 832,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+   "id": "21:197",
+   "score": 6.5,
+   "fit": 0.8,
+   "hr": 0.96,
+   "vh": 593,
+   "h": 619,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+     "id": "21:197",
+     "overrides": [
+      {
+       "old": "Prefabricated Systems",
+       "occ": 1,
+       "new": "Our Culture"
+      },
+      {
+       "old": "High performance building envelope with reduced risk",
+       "occ": 1,
+       "new": "Where craft meets innovation",
+       "runs": [
+        [
+         18,
+         300
+        ],
+        [
+         10,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "A prefabricated building envelope designed to streamline coordination and construction — with factory-installed insulation and off-the-shelf connections.",
+       "occ": 1,
+       "new": "From design engineers to concrete finishers, every role plays a direct part in delivering the buildings that shape our region."
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Learn about our values"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Our Culture",
+       "r": "label"
+      },
+      {
+       "c": "Where craft meets innovation",
+       "r": "head",
+       "w": [
+        [
+         18,
+         300,
+         35
+        ],
+        [
+         10,
+         600,
+         35
+        ]
+       ]
+      },
+      {
+       "c": "At Clark Pacific, you're not just manufacturing components — you're part of a team that transforms how California builds. Our plants are state-of-the-art, our project teams are collaborative, and our commitment to safety is absolute.",
+       "r": "body"
+      },
+      {
+       "c": "From design engineers to concrete finishers, every role plays a direct part in delivering the buildings that shape our region.",
+       "r": "body"
+      },
+      {
+       "c": "Learn about our values",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "At Clark Pacific, you're not just manufacturing components — you're part of a team that transforms how California builds. Our plants are state-of-the-art, our project teams are collaborative, and our commitment to safety is absolute."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 1451,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": 2.7,
+   "fit": 0.57,
+   "hr": 0.58,
+   "vh": 445,
+   "h": 772,
+   "pieces": [],
+   "unplaced": [
+    "Our Manufacturing Plants",
+    "With facilities in West Sacramento, Woodland, Perris, and French Camp, Clark Pacific offers career opportunities throughout California — with the Pacific Northwest coming soon.",
+    "West Sacramento, CA — Headquarters & Main Plant"
+   ],
+   "nov": 4,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 2223,
+   "tag": "Benefits Grid",
+   "kind": "page-specific",
+   "set": "Benefits Grid",
+   "variant": "Breakpoint=Desktop",
+   "id": "31:1067",
+   "score": -8.8,
+   "fit": 0.2,
+   "hr": 0.58,
+   "vh": 652,
+   "h": 378,
+   "pieces": [],
+   "unplaced": [
+    "What We Stand For",
+    "Our core values",
+    "Determination",
+    "Innovation"
+   ],
+   "nov": 1,
+   "nhide": 12,
+   "hideItems": []
+  },
+  {
+   "top": 2601,
+   "tag": "Core Values",
+   "kind": "page-specific",
+   "set": "Core Values",
+   "variant": "Breakpoint=Desktop",
+   "id": "30:960",
+   "score": 1.1,
+   "fit": 0.5,
+   "hr": 0.82,
+   "vh": 559,
+   "h": 682,
+   "pieces": [],
+   "unplaced": [
+    "Why Clark Pacific",
+    "Health & Wellness",
+    "401(k) + Company Match",
+    "Paid Time Off",
+    "Career Development",
+    "Safety-First Culture",
+    "Employee Ownership"
+   ],
+   "nov": 7,
+   "nhide": 6,
+   "hideItems": []
+  },
+  {
+   "top": 3283,
+   "tag": "One-off: Open Positions",
+   "kind": "page-specific",
+   "h": 1565
+  },
+  {
+   "top": 4848,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": 7.2,
+   "fit": 1,
+   "hr": 0.68,
+   "vh": 445,
+   "h": 651,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Bulleted, Breakpoint=Desktop",
+     "id": "21:231",
+     "overrides": [
+      {
+       "old": "Advantages of a Clark Pacific building system",
+       "occ": 1,
+       "new": "Engineers who build. Careers that grow.",
+       "runs": [
+        [
+         21,
+         300
+        ],
+        [
+         18,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Off-site fabrication runs parallel to sitework, compressing the schedule",
+       "occ": 1,
+       "new": "At Clark Pacific, engineers don’t just design — they build."
+      },
+      {
+       "old": "Single-source accountability from design-assist through erection and warranty",
+       "occ": 1,
+       "new": "Join a team where innovation, prefabrication, and hands-on collaboration come together to create smarter, safer, high-performance structures."
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Explore Engineering Career Paths"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Built for performance",
+       "occ": 1
+      },
+      {
+       "old": "Factory-installed insulation meets target R-values without field rework",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Engineers who build. Careers that grow.",
+       "r": "head",
+       "w": [
+        [
+         21,
+         300,
+         45
+        ],
+        [
+         18,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "At Clark Pacific, engineers don’t just design — they build.",
+       "r": "body"
+      },
+      {
+       "c": "Join a team where innovation, prefabrication, and hands-on collaboration come together to create smarter, safer, high-performance structures.",
+       "r": "body"
+      },
+      {
+       "c": "Explore Engineering Career Paths",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 4,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 5499,
+   "tag": "Quote Band",
+   "kind": "instance",
+   "set": "Quote Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "22:205",
+   "score": 8.2,
+   "fit": 1,
+   "hr": 0.84,
+   "vh": 483,
+   "h": 406,
+   "pieces": [
+    {
+     "set": "Quote Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "22:205",
+     "overrides": [
+      {
+       "old": "Clark Pacific delivered our building envelope months ahead of schedule — the single-source model removed the coordination risk we’d carried on every prior project.",
+       "occ": 1,
+       "new": "I started on the plant floor and now lead projects. At Clark Pacific, you see what you build go up — and there’s always a next step.",
+       "runs": [
+        [
+         74,
+         300
+        ],
+        [
+         24,
+         600
+        ],
+        [
+         34,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Dana Reyes",
+       "occ": 1,
+       "new": "Daniel Reyes"
+      },
+      {
+       "old": "VP of Construction · Meridian Development",
+       "occ": 1,
+       "new": "Project Engineer · 9 years at Clark Pacific"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "“",
+       "r": "glyph"
+      },
+      {
+       "c": "I started on the plant floor and now lead projects. At Clark Pacific, you see what you build go up — and there’s always a next step.",
+       "r": "head",
+       "w": [
+        [
+         74,
+         300,
+         30
+        ],
+        [
+         24,
+         600,
+         30
+        ],
+        [
+         34,
+         300,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Daniel Reyes",
+       "r": "label"
+      },
+      {
+       "c": "Project Engineer · 9 years at Clark Pacific",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5905,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+   "id": "23:206",
+   "score": 10,
+   "fit": 1,
+   "hr": 0.9,
+   "vh": 513,
+   "h": 572,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+     "id": "23:206",
+     "overrides": [
+      {
+       "old": "Talk to an Expert",
+       "occ": 1,
+       "new": "Take the next step"
+      },
+      {
+       "old": "Ready to accelerate your next project?",
+       "occ": 1,
+       "new": "Ready to join the team?",
+       "runs": [
+        [
+         9,
+         300
+        ],
+        [
+         4,
+         600
+        ],
+        [
+         10,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Our team works as an extension of yours — from early design-assist through construction, with single-source accountability throughout.",
+       "occ": 1,
+       "new": "Browse all open positions or reach out directly — we're always looking for talented people who want to make an impact."
+      },
+      {
+       "old": "Talk to an Expert",
+       "occ": 2,
+       "new": "View All Positions"
+      },
+      {
+       "old": "View Projects",
+       "occ": 1,
+       "new": "Contact HR"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Take the next step",
+       "r": "label"
+      },
+      {
+       "c": "Ready to join the team?",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         49
+        ],
+        [
+         4,
+         600,
+         49
+        ],
+        [
+         10,
+         300,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "Browse all open positions or reach out directly — we're always looking for talented people who want to make an impact.",
+       "r": "body"
+      },
+      {
+       "c": "View All Positions",
+       "r": "label"
+      },
+      {
+       "c": "Contact HR",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 5,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6477,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6876,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{"name":"Icon Grid","group":"05 · Cards & Grids","iconSwap":false,
+ "desc":"Feature icon grids with Clark Pacific line icons. Layouts: headline left + 2×3 compact items; 4-col with body (icon left of text); 3-col and 4-col spacious (icon above title + body). Items are exposed Icon Grid Item instances — swap the icon, edit title/body, hide extras with Show item N. Mobile: 2-col grid.",
+ "items":[{"name":"Icon Grid Item","iconSwap":true,"desc":"One icon-grid entry. Swap the line icon with the Icon property. Compact = icon + title; Inline = icon left of title/body; Stacked = icon above title/body.","variants":[
+   {"props":{"Style":"Compact","Breakpoint":"Desktop"},"src":"desk/d-icon-grid-headline-left-2-3","path":"1.0","bp":"Desktop","names":["Title"]},
+   {"props":{"Style":"Inline","Breakpoint":"Desktop"},"src":"desk/d-icon-grid-4-col-with-body","path":"1.0","bp":"Desktop","names":["Title","Body"]},
+   {"props":{"Style":"Stacked","Breakpoint":"Desktop"},"src":"desk/d-icon-grid-3-col-spacious","path":"1.0","bp":"Desktop","names":["Title","Body"]},
+   {"props":{"Style":"Stacked","Breakpoint":"Mobile"},"src":"mob/m-icongrid","path":"1.0","bp":"Mobile","names":["Title","Body"]}]}],
+ "variants":[
+   {"props":{"Layout":"Headline left 2×3","Breakpoint":"Desktop"},"src":"desk/d-icon-grid-headline-left-2-3","bp":"Desktop","usesAll":{"parent":"1","item":"Icon Grid Item","variant":"Style=Compact, Breakpoint=Desktop"}},
+   {"props":{"Layout":"4-col with body","Breakpoint":"Desktop"},"src":"desk/d-icon-grid-4-col-with-body","bp":"Desktop","usesAll":{"parent":"1","item":"Icon Grid Item","variant":"Style=Inline, Breakpoint=Desktop"}},
+   {"props":{"Layout":"3-col spacious","Breakpoint":"Desktop"},"src":"desk/d-icon-grid-3-col-spacious","bp":"Desktop","usesAll":{"parent":"1","item":"Icon Grid Item","variant":"Style=Stacked, Breakpoint=Desktop"}},
+   {"props":{"Layout":"4-col spacious","Breakpoint":"Desktop"},"src":"desk/d-icon-grid-4-col-spacious","bp":"Desktop","usesAll":{"parent":"1","item":"Icon Grid Item","variant":"Style=Stacked, Breakpoint=Desktop"}},
+   {"props":{"Layout":"Headline left 2×3","Breakpoint":"Mobile"},"src":"mob/m-icongrid","bp":"Mobile","usesAll":{"parent":"1","item":"Icon Grid Item","variant":"Style=Stacked, Breakpoint=Mobile"}},
+   {"props":{"Layout":"4-col with body","Breakpoint":"Mobile"},"src":"mob/m-icongrid","bp":"Mobile","usesAll":{"parent":"1","item":"Icon Grid Item","variant":"Style=Stacked, Breakpoint=Mobile"}},
+   {"props":{"Layout":"3-col spacious","Breakpoint":"Mobile"},"src":"mob/m-icongrid","bp":"Mobile","usesAll":{"parent":"1","item":"Icon Grid Item","variant":"Style=Stacked, Breakpoint=Mobile"}},
+   {"props":{"Layout":"4-col spacious","Breakpoint":"Mobile"},"src":"mob/m-icongrid","bp":"Mobile","usesAll":{"parent":"1","item":"Icon Grid Item","variant":"Style=Stacked, Breakpoint=Mobile"}}]}

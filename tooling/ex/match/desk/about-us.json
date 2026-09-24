@@ -1,0 +1,1252 @@
+{
+ "file": "about-us.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Desktop",
+   "id": "19:174",
+   "score": 28.4,
+   "fit": 1,
+   "hr": 0.93,
+   "vh": 890,
+   "h": 832,
+   "pieces": [
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Desktop",
+     "id": "19:174",
+     "overrides": [
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Company"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 2,
+       "new": "About"
+      },
+      {
+       "old": "A complete prefabricated data center solution.",
+       "occ": 1,
+       "new": "Clark Pacific."
+      },
+      {
+       "old": "Structural precast systems and exterior wall panels for mission-critical data centers — integrating early design-assist and in-house manufacturing to support accelerated schedules, sustainability goals, and project predictability.",
+       "occ": 1,
+       "new": "To advance industrialized construction innovations and products for a safer, more sustainable, and predictable building environment."
+      },
+      {
+       "old": "Get Started",
+       "occ": 1,
+       "new": "Our Story"
+      },
+      {
+       "old": "View Webinar",
+       "occ": 1,
+       "new": "Meet the Team"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products",
+       "occ": 1
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6"
+     ],
+     "texts": [
+      {
+       "c": "Clark Pacific is expanding to the Pacific Northwest — new plant opening Q3 2026.",
+       "r": "body"
+      },
+      {
+       "c": "Learn more →",
+       "r": "title"
+      },
+      {
+       "c": "Our Products",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Projects",
+       "r": "label"
+      },
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Contact",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "About",
+       "r": "head"
+      },
+      {
+       "c": "Clark Pacific.",
+       "r": "head"
+      },
+      {
+       "c": "To advance industrialized construction innovations and products for a safer, more sustainable, and predictable building environment.",
+       "r": "body"
+      },
+      {
+       "c": "Our Story",
+       "r": "label"
+      },
+      {
+       "c": "Meet the Team",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 6,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 832,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": 7.2,
+   "fit": 1,
+   "hr": 0.7,
+   "vh": 445,
+   "h": 632,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Bulleted, Breakpoint=Desktop",
+     "id": "21:231",
+     "overrides": [
+      {
+       "old": "Advantages of a Clark Pacific building system",
+       "occ": 1,
+       "new": "From concrete to complete building systems",
+       "runs": [
+        [
+         13,
+         600
+        ],
+        [
+         29,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Factory-installed insulation meets target R-values without field rework",
+       "occ": 1,
+       "new": "Founded as Tecon Pacific in 1963, Clark Pacific began in West Sacramento on a four-acre site with fifteen employees and James Clark as its general manager. With the support of dedicated engineering, manufacturing facilities, and field teams, the company grew rapidly during the early years of the industry in California. As new methods emerged for forming, casting, finishing, shipping, and on-site installation, Clark Pacific built those capabilities into a disciplined, repeatable delivery model used across diverse project types on the West Coast."
+      },
+      {
+       "old": "Off-site fabrication runs parallel to sitework, compressing the schedule",
+       "occ": 1,
+       "new": "Today, Clark Pacific is owned and managed by Jim Clark’s sons, Donald Clark and Robert Clark. They are committed to advancing prefabricated building systems with an emphasis on performance, resilience, and better project outcomes."
+      },
+      {
+       "old": "Single-source accountability from design-assist through erection and warranty",
+       "occ": 1,
+       "new": "A third generation of the Clark family is now helping lead the company’s next chapter, expanding nationally to support large-scale programs with an emphasis on speed, sustainability, and disciplined execution."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Built for performance",
+       "occ": 1
+      },
+      {
+       "old": "Learn More",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "From concrete to complete building systems",
+       "r": "head",
+       "w": [
+        [
+         13,
+         600,
+         45
+        ],
+        [
+         29,
+         300,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Founded as Tecon Pacific in 1963, Clark Pacific began in West Sacramento on a four-acre site with fifteen employees and James Clark as its general manager. With the support of dedicated engineering, manufacturing facilities, and field teams, the company grew rapidly during the early years of the industry in California. As new methods emerged for forming, casting, finishing, shipping, and on-site installation, Clark Pacific built those capabilities into a disciplined, repeatable delivery model used across diverse project types on the West Coast.",
+       "r": "body"
+      },
+      {
+       "c": "Today, Clark Pacific is owned and managed by Jim Clark’s sons, Donald Clark and Robert Clark. They are committed to advancing prefabricated building systems with an emphasis on performance, resilience, and better project outcomes.",
+       "r": "body"
+      },
+      {
+       "c": "A third generation of the Clark family is now helping lead the company’s next chapter, expanding nationally to support large-scale programs with an emphasis on speed, sustainability, and disciplined execution.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 4,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 1464,
+   "tag": "Stats Row",
+   "kind": "instance",
+   "set": "Stats Row",
+   "variant": "Breakpoint=Desktop",
+   "id": "31:921",
+   "score": 8.2,
+   "fit": 0.75,
+   "hr": 0.82,
+   "vh": 291,
+   "h": 240,
+   "pieces": [
+    {
+     "set": "Stats Row",
+     "variant": "Breakpoint=Desktop",
+     "id": "31:921",
+     "overrides": [
+      {
+       "old": "70+",
+       "occ": 1,
+       "new": "63+",
+       "runs": [
+        [
+         2,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Years pioneering prefabricated construction.",
+       "occ": 1,
+       "new": "Manufacturing facilities"
+      },
+      {
+       "old": "11",
+       "occ": 1,
+       "new": "1000+",
+       "runs": [
+        [
+         4,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Western states served from regional plants.",
+       "occ": 1,
+       "new": "Employees"
+      },
+      {
+       "old": "100%",
+       "occ": 1,
+       "new": "500M+",
+       "runs": [
+        [
+         4,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Single source — design, engineering & manufacturing.",
+       "occ": 1,
+       "new": "Sq ft manufactured"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Metal, wood & concrete scrap diverted from landfill.",
+       "occ": 1
+      },
+      {
+       "old": "1",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "63+",
+       "r": "head",
+       "w": [
+        [
+         2,
+         600,
+         64
+        ],
+        [
+         1,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Years in business",
+       "r": "body"
+      },
+      {
+       "c": "4",
+       "r": "glyph"
+      },
+      {
+       "c": "Manufacturing facilities",
+       "r": "body"
+      },
+      {
+       "c": "1000+",
+       "r": "head",
+       "w": [
+        [
+         4,
+         600,
+         64
+        ],
+        [
+         1,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Employees",
+       "r": "body"
+      },
+      {
+       "c": "500M+",
+       "r": "head",
+       "w": [
+        [
+         4,
+         600,
+         64
+        ],
+        [
+         1,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Sq ft manufactured",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Years in business"
+   ],
+   "nov": 6,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 1704,
+   "tag": "Core Values",
+   "kind": "instance",
+   "set": "Core Values",
+   "variant": "Breakpoint=Desktop",
+   "id": "30:960",
+   "score": 3.3,
+   "fit": 0.8,
+   "hr": 0.74,
+   "vh": 559,
+   "h": 411,
+   "pieces": [
+    {
+     "set": "Core Values",
+     "variant": "Breakpoint=Desktop",
+     "id": "30:960",
+     "overrides": [
+      {
+       "old": "Quality",
+       "occ": 1,
+       "new": "Determination"
+      },
+      {
+       "old": "Integrity",
+       "occ": 1,
+       "new": "Well-being"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Safety",
+       "occ": 1
+      },
+      {
+       "old": "Zero-incident culture is non-negotiable. Every person on every site, every single day.",
+       "occ": 1
+      },
+      {
+       "old": "Factory precision means fewer surprises in the field — and a building that performs for decades.",
+       "occ": 1
+      },
+      {
+       "old": "We continuously invest in manufacturing technology, materials science, and design tools.",
+       "occ": 1
+      },
+      {
+       "old": "Partnership",
+       "occ": 1
+      },
+      {
+       "old": "Design-assist collaboration from day one reduces changes, lowers risk, and improves outcomes.",
+       "occ": 1
+      },
+      {
+       "old": "Sustainability",
+       "occ": 1
+      },
+      {
+       "old": "Lower-carbon systems, zero-waste operations, and a commitment to responsible building.",
+       "occ": 1
+      },
+      {
+       "old": "Single-source accountability from contract through warranty. We stand behind every panel.",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "What We Stand For",
+       "r": "label"
+      },
+      {
+       "c": "Our core values",
+       "r": "head",
+       "w": [
+        [
+         4,
+         300,
+         49
+        ],
+        [
+         11,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "Determination",
+       "r": "head"
+      },
+      {
+       "c": "Innovation",
+       "r": "head"
+      },
+      {
+       "c": "Well-being",
+       "r": "head"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "What We Stand For"
+   ],
+   "nov": 2,
+   "nhide": 9,
+   "hideItems": []
+  },
+  {
+   "top": 2115,
+   "tag": "Timeline",
+   "kind": "instance",
+   "set": "Timeline",
+   "variant": "Breakpoint=Desktop",
+   "id": "31:982",
+   "score": 29.7,
+   "fit": 0.94,
+   "hr": 0.86,
+   "vh": 1224,
+   "h": 1055,
+   "pieces": [
+    {
+     "set": "Timeline",
+     "variant": "Breakpoint=Desktop",
+     "id": "31:982",
+     "overrides": [
+      {
+       "old": "Milestones that shaped us",
+       "occ": 1,
+       "new": "Six decades of building different",
+       "runs": [
+        [
+         15,
+         300
+        ],
+        [
+         18,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Clark Pacific Established",
+       "occ": 1,
+       "new": "Founded by Jim Clark"
+      },
+      {
+       "old": "1952",
+       "occ": 1,
+       "new": "1963"
+      },
+      {
+       "old": "1969",
+       "occ": 1,
+       "new": "2008"
+      },
+      {
+       "old": "Woodland Plant Opens",
+       "occ": 1,
+       "new": "Woodland manufacturing plant opened"
+      },
+      {
+       "old": "Infinite Facade® Launches",
+       "occ": 1,
+       "new": "Infinite Facade® launches"
+      },
+      {
+       "old": "2004",
+       "occ": 1,
+       "new": "2017"
+      },
+      {
+       "old": "2016",
+       "occ": 1,
+       "new": "2024"
+      },
+      {
+       "old": "Data Centers Division",
+       "occ": 1,
+       "new": "Mission Critical Division"
+      },
+      {
+       "old": "Pacific Northwest Plant",
+       "occ": 1,
+       "new": "National expansion"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Founded in West Sacramento as a structural precast concrete producer, bringing factory-quality construction to the Western US.",
+       "occ": 1
+      },
+      {
+       "old": "A second manufacturing facility in Woodland, CA expanded NorCal capacity and shortened delivery hauls across the growing client base.",
+       "occ": 1
+      },
+      {
+       "old": "The integrated prefabricated building envelope — structure, insulation, and cladding in one off-site assembly — was a first for the western US market.",
+       "occ": 1
+      },
+      {
+       "old": "Accelshell launched Clark Pacific into the mission-critical data center market — where schedules are compressed and structural resilience is non-negotiable.",
+       "occ": 1
+      },
+      {
+       "old": "Clark Pacific's third manufacturing plant opens in the Pacific Northwest, serving the rapidly growing PNW construction and data center markets.",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Our History",
+       "r": "label"
+      },
+      {
+       "c": "Six decades of building different",
+       "r": "head",
+       "w": [
+        [
+         15,
+         300,
+         49
+        ],
+        [
+         18,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "Founded",
+       "r": "label"
+      },
+      {
+       "c": "Founded by Jim Clark",
+       "r": "title"
+      },
+      {
+       "c": "1963",
+       "r": "head"
+      },
+      {
+       "c": "2008",
+       "r": "head"
+      },
+      {
+       "c": "Expansion",
+       "r": "label"
+      },
+      {
+       "c": "Woodland manufacturing plant opened",
+       "r": "title"
+      },
+      {
+       "c": "Innovation",
+       "r": "label"
+      },
+      {
+       "c": "Infinite Facade® launches",
+       "r": "title"
+      },
+      {
+       "c": "2017",
+       "r": "head"
+      },
+      {
+       "c": "2024",
+       "r": "head"
+      },
+      {
+       "c": "New Market",
+       "r": "label"
+      },
+      {
+       "c": "Mission Critical Division",
+       "r": "title"
+      },
+      {
+       "c": "Expansion",
+       "r": "label"
+      },
+      {
+       "c": "National expansion",
+       "r": "title"
+      },
+      {
+       "c": "2026",
+       "r": "head"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Our History"
+   ],
+   "nov": 10,
+   "nhide": 5,
+   "hideItems": []
+  },
+  {
+   "top": 3170,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": 6,
+   "fit": 0.6,
+   "hr": 0.6,
+   "vh": 445,
+   "h": 747,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Bulleted, Breakpoint=Desktop",
+     "id": "21:231",
+     "overrides": [
+      {
+       "old": "Advantages of a Clark Pacific building system",
+       "occ": 1,
+       "new": "Full-service manufacturer",
+       "runs": [
+        [
+         13,
+         300
+        ],
+        [
+         12,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Built for performance",
+       "occ": 1,
+       "new": "Our services include"
+      },
+      {
+       "old": "Factory-installed insulation meets target R-values without field rework",
+       "occ": 1,
+       "new": "Transportation and Logistics"
+      },
+      {
+       "old": "Off-site fabrication runs parallel to sitework, compressing the schedule",
+       "occ": 1,
+       "new": "Erection and Build Services"
+      },
+      {
+       "old": "Single-source accountability from design-assist through erection and warranty",
+       "occ": 1,
+       "new": "Warranty and Long Term Support"
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Our Manufacturing Process"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Manufacturing",
+       "r": "label"
+      },
+      {
+       "c": "Full-service manufacturer",
+       "r": "head",
+       "w": [
+        [
+         13,
+         300,
+         45
+        ],
+        [
+         12,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "We integrate design, manufacturing, and on-site installation to deliver prefabricated building systems end-to-end.",
+       "r": "body"
+      },
+      {
+       "c": "Our services include",
+       "r": "label"
+      },
+      {
+       "c": "Design and Engineering Services",
+       "r": "body"
+      },
+      {
+       "c": "Manufacturing and Quality Control",
+       "r": "body"
+      },
+      {
+       "c": "Transportation and Logistics",
+       "r": "body"
+      },
+      {
+       "c": "Erection and Build Services",
+       "r": "body"
+      },
+      {
+       "c": "Warranty and Long Term Support",
+       "r": "body"
+      },
+      {
+       "c": "Our Manufacturing Process",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Manufacturing",
+    "We integrate design, manufacturing, and on-site installation to deliver prefabricated building systems end-to-end.",
+    "Design and Engineering Services",
+    "Manufacturing and Quality Control"
+   ],
+   "nov": 6,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3917,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+   "id": "21:197",
+   "score": 5.6,
+   "fit": 1,
+   "hr": 0.72,
+   "vh": 593,
+   "h": 424,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+     "id": "21:197",
+     "overrides": [
+      {
+       "old": "Prefabricated Systems",
+       "occ": 1,
+       "new": "Our Team"
+      },
+      {
+       "old": "High performance building envelope with reduced risk",
+       "occ": 1,
+       "new": "People who lead with purpose",
+       "runs": [
+        [
+         16,
+         300
+        ],
+        [
+         12,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Meet Our Leadership"
+      }
+     ],
+     "hide": [
+      {
+       "old": "A prefabricated building envelope designed to streamline coordination and construction — with factory-installed insulation and off-the-shelf connections.",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Our Team",
+       "r": "label"
+      },
+      {
+       "c": "People who lead with purpose",
+       "r": "head",
+       "w": [
+        [
+         16,
+         300,
+         45
+        ],
+        [
+         12,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Meet Our Leadership",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 4341,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Horizontal icon callout, Breakpoint=Desktop",
+   "id": "21:284",
+   "score": 6.4,
+   "fit": 1,
+   "hr": 0.59,
+   "vh": 232,
+   "h": 390,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Horizontal icon callout, Breakpoint=Desktop",
+     "id": "21:284",
+     "overrides": [
+      {
+       "old": "Through sustainable manufacturing practices and product innovation, we support client sustainability goals that deliver results.",
+       "occ": 1,
+       "new": "Our sustainability plan embodies considerations for our impact on people, the environment, and the economy. At Clark Pacific we understand that sustainability requires a holistic approach throughout everything we do."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:39"
+     ],
+     "texts": [
+      {
+       "c": "Sustainable\nPractices",
+       "r": "head",
+       "w": [
+        [
+         11,
+         600,
+         35
+        ],
+        [
+         1,
+         400,
+         35
+        ],
+        [
+         9,
+         300,
+         35
+        ]
+       ]
+      },
+      {
+       "c": "Our sustainability plan embodies considerations for our impact on people, the environment, and the economy. At Clark Pacific we understand that sustainability requires a holistic approach throughout everything we do.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4731,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+   "id": "23:206",
+   "score": 10.4,
+   "fit": 1,
+   "hr": 0.98,
+   "vh": 513,
+   "h": 525,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+     "id": "23:206",
+     "overrides": [
+      {
+       "old": "Talk to an Expert",
+       "occ": 1,
+       "new": "Start a Conversation"
+      },
+      {
+       "old": "Ready to accelerate your next project?",
+       "occ": 1,
+       "new": "Interested in partnering with Clark Pacific?",
+       "runs": [
+        [
+         30,
+         300
+        ],
+        [
+         14,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Our team works as an extension of yours — from early design-assist through construction, with single-source accountability throughout.",
+       "occ": 1,
+       "new": "Our design-assist team works with architects and owners from the earliest stages to optimize the system, reduce risk, and deliver better outcomes."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Start a Conversation",
+       "r": "label"
+      },
+      {
+       "c": "Interested in partnering with Clark Pacific?",
+       "r": "head",
+       "w": [
+        [
+         30,
+         300,
+         49
+        ],
+        [
+         14,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "Our design-assist team works with architects and owners from the earliest stages to optimize the system, reduce risk, and deliver better outcomes.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "View Projects",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5256,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5655,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

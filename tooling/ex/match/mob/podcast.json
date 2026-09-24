@@ -1,0 +1,489 @@
+{
+ "file": "podcast.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Index",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Index, Breakpoint=Mobile",
+   "id": "19:320",
+   "score": -5,
+   "fit": 0.25,
+   "hr": 0.37,
+   "vh": 368,
+   "h": 988,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Index, Breakpoint=Mobile",
+     "id": "19:320",
+     "overrides": [
+      {
+       "old": "Portfolio",
+       "occ": 1,
+       "new": "Podcast"
+      },
+      {
+       "old": "Our Projects",
+       "occ": 1,
+       "new": "The Podcast"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:125"
+     ],
+     "texts": [
+      {
+       "c": "Podcast",
+       "r": "label"
+      },
+      {
+       "c": "Building Forward:",
+       "r": "head"
+      },
+      {
+       "c": "The Podcast",
+       "r": "head"
+      },
+      {
+       "c": "Clark Pacific is proud to present ‘Building Forward’, our podcast series dedicated to exploring the future of construction. Each episode brings together industry leaders, innovators, and experts to share insights, strategies, and best practices shaping the way we design, build, and deliver projects.",
+       "r": "body"
+      },
+      {
+       "c": "Listen on Spotify",
+       "r": "label"
+      },
+      {
+       "c": "Apple Podcasts",
+       "r": "label"
+      },
+      {
+       "c": "Building Forward",
+       "r": "label"
+      },
+      {
+       "c": "The Podcast",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Building Forward:",
+    "Clark Pacific is proud to present ‘Building Forward’, our podcast series dedicated to exploring the future of construction. Each episode brings together industry leaders, innovators, and experts to share insights, strategies, and best practices shaping the way we design, build, and deliver projects.",
+    "Listen on Spotify",
+    "Apple Podcasts",
+    "Building Forward",
+    "The Podcast"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 988,
+   "tag": "One-off: Latest Episode Featured",
+   "kind": "page-specific",
+   "h": 1035
+  },
+  {
+   "top": 2023,
+   "tag": "Filterable Index Grid",
+   "kind": "page-specific",
+   "set": "Filterable Index Grid",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:808",
+   "score": -22,
+   "fit": 0.23,
+   "hr": 0.22,
+   "vh": 877,
+   "h": 3979,
+   "pieces": [],
+   "unplaced": [
+    "All episodes",
+    "12",
+    "Episode 12 · 42 min",
+    "Building for the Future: The Art of Prefabrication for Architecture",
+    "How prefabricated systems are expanding design ambition — from UCSF to Mission Rock — with a leading California architect.",
+    "Listen",
+    "11",
+    "Episode 11 · 38 min",
+    "Data Centers and the Precast Advantage",
+    "Why hyperscale operators are rethinking their structural approach and what factory-built systems mean for the next wave of AI infrastructure.",
+    "Listen",
+    "10",
+    "Episode 10 · 35 min",
+    "Sustainability at Scale: What EPDs Actually Tell You",
+    "Listen",
+    "09",
+    "The Case for Off-Site Manufacturing",
+    "The economics and logistics of moving construction into the factory — and why the industry is finally ready for it.",
+    "08",
+    "Facades as a System, Not a Surface",
+    "Why the best building envelopes are engineered as integrated assemblies — and what that means for architects and their clients.",
+    "07",
+    "Seismic Resiliency and the Precast Hybrid Moment Frame",
+    "An engineer's perspective on how PHMF is changing the math on parking structure design in high seismic zones."
+   ],
+   "nov": 7,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6002,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:349",
+   "score": 6.2,
+   "fit": 1,
+   "hr": 0.99,
+   "vh": 305,
+   "h": 301,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:349",
+     "overrides": [
+      {
+       "old": "Ready to build different?",
+       "occ": 1,
+       "new": "Ready to talk to our team directly?",
+       "runs": [
+        [
+         21,
+         300
+        ],
+        [
+         14,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Talk to our team about your next project.",
+       "occ": 1,
+       "new": "Our engineers and design-assist specialists are available to discuss your next project."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to talk to our team directly?",
+       "r": "head",
+       "w": [
+        [
+         21,
+         300,
+         30
+        ],
+        [
+         14,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Our engineers and design-assist specialists are available to discuss your next project.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6303,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6696,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

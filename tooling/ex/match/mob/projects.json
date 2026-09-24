@@ -1,0 +1,513 @@
+{
+ "file": "projects.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Index",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Index, Breakpoint=Mobile",
+   "id": "19:320",
+   "score": 1.2,
+   "fit": 0.5,
+   "hr": 0.5,
+   "vh": 368,
+   "h": 739,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Index, Breakpoint=Mobile",
+     "id": "19:320",
+     "overrides": [
+      {
+       "old": "Our Projects",
+       "occ": 1,
+       "new": "delivered better."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Portfolio",
+       "r": "label"
+      },
+      {
+       "c": "Built differently,",
+       "r": "head"
+      },
+      {
+       "c": "delivered better.",
+       "r": "head"
+      },
+      {
+       "c": "Parking structures, data centers, building envelopes, and structural systems across California and the American West.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Built differently,",
+    "Parking structures, data centers, building envelopes, and structural systems across California and the American West."
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 739,
+   "tag": "Filterable Index Grid",
+   "kind": "page-specific",
+   "set": "Filterable Index Grid",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:808",
+   "score": -107.3,
+   "fit": 0.08,
+   "hr": 0.1,
+   "vh": 877,
+   "h": 8659,
+   "pieces": [],
+   "unplaced": [
+    "Filter by:",
+    "All",
+    "Data Centers",
+    "Building Envelope",
+    "Parking",
+    "Structural",
+    "20 projects",
+    "Parking",
+    "St. Joseph's Medical Center",
+    "Healthcare · NorCal",
+    "View Project",
+    "Structural",
+    "UC Santa Barbara San Benito Student Housing",
+    "Higher Ed · SoCal",
+    "View Project",
+    "Parking",
+    "Aggie Square Parking Structure 6",
+    "UC Davis Health Parking Structure 5",
+    "Healthcare · NorCal",
+    "View Project",
+    "Building Envelope",
+    "Stanford Sutter Cancer Center",
+    "Healthcare · NorCal",
+    "View Project",
+    "Building Envelope",
+    "Stanford Block E",
+    "Higher Ed · NorCal",
+    "View Project",
+    "Building Envelope",
+    "San Bernardino County Valley Communication Center",
+    "Government · SoCal",
+    "View Project",
+    "Structural",
+    "UC Berkeley People's Park Student Housing",
+    "Higher Ed · NorCal",
+    "View Project",
+    "Structural",
+    "Samuel Merritt University",
+    "Higher Ed · NorCal",
+    "View Project",
+    "Building Envelope",
+    "The Landing (Project Nomar)",
+    "Mixed-Use · NorCal",
+    "View Project",
+    "Building Envelope",
+    "Sutter Roseville Medical Center",
+    "Healthcare · NorCal",
+    "View Project",
+    "Building Envelope",
+    "Modesto Courthouse",
+    "Government · NorCal",
+    "View Project",
+    "Building Envelope",
+    "Placer County Health and Human Services Center",
+    "Government · NorCal",
+    "View Project",
+    "Structural",
+    "CalVet Skilled Nursing and Memory Care Facility",
+    "Healthcare · NorCal",
+    "View Project",
+    "Building Envelope",
+    "Pritchard Building Rehabilitation and Expansion",
+    "Government · NorCal",
+    "View Project",
+    "Building Envelope",
+    "Transbay Block 2 Senior Building",
+    "Residential · NorCal",
+    "View Project",
+    "Building Envelope",
+    "Verde at Mission Rock (Building F)",
+    "Mixed-Use · NorCal",
+    "View Project",
+    "Building Envelope",
+    "Emery Yards",
+    "Office · NorCal",
+    "View Project",
+    "Structural",
+    "South Lake Tahoe Recreation and Aquatics Center",
+    "Government · NorCal",
+    "View Project",
+    "Healthcare · NorCal"
+   ],
+   "nov": 6,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 9398,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:349",
+   "score": 6.2,
+   "fit": 1,
+   "hr": 0.87,
+   "vh": 305,
+   "h": 351,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:349",
+     "overrides": [
+      {
+       "old": "Ready to build different?",
+       "occ": 1,
+       "new": "Ready to start your next project?",
+       "runs": [
+        [
+         20,
+         300
+        ],
+        [
+         13,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Talk to our team about your next project.",
+       "occ": 1,
+       "new": "Our design-assist team works as an extension of yours — from early concept through erection, with single-source accountability throughout."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to start your next project?",
+       "r": "head",
+       "w": [
+        [
+         20,
+         300,
+         30
+        ],
+        [
+         13,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Our design-assist team works as an extension of yours — from early concept through erection, with single-source accountability throughout.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 9749,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 10141,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

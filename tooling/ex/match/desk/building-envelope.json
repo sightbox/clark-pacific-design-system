@@ -1,0 +1,1055 @@
+{
+ "file": "building-envelope.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Desktop",
+   "id": "19:174",
+   "score": 28.4,
+   "fit": 1,
+   "hr": 0.98,
+   "vh": 890,
+   "h": 905,
+   "pieces": [
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Desktop",
+     "id": "19:174",
+     "overrides": [
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Products · Building Envelope Systems"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 2,
+       "new": "High-performance"
+      },
+      {
+       "old": "A complete prefabricated data center solution.",
+       "occ": 1,
+       "new": "building envelopes."
+      },
+      {
+       "old": "Structural precast systems and exterior wall panels for mission-critical data centers — integrating early design-assist and in-house manufacturing to support accelerated schedules, sustainability goals, and project predictability.",
+       "occ": 1,
+       "new": "Clark Pacific designs, engineers, fabricates and installs high-performance building envelope systems — a single-source solution for architects, owners, and general contractors."
+      },
+      {
+       "old": "Get Started",
+       "occ": 1,
+       "new": "Explore Our Systems"
+      },
+      {
+       "old": "View Webinar",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products",
+       "occ": 1
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6"
+     ],
+     "texts": [
+      {
+       "c": "Clark Pacific is expanding to the Pacific Northwest — new plant opening Q3 2026.",
+       "r": "body"
+      },
+      {
+       "c": "Learn more →",
+       "r": "title"
+      },
+      {
+       "c": "Our Products",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Projects",
+       "r": "label"
+      },
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Contact",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Products · Building Envelope Systems",
+       "r": "label"
+      },
+      {
+       "c": "High-performance",
+       "r": "head"
+      },
+      {
+       "c": "building envelopes.",
+       "r": "head"
+      },
+      {
+       "c": "Clark Pacific designs, engineers, fabricates and installs high-performance building envelope systems — a single-source solution for architects, owners, and general contractors.",
+       "r": "body"
+      },
+      {
+       "c": "Explore Our Systems",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 6,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 905,
+   "tag": "Card / Standard (grid)",
+   "kind": "instance",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Desktop",
+   "id": "27:677",
+   "score": 11.8,
+   "fit": 0.65,
+   "hr": 0.4,
+   "vh": 650,
+   "h": 1621,
+   "pieces": [
+    {
+     "set": "Related Content Row",
+     "variant": "Breakpoint=Desktop",
+     "id": "27:677",
+     "overrides": [
+      {
+       "old": "Related projects",
+       "occ": 1,
+       "new": "Infinite Facade®"
+      },
+      {
+       "old": "View All",
+       "occ": 1,
+       "new": "Learn More"
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 1,
+       "new": "Durable Facade Panel"
+      },
+      {
+       "old": "San Diego, CA · 2025",
+       "occ": 1,
+       "new": "Extremely durable facade with flexibility in shapes, finishes, and returns. Supports brick, terra cotta, stone, and 100+ custom textures and colors across any building geometry."
+      },
+      {
+       "old": "Read More",
+       "occ": 1,
+       "new": "Learn More"
+      },
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "Insulated Wall Panel"
+      },
+      {
+       "old": "Davis, CA · 2024",
+       "occ": 1,
+       "new": "An ideal choice for commercial, industrial, and data center projects — used as cladding or a load-bearing system with customizable thermal performance and finish options."
+      },
+      {
+       "old": "Read More",
+       "occ": 2,
+       "new": "Learn More"
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Glass Fiber Reinforced Concrete"
+      },
+      {
+       "old": "Santa Clara, CA · 2025",
+       "occ": 1,
+       "new": "Lightweight and durable integrated panels with unlimited diversity in color and form. Ideal for complex geometries, thin profiles, and projects where dead load must be minimized."
+      },
+      {
+       "old": "Read More",
+       "occ": 3,
+       "new": "Learn More"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Torrey View",
+       "occ": 1
+      },
+      {
+       "old": "UC Davis West Village",
+       "occ": 1
+      },
+      {
+       "old": "Silicon Valley Hub",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Explore our facade products",
+       "r": "head",
+       "w": [
+        [
+         12,
+         300,
+         49
+        ],
+        [
+         15,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "Multi-Scope Prefabricated Envelope",
+       "r": "label"
+      },
+      {
+       "c": "Infinite Facade®",
+       "r": "head"
+      },
+      {
+       "c": "A prefabricated, multi-scope building envelope solution with design and aesthetic flexibility. Integrates structure, insulation, windows, and finishes — factory-built for precision and speed.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "Durable Facade Panel",
+       "r": "label"
+      },
+      {
+       "c": "Architectural Precast",
+       "r": "head"
+      },
+      {
+       "c": "Extremely durable facade with flexibility in shapes, finishes, and returns. Supports brick, terra cotta, stone, and 100+ custom textures and colors across any building geometry.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "Insulated Wall Panel",
+       "r": "label"
+      },
+      {
+       "c": "AccelShell™",
+       "r": "head"
+      },
+      {
+       "c": "An ideal choice for commercial, industrial, and data center projects — used as cladding or a load-bearing system with customizable thermal performance and finish options.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "Glass Fiber Reinforced Concrete",
+       "r": "label"
+      },
+      {
+       "c": "GFRC",
+       "r": "head"
+      },
+      {
+       "c": "Lightweight and durable integrated panels with unlimited diversity in color and form. Ideal for complex geometries, thin profiles, and projects where dead load must be minimized.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Explore our facade products",
+    "Multi-Scope Prefabricated Envelope",
+    "A prefabricated, multi-scope building envelope solution with design and aesthetic flexibility. Integrates structure, insulation, windows, and finishes — factory-built for precision and speed.",
+    "Architectural Precast",
+    "AccelShell™",
+    "GFRC"
+   ],
+   "nov": 11,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 2526,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+   "id": "21:197",
+   "score": 6.5,
+   "fit": 0.8,
+   "hr": 0.84,
+   "vh": 593,
+   "h": 710,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+     "id": "21:197",
+     "overrides": [
+      {
+       "old": "Prefabricated Systems",
+       "occ": 1,
+       "new": "Our Mission"
+      },
+      {
+       "old": "High performance building envelope with reduced risk",
+       "occ": 1,
+       "new": "Reduce the complexity of envelope delivery",
+       "runs": [
+        [
+         25,
+         300
+        ],
+        [
+         17,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "A prefabricated building envelope designed to streamline coordination and construction — with factory-installed insulation and off-the-shelf connections.",
+       "occ": 1,
+       "new": "Our mission is to turn the building envelope into one of the most rewarding parts of your project — by delivering it as a single-source prefabricated system, designed and built to meet every performance requirement before it leaves the factory."
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Download Facade System Overview"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Our Mission",
+       "r": "label"
+      },
+      {
+       "c": "Reduce the complexity of envelope delivery",
+       "r": "head",
+       "w": [
+        [
+         25,
+         300,
+         45
+        ],
+        [
+         17,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "The building envelope is the most difficult part of any building to design. Design teams are expected to meet client aesthetic goals while satisfying energy codes, waterproofing requirements, and structural constraints — often with multiple subcontractors and conflicting schedules.",
+       "r": "body"
+      },
+      {
+       "c": "Our mission is to turn the building envelope into one of the most rewarding parts of your project — by delivering it as a single-source prefabricated system, designed and built to meet every performance requirement before it leaves the factory.",
+       "r": "body"
+      },
+      {
+       "c": "Download Facade System Overview",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "The building envelope is the most difficult part of any building to design. Design teams are expected to meet client aesthetic goals while satisfying energy codes, waterproofing requirements, and structural constraints — often with multiple subcontractors and conflicting schedules."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3236,
+   "tag": "Icon Grid",
+   "kind": "instance",
+   "set": "Icon Grid",
+   "variant": "Layout=4-col spacious, Breakpoint=Desktop",
+   "id": "25:494",
+   "score": 34,
+   "fit": 1,
+   "hr": 0.95,
+   "vh": 550,
+   "h": 580,
+   "pieces": [
+    {
+     "set": "Icon Grid",
+     "variant": "Layout=4-col spacious, Breakpoint=Desktop",
+     "id": "25:494",
+     "overrides": [
+      {
+       "old": "Advantages of a prefabricated precast data center",
+       "occ": 1,
+       "new": "Advantages of prefabricated building envelopes",
+       "runs": [
+        [
+         28,
+         300
+        ],
+        [
+         18,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Structural Flexibility",
+       "occ": 1,
+       "new": "Lower Risk"
+      },
+      {
+       "old": "Adapts to future expansion.",
+       "occ": 1,
+       "new": "Single-source accountability eliminates the finger-pointing between trades that drives most envelope failures."
+      },
+      {
+       "old": "Faster Schedule",
+       "occ": 1,
+       "new": "Reduce Costs"
+      },
+      {
+       "old": "Parallel offsite fabrication.",
+       "occ": 1,
+       "new": "Factory efficiency and parallel fabrication reduce total installed cost vs. traditional multi-subcontractor delivery."
+      },
+      {
+       "old": "Lower Total Cost",
+       "occ": 1,
+       "new": "Increase Efficiency"
+      },
+      {
+       "old": "Reduced rework.",
+       "occ": 1,
+       "new": "Panels fabricated offsite while foundation and structure proceed — compressing the overall project schedule."
+      },
+      {
+       "old": "Faster Schedule",
+       "occ": 2,
+       "new": "Reduce Site Impacts"
+      },
+      {
+       "old": "Parallel offsite fabrication.",
+       "occ": 2,
+       "new": "Fewer trades on-site, less scaffolding, and just-in-time delivery reduce congestion and site safety exposures."
+      },
+      {
+       "old": "Predictable Delivery",
+       "occ": 1,
+       "new": "Less Construction Waste"
+      },
+      {
+       "old": "Factory-controlled production + delivery.",
+       "occ": 1,
+       "new": "Factory production generates a fraction of the waste produced by field-built envelope systems."
+      },
+      {
+       "old": "Sustainable, Low-Carbon Options",
+       "occ": 1,
+       "new": "Uncompromised Design"
+      },
+      {
+       "old": "Lower embodied carbon.",
+       "occ": 1,
+       "new": "Full-height windows, complex reveals, custom finishes — prefabricated systems deliver architectural ambition at scale."
+      },
+      {
+       "old": "Resilient and Durable Materials",
+       "occ": 1,
+       "new": "Budget Certainty"
+      },
+      {
+       "old": "Fire and weather resistant.",
+       "occ": 1,
+       "new": "Fixed-price prefabricated scope locks in cost early and protects the owner from field change orders."
+      },
+      {
+       "old": "Sustainable, Low-Carbon Options",
+       "occ": 2,
+       "new": "Higher Quality Control"
+      },
+      {
+       "old": "Lower embodied carbon.",
+       "occ": 2,
+       "new": "Controlled plant environment delivers consistent tolerances, finish quality, and weatherproofing panel to panel."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Advantages of prefabricated building envelopes",
+       "r": "head",
+       "w": [
+        [
+         28,
+         300,
+         49
+        ],
+        [
+         18,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "Lower Risk",
+       "r": "label"
+      },
+      {
+       "c": "Single-source accountability eliminates the finger-pointing between trades that drives most envelope failures.",
+       "r": "body"
+      },
+      {
+       "c": "Reduce Costs",
+       "r": "label"
+      },
+      {
+       "c": "Factory efficiency and parallel fabrication reduce total installed cost vs. traditional multi-subcontractor delivery.",
+       "r": "body"
+      },
+      {
+       "c": "Increase Efficiency",
+       "r": "label"
+      },
+      {
+       "c": "Panels fabricated offsite while foundation and structure proceed — compressing the overall project schedule.",
+       "r": "body"
+      },
+      {
+       "c": "Reduce Site Impacts",
+       "r": "label"
+      },
+      {
+       "c": "Fewer trades on-site, less scaffolding, and just-in-time delivery reduce congestion and site safety exposures.",
+       "r": "body"
+      },
+      {
+       "c": "Less Construction Waste",
+       "r": "label"
+      },
+      {
+       "c": "Factory production generates a fraction of the waste produced by field-built envelope systems.",
+       "r": "body"
+      },
+      {
+       "c": "Uncompromised Design",
+       "r": "label"
+      },
+      {
+       "c": "Full-height windows, complex reveals, custom finishes — prefabricated systems deliver architectural ambition at scale.",
+       "r": "body"
+      },
+      {
+       "c": "Budget Certainty",
+       "r": "label"
+      },
+      {
+       "c": "Fixed-price prefabricated scope locks in cost early and protects the owner from field change orders.",
+       "r": "body"
+      },
+      {
+       "c": "Higher Quality Control",
+       "r": "label"
+      },
+      {
+       "c": "Controlled plant environment delivers consistent tolerances, finish quality, and weatherproofing panel to panel.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 17,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3816,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": 8.1,
+   "fit": 0.83,
+   "hr": 0.61,
+   "vh": 445,
+   "h": 734,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Bulleted, Breakpoint=Desktop",
+     "id": "21:231",
+     "overrides": [
+      {
+       "old": "Advantages of a Clark Pacific building system",
+       "occ": 1,
+       "new": "Early engagement is the key",
+       "runs": [
+        [
+         20,
+         300
+        ],
+        [
+         7,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Factory-installed insulation meets target R-values without field rework",
+       "occ": 1,
+       "new": "Beginning with schematic design, our envelope experts walk the team through identification of solutions and materials — optimizing the system for aesthetics, performance, and schedule before documents are complete."
+      },
+      {
+       "old": "Off-site fabrication runs parallel to sitework, compressing the schedule",
+       "occ": 1,
+       "new": "Single-source accountability and constructability determined before manufacturing. Accelerated schedule."
+      },
+      {
+       "old": "Single-source accountability from design-assist through erection and warranty",
+       "occ": 1,
+       "new": "Fewer trades on site and just-in-time delivery reduce congestion, creating a safer site. Factory production generates less waste than field-built systems."
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Start the Conversation"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Built for performance",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Our Process",
+       "r": "label"
+      },
+      {
+       "c": "Early engagement is the key",
+       "r": "head",
+       "w": [
+        [
+         20,
+         300,
+         45
+        ],
+        [
+         7,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Beginning with schematic design, our envelope experts walk the team through identification of solutions and materials — optimizing the system for aesthetics, performance, and schedule before documents are complete.",
+       "r": "body"
+      },
+      {
+       "c": "Single-source accountability and constructability determined before manufacturing. Accelerated schedule.",
+       "r": "body"
+      },
+      {
+       "c": "Fewer trades on site and just-in-time delivery reduce congestion, creating a safer site. Factory production generates less waste than field-built systems.",
+       "r": "body"
+      },
+      {
+       "c": "Start the Conversation",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Our Process"
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 4550,
+   "tag": "Projects Photo Mosaic",
+   "kind": "page-specific",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Desktop",
+   "id": "28:824",
+   "score": 1.2,
+   "fit": 0.45,
+   "hr": 0.93,
+   "vh": 696,
+   "h": 749,
+   "pieces": [],
+   "unplaced": [
+    "Cal State LA Student Housing East",
+    "Infinite Facade® system integrating precast, glazing, and insulation for a 900-unit student housing complex in Los Angeles.",
+    "The Grand LA",
+    "High-performance prefabricated facade system delivering the complex geometry and premium finish quality of a landmark mixed-use tower.",
+    "2100 Kettner",
+    "Brick-inlay Infinite Facade® panels achieved the masonry aesthetic of a historic San Diego neighborhood at a fraction of the schedule."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5299,
+   "tag": "Finishes Guide",
+   "kind": "instance",
+   "set": "Finishes Guide · Graphic CTA",
+   "variant": "Breakpoint=Desktop",
+   "id": "32:1052",
+   "score": 11,
+   "fit": 1,
+   "hr": 1,
+   "vh": 682,
+   "h": 682,
+   "pieces": [
+    {
+     "set": "Finishes Guide · Graphic CTA",
+     "variant": "Breakpoint=Desktop",
+     "id": "32:1052",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:122"
+     ],
+     "texts": [
+      {
+       "c": "Free Download",
+       "r": "label"
+      },
+      {
+       "c": "Standard finishes guide",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         45
+        ],
+        [
+         14,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "A wide range of standard colors, forms, textures, and finish combinations for our integrated envelope systems.",
+       "r": "body"
+      },
+      {
+       "c": "Download the Guide",
+       "r": "label"
+      },
+      {
+       "c": "Facade Systems Comparison (PDF)",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5980,
+   "tag": "CTA Banner / Light",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Light, Layout=Centered · single button, Breakpoint=Desktop",
+   "id": "23:302",
+   "score": 6.4,
+   "fit": 1,
+   "hr": 0.99,
+   "vh": 375,
+   "h": 377,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Light, Layout=Centered · single button, Breakpoint=Desktop",
+     "id": "23:302",
+     "overrides": [
+      {
+       "old": "Our envelope experts engage early — from schematic design through erection — to deliver a single-source system that meets every performance, schedule and aesthetic goal.",
+       "occ": 1,
+       "new": "Our envelope experts engage early — from schematic design through erection — to deliver a single-source system that meets every performance, schedule, and aesthetic goal."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to start your next envelope project?",
+       "r": "head",
+       "w": [
+        [
+         25,
+         300,
+         45
+        ],
+        [
+         17,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Our envelope experts engage early — from schematic design through erection — to deliver a single-source system that meets every performance, schedule, and aesthetic goal.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6357,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6757,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

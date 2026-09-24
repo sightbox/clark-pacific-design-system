@@ -1,0 +1,403 @@
+{
+ "file": "podcast.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Index",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Index, Breakpoint=Desktop",
+   "id": "19:251",
+   "score": 2,
+   "fit": 0.5,
+   "hr": 0.73,
+   "vh": 512,
+   "h": 701,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:29",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:76",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Index, Breakpoint=Desktop",
+     "id": "19:251",
+     "overrides": [
+      {
+       "old": "Portfolio",
+       "occ": 1,
+       "new": "Podcast"
+      },
+      {
+       "old": "Built different,",
+       "occ": 1,
+       "new": "Building Forward:"
+      },
+      {
+       "old": "delivered better.",
+       "occ": 1,
+       "new": "The Podcast"
+      },
+      {
+       "old": "Parking structures, data centers, building envelopes, and structural systems across California and the American West.",
+       "occ": 1,
+       "new": "Clark Pacific is proud to present ‘Building Forward’, our podcast series dedicated to exploring the future of construction. Each episode brings together industry leaders, innovators, and experts to share insights, strategies, and best practices shaping the way we design, build, and deliver projects."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:6",
+      "5:125"
+     ],
+     "texts": [
+      {
+       "c": "Podcast",
+       "r": "label"
+      },
+      {
+       "c": "Building Forward:",
+       "r": "head"
+      },
+      {
+       "c": "The Podcast",
+       "r": "head"
+      },
+      {
+       "c": "Clark Pacific is proud to present ‘Building Forward’, our podcast series dedicated to exploring the future of construction. Each episode brings together industry leaders, innovators, and experts to share insights, strategies, and best practices shaping the way we design, build, and deliver projects.",
+       "r": "body"
+      },
+      {
+       "c": "Listen on Spotify",
+       "r": "label"
+      },
+      {
+       "c": "Apple Podcasts",
+       "r": "label"
+      },
+      {
+       "c": "Building Forward",
+       "r": "label"
+      },
+      {
+       "c": "The Podcast",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Listen on Spotify",
+    "Apple Podcasts",
+    "Building Forward",
+    "The Podcast"
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 701,
+   "tag": "One-off: Latest Episode Featured",
+   "kind": "page-specific",
+   "h": 808
+  },
+  {
+   "top": 1509,
+   "tag": "Filterable Index Grid",
+   "kind": "page-specific",
+   "set": "Filterable Index Grid",
+   "variant": "Breakpoint=Desktop",
+   "id": "27:749",
+   "score": 13,
+   "fit": 0.55,
+   "hr": 0.54,
+   "vh": 641,
+   "h": 1186,
+   "pieces": [],
+   "unplaced": [
+    "All episodes",
+    "12",
+    "Episode 12 · 42 min",
+    "Building for the Future: The Art of Prefabrication for Architecture",
+    "Listen",
+    "11",
+    "Data Centers and the Precast Advantage",
+    "Why hyperscale operators are rethinking their structural approach and what factory-built systems mean for the next wave of AI infrastructure.",
+    "10",
+    "Sustainability at Scale: What EPDs Actually Tell You",
+    "A practical conversation about Environmental Product Declarations — what they measure, what they miss, and how to use them in project decisions.",
+    "09",
+    "08",
+    "07"
+   ],
+   "nov": 17,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2695,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+   "id": "23:206",
+   "score": 5.4,
+   "fit": 1,
+   "hr": 0.63,
+   "vh": 513,
+   "h": 324,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+     "id": "23:206",
+     "overrides": [
+      {
+       "old": "Ready to accelerate your next project?",
+       "occ": 1,
+       "new": "Ready to talk to our team directly?",
+       "runs": [
+        [
+         21,
+         300
+        ],
+        [
+         14,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Our team works as an extension of yours — from early design-assist through construction, with single-source accountability throughout.",
+       "occ": 1,
+       "new": "Our engineers and design-assist specialists are available to discuss your next project."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Talk to an Expert",
+       "occ": 1
+      },
+      {
+       "old": "View Projects",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to talk to our team directly?",
+       "r": "head",
+       "w": [
+        [
+         21,
+         300,
+         45
+        ],
+        [
+         14,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Our engineers and design-assist specialists are available to discuss your next project.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 2,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 3019,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3419,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

@@ -1,0 +1,879 @@
+{
+ "file": "leadership.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Desktop",
+   "id": "19:174",
+   "score": 23.6,
+   "fit": 1,
+   "hr": 0.97,
+   "vh": 890,
+   "h": 918,
+   "pieces": [
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Desktop",
+     "id": "19:174",
+     "overrides": [
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Company · Leadership"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 2,
+       "new": "People who build"
+      },
+      {
+       "old": "A complete prefabricated data center solution.",
+       "occ": 1,
+       "new": "with purpose."
+      },
+      {
+       "old": "Structural precast systems and exterior wall panels for mission-critical data centers — integrating early design-assist and in-house manufacturing to support accelerated schedules, sustainability goals, and project predictability.",
+       "occ": 1,
+       "new": "Our leadership team brings together decades of experience in engineering, manufacturing, and construction — united by a belief that prefabricated systems deliver better buildings."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products",
+       "occ": 1
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 1
+      },
+      {
+       "old": "Get Started",
+       "occ": 1
+      },
+      {
+       "old": "View Webinar",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6"
+     ],
+     "texts": [
+      {
+       "c": "Clark Pacific is expanding to the Pacific Northwest — new plant opening Q3 2026.",
+       "r": "body"
+      },
+      {
+       "c": "Learn more →",
+       "r": "title"
+      },
+      {
+       "c": "Our Products",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Projects",
+       "r": "label"
+      },
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Contact",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Company · Leadership",
+       "r": "label"
+      },
+      {
+       "c": "People who build",
+       "r": "head"
+      },
+      {
+       "c": "with purpose.",
+       "r": "head"
+      },
+      {
+       "c": "Our leadership team brings together decades of experience in engineering, manufacturing, and construction — united by a belief that prefabricated systems deliver better buildings.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 4,
+   "nhide": 5,
+   "hideItems": []
+  },
+  {
+   "top": 918,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": 4.8,
+   "fit": 1,
+   "hr": 0.86,
+   "vh": 445,
+   "h": 384,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Bulleted, Breakpoint=Desktop",
+     "id": "21:231",
+     "overrides": [
+      {
+       "old": "Advantages of a Clark Pacific building system",
+       "occ": 1,
+       "new": "Experienced in every phase of the building process",
+       "runs": [
+        [
+         11,
+         600
+        ],
+        [
+         39,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Off-site fabrication runs parallel to sitework, compressing the schedule",
+       "occ": 1,
+       "new": "From structural engineering to plant operations, from sales to sustainability — our executive team has navigated every discipline required to deliver complex prefabricated building systems on demanding schedules."
+      },
+      {
+       "old": "Single-source accountability from design-assist through erection and warranty",
+       "occ": 1,
+       "new": "They share a single conviction: that manufacturing precision, early engagement, and single-source accountability produce fundamentally better buildings than traditional construction."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Built for performance",
+       "occ": 1
+      },
+      {
+       "old": "Factory-installed insulation meets target R-values without field rework",
+       "occ": 1
+      },
+      {
+       "old": "Learn More",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Experienced in every phase of the building process",
+       "r": "head",
+       "w": [
+        [
+         11,
+         600,
+         35
+        ],
+        [
+         39,
+         300,
+         35
+        ]
+       ]
+      },
+      {
+       "c": "From structural engineering to plant operations, from sales to sustainability — our executive team has navigated every discipline required to deliver complex prefabricated building systems on demanding schedules.",
+       "r": "body"
+      },
+      {
+       "c": "They share a single conviction: that manufacturing precision, early engagement, and single-source accountability produce fundamentally better buildings than traditional construction.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 1302,
+   "tag": "Leadership Card",
+   "kind": "instance",
+   "set": "Leadership Grid",
+   "variant": "Breakpoint=Desktop",
+   "id": "29:825",
+   "score": 68,
+   "fit": 1,
+   "hr": 0.58,
+   "vh": 2349,
+   "h": 1367,
+   "pieces": [
+    {
+     "set": "Leadership Grid",
+     "variant": "Breakpoint=Desktop",
+     "id": "29:825",
+     "overrides": [
+      {
+       "old": "Our leadership team",
+       "occ": 1,
+       "new": "Our leadership team",
+       "runs": [
+        [
+         4,
+         300
+        ],
+        [
+         15,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Our prefabricated, precast data centers expedite construction while delivering efficiency, consistency, and scalable solutions—to meet the demands of any mission-critical operation.",
+       "occ": 1,
+       "new": "Hover over a portrait to read a bio."
+      },
+      {
+       "old": "Jane leads Clark Pacific's vision for industrialized construction, with 25 years of experience in prefabricated systems and structural engineering across the western US.",
+       "occ": 1,
+       "new": "Ron has led Clark Pacific for over two decades, steering the company's expansion into data centers, building envelope systems, and sustainable construction — while preserving the family culture that has defined the company since 1952."
+      },
+      {
+       "old": "Jane",
+       "occ": 1,
+       "new": "Ron"
+      },
+      {
+       "old": "Doe",
+       "occ": 1,
+       "new": "Ball"
+      },
+      {
+       "old": "President & CEO",
+       "occ": 1,
+       "new": "Chief Executive Officer"
+      },
+      {
+       "old": "John oversees plant operations, supply chain, and project delivery across Clark Pacific's California and Pacific Northwest facilities.",
+       "occ": 1,
+       "new": "Brian oversees all plant operations, project delivery, and quality programs across Clark Pacific's four manufacturing facilities, ensuring every project meets the company's standards for precision and on-time performance."
+      },
+      {
+       "old": "John",
+       "occ": 1,
+       "new": "Brian"
+      },
+      {
+       "old": "Smith",
+       "occ": 1,
+       "new": "Carrig"
+      },
+      {
+       "old": "Chief Operating Officer",
+       "occ": 1,
+       "new": "President & Chief Operating Officer"
+      },
+      {
+       "old": "Alex leads the mission-critical product division, working closely with hyperscale operators on schedule-driven Accelshell and Accelcore programs.",
+       "occ": 1,
+       "new": "Diane leads financial planning, risk management, and capital investment strategy, supporting Clark Pacific's long-term growth and its expansion into new markets and manufacturing facilities."
+      },
+      {
+       "old": "Alex",
+       "occ": 1,
+       "new": "Diane"
+      },
+      {
+       "old": "Lee",
+       "occ": 1,
+       "new": "Olson"
+      },
+      {
+       "old": "VP, Data Center Solutions",
+       "occ": 1,
+       "new": "Chief Financial Officer"
+      },
+      {
+       "old": "Maria directs structural and connection engineering for all prefabricated systems, with deep expertise in seismic design and high-density floor loading.",
+       "occ": 1,
+       "new": "Marcus leads a team of structural and design engineers who engage with architects and owners from the earliest project phases — using design-assist to optimize systems before a single panel is cast."
+      },
+      {
+       "old": "Maria",
+       "occ": 1,
+       "new": "Marcus"
+      },
+      {
+       "old": "Garcia",
+       "occ": 1,
+       "new": "Webb"
+      },
+      {
+       "old": "Sam manages early-engagement programs, helping design teams optimize prefabricated solutions from entitlement through construction documents.",
+       "occ": 1,
+       "new": "Sarah drives Clark Pacific's market strategy across data centers, building envelope, parking, and structural sectors — building long-term relationships with developers, GCs, and design teams throughout the Western US."
+      },
+      {
+       "old": "Sam",
+       "occ": 1,
+       "new": "Sarah"
+      },
+      {
+       "old": "Patel",
+       "occ": 1,
+       "new": "Mendez"
+      },
+      {
+       "old": "Director, Design-Assist",
+       "occ": 1,
+       "new": "VP, Sales & Business Development"
+      },
+      {
+       "old": "Riley leads Clark Pacific's sustainability initiatives, from lower-carbon concrete mixes and EPD reporting to LEED project support and plant operations.",
+       "occ": 1,
+       "new": "Kevin manages manufacturing across all four plants, with a relentless focus on safety, quality, continuous process improvement, and workforce development at every level of the organization."
+      },
+      {
+       "old": "Riley",
+       "occ": 1,
+       "new": "Kevin"
+      },
+      {
+       "old": "Chen",
+       "occ": 1,
+       "new": "Tran"
+      },
+      {
+       "old": "Director, Sustainability",
+       "occ": 1,
+       "new": "VP, Operations"
+      },
+      {
+       "old": "Taylor coordinates manufacturing schedules, quality control, and logistics, ensuring every panel ships on time and within tolerance.",
+       "occ": 1,
+       "new": "Priya leads Clark Pacific's environmental strategy, including EPD publication, low-carbon mix design, green building certification support, and the NetZero Building Platform product roadmap."
+      },
+      {
+       "old": "Taylor",
+       "occ": 1,
+       "new": "Priya"
+      },
+      {
+       "old": "Brooks",
+       "occ": 1,
+       "new": "Nair"
+      },
+      {
+       "old": "Director, Operations",
+       "occ": 1,
+       "new": "VP, Sustainability & Innovation"
+      },
+      {
+       "old": "Jordan develops new client relationships and expansion strategies across Clark Pacific's data center, parking, and building envelope markets.",
+       "occ": 1,
+       "new": "James ensures seamless execution from contract award through final inspection — maintaining Clark Pacific's commitment to single-source accountability and client satisfaction on every project."
+      },
+      {
+       "old": "Jordan",
+       "occ": 1,
+       "new": "James"
+      },
+      {
+       "old": "Avery",
+       "occ": 1,
+       "new": "Thornton"
+      },
+      {
+       "old": "Director, Business Development",
+       "occ": 1,
+       "new": "VP, Project Delivery"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Our Approach",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Our leadership team",
+       "r": "head",
+       "w": [
+        [
+         4,
+         300,
+         49
+        ],
+        [
+         15,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "Hover over a portrait to read a bio.",
+       "r": "body"
+      },
+      {
+       "c": "Ron has led Clark Pacific for over two decades, steering the company's expansion into data centers, building envelope systems, and sustainable construction — while preserving the family culture that has defined the company since 1952.",
+       "r": "body"
+      },
+      {
+       "c": "Ron",
+       "r": "head"
+      },
+      {
+       "c": "Ball",
+       "r": "head"
+      },
+      {
+       "c": "Chief Executive Officer",
+       "r": "label"
+      },
+      {
+       "c": "Brian oversees all plant operations, project delivery, and quality programs across Clark Pacific's four manufacturing facilities, ensuring every project meets the company's standards for precision and on-time performance.",
+       "r": "body"
+      },
+      {
+       "c": "Brian",
+       "r": "head"
+      },
+      {
+       "c": "Carrig",
+       "r": "head"
+      },
+      {
+       "c": "President & Chief Operating Officer",
+       "r": "label"
+      },
+      {
+       "c": "Diane leads financial planning, risk management, and capital investment strategy, supporting Clark Pacific's long-term growth and its expansion into new markets and manufacturing facilities.",
+       "r": "body"
+      },
+      {
+       "c": "Diane",
+       "r": "head"
+      },
+      {
+       "c": "Olson",
+       "r": "head"
+      },
+      {
+       "c": "Chief Financial Officer",
+       "r": "label"
+      },
+      {
+       "c": "Marcus leads a team of structural and design engineers who engage with architects and owners from the earliest project phases — using design-assist to optimize systems before a single panel is cast.",
+       "r": "body"
+      },
+      {
+       "c": "Marcus",
+       "r": "head"
+      },
+      {
+       "c": "Webb",
+       "r": "head"
+      },
+      {
+       "c": "VP, Engineering",
+       "r": "label"
+      },
+      {
+       "c": "Sarah drives Clark Pacific's market strategy across data centers, building envelope, parking, and structural sectors — building long-term relationships with developers, GCs, and design teams throughout the Western US.",
+       "r": "body"
+      },
+      {
+       "c": "Sarah",
+       "r": "head"
+      },
+      {
+       "c": "Mendez",
+       "r": "head"
+      },
+      {
+       "c": "VP, Sales & Business Development",
+       "r": "label"
+      },
+      {
+       "c": "Kevin manages manufacturing across all four plants, with a relentless focus on safety, quality, continuous process improvement, and workforce development at every level of the organization.",
+       "r": "body"
+      },
+      {
+       "c": "Kevin",
+       "r": "head"
+      },
+      {
+       "c": "Tran",
+       "r": "head"
+      },
+      {
+       "c": "VP, Operations",
+       "r": "label"
+      },
+      {
+       "c": "Priya leads Clark Pacific's environmental strategy, including EPD publication, low-carbon mix design, green building certification support, and the NetZero Building Platform product roadmap.",
+       "r": "body"
+      },
+      {
+       "c": "Priya",
+       "r": "head"
+      },
+      {
+       "c": "Nair",
+       "r": "head"
+      },
+      {
+       "c": "VP, Sustainability & Innovation",
+       "r": "label"
+      },
+      {
+       "c": "James ensures seamless execution from contract award through final inspection — maintaining Clark Pacific's commitment to single-source accountability and client satisfaction on every project.",
+       "r": "body"
+      },
+      {
+       "c": "James",
+       "r": "head"
+      },
+      {
+       "c": "Thornton",
+       "r": "head"
+      },
+      {
+       "c": "VP, Project Delivery",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 33,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 2669,
+   "tag": "Leadership Card",
+   "kind": "page-specific",
+   "set": "Leadership Grid",
+   "variant": "Breakpoint=Desktop",
+   "id": "29:825",
+   "score": -8,
+   "fit": 0.56,
+   "hr": 0.15,
+   "vh": 2349,
+   "h": 363,
+   "pieces": [],
+   "unplaced": [
+    "William Clark III",
+    "Margaret Clark-Ellis",
+    "Thomas Reeve",
+    "Dr. Linda Cho"
+   ],
+   "nov": 5,
+   "nhide": 10,
+   "hideItems": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "top": 3032,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+   "id": "23:206",
+   "score": 10,
+   "fit": 1,
+   "hr": 0.66,
+   "vh": 513,
+   "h": 772,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+     "id": "23:206",
+     "overrides": [
+      {
+       "old": "Talk to an Expert",
+       "occ": 1,
+       "new": "Join the Team"
+      },
+      {
+       "old": "Ready to accelerate your next project?",
+       "occ": 1,
+       "new": "Become part of the Clark Pacific story",
+       "runs": [
+        [
+         19,
+         300
+        ],
+        [
+         19,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Our team works as an extension of yours — from early design-assist through construction, with single-source accountability throughout.",
+       "occ": 1,
+       "new": "We're always looking for talented engineers, project managers, manufacturing professionals, and business leaders who want to build something that matters."
+      },
+      {
+       "old": "Talk to an Expert",
+       "occ": 2,
+       "new": "View Open Positions"
+      },
+      {
+       "old": "View Projects",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Join the Team",
+       "r": "label"
+      },
+      {
+       "c": "Become part of the Clark Pacific story",
+       "r": "head",
+       "w": [
+        [
+         19,
+         300,
+         45
+        ],
+        [
+         19,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "We're always looking for talented engineers, project managers, manufacturing professionals, and business leaders who want to build something that matters.",
+       "r": "body"
+      },
+      {
+       "c": "View Open Positions",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 5,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3804,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4203,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

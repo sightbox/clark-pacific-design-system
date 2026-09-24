@@ -1,0 +1,399 @@
+{
+ "file": "blog.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Index",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Index, Breakpoint=Mobile",
+   "id": "19:320",
+   "score": 1,
+   "fit": 0.5,
+   "hr": 0.56,
+   "vh": 368,
+   "h": 652,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Index, Breakpoint=Mobile",
+     "id": "19:320",
+     "overrides": [
+      {
+       "old": "Portfolio",
+       "occ": 1,
+       "new": "Insights"
+      },
+      {
+       "old": "Our Projects",
+       "occ": 1,
+       "new": "The Blog."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "From the field:",
+       "r": "head"
+      },
+      {
+       "c": "The Blog.",
+       "r": "head"
+      },
+      {
+       "c": "Expertise, case studies, and perspectives from Clark Pacific's engineers, designers, and industry partners.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "From the field:",
+    "Expertise, case studies, and perspectives from Clark Pacific's engineers, designers, and industry partners."
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 652,
+   "tag": "Filterable Index Grid",
+   "kind": "page-specific",
+   "set": "Filterable Index Grid",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:808",
+   "score": -41.5,
+   "fit": 0.16,
+   "hr": 0.17,
+   "vh": 877,
+   "h": 5073,
+   "pieces": [],
+   "unplaced": [
+    "All",
+    "Data Centers",
+    "Building Envelope",
+    "Parking",
+    "Sustainability",
+    "24 articles",
+    "Search",
+    "Data Centers · Sep 2026",
+    "Why hyperscale builders are moving to total precast",
+    "Structure and enclosure delivered as one package is shortening schedules by months on 100MW campuses.",
+    "Read More",
+    "Sustainability · Aug 2026",
+    "What 25% less portland cement means for your EPD",
+    "How CARBONSHIELD® changes embodied-carbon numbers without changing structural performance.",
+    "Read More",
+    "Parking · Aug 2026",
+    "Five decisions that set a parking structure budget",
+    "Layout efficiency, bay spacing and finish choices made before entitlements drive most of the cost.",
+    "Read More",
+    "Building Envelope · Jul 2026",
+    "Unitized facades and the path to earlier dry-in",
+    "Why factory-sealed panels are closing buildings in weeks rather than months.",
+    "Read More",
+    "Design-Assist · Jul 2026",
+    "Bringing the manufacturer in at schematic design",
+    "Early coordination reduces redesign and gives owners real numbers sooner.",
+    "Read More",
+    "Company · Jun 2026",
+    "Inside our new Pacific Northwest plant",
+    "A look at the facility, the team and the projects it will serve.",
+    "Read More",
+    "Data Centers · Jun 2026",
+    "Designing floors for AI-era white-space loads",
+    "Read More",
+    "Sustainability · May 2026",
+    "Durability, reuse and what a 100-year structure changes in lifecycle math.",
+    "How moment frames and connection design meet California requirements."
+   ],
+   "nov": 7,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5724,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6117,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

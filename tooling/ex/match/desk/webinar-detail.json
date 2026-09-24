@@ -1,0 +1,508 @@
+{
+ "file": "webinar-detail.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Editorial header",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Editorial header, Breakpoint=Desktop",
+   "id": "19:270",
+   "score": -2,
+   "fit": 0.43,
+   "hr": 0.95,
+   "vh": 414,
+   "h": 434,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:29",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:76",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Editorial header, Breakpoint=Desktop",
+     "id": "19:270",
+     "overrides": [
+      {
+       "old": "Insights › Building Envelope",
+       "occ": 1,
+       "new": "Parking Webinar"
+      },
+      {
+       "old": "Article",
+       "occ": 1,
+       "new": "On Demand"
+      },
+      {
+       "old": "How prefabrication is compressing the schedule",
+       "occ": 1,
+       "new": "Webinar | The Case for Resilient Design",
+       "runs": [
+        [
+         23,
+         200
+        ],
+        [
+         16,
+         600
+        ]
+       ]
+      }
+     ],
+     "hide": [
+      {
+       "old": "March 12, 2026",
+       "occ": 1
+      },
+      {
+       "old": "•",
+       "occ": 1
+      },
+      {
+       "old": "By Jordan Ellis",
+       "occ": 1
+      },
+      {
+       "old": "•",
+       "occ": 2
+      },
+      {
+       "old": "6 min read",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6",
+      "5:33",
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Insights",
+       "r": "body"
+      },
+      {
+       "c": "Webinars",
+       "r": "body"
+      },
+      {
+       "c": "The Case for Resilient Design",
+       "r": "body"
+      },
+      {
+       "c": "Parking Webinar",
+       "r": "label"
+      },
+      {
+       "c": "On Demand",
+       "r": "label"
+      },
+      {
+       "c": "Duration: 58 min",
+       "r": "body"
+      },
+      {
+       "c": "Webinar | The Case for Resilient Design",
+       "r": "head",
+       "w": [
+        [
+         23,
+         200,
+         49
+        ],
+        [
+         16,
+         600,
+         49
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Insights",
+    "Webinars",
+    "The Case for Resilient Design",
+    "Duration: 58 min"
+   ],
+   "nov": 3,
+   "nhide": 5,
+   "hideItems": []
+  },
+  {
+   "top": 434,
+   "tag": "One-off: Video + Sidebar",
+   "kind": "page-specific",
+   "h": 1233
+  },
+  {
+   "top": 1667,
+   "tag": "Filterable Index Grid",
+   "kind": "instance",
+   "set": "Filterable Index Grid",
+   "variant": "Breakpoint=Desktop",
+   "id": "27:749",
+   "score": 15.1,
+   "fit": 0.79,
+   "hr": 0.98,
+   "vh": 641,
+   "h": 625,
+   "pieces": [
+    {
+     "set": "Filterable Index Grid",
+     "variant": "Breakpoint=Desktop",
+     "id": "27:749",
+     "overrides": [
+      {
+       "old": "All",
+       "occ": 1,
+       "new": "On Demand"
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Parking Webinar"
+      },
+      {
+       "old": "Parking",
+       "occ": 1,
+       "new": "Watch"
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 1,
+       "new": "On Demand"
+      },
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "Data Center Webinar"
+      },
+      {
+       "old": "Sacramento Commons Garage",
+       "occ": 1,
+       "new": "Full Structural Prefabricated Data Centers"
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 2,
+       "new": "Watch"
+      },
+      {
+       "old": "View Project",
+       "occ": 2,
+       "new": "On Demand"
+      },
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Facades Webinar"
+      },
+      {
+       "old": "Aurora Data Campus",
+       "occ": 1,
+       "new": "Prefabricated Facade Connections"
+      },
+      {
+       "old": "View Project",
+       "occ": 3,
+       "new": "Watch"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Search projects",
+       "occ": 1
+      },
+      {
+       "old": "1,200 stalls · PARC",
+       "occ": 1
+      },
+      {
+       "old": "View Project",
+       "occ": 1
+      },
+      {
+       "old": "Fortinet HQ",
+       "occ": 1
+      },
+      {
+       "old": "Sunnyvale, CA · Infinite Facade®",
+       "occ": 1
+      },
+      {
+       "old": "Phase II · 2025",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:30",
+      "5:30",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "More webinars",
+       "r": "head",
+       "w": [
+        [
+         5,
+         300,
+         35
+        ],
+        [
+         8,
+         600,
+         35
+        ]
+       ]
+      },
+      {
+       "c": "View All Webinars",
+       "r": "label"
+      },
+      {
+       "c": "On Demand",
+       "r": "label"
+      },
+      {
+       "c": "Parking Webinar",
+       "r": "label"
+      },
+      {
+       "c": "How to Influence the Cost of a Parking Structure",
+       "r": "title"
+      },
+      {
+       "c": "Watch",
+       "r": "label"
+      },
+      {
+       "c": "On Demand",
+       "r": "label"
+      },
+      {
+       "c": "Data Center Webinar",
+       "r": "label"
+      },
+      {
+       "c": "Full Structural Prefabricated Data Centers",
+       "r": "title"
+      },
+      {
+       "c": "Watch",
+       "r": "label"
+      },
+      {
+       "c": "On Demand",
+       "r": "label"
+      },
+      {
+       "c": "Facades Webinar",
+       "r": "label"
+      },
+      {
+       "c": "Prefabricated Facade Connections",
+       "r": "title"
+      },
+      {
+       "c": "Watch",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "More webinars",
+    "View All Webinars",
+    "How to Influence the Cost of a Parking Structure"
+   ],
+   "nov": 11,
+   "nhide": 6,
+   "hideItems": []
+  },
+  {
+   "top": 2292,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2692,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

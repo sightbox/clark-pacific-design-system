@@ -1,0 +1,684 @@
+{
+ "file": "phmf.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Desktop",
+   "id": "19:174",
+   "score": 33.2,
+   "fit": 1,
+   "hr": 0.93,
+   "vh": 890,
+   "h": 827,
+   "pieces": [
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Desktop",
+     "id": "19:174",
+     "overrides": [
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Products · Parking"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 1,
+       "new": "Precast Hybrid Moment Frame"
+      },
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Seismic Resilience"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 2,
+       "new": "Precast Hybrid"
+      },
+      {
+       "old": "A complete prefabricated data center solution.",
+       "occ": 1,
+       "new": "Moment Frame."
+      },
+      {
+       "old": "Structural precast systems and exterior wall panels for mission-critical data centers — integrating early design-assist and in-house manufacturing to support accelerated schedules, sustainability goals, and project predictability.",
+       "occ": 1,
+       "new": "Discover how prefabricated parking structures and PHMF are transforming construction — delivering enhanced seismic performance, larger spans, and more design flexibility than traditional shear-wall systems."
+      },
+      {
+       "old": "Get Started",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      },
+      {
+       "old": "View Webinar",
+       "occ": 1,
+       "new": "Watch the Webinar"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6",
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Clark Pacific is expanding to the Pacific Northwest — new plant opening Q3 2026.",
+       "r": "body"
+      },
+      {
+       "c": "Learn more →",
+       "r": "title"
+      },
+      {
+       "c": "Our Products",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Projects",
+       "r": "label"
+      },
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Contact",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Products · Parking",
+       "r": "body"
+      },
+      {
+       "c": "Precast Hybrid Moment Frame",
+       "r": "body"
+      },
+      {
+       "c": "Seismic Resilience",
+       "r": "label"
+      },
+      {
+       "c": "Precast Hybrid",
+       "r": "head"
+      },
+      {
+       "c": "Moment Frame.",
+       "r": "head"
+      },
+      {
+       "c": "Discover how prefabricated parking structures and PHMF are transforming construction — delivering enhanced seismic performance, larger spans, and more design flexibility than traditional shear-wall systems.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Watch the Webinar",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 8,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 827,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": 7.2,
+   "fit": 1,
+   "hr": 0.9,
+   "vh": 445,
+   "h": 492,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Bulleted, Breakpoint=Desktop",
+     "id": "21:231",
+     "overrides": [
+      {
+       "old": "Advantages of a Clark Pacific building system",
+       "occ": 1,
+       "new": "The case for resilient design",
+       "runs": [
+        [
+         12,
+         600
+        ],
+        [
+         17,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Factory-installed insulation meets target R-values without field rework",
+       "occ": 1,
+       "new": "The Precast Hybrid Moment Frame (PHMF) system represents the latest seismic-resistance technology and is deemed to be one of the best performing lateral resistance systems available today."
+      },
+      {
+       "old": "Off-site fabrication runs parallel to sitework, compressing the schedule",
+       "occ": 1,
+       "new": "The ductile frame is designed to handle significant seismic drift while experiencing minimal damage due to its post-tensioned, self-righting mechanism. Truly a “resilient” structure."
+      },
+      {
+       "old": "Single-source accountability from design-assist through erection and warranty",
+       "occ": 1,
+       "new": "PHMF connections are factory-built into the precast columns and beams — ensuring consistent quality and performance across every connection in the structure."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Built for performance",
+       "occ": 1
+      },
+      {
+       "old": "Learn More",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "The case for resilient design",
+       "r": "head",
+       "w": [
+        [
+         12,
+         600,
+         45
+        ],
+        [
+         17,
+         300,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "The Precast Hybrid Moment Frame (PHMF) system represents the latest seismic-resistance technology and is deemed to be one of the best performing lateral resistance systems available today.",
+       "r": "body"
+      },
+      {
+       "c": "The ductile frame is designed to handle significant seismic drift while experiencing minimal damage due to its post-tensioned, self-righting mechanism. Truly a “resilient” structure.",
+       "r": "body"
+      },
+      {
+       "c": "PHMF connections are factory-built into the precast columns and beams — ensuring consistent quality and performance across every connection in the structure.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 4,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 1319,
+   "tag": "Projects Photo Mosaic",
+   "kind": "instance",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Desktop",
+   "id": "28:824",
+   "score": 5.7,
+   "fit": 0.63,
+   "hr": 1,
+   "vh": 696,
+   "h": 693,
+   "pieces": [
+    {
+     "set": "Projects Photo Mosaic",
+     "variant": "Breakpoint=Desktop",
+     "id": "28:824",
+     "overrides": [
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "View All Projects"
+      },
+      {
+       "old": "Structural Projects",
+       "occ": 1,
+       "new": "Kilroy Oyster Point Phase Two"
+      },
+      {
+       "old": "Building Envelope Projects",
+       "occ": 1,
+       "new": "UC Berkeley Parking Structure"
+      },
+      {
+       "old": "View Projects",
+       "occ": 1,
+       "new": "UC Davis Health Parking Structure IV"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Featured projects",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         45
+        ],
+        [
+         8,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "View All Projects",
+       "r": "label"
+      },
+      {
+       "c": "Kilroy Oyster Point Phase Two",
+       "r": "label"
+      },
+      {
+       "c": "NPA Innovative Facility of the Year — PHMF structure at the South San Francisco waterfront delivering seismic performance and architectural quality.",
+       "r": "body"
+      },
+      {
+       "c": "UC Berkeley Parking Structure",
+       "r": "label"
+      },
+      {
+       "c": "663-stall PHMF structure currently under construction — engineered for Berkeley's demanding seismic zone with integrated EV charging.",
+       "r": "body"
+      },
+      {
+       "c": "UC Davis Health Parking Structure IV",
+       "r": "label"
+      },
+      {
+       "c": "PCI Design Award winner — PHMF delivering exceptional seismic performance on a healthcare campus in a high seismic zone.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "NPA Innovative Facility of the Year — PHMF structure at the South San Francisco waterfront delivering seismic performance and architectural quality.",
+    "663-stall PHMF structure currently under construction — engineered for Berkeley's demanding seismic zone with integrated EV charging.",
+    "PCI Design Award winner — PHMF delivering exceptional seismic performance on a healthcare campus in a high seismic zone."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2012,
+   "tag": "Featured Resources",
+   "kind": "instance",
+   "set": "Featured Resources",
+   "variant": "Breakpoint=Desktop",
+   "id": "27:829",
+   "score": 33,
+   "fit": 1,
+   "hr": 1,
+   "vh": 855,
+   "h": 855,
+   "pieces": [
+    {
+     "set": "Featured Resources",
+     "variant": "Breakpoint=Desktop",
+     "id": "27:829",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Resources",
+       "r": "label"
+      },
+      {
+       "c": "Featured resources",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         45
+        ],
+        [
+         9,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "View All Resources",
+       "r": "label"
+      },
+      {
+       "c": "Technical Document",
+       "r": "label"
+      },
+      {
+       "c": "Infinite Facade® Testing Overview",
+       "r": "head"
+      },
+      {
+       "c": "A summary of the testing programme behind the Infinite Facade system, including performance results for air, water and structural loading.",
+       "r": "body"
+      },
+      {
+       "c": "Read More",
+       "r": "label"
+      },
+      {
+       "c": "Design Guide",
+       "r": "label"
+      },
+      {
+       "c": "Parking Design Guide",
+       "r": "head"
+      },
+      {
+       "c": "Planning and design guidance for prefabricated parking structures, from bay layouts and circulation through to finish selection.",
+       "r": "body"
+      },
+      {
+       "c": "Read More",
+       "r": "label"
+      },
+      {
+       "c": "Podcast",
+       "r": "label"
+      },
+      {
+       "c": "Building Forward",
+       "r": "head"
+      },
+      {
+       "c": "Conversations with industry leaders, innovators and experts on the strategies and best practices shaping how we design and build.",
+       "r": "body"
+      },
+      {
+       "c": "Read More",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2867,
+   "tag": "CTA Banner / Light",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Light, Layout=Centered · two buttons, Breakpoint=Desktop",
+   "id": "23:290",
+   "score": 8.6,
+   "fit": 1,
+   "hr": 0.93,
+   "vh": 349,
+   "h": 377,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Light, Layout=Centered · two buttons, Breakpoint=Desktop",
+     "id": "23:290",
+     "overrides": [
+      {
+       "old": "Engage our structural engineers early and we can walk the seismic design, span capabilities and cost implications for your specific site and program.",
+       "occ": 1,
+       "new": "PHMF is most effective when engaged early. Our structural engineers can walk through the seismic design, span capabilities, and cost implications for your specific site and program."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to make the case for resilient design?",
+       "r": "head",
+       "w": [
+        [
+         27,
+         300,
+         45
+        ],
+        [
+         17,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "PHMF is most effective when engaged early. Our structural engineers can walk through the seismic design, span capabilities, and cost implications for your specific site and program.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Watch the Webinar",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3244,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3644,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

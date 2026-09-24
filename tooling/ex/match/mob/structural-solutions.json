@@ -1,0 +1,936 @@
+{
+ "file": "structural-solutions.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 11.6,
+   "fit": 1,
+   "hr": 0.88,
+   "vh": 771,
+   "h": 876,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Products · Structural Solutions"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "Prefabricated"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "structural solutions."
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "Prefabricated concrete structural products engineered and manufactured to exacting standards — creating highly efficient, durable, and resilient structures across every building type."
+      },
+      {
+       "old": "Start a Conversation",
+       "occ": 1,
+       "new": "Explore Building Types"
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Products · Structural Solutions",
+       "r": "label"
+      },
+      {
+       "c": "Prefabricated",
+       "r": "head"
+      },
+      {
+       "c": "structural solutions.",
+       "r": "head"
+      },
+      {
+       "c": "Prefabricated concrete structural products engineered and manufactured to exacting standards — creating highly efficient, durable, and resilient structures across every building type.",
+       "r": "body"
+      },
+      {
+       "c": "Explore Building Types",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 6,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 876,
+   "tag": "Card / Standard (grid)",
+   "kind": "page-specific",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:727",
+   "score": -4.5,
+   "fit": 0.35,
+   "hr": 0.23,
+   "vh": 563,
+   "h": 2467,
+   "pieces": [],
+   "unplaced": [
+    "Mission-Critical",
+    "Data Centers",
+    "Precast construction ensures structural resilience and adaptability to meet escalating data center demands — with factory-controlled production for schedule certainty.",
+    "Learn More",
+    "Single-Source Delivery",
+    "Parking Structures",
+    "Clark Pacific designs, manufactures, and builds the complete parking structure — delivering a high quality, on-time, on-budget facility with single-source accountability.",
+    "NetZero Building Platform",
+    "A high-performing building system, reimagined from the ground up — combining design flexibility with offsite construction while prioritizing energy efficiency, sustainability, and occupant wellness.",
+    "Lab Solutions",
+    "Leverage our structural building platform, which delivers specific performance requirements such as optimal vibration control and design flexibility for a range of lab and research applications."
+   ],
+   "nov": 6,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3342,
+   "tag": "Icon Grid",
+   "kind": "instance",
+   "set": "Icon Grid",
+   "variant": "Layout=Headline left 2×3, Breakpoint=Mobile",
+   "id": "25:613",
+   "score": 8.7,
+   "fit": 0.7,
+   "hr": 0.35,
+   "vh": 438,
+   "h": 1245,
+   "pieces": [
+    {
+     "set": "Icon Grid",
+     "variant": "Layout=Headline left 2×3, Breakpoint=Mobile",
+     "id": "25:613",
+     "overrides": [
+      {
+       "old": "Offsite benefits",
+       "occ": 1,
+       "new": "01"
+      },
+      {
+       "old": "Accelerated schedules",
+       "occ": 1,
+       "new": "Occupant Comfort"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 1,
+       "new": "From office buildings and data centers to student housing, prefabricated building systems are designed to enhance occupant comfort. Superior thermal performance, abundant natural daylight, and flexible, open spaces create environments that support productivity and well-being."
+      },
+      {
+       "old": "Budget certainty",
+       "occ": 1,
+       "new": "Low Maintenance"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 2,
+       "new": "Prefabricated concrete structures provide superior resistance to fire and natural disasters, providing a long service life due to their durable, low-maintenance materials."
+      },
+      {
+       "old": "Higher quality",
+       "occ": 1,
+       "new": "Sound Control"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 4,
+       "new": "Concrete's density helps buildings absorb and isolate sound — making precast an ideal choice for commercial offices, labs, and healthcare environments."
+      }
+     ],
+     "hide": [],
+     "hideItems": [
+      3
+     ],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Built to perform over a lifetime",
+       "r": "head",
+       "w": [
+        [
+         22,
+         300,
+         32
+        ],
+        [
+         10,
+         600,
+         32
+        ]
+       ]
+      },
+      {
+       "c": "01",
+       "r": "head"
+      },
+      {
+       "c": "Occupant Comfort",
+       "r": "label"
+      },
+      {
+       "c": "From office buildings and data centers to student housing, prefabricated building systems are designed to enhance occupant comfort. Superior thermal performance, abundant natural daylight, and flexible, open spaces create environments that support productivity and well-being.",
+       "r": "body"
+      },
+      {
+       "c": "02",
+       "r": "head"
+      },
+      {
+       "c": "Low Maintenance",
+       "r": "label"
+      },
+      {
+       "c": "Prefabricated concrete structures provide superior resistance to fire and natural disasters, providing a long service life due to their durable, low-maintenance materials.",
+       "r": "body"
+      },
+      {
+       "c": "03",
+       "r": "head"
+      },
+      {
+       "c": "Sound Control",
+       "r": "label"
+      },
+      {
+       "c": "Concrete's density helps buildings absorb and isolate sound — making precast an ideal choice for commercial offices, labs, and healthcare environments.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Built to perform over a lifetime",
+    "02",
+    "03"
+   ],
+   "nov": 7,
+   "nhide": 0,
+   "hideItems": [
+    3
+   ]
+  },
+  {
+   "top": 4587,
+   "tag": "Quote Band",
+   "kind": "instance",
+   "set": "Quote Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "22:212",
+   "score": 8.2,
+   "fit": 1,
+   "hr": 0.34,
+   "vh": 313,
+   "h": 934,
+   "pieces": [
+    {
+     "set": "Quote Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "22:212",
+     "overrides": [
+      {
+       "old": "Pull-quote runs at 22px on mobile with the keyword in SemiBold.",
+       "occ": 1,
+       "new": "The City of Roseville is extremely pleased with the project outcome. Publicly-funded projects of this size, scope and complexity are rarely, if ever, completed in the timeframe of 316 Vernon, due in significant part to the precast design and innovative just-in-time construction methods. Other added benefits from an operational perspective include lower long-term maintenance costs, superior sound isolation/exterior noise suppression, and approximately 30% less energy consumption attributable to heating and cooling as a result of the building’s efficient thermal mass. As the owner and occupant, we couldn’t be happier.",
+       "runs": [
+        [
+         600,
+         300
+        ],
+        [
+         23,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Name Surname",
+       "occ": 1,
+       "new": "Mike Isom"
+      },
+      {
+       "old": "Title · Organization",
+       "occ": 1,
+       "new": "City Manager · City of Roseville, CA"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "“",
+       "r": "glyph"
+      },
+      {
+       "c": "The City of Roseville is extremely pleased with the project outcome. Publicly-funded projects of this size, scope and complexity are rarely, if ever, completed in the timeframe of 316 Vernon, due in significant part to the precast design and innovative just-in-time construction methods. Other added benefits from an operational perspective include lower long-term maintenance costs, superior sound isolation/exterior noise suppression, and approximately 30% less energy consumption attributable to heating and cooling as a result of the building’s efficient thermal mass. As the owner and occupant, we couldn’t be happier.",
+       "r": "title",
+       "w": [
+        [
+         600,
+         300,
+         22
+        ],
+        [
+         23,
+         600,
+         22
+        ]
+       ]
+      },
+      {
+       "c": "Mike Isom",
+       "r": "label"
+      },
+      {
+       "c": "City Manager · City of Roseville, CA",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5521,
+   "tag": "FAQ Accordion",
+   "kind": "instance",
+   "set": "FAQ Accordion",
+   "variant": "Breakpoint=Mobile",
+   "id": "9:25",
+   "score": 10.8,
+   "fit": 0.67,
+   "hr": 0.51,
+   "vh": 462,
+   "h": 911,
+   "pieces": [
+    {
+     "set": "FAQ Accordion",
+     "variant": "Breakpoint=Mobile",
+     "id": "9:25",
+     "overrides": [
+      {
+       "old": "Open question, first by default",
+       "occ": 1,
+       "new": "What are Clark Pacific Structural Solutions?"
+      },
+      {
+       "old": "Answer copy at 15px.",
+       "occ": 1,
+       "new": "Clark Pacific Structural Solutions are prefabricated concrete building systems engineered and manufactured to exacting standards. When combined, they create efficient, durable, resilient structures supporting offices, data centers, parking structures, labs, and other building types."
+      },
+      {
+       "old": "Closed question",
+       "occ": 1,
+       "new": "How do structural solutions help with sound control?"
+      },
+      {
+       "old": "Closed question",
+       "occ": 2,
+       "new": "What is CARBONSHIELD®?"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Frequently asked questions",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         9,
+         600,
+         32
+        ]
+       ]
+      },
+      {
+       "c": "What are Clark Pacific Structural Solutions?",
+       "r": "label"
+      },
+      {
+       "c": "–",
+       "r": "glyph"
+      },
+      {
+       "c": "Clark Pacific Structural Solutions are prefabricated concrete building systems engineered and manufactured to exacting standards. When combined, they create efficient, durable, resilient structures supporting offices, data centers, parking structures, labs, and other building types.",
+       "r": "body"
+      },
+      {
+       "c": "What are the main benefits of prefabricated concrete structural systems?",
+       "r": "label"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "Are prefabricated concrete structures low maintenance?",
+       "r": "label"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "How do structural solutions help with sound control?",
+       "r": "label"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "What is CARBONSHIELD®?",
+       "r": "label"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "What are the main benefits of prefabricated concrete structural systems?",
+    "Are prefabricated concrete structures low maintenance?"
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6432,
+   "tag": "Projects Photo Mosaic",
+   "kind": "instance",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Mobile",
+   "id": "28:845",
+   "score": 5.7,
+   "fit": 0.63,
+   "hr": 0.74,
+   "vh": 1050,
+   "h": 1424,
+   "pieces": [
+    {
+     "set": "Projects Photo Mosaic",
+     "variant": "Breakpoint=Mobile",
+     "id": "28:845",
+     "overrides": [
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "View All Projects"
+      },
+      {
+       "old": "Structural Projects",
+       "occ": 1,
+       "new": "Fortinet Global HQ"
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 1,
+       "new": "Roseville City Hall Annex"
+      },
+      {
+       "old": "View All Projects",
+       "occ": 1,
+       "new": "Apple Park Office Building"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Featured projects",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         32
+        ],
+        [
+         8,
+         600,
+         32
+        ]
+       ]
+      },
+      {
+       "c": "View All Projects",
+       "r": "label"
+      },
+      {
+       "c": "Fortinet Global HQ",
+       "r": "label"
+      },
+      {
+       "c": "LEED Gold Net Zero campus — 172,000 SF precast structural system with integrated sustainability features.",
+       "r": "body"
+      },
+      {
+       "c": "Roseville City Hall Annex",
+       "r": "label"
+      },
+      {
+       "c": "316 Vernon office building — completed 30% ahead of typical schedule using precast design and just-in-time construction.",
+       "r": "body"
+      },
+      {
+       "c": "Apple Park Office Building",
+       "r": "label"
+      },
+      {
+       "c": "Precast structural components supporting one of the world's most demanding and high-profile corporate campus environments.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "LEED Gold Net Zero campus — 172,000 SF precast structural system with integrated sustainability features.",
+    "316 Vernon office building — completed 30% ahead of typical schedule using precast design and just-in-time construction.",
+    "Precast structural components supporting one of the world's most demanding and high-profile corporate campus environments."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 7856,
+   "tag": "Featured Resources",
+   "kind": "page-specific",
+   "set": "Featured Resources",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:888",
+   "score": -4.6,
+   "fit": 0.33,
+   "hr": 0.28,
+   "vh": 517,
+   "h": 1854,
+   "pieces": [],
+   "unplaced": [
+    "Resources",
+    "View All Resources",
+    "Technical Document",
+    "Infinite Facade® Testing Overview",
+    "A summary of the testing programme behind the Infinite Facade system, including performance results for air, water and structural loading.",
+    "Read More",
+    "Parking Design Guide",
+    "Planning and design guidance for prefabricated parking structures, from bay layouts and circulation through to finish selection.",
+    "Building Forward",
+    "Conversations with industry leaders, innovators and experts on the strategies and best practices shaping how we design and build."
+   ],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 9710,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:349",
+   "score": 4.7,
+   "fit": 0.75,
+   "hr": 0.87,
+   "vh": 305,
+   "h": 349,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:349",
+     "overrides": [
+      {
+       "old": "Ready to build different?",
+       "occ": 1,
+       "new": "Let's build your next structure together",
+       "runs": [
+        [
+         22,
+         300
+        ],
+        [
+         18,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Talk to our team about your next project.",
+       "occ": 1,
+       "new": "Our design-assist team engages early to optimize the structural system for your building type, schedule, and sustainability goals."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Let's build your next structure together",
+       "r": "head",
+       "w": [
+        [
+         22,
+         300,
+         30
+        ],
+        [
+         18,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Our design-assist team engages early to optimize the structural system for your building type, schedule, and sustainability goals.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "View Projects",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "View Projects"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 10059,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 10451,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

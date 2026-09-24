@@ -1,0 +1,699 @@
+{
+ "file": "homepage.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Homepage overlay",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Homepage overlay, Breakpoint=Mobile",
+   "id": "19:307",
+   "score": 1.5,
+   "fit": 0.67,
+   "hr": 1,
+   "vh": 640,
+   "h": 640,
+   "pieces": [
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": false,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Homepage overlay, Breakpoint=Mobile",
+     "id": "19:307",
+     "overrides": [
+      {
+       "old": "Together.",
+       "occ": 1,
+       "new": "Build Vision,\nTogether.",
+       "runs": [
+        [
+         13,
+         200
+        ],
+        [
+         1,
+         200
+        ],
+        [
+         9,
+         200
+        ]
+       ]
+      }
+     ],
+     "hide": [
+      {
+       "old": "Build",
+       "occ": 1
+      },
+      {
+       "old": "Vision,",
+       "occ": 1
+      },
+      {
+       "old": "Explore Products",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "1-800-350-0306",
+       "r": "body"
+      },
+      {
+       "c": "Build Vision,\nTogether.",
+       "r": "head",
+       "w": [
+        [
+         13,
+         200,
+         52
+        ],
+        [
+         1,
+         200,
+         52
+        ],
+        [
+         9,
+         200,
+         52
+        ]
+       ]
+      },
+      {
+       "c": "The leader in design-driven, prefabricated building systems.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "1-800-350-0306"
+   ],
+   "nov": 1,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 640,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 0.8,
+   "fit": 0.43,
+   "hr": 0.39,
+   "vh": 732,
+   "h": 1893,
+   "pieces": [],
+   "unplaced": [
+    "Prefabricated building systems",
+    "Explore Clark Pacific Products",
+    "Driven to deliver better buildings, we bridge the gap between manufacturing and construction to deliver high-quality, cost-effective buildings on budget and on time.",
+    "Using the latest off-site manufacturing technologies, our products improve project stakeholder outcomes by reducing the complexity and risk of traditional construction while offering design flexibility to achieve your vision.",
+    "Single-source, prefabricated building envelope solutions that maximize owner value and architectural freedom.",
+    "Learn More",
+    "Parking Structures | Design-Build",
+    "BUILDING PHOTO"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2533,
+   "tag": "Filterable Index Grid",
+   "kind": "page-specific",
+   "set": "Filterable Index Grid",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:808",
+   "score": -5.5,
+   "fit": 0.35,
+   "hr": 0.48,
+   "vh": 877,
+   "h": 1843,
+   "pieces": [],
+   "unplaced": [
+    "Article",
+    "Jan 2026",
+    "For Green Concrete, Slow and Steady Is the Winning Pace",
+    "Read More",
+    "Webinar",
+    "Apr 07, 2026",
+    "Can concrete be a catalyst for a net-zero future? Join us as we explore the intersection of design, technology, and sustainability with the experts at Clark Pacific.",
+    "The parking structure for the new Kilroy Oyster Point life science campus in San Francisco merges modular construction with seismic safety and style."
+   ],
+   "nov": 7,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4375,
+   "tag": "Projects Photo Mosaic",
+   "kind": "instance",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Mobile",
+   "id": "28:845",
+   "score": 6.1,
+   "fit": 0.63,
+   "hr": 0.89,
+   "vh": 1050,
+   "h": 1176,
+   "pieces": [
+    {
+     "set": "Projects Photo Mosaic",
+     "variant": "Breakpoint=Mobile",
+     "id": "28:845",
+     "overrides": [
+      {
+       "old": "Building Envelope",
+       "occ": 1,
+       "new": "Building Envelope Projects"
+      },
+      {
+       "old": "View All Projects",
+       "occ": 1,
+       "new": "View Projects"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Featured projects",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         26
+        ],
+        [
+         8,
+         600,
+         26
+        ]
+       ]
+      },
+      {
+       "c": "Google Alta",
+       "r": "label"
+      },
+      {
+       "c": "Parking Structures",
+       "r": "label"
+      },
+      {
+       "c": "Fortinet HQ",
+       "r": "label"
+      },
+      {
+       "c": "Structural Projects",
+       "r": "label"
+      },
+      {
+       "c": "Torrey View",
+       "r": "label"
+      },
+      {
+       "c": "Building Envelope Projects",
+       "r": "label"
+      },
+      {
+       "c": "View Projects",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Google Alta",
+    "Fortinet HQ",
+    "Torrey View"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5551,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Image left 50/50, Breakpoint=Mobile",
+   "id": "21:334",
+   "score": 6.2,
+   "fit": 1,
+   "hr": 0.69,
+   "vh": 660,
+   "h": 456,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Image left 50/50, Breakpoint=Mobile",
+     "id": "21:334",
+     "overrides": [
+      {
+       "old": "Section headline keyword",
+       "occ": 1,
+       "new": "Sustainable\nPractices",
+       "runs": [
+        [
+         11,
+         600
+        ],
+        [
+         1,
+         400
+        ],
+        [
+         9,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Body copy at 16px on mobile. Image always stacks first, whichever side it sits on at desktop.",
+       "occ": 1,
+       "new": "Through sustainable manufacturing practices and product innovation, we support client sustainability goals that deliver results."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:39"
+     ],
+     "texts": [
+      {
+       "c": "Sustainable\nPractices",
+       "r": "head",
+       "w": [
+        [
+         11,
+         600,
+         26
+        ],
+        [
+         1,
+         400,
+         26
+        ],
+        [
+         9,
+         300,
+         26
+        ]
+       ]
+      },
+      {
+       "c": "Through sustainable manufacturing practices and product innovation, we support client sustainability goals that deliver results.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6007,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:349",
+   "score": 6,
+   "fit": 1,
+   "hr": 0.5,
+   "vh": 305,
+   "h": 609,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:349",
+     "overrides": [
+      {
+       "old": "Ready to build different?",
+       "occ": 1,
+       "new": "Meet your performance & design vision with our prefabricated envelope solutions",
+       "runs": [
+        [
+         10,
+         200
+        ],
+        [
+         20,
+         600
+        ],
+        [
+         31,
+         200
+        ],
+        [
+         18,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Talk to our team about your next project.",
+       "occ": 1,
+       "new": "The building envelope is complex. Let us help you achieve design and aesthetic goals that exceed expectations."
+      },
+      {
+       "old": "Talk to an Expert",
+       "occ": 1,
+       "new": "Let's Get Started"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Meet your performance & design vision with our prefabricated envelope solutions",
+       "r": "head",
+       "w": [
+        [
+         10,
+         200,
+         40
+        ],
+        [
+         20,
+         600,
+         40
+        ],
+        [
+         31,
+         200,
+         40
+        ],
+        [
+         18,
+         600,
+         40
+        ]
+       ]
+      },
+      {
+       "c": "The building envelope is complex. Let us help you achieve design and aesthetic goals that exceed expectations.",
+       "r": "body"
+      },
+      {
+       "c": "Let's Get Started",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6616,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 7009,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

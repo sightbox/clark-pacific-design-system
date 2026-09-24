@@ -1,0 +1,7 @@
+{"name":"Header","group":"01 · Global","desc":"Site header. Over photo = transparent on the hero (white logo/nav). Products open = translucent mega-menu, 4 columns. Solid = scrolled, white surface. Mobile = logo + 44px hamburger; Menu open = full-screen menu. Hover 'Our Products' opens the mega-menu; hamburger opens / close icon closes the mobile menu. NOTE: the hero components carry the page-level header (72px side padding, outlined 'Talk to an Expert'); this set mirrors the separate Header States artboard (40px padding, Blue button).",
+ "variants":[
+  {"props":{"State":"Over photo","Breakpoint":"Desktop"},"src":"desk/d-header-states","path":"0.1.1","bp":"Desktop"},
+  {"props":{"State":"Products open","Breakpoint":"Desktop"},"src":"desk/d-header-states","path":"1.1.1","bp":"Desktop"},
+  {"props":{"State":"Solid","Breakpoint":"Desktop"},"src":"desk/d-header-states","path":"2.1","drop":["0"],"bp":"Desktop"},
+  {"props":{"State":"Over photo","Breakpoint":"Mobile"},"src":"mob/m-header","bp":"Mobile"},
+  {"props":{"State":"Menu open","Breakpoint":"Mobile"},"src":"mob/m-menu","bp":"Mobile"}]}

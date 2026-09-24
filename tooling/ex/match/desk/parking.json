@@ -1,0 +1,1157 @@
+{
+ "file": "parking.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Desktop",
+   "id": "19:174",
+   "score": 28.4,
+   "fit": 1,
+   "hr": 0.93,
+   "vh": 890,
+   "h": 832,
+   "pieces": [
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Desktop",
+     "id": "19:174",
+     "overrides": [
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Products · Parking"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 2,
+       "new": "Prefabricated"
+      },
+      {
+       "old": "A complete prefabricated data center solution.",
+       "occ": 1,
+       "new": "parking solutions."
+      },
+      {
+       "old": "Structural precast systems and exterior wall panels for mission-critical data centers — integrating early design-assist and in-house manufacturing to support accelerated schedules, sustainability goals, and project predictability.",
+       "occ": 1,
+       "new": "Clark Pacific designs, manufactures, and builds complete parking structures — delivering high-quality, seismically resilient facilities on time and on budget with single-source accountability."
+      },
+      {
+       "old": "Get Started",
+       "occ": 1,
+       "new": "Explore Our Systems"
+      },
+      {
+       "old": "View Webinar",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products",
+       "occ": 1
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6"
+     ],
+     "texts": [
+      {
+       "c": "Clark Pacific is expanding to the Pacific Northwest — new plant opening Q3 2026.",
+       "r": "body"
+      },
+      {
+       "c": "Learn more →",
+       "r": "title"
+      },
+      {
+       "c": "Our Products",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Projects",
+       "r": "label"
+      },
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Contact",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Products · Parking",
+       "r": "label"
+      },
+      {
+       "c": "Prefabricated",
+       "r": "head"
+      },
+      {
+       "c": "parking solutions.",
+       "r": "head"
+      },
+      {
+       "c": "Clark Pacific designs, manufactures, and builds complete parking structures — delivering high-quality, seismically resilient facilities on time and on budget with single-source accountability.",
+       "r": "body"
+      },
+      {
+       "c": "Explore Our Systems",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 6,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 832,
+   "tag": "Card / Standard (grid)",
+   "kind": "instance",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Desktop",
+   "id": "27:677",
+   "score": 11.8,
+   "fit": 0.65,
+   "hr": 0.41,
+   "vh": 650,
+   "h": 1571,
+   "pieces": [
+    {
+     "set": "Related Content Row",
+     "variant": "Breakpoint=Desktop",
+     "id": "27:677",
+     "overrides": [
+      {
+       "old": "Related projects",
+       "occ": 1,
+       "new": "PARC™"
+      },
+      {
+       "old": "View All",
+       "occ": 1,
+       "new": "Learn More"
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 1,
+       "new": "Consulting Services"
+      },
+      {
+       "old": "San Diego, CA · 2025",
+       "occ": 1,
+       "new": "Designated team dedicated to parking design and consulting services."
+      },
+      {
+       "old": "Read More",
+       "occ": 1,
+       "new": "Learn More"
+      },
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "Turnkey Delivery"
+      },
+      {
+       "old": "Davis, CA · 2024",
+       "occ": 1,
+       "new": "Your builder for prefabricated parking structures."
+      },
+      {
+       "old": "Read More",
+       "occ": 2,
+       "new": "Learn More"
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Seismic Performance"
+      },
+      {
+       "old": "Santa Clara, CA · 2025",
+       "occ": 1,
+       "new": "The latest in seismic-resistance technology and one of the best performing lateral resistance systems available."
+      },
+      {
+       "old": "Read More",
+       "occ": 3,
+       "new": "Learn More"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Torrey View",
+       "occ": 1
+      },
+      {
+       "old": "UC Davis West Village",
+       "occ": 1
+      },
+      {
+       "old": "Silicon Valley Hub",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Explore our parking solutions and services",
+       "r": "head",
+       "w": [
+        [
+         20,
+         300,
+         49
+        ],
+        [
+         22,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "Pre-Engineered Solution",
+       "r": "label"
+      },
+      {
+       "c": "PARC™",
+       "r": "head"
+      },
+      {
+       "c": "Single source for the complete parking structure, from entitlement to hand-over.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "Consulting Services",
+       "r": "label"
+      },
+      {
+       "c": "Parking Consultants & Designers",
+       "r": "head"
+      },
+      {
+       "c": "Designated team dedicated to parking design and consulting services.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "Turnkey Delivery",
+       "r": "label"
+      },
+      {
+       "c": "Design-Build",
+       "r": "head"
+      },
+      {
+       "c": "Your builder for prefabricated parking structures.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "Seismic Performance",
+       "r": "label"
+      },
+      {
+       "c": "Precast Hybrid Moment Frame",
+       "r": "head"
+      },
+      {
+       "c": "The latest in seismic-resistance technology and one of the best performing lateral resistance systems available.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Explore our parking solutions and services",
+    "Pre-Engineered Solution",
+    "Single source for the complete parking structure, from entitlement to hand-over.",
+    "Parking Consultants & Designers",
+    "Design-Build",
+    "Precast Hybrid Moment Frame"
+   ],
+   "nov": 11,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 2403,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": 3.6,
+   "fit": 0.56,
+   "hr": 0.5,
+   "vh": 445,
+   "h": 891,
+   "pieces": [],
+   "unplaced": [
+    "Seismic Resilience",
+    "The Precast Hybrid Moment Frame (PHMF) system allows larger column spans — creating more flexible parking layouts, better pedestrian environments, and structures that perform better in seismic events.",
+    "Unlike traditional shear-wall systems, PHMF transfers lateral loads through ductile moment connections — reducing the number of walls required and opening up ground-level retail, residential, and mixed-use program opportunities.",
+    "Larger column spans for greater design flexibility"
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 3294,
+   "tag": "Stats Row",
+   "kind": "instance",
+   "set": "Stats Row",
+   "variant": "Breakpoint=Desktop",
+   "id": "31:921",
+   "score": 16.2,
+   "fit": 1,
+   "hr": 0.91,
+   "vh": 291,
+   "h": 266,
+   "pieces": [
+    {
+     "set": "Stats Row",
+     "variant": "Breakpoint=Desktop",
+     "id": "31:921",
+     "overrides": [
+      {
+       "old": "70+",
+       "occ": 1,
+       "new": "300+",
+       "runs": [
+        [
+         3,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Years pioneering prefabricated construction.",
+       "occ": 1,
+       "new": "Parking structures designed and built"
+      },
+      {
+       "old": "11",
+       "occ": 1,
+       "new": "150K+",
+       "runs": [
+        [
+         4,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Western states served from regional plants.",
+       "occ": 1,
+       "new": "Parking stalls delivered across California"
+      },
+      {
+       "old": "100%",
+       "occ": 1,
+       "new": "50+",
+       "runs": [
+        [
+         2,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Metal, wood & concrete scrap diverted from landfill.",
+       "occ": 1,
+       "new": "Years of parking structure expertise"
+      },
+      {
+       "old": "Single source — design, engineering & manufacturing.",
+       "occ": 1,
+       "new": "Point of contact from design through warranty"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "300+",
+       "r": "head",
+       "w": [
+        [
+         3,
+         600,
+         64
+        ],
+        [
+         1,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Parking structures designed and built",
+       "r": "body"
+      },
+      {
+       "c": "150K+",
+       "r": "head",
+       "w": [
+        [
+         4,
+         600,
+         64
+        ],
+        [
+         1,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Parking stalls delivered across California",
+       "r": "body"
+      },
+      {
+       "c": "50+",
+       "r": "head",
+       "w": [
+        [
+         2,
+         600,
+         64
+        ],
+        [
+         1,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Years of parking structure expertise",
+       "r": "body"
+      },
+      {
+       "c": "1",
+       "r": "glyph"
+      },
+      {
+       "c": "Point of contact from design through warranty",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 7,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3560,
+   "tag": "Projects Photo Mosaic",
+   "kind": "page-specific",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Desktop",
+   "id": "28:824",
+   "score": 1,
+   "fit": 0.45,
+   "hr": 0.93,
+   "vh": 696,
+   "h": 749,
+   "pieces": [],
+   "unplaced": [
+    "View All Projects",
+    "Kilroy Oyster Point Phase Two",
+    "NPA Innovative Facility of the Year — a landmark precast parking structure at the South San Francisco waterfront.",
+    "View Project",
+    "PCI Design Award winner — healthcare campus parking structure balancing seismic performance and architectural quality.",
+    "663-stall seismically resilient structure with integrated EV charging, currently under construction at UC Berkeley."
+   ],
+   "nov": 5,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4309,
+   "tag": "Quote Band",
+   "kind": "instance",
+   "set": "Quote Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "22:205",
+   "score": 8.2,
+   "fit": 1,
+   "hr": 0.79,
+   "vh": 483,
+   "h": 611,
+   "pieces": [
+    {
+     "set": "Quote Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "22:205",
+     "overrides": [
+      {
+       "old": "Clark Pacific delivered our building envelope months ahead of schedule — the single-source model removed the coordination risk we’d carried on every prior project.",
+       "occ": 1,
+       "new": "The team successfully and safely delivered the project in alignment with the University’s program, within budget and utilizing the team’s prefabricated systems approach, significantly faster and with significantly less campus impact than competing conventional systems. The construction impacts to our campus community were so minimal that I’ve had faculty remark to me they were surprised to see PS5 construction had started and was already complete.",
+       "runs": [
+        [
+         170,
+         300
+        ],
+        [
+         20,
+         600
+        ],
+        [
+         261,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Dana Reyes",
+       "occ": 1,
+       "new": "Tony Lucas"
+      },
+      {
+       "old": "VP of Construction · Meridian Development",
+       "occ": 1,
+       "new": "University Transportation and Parking Services · CSU Sacramento"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "“",
+       "r": "glyph"
+      },
+      {
+       "c": "The team successfully and safely delivered the project in alignment with the University’s program, within budget and utilizing the team’s prefabricated systems approach, significantly faster and with significantly less campus impact than competing conventional systems. The construction impacts to our campus community were so minimal that I’ve had faculty remark to me they were surprised to see PS5 construction had started and was already complete.",
+       "r": "head",
+       "w": [
+        [
+         170,
+         300,
+         30
+        ],
+        [
+         20,
+         600,
+         30
+        ],
+        [
+         261,
+         300,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Tony Lucas",
+       "r": "label"
+      },
+      {
+       "c": "University Transportation and Parking Services · CSU Sacramento",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4920,
+   "tag": "FAQ Accordion",
+   "kind": "instance",
+   "set": "FAQ Accordion",
+   "variant": "Breakpoint=Desktop",
+   "id": "9:2",
+   "score": 20.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 661,
+   "h": 658,
+   "pieces": [
+    {
+     "set": "FAQ Accordion",
+     "variant": "Breakpoint=Desktop",
+     "id": "9:2",
+     "overrides": [
+      {
+       "old": "Frequently Asked Questions",
+       "occ": 1,
+       "new": "Frequently asked questions",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         9,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "What is Infinite Facade® and what's included?",
+       "occ": 1,
+       "new": "How long does a precast parking structure take to build?"
+      },
+      {
+       "old": "A unitized prefabricated building envelope — a structural frame with your choice of Concrete or GFRC skin, off-the-shelf high-tolerance connections, and up to 4\" of factory-installed HFO spray-foam insulation.",
+       "occ": 1,
+       "new": "Most structures are erected in weeks rather than months, because the components are manufactured while the site and foundations are prepared."
+      },
+      {
+       "old": "Can it accommodate full-height windows and custom geometry?",
+       "occ": 1,
+       "new": "What is the difference between PARC and Design-Build?"
+      },
+      {
+       "old": "What finishes and veneers can be applied to the frame?",
+       "occ": 1,
+       "new": "Are precast parking structures suitable for seismic regions?"
+      },
+      {
+       "old": "How does Infinite Facade improve the construction schedule?",
+       "occ": 1,
+       "new": "Can you help with early planning and budgeting?"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Frequently asked questions",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         9,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "How long does a precast parking structure take to build?",
+       "r": "title"
+      },
+      {
+       "c": "–",
+       "r": "glyph"
+      },
+      {
+       "c": "Most structures are erected in weeks rather than months, because the components are manufactured while the site and foundations are prepared.",
+       "r": "body"
+      },
+      {
+       "c": "What is the difference between PARC and Design-Build?",
+       "r": "title"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "Are precast parking structures suitable for seismic regions?",
+       "r": "title"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "Can you help with early planning and budgeting?",
+       "r": "title"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 6,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5578,
+   "tag": "Featured Resources",
+   "kind": "instance",
+   "set": "Featured Resources",
+   "variant": "Breakpoint=Desktop",
+   "id": "27:829",
+   "score": 8,
+   "fit": 0.78,
+   "hr": 0.6,
+   "vh": 855,
+   "h": 513,
+   "pieces": [
+    {
+     "set": "Featured Resources",
+     "variant": "Breakpoint=Desktop",
+     "id": "27:829",
+     "overrides": [
+      {
+       "old": "View All Resources",
+       "occ": 1,
+       "new": "Webinar"
+      },
+      {
+       "old": "A summary of the testing programme behind the Infinite Facade system, including performance results for air, water and structural loading.",
+       "occ": 1,
+       "new": "Discover how prefabricated parking structures and the PHMF are transforming construction with enhanced seismic performance."
+      },
+      {
+       "old": "Read More",
+       "occ": 1,
+       "new": "Watch Now"
+      },
+      {
+       "old": "Design Guide",
+       "occ": 1,
+       "new": "Webinar"
+      },
+      {
+       "old": "Conversations with industry leaders, innovators and experts on the strategies and best practices shaping how we design and build.",
+       "occ": 1,
+       "new": "Industry experts discuss what influences the cost of a parking structure and how to design for better value from the outset."
+      },
+      {
+       "old": "Read More",
+       "occ": 3,
+       "new": "Watch Now"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "Technical Document",
+       "occ": 1
+      },
+      {
+       "old": "Infinite Facade® Testing Overview",
+       "occ": 1
+      },
+      {
+       "old": "Parking Design Guide",
+       "occ": 1
+      },
+      {
+       "old": "Planning and design guidance for prefabricated parking structures, from bay layouts and circulation through to finish selection.",
+       "occ": 1
+      },
+      {
+       "old": "Read More",
+       "occ": 2
+      },
+      {
+       "old": "Podcast",
+       "occ": 1
+      },
+      {
+       "old": "Building Forward",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Featured resources",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         35
+        ],
+        [
+         9,
+         600,
+         35
+        ]
+       ]
+      },
+      {
+       "c": "Webinar",
+       "r": "label"
+      },
+      {
+       "c": "The Case for Resilient Design",
+       "r": "title"
+      },
+      {
+       "c": "Discover how prefabricated parking structures and the PHMF are transforming construction with enhanced seismic performance.",
+       "r": "body"
+      },
+      {
+       "c": "Watch Now",
+       "r": "label"
+      },
+      {
+       "c": "Webinar",
+       "r": "label"
+      },
+      {
+       "c": "How to Influence the Cost of a Parking Structure",
+       "r": "title"
+      },
+      {
+       "c": "Industry experts discuss what influences the cost of a parking structure and how to design for better value from the outset.",
+       "r": "body"
+      },
+      {
+       "c": "Watch Now",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "The Case for Resilient Design",
+    "How to Influence the Cost of a Parking Structure"
+   ],
+   "nov": 6,
+   "nhide": 8,
+   "hideItems": []
+  },
+  {
+   "top": 6091,
+   "tag": "CTA Banner / Light",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=BG Alt, Layout=Content right, Breakpoint=Desktop",
+   "id": "23:248",
+   "score": 10.4,
+   "fit": 1,
+   "hr": 0.79,
+   "vh": 513,
+   "h": 650,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=BG Alt, Layout=Content right, Breakpoint=Desktop",
+     "id": "23:248",
+     "overrides": [
+      {
+       "old": "Start a conversation",
+       "occ": 1,
+       "new": "Start a Conversation"
+      },
+      {
+       "old": "Let's build your next project together",
+       "occ": 1,
+       "new": "Ready to build your next parking structure?",
+       "runs": [
+        [
+         25,
+         300
+        ],
+        [
+         18,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Early engagement means better outcomes. Our design-assist team works with architects and owners from day one to optimize the system.",
+       "occ": 1,
+       "new": "Our parking specialists engage early to optimize the structural system, layout, and delivery approach — ensuring a high-quality structure on your schedule and budget."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Start a Conversation",
+       "r": "label"
+      },
+      {
+       "c": "Ready to build your next parking structure?",
+       "r": "head",
+       "w": [
+        [
+         25,
+         300,
+         49
+        ],
+        [
+         18,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "Our parking specialists engage early to optimize the structural system, layout, and delivery approach — ensuring a high-quality structure on your schedule and budget.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "View Projects",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6741,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 7140,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

@@ -1,0 +1,1152 @@
+{
+ "file": "infinite-facade.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Desktop",
+   "id": "19:174",
+   "score": 31.9,
+   "fit": 0.94,
+   "hr": 0.98,
+   "vh": 890,
+   "h": 908,
+   "pieces": [
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Desktop",
+     "id": "19:174",
+     "overrides": [
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Building Envelope"
+      },
+      {
+       "old": "Data Centers",
+       "occ": 2,
+       "new": "Building Envelope Systems"
+      },
+      {
+       "old": "AccelCore™",
+       "occ": 2,
+       "new": "Infinite"
+      },
+      {
+       "old": "A complete prefabricated data center solution.",
+       "occ": 1,
+       "new": "Facade®"
+      },
+      {
+       "old": "Structural precast systems and exterior wall panels for mission-critical data centers — integrating early design-assist and in-house manufacturing to support accelerated schedules, sustainability goals, and project predictability.",
+       "occ": 1,
+       "new": "Infinite Facade® offers a highly customizable, prefabricated building envelope solution that streamlines design and construction. With customizable aesthetics, accommodating full-height windows, and a single-source approach, it reduces risk while delivering a high-performance facade with architectural freedom."
+      },
+      {
+       "old": "Get Started",
+       "occ": 1,
+       "new": "Explore the System"
+      },
+      {
+       "old": "View Webinar",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [
+      {
+       "old": "AccelCore™",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6",
+      "5:33",
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Clark Pacific is expanding to the Pacific Northwest — new plant opening Q3 2026.",
+       "r": "body"
+      },
+      {
+       "c": "Learn more →",
+       "r": "title"
+      },
+      {
+       "c": "Our Products",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Projects",
+       "r": "label"
+      },
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Contact",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Products",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope",
+       "r": "body"
+      },
+      {
+       "c": "Infinite Facade®",
+       "r": "title"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "label"
+      },
+      {
+       "c": "Infinite",
+       "r": "head"
+      },
+      {
+       "c": "Facade®",
+       "r": "head"
+      },
+      {
+       "c": "Infinite Facade® offers a highly customizable, prefabricated building envelope solution that streamlines design and construction. With customizable aesthetics, accommodating full-height windows, and a single-source approach, it reduces risk while delivering a high-performance facade with architectural freedom.",
+       "r": "body"
+      },
+      {
+       "c": "Explore the System",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Infinite Facade®"
+   ],
+   "nov": 7,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 908,
+   "tag": "One-off: Section Divider",
+   "kind": "page-specific",
+   "h": 1
+  },
+  {
+   "top": 909,
+   "tag": "System Overview + Materials",
+   "kind": "instance",
+   "set": "System Overview + Materials",
+   "variant": "Breakpoint=Desktop",
+   "id": "32:1104",
+   "score": 20.4,
+   "fit": 1,
+   "hr": 0.93,
+   "vh": 851,
+   "h": 917,
+   "pieces": [
+    {
+     "set": "System Overview + Materials",
+     "variant": "Breakpoint=Desktop",
+     "id": "32:1104",
+     "overrides": [
+      {
+       "old": "Infinite Facade® overview from the current site: what the system is and how it goes together.",
+       "occ": 1,
+       "new": "Infinite Facade® combines precast, glazing and weather barrier into one panelized envelope, designed, manufactured and installed by a single team."
+      },
+      {
+       "old": "Supporting paragraph from the current site.",
+       "occ": 1,
+       "new": "Panels arrive on site finished and sealed, so the building closes in weeks earlier, with fewer trades on the wall and one warranty for the whole envelope."
+      },
+      {
+       "old": "Weather barrier one",
+       "occ": 1,
+       "new": "Fluid-applied membrane"
+      },
+      {
+       "old": "Material name and description from the current Infinite Facade® page.",
+       "occ": 1,
+       "new": "Factory-applied under controlled conditions for a continuous, inspected barrier across every panel."
+      },
+      {
+       "old": "Weather barrier two",
+       "occ": 1,
+       "new": "Closed-cell spray foam"
+      },
+      {
+       "old": "Material name and description from the current Infinite Facade® page.",
+       "occ": 2,
+       "new": "Factory-applied under controlled conditions for a continuous, inspected barrier across every panel."
+      },
+      {
+       "old": "Weather barrier three",
+       "occ": 1,
+       "new": "Silicone perimeter seal"
+      },
+      {
+       "old": "Material name and description from the current Infinite Facade® page.",
+       "occ": 3,
+       "new": "Factory-applied under controlled conditions for a continuous, inspected barrier across every panel."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "System overview",
+       "r": "head",
+       "w": [
+        [
+         7,
+         300,
+         45
+        ],
+        [
+         8,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Infinite Facade® combines precast, glazing and weather barrier into one panelized envelope, designed, manufactured and installed by a single team.",
+       "r": "head"
+      },
+      {
+       "c": "Panels arrive on site finished and sealed, so the building closes in weeks earlier, with fewer trades on the wall and one warranty for the whole envelope.",
+       "r": "body"
+      },
+      {
+       "c": "Weather barrier materials",
+       "r": "label"
+      },
+      {
+       "c": "Fluid-applied membrane",
+       "r": "title"
+      },
+      {
+       "c": "Factory-applied under controlled conditions for a continuous, inspected barrier across every panel.",
+       "r": "body"
+      },
+      {
+       "c": "Closed-cell spray foam",
+       "r": "title"
+      },
+      {
+       "c": "Factory-applied under controlled conditions for a continuous, inspected barrier across every panel.",
+       "r": "body"
+      },
+      {
+       "c": "Silicone perimeter seal",
+       "r": "title"
+      },
+      {
+       "c": "Factory-applied under controlled conditions for a continuous, inspected barrier across every panel.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 8,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 1826,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": 0.6,
+   "fit": 0.45,
+   "hr": 0.39,
+   "vh": 445,
+   "h": 1127,
+   "pieces": [],
+   "unplaced": [
+    "System Configurations",
+    "Designed as one. Built to perform.",
+    "IF 85",
+    "More Vision Glass",
+    "IF 100",
+    "Full Height Glass"
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 2953,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+   "id": "21:197",
+   "score": -8.5,
+   "fit": 0.27,
+   "hr": 0.87,
+   "vh": 593,
+   "h": 681,
+   "pieces": [],
+   "unplaced": [
+    "In addition to the wide variety of colors and textures available in traditional precast, other materials can be cast into the exterior veneer — brick, terracotta, and stone. Form liners allow an endless number of geometric patterns and reveals.",
+    "View Finishes Guide",
+    "Light Sandblast",
+    "Medium Sandblast",
+    "Heavy Sandblast",
+    "Stone",
+    "Terra Cotta",
+    "Formliner",
+    "Brick",
+    "Stains",
+    "Metal Panel"
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3634,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+   "id": "21:197",
+   "score": 5,
+   "fit": 0.67,
+   "hr": 0.83,
+   "vh": 593,
+   "h": 494,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Image left 50/50, Breakpoint=Desktop",
+     "id": "21:197",
+     "overrides": [
+      {
+       "old": "Prefabricated Systems",
+       "occ": 1,
+       "new": "Performance Standards"
+      },
+      {
+       "old": "High performance building envelope with reduced risk",
+       "occ": 1,
+       "new": "24"
+      },
+      {
+       "old": "A prefabricated building envelope designed to streamline coordination and construction — with factory-installed insulation and off-the-shelf connections.",
+       "occ": 1,
+       "new": "Performance tests passed across air infiltration, water penetration, structural loading, thermal performance and seismic movement."
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Download the Infinite Facade® Testing Overview"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Performance Standards",
+       "r": "label"
+      },
+      {
+       "c": "Tested and proven",
+       "r": "head",
+       "w": [
+        [
+         11,
+         300,
+         45
+        ],
+        [
+         6,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Infinite Facade® is designed and tested to meet or exceed industry performance standards — giving your design team the data needed for specifications and energy compliance.",
+       "r": "body"
+      },
+      {
+       "c": "24",
+       "r": "head"
+      },
+      {
+       "c": "Performance tests passed across air infiltration, water penetration, structural loading, thermal performance and seismic movement.",
+       "r": "body"
+      },
+      {
+       "c": "Download the Infinite Facade® Testing Overview",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Tested and proven",
+    "Infinite Facade® is designed and tested to meet or exceed industry performance standards — giving your design team the data needed for specifications and energy compliance."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4128,
+   "tag": "Stats Row",
+   "kind": "instance",
+   "set": "Stats Row",
+   "variant": "Breakpoint=Desktop",
+   "id": "31:921",
+   "score": 8.4,
+   "fit": 0.75,
+   "hr": 1,
+   "vh": 291,
+   "h": 292,
+   "pieces": [
+    {
+     "set": "Stats Row",
+     "variant": "Breakpoint=Desktop",
+     "id": "31:921",
+     "overrides": [
+      {
+       "old": "11",
+       "occ": 1,
+       "new": "40%",
+       "runs": [
+        [
+         2,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Western states served from regional plants.",
+       "occ": 1,
+       "new": "Less cement than traditional concrete systems"
+      },
+      {
+       "old": "100%",
+       "occ": 1,
+       "new": "100+",
+       "runs": [
+        [
+         3,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Metal, wood & concrete scrap diverted from landfill.",
+       "occ": 1,
+       "new": "Available finishes, including textures, colors, glazing and metal panel"
+      },
+      {
+       "old": "Single source — design, engineering & manufacturing.",
+       "occ": 1,
+       "new": "Accelerated construction schedule"
+      }
+     ],
+     "hide": [],
+     "hideItems": [
+      1
+     ],
+     "icons": [],
+     "texts": [
+      {
+       "c": "40%",
+       "r": "head",
+       "w": [
+        [
+         2,
+         600,
+         64
+        ],
+        [
+         1,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Less cement than traditional concrete systems",
+       "r": "body"
+      },
+      {
+       "c": "100+",
+       "r": "head",
+       "w": [
+        [
+         3,
+         600,
+         64
+        ],
+        [
+         1,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Available finishes, including textures, colors, glazing and metal panel",
+       "r": "body"
+      },
+      {
+       "c": "1",
+       "r": "glyph"
+      },
+      {
+       "c": "Point of contact through design, occupancy and warranty",
+       "r": "body"
+      },
+      {
+       "c": "30%",
+       "r": "head",
+       "w": [
+        [
+         2,
+         600,
+         64
+        ],
+        [
+         1,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Accelerated construction schedule",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Point of contact through design, occupancy and warranty",
+    "30%"
+   ],
+   "nov": 5,
+   "nhide": 0,
+   "hideItems": [
+    1
+   ]
+  },
+  {
+   "top": 4420,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": 6.6,
+   "fit": 0.71,
+   "hr": 0.67,
+   "vh": 445,
+   "h": 664,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Bulleted, Breakpoint=Desktop",
+     "id": "21:231",
+     "overrides": [
+      {
+       "old": "Advantages of a Clark Pacific building system",
+       "occ": 1,
+       "new": "The right envelope for your sustainability goals",
+       "runs": [
+        [
+         28,
+         300
+        ],
+        [
+         20,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Factory-installed insulation meets target R-values without field rework",
+       "occ": 1,
+       "new": "Reduces heating energy ~30% vs. typical construction assemblies"
+      },
+      {
+       "old": "Off-site fabrication runs parallel to sitework, compressing the schedule",
+       "occ": 1,
+       "new": "GWP reduced by 60%+ vs. traditional curtain wall systems"
+      },
+      {
+       "old": "Single-source accountability from design-assist through erection and warranty",
+       "occ": 1,
+       "new": "EPD published — verified third-party environmental data for LEED"
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Learn About Our Sustainability Approach"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Built for performance",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Sustainability",
+       "r": "label"
+      },
+      {
+       "c": "The right envelope for your sustainability goals",
+       "r": "head",
+       "w": [
+        [
+         28,
+         300,
+         45
+        ],
+        [
+         20,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Infinite Facade® supports a wide range of green building certification goals. Up to 4\" of factory-installed HFO spray-foam insulation meets demanding energy code requirements — including CA Title 24 and WSEC.",
+       "r": "body"
+      },
+      {
+       "c": "Reduces heating energy ~30% vs. typical construction assemblies",
+       "r": "body"
+      },
+      {
+       "c": "GWP reduced by 60%+ vs. traditional curtain wall systems",
+       "r": "body"
+      },
+      {
+       "c": "EPD published — verified third-party environmental data for LEED",
+       "r": "body"
+      },
+      {
+       "c": "Learn About Our Sustainability Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Sustainability",
+    "Infinite Facade® supports a wide range of green building certification goals. Up to 4\" of factory-installed HFO spray-foam insulation meets demanding energy code requirements — including CA Title 24 and WSEC."
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 5084,
+   "tag": "Projects Photo Mosaic",
+   "kind": "page-specific",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Desktop",
+   "id": "28:824",
+   "score": 1.2,
+   "fit": 0.45,
+   "hr": 0.94,
+   "vh": 696,
+   "h": 743,
+   "pieces": [],
+   "unplaced": [
+    "View All Projects",
+    "Cal State LA Student Housing East",
+    "IF 75 and IF 85 configurations delivering a complex facade across a 900-unit student housing campus in Los Angeles.",
+    "View Project",
+    "High-performance Infinite Facade® panels delivering full-height glazing and premium finish quality on a landmark mixed-use tower.",
+    "First large-scale Infinite Facade® project for Kieran Timberlake — award-winning envelope delivered on a compressed academic schedule."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5827,
+   "tag": "Related Content Row",
+   "kind": "instance",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Desktop",
+   "id": "27:677",
+   "score": 17.8,
+   "fit": 0.85,
+   "hr": 0.63,
+   "vh": 650,
+   "h": 412,
+   "pieces": [
+    {
+     "set": "Related Content Row",
+     "variant": "Breakpoint=Desktop",
+     "id": "27:677",
+     "overrides": [
+      {
+       "old": "Related projects",
+       "occ": 1,
+       "new": "Explore more envelope systems",
+       "runs": [
+        [
+         13,
+         300
+        ],
+        [
+         16,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 1,
+       "new": "Learn More"
+      },
+      {
+       "old": "Torrey View",
+       "occ": 1,
+       "new": "GFRC"
+      },
+      {
+       "old": "San Diego, CA · 2025",
+       "occ": 1,
+       "new": "Lightweight, sculptural panels ideal for high seismic zones and complex geometries."
+      },
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "Learn More"
+      },
+      {
+       "old": "UC Davis West Village",
+       "occ": 1,
+       "new": "Glass & Glazing"
+      },
+      {
+       "old": "Davis, CA · 2024",
+       "occ": 1,
+       "new": "Factory-installed glazing systems integrated directly into the Infinite Facade® frame."
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Learn More"
+      },
+      {
+       "old": "Silicon Valley Hub",
+       "occ": 1,
+       "new": "Finishes"
+      },
+      {
+       "old": "Santa Clara, CA · 2025",
+       "occ": 1,
+       "new": "100+ standard colors, textures, form liners, and embedded materials for any design vision."
+      },
+      {
+       "old": "Read More",
+       "occ": 3,
+       "new": "Learn More"
+      }
+     ],
+     "hide": [
+      {
+       "old": "View All",
+       "occ": 1
+      },
+      {
+       "old": "Read More",
+       "occ": 1
+      },
+      {
+       "old": "Read More",
+       "occ": 2
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Explore more envelope systems",
+       "r": "head",
+       "w": [
+        [
+         13,
+         300,
+         35
+        ],
+        [
+         16,
+         600,
+         35
+        ]
+       ]
+      },
+      {
+       "c": "Architectural Precast",
+       "r": "title"
+      },
+      {
+       "c": "Extremely durable with flexibility in shapes, finishes, and embedded materials.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "GFRC",
+       "r": "title"
+      },
+      {
+       "c": "Lightweight, sculptural panels ideal for high seismic zones and complex geometries.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "Glass & Glazing",
+       "r": "title"
+      },
+      {
+       "c": "Factory-installed glazing systems integrated directly into the Infinite Facade® frame.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "Finishes",
+       "r": "title"
+      },
+      {
+       "c": "100+ standard colors, textures, form liners, and embedded materials for any design vision.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Architectural Precast",
+    "Extremely durable with flexibility in shapes, finishes, and embedded materials."
+   ],
+   "nov": 11,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 6239,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+   "id": "23:206",
+   "score": 7.8,
+   "fit": 1,
+   "hr": 0.69,
+   "vh": 513,
+   "h": 352,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+     "id": "23:206",
+     "overrides": [
+      {
+       "old": "Ready to accelerate your next project?",
+       "occ": 1,
+       "new": "Ready to rethink your building envelope?",
+       "runs": [
+        [
+         22,
+         300
+        ],
+        [
+         18,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Our team works as an extension of yours — from early design-assist through construction, with single-source accountability throughout.",
+       "occ": 1,
+       "new": "Our envelope specialists engage early — from schematic design through installation — with single-source accountability from contract through warranty."
+      },
+      {
+       "old": "View Projects",
+       "occ": 1,
+       "new": "Download Datasheet"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Talk to an Expert",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to rethink your building envelope?",
+       "r": "head",
+       "w": [
+        [
+         22,
+         300,
+         45
+        ],
+        [
+         18,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Our envelope specialists engage early — from schematic design through installation — with single-source accountability from contract through warranty.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Download Datasheet",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 6591,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6990,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

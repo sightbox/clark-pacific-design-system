@@ -1,0 +1,1 @@
+{"name": "Benefits Grid", "group": "06 \u00b7 Data & Company", "desc": "Employee benefits: bare 42px line icons, title, description in an open 3-col grid. Mobile: icon-left list.", "variants": [{"props": {"Breakpoint": "Desktop"}, "src": "desk/d-benefits-grid", "bp": "Desktop"}, {"props": {"Breakpoint": "Mobile"}, "src": "mobadd/m-benefits", "bp": "Mobile"}]}

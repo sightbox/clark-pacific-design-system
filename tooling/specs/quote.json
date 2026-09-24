@@ -1,0 +1,1 @@
+{"name": "Quote Band", "group": "03 \u00b7 Content Panels", "desc": "Large pull-quote on white with orange quotation mark; emphasis stays SemiBold gray on light. Name + title attribution centred below.", "variants": [{"props": {"Breakpoint": "Desktop"}, "src": "desk/d-quote-band", "bp": "Desktop"}, {"props": {"Breakpoint": "Mobile"}, "src": "mob/m-quote", "bp": "Mobile"}]}

@@ -1,0 +1,1388 @@
+{
+ "file": "netzero-building-platform.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 12.5,
+   "fit": 0.88,
+   "hr": 0.77,
+   "vh": 771,
+   "h": 1001,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1,
+       "new": "Products · Structural Solutions"
+      },
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Sustainability + Structural Solutions"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "NetZero"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "Building Platform."
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "A complete structural office building solution, the NetZERO Building Platform provides an efficient alternative to traditional buildings in both design and delivery models. With a focus on sustainability and occupant wellness, NetZERO responds to market concerns about how and where work will happen in the future."
+      },
+      {
+       "old": "Start a Conversation",
+       "occ": 1,
+       "new": "Download Datasheet"
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Products · Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "NetZero Building Platform",
+       "r": "title"
+      },
+      {
+       "c": "Sustainability + Structural Solutions",
+       "r": "label"
+      },
+      {
+       "c": "NetZero",
+       "r": "head"
+      },
+      {
+       "c": "Building Platform.",
+       "r": "head"
+      },
+      {
+       "c": "A complete structural office building solution, the NetZERO Building Platform provides an efficient alternative to traditional buildings in both design and delivery models. With a focus on sustainability and occupant wellness, NetZERO responds to market concerns about how and where work will happen in the future.",
+       "r": "body"
+      },
+      {
+       "c": "Download Datasheet",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "NetZero Building Platform"
+   ],
+   "nov": 7,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 1001,
+   "tag": "Video Module",
+   "kind": "instance",
+   "set": "Video Module",
+   "variant": "Layout=Full width, Breakpoint=Mobile",
+   "id": "36:1158",
+   "score": 4.7,
+   "fit": 0.75,
+   "hr": 0.74,
+   "vh": 446,
+   "h": 600,
+   "pieces": [
+    {
+     "set": "Video Module",
+     "variant": "Layout=Full width, Breakpoint=Mobile",
+     "id": "36:1158",
+     "overrides": [
+      {
+       "old": "Video module headline",
+       "occ": 1,
+       "new": "The NetZERO Building Platform",
+       "runs": [
+        [
+         12,
+         300
+        ],
+        [
+         17,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Supporting copy.",
+       "occ": 1,
+       "new": "How the prefabricated frame, radiant floor system and high-efficiency facade work together as one building platform."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Watch",
+       "r": "label"
+      },
+      {
+       "c": "The NetZERO Building Platform",
+       "r": "head",
+       "w": [
+        [
+         12,
+         300,
+         26
+        ],
+        [
+         17,
+         600,
+         26
+        ]
+       ]
+      },
+      {
+       "c": "How the prefabricated frame, radiant floor system and high-efficiency facade work together as one building platform.",
+       "r": "body"
+      },
+      {
+       "c": "Watch the Video",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Watch the Video"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 1601,
+   "tag": "CARBONSHIELD",
+   "kind": "instance",
+   "set": "CARBONSHIELD®",
+   "variant": "Breakpoint=Mobile",
+   "id": "32:1037",
+   "score": 6.7,
+   "fit": 0.8,
+   "hr": 0.76,
+   "vh": 652,
+   "h": 859,
+   "pieces": [
+    {
+     "set": "CARBONSHIELD®",
+     "variant": "Breakpoint=Mobile",
+     "id": "32:1037",
+     "overrides": [
+      {
+       "old": "CARBONSHIELD®",
+       "occ": 1,
+       "new": "Proprietary Concrete Mix"
+      },
+      {
+       "old": "Building for the future",
+       "occ": 1,
+       "new": "Building for the future",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         6,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Approved CARBONSHIELD copy: 25% of portland cement replaced, ~20% less embodied carbon.",
+       "occ": 1,
+       "new": "It replaces 25% of the portland cement in our concrete mixes, reducing embodied carbon by roughly 20%. Our goal is double this by 2030, through our continuous R&D efforts and material partnerships."
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Download CARBONSHIELD® Datasheet"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Proprietary Concrete Mix",
+       "r": "label"
+      },
+      {
+       "c": "Building for the future",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         30
+        ],
+        [
+         6,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "CARBONSHIELD® is a unique and proprietary concrete mix developed by Clark Pacific that provides the same performance as traditional mixes and is standard in our structural products.",
+       "r": "body"
+      },
+      {
+       "c": "It replaces 25% of the portland cement in our concrete mixes, reducing embodied carbon by roughly 20%. Our goal is double this by 2030, through our continuous R&D efforts and material partnerships.",
+       "r": "body"
+      },
+      {
+       "c": "Download CARBONSHIELD® Datasheet",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "CARBONSHIELD® is a unique and proprietary concrete mix developed by Clark Pacific that provides the same performance as traditional mixes and is standard in our structural products."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2460,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Mobile",
+   "id": "21:358",
+   "score": -1,
+   "fit": 0.4,
+   "hr": 0.3,
+   "vh": 327,
+   "h": 1093,
+   "pieces": [],
+   "unplaced": [
+    "Health & Sustainability",
+    "Reimagined and redesigned from the ground up with health and sustainability as priorities. Building owners no longer must sacrifice sustainability to meet the proforma. Offsite manufacturing delivers premium performance and design flexibility at lower cost.",
+    "Design standards that prioritize healthy environments",
+    "Lower Total Cost of Ownership",
+    "100% outside air ventilation for superior indoor air quality",
+    "40% less whole life carbon over the building's life"
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3552,
+   "tag": "Icon Grid",
+   "kind": "instance",
+   "set": "Icon Grid",
+   "variant": "Layout=Headline left 2×3, Breakpoint=Mobile",
+   "id": "25:613",
+   "score": 12,
+   "fit": 0.69,
+   "hr": 0.32,
+   "vh": 438,
+   "h": 1360,
+   "pieces": [
+    {
+     "set": "Icon Grid",
+     "variant": "Layout=Headline left 2×3, Breakpoint=Mobile",
+     "id": "25:613",
+     "overrides": [
+      {
+       "old": "Offsite benefits",
+       "occ": 1,
+       "new": "Platform advantages",
+       "runs": [
+        [
+         9,
+         300
+        ],
+        [
+         10,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Accelerated schedules",
+       "occ": 1,
+       "new": "Thermally Efficient"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 1,
+       "new": "All-electric radiant floor system achieves 89% below baseline EUI — heating and cooling efficiencies double that of non-radiant systems."
+      },
+      {
+       "old": "Budget certainty",
+       "occ": 1,
+       "new": "Low Maintenance"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 2,
+       "new": "Durable precast concrete structure with minimal mechanical complexity — lower operating costs over the building's full lifetime."
+      },
+      {
+       "old": "Less waste",
+       "occ": 1,
+       "new": "Manufactured Offsite"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 3,
+       "new": "Factory-controlled production delivers consistent quality, reduced site impacts, and a compressed construction schedule."
+      },
+      {
+       "old": "Higher quality",
+       "occ": 1,
+       "new": "40% Less Carbon"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 4,
+       "new": "CARBONSHIELD® standard in all structural products, plus all-electric mechanical — 40% less whole life carbon vs. conventional construction."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:66",
+      "5:92",
+      "5:39",
+      "5:47",
+      "5:103",
+      "5:83"
+     ],
+     "texts": [
+      {
+       "c": "Platform advantages",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         32
+        ],
+        [
+         10,
+         600,
+         32
+        ]
+       ]
+      },
+      {
+       "c": "Cost-Effective",
+       "r": "label"
+      },
+      {
+       "c": "Offsite manufacturing delivers premium performance at lower cost — building owners no longer must sacrifice sustainability to meet the proforma.",
+       "r": "body"
+      },
+      {
+       "c": "Grid Flexible",
+       "r": "label"
+      },
+      {
+       "c": "Long-span structural grid adapts to any program requirement — office, lab, mixed-use — without costly structural modifications.",
+       "r": "body"
+      },
+      {
+       "c": "Thermally Efficient",
+       "r": "label"
+      },
+      {
+       "c": "All-electric radiant floor system achieves 89% below baseline EUI — heating and cooling efficiencies double that of non-radiant systems.",
+       "r": "body"
+      },
+      {
+       "c": "Low Maintenance",
+       "r": "label"
+      },
+      {
+       "c": "Durable precast concrete structure with minimal mechanical complexity — lower operating costs over the building's full lifetime.",
+       "r": "body"
+      },
+      {
+       "c": "Manufactured Offsite",
+       "r": "label"
+      },
+      {
+       "c": "Factory-controlled production delivers consistent quality, reduced site impacts, and a compressed construction schedule.",
+       "r": "body"
+      },
+      {
+       "c": "40% Less Carbon",
+       "r": "label"
+      },
+      {
+       "c": "CARBONSHIELD® standard in all structural products, plus all-electric mechanical — 40% less whole life carbon vs. conventional construction.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Cost-Effective",
+    "Offsite manufacturing delivers premium performance at lower cost — building owners no longer must sacrifice sustainability to meet the proforma.",
+    "Grid Flexible",
+    "Long-span structural grid adapts to any program requirement — office, lab, mixed-use — without costly structural modifications."
+   ],
+   "nov": 9,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4912,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Mobile",
+   "id": "21:358",
+   "score": 0.5,
+   "fit": 0.44,
+   "hr": 0.32,
+   "vh": 327,
+   "h": 1035,
+   "pieces": [],
+   "unplaced": [
+    "All Electric + Sustainable",
+    "NetZERO maximizes its all-electric heat pump, resulting in heating and cooling efficiencies that are double what can be accomplished by non-radiant heat pump systems — while minimizing equipment needs and reducing demands on the grid.",
+    "89%",
+    "40%",
+    "30%"
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5947,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Mobile",
+   "id": "21:358",
+   "score": 6.5,
+   "fit": 0.8,
+   "hr": 0.66,
+   "vh": 327,
+   "h": 497,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Bulleted, Breakpoint=Mobile",
+     "id": "21:358",
+     "overrides": [
+      {
+       "old": "What's included",
+       "occ": 1,
+       "new": "How we are different",
+       "runs": [
+        [
+         11,
+         300
+        ],
+        [
+         9,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Structure, enclosure and openings in one system",
+       "occ": 1,
+       "new": "Integrated systems, designed to work as one."
+      },
+      {
+       "old": "Engineered before components arrive on site",
+       "occ": 1,
+       "new": "Building owners no longer must sacrifice sustainability to meet the proforma."
+      },
+      {
+       "old": "Faster erection and earlier dry-in",
+       "occ": 1,
+       "new": "Offsite manufacturing is leveraged to deliver premium performance and design flexibility at a lower cost."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:117",
+      "5:117",
+      "5:117",
+      "5:117"
+     ],
+     "texts": [
+      {
+       "c": "How we are different",
+       "r": "head",
+       "w": [
+        [
+         11,
+         300,
+         30
+        ],
+        [
+         9,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Reimagined and redesigned from the ground up with health and sustainability as a priority.",
+       "r": "body"
+      },
+      {
+       "c": "Integrated systems, designed to work as one.",
+       "r": "body"
+      },
+      {
+       "c": "Building owners no longer must sacrifice sustainability to meet the proforma.",
+       "r": "body"
+      },
+      {
+       "c": "Offsite manufacturing is leveraged to deliver premium performance and design flexibility at a lower cost.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Reimagined and redesigned from the ground up with health and sustainability as a priority."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6444,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 5.1,
+   "fit": 0.63,
+   "hr": 0.73,
+   "vh": 732,
+   "h": 1004,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+     "id": "21:408",
+     "overrides": [
+      {
+       "old": "Mission Critical Solutions",
+       "occ": 1,
+       "new": "100% Outside Air Ventilation"
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 1,
+       "new": "Our radiant system uses 100% outside air — delivering 33% fewer allergy symptoms and 50% fewer asthma symptoms vs. recirculated air systems."
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Zoned Climate Control"
+      },
+      {
+       "old": "Building Envelope Systems",
+       "occ": 1,
+       "new": "Open Design for Maximum Daylighting"
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 2,
+       "new": "Long spans and open floor plates maximize access to daylight for all occupants — a proven factor in productivity and well-being."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Learn More",
+       "occ": 2
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Occupant Wellness",
+       "r": "label"
+      },
+      {
+       "c": "Prioritize wellness",
+       "r": "head",
+       "w": [
+        [
+         11,
+         300,
+         30
+        ],
+        [
+         8,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "100% Outside Air Ventilation",
+       "r": "label"
+      },
+      {
+       "c": "Our radiant system uses 100% outside air — delivering 33% fewer allergy symptoms and 50% fewer asthma symptoms vs. recirculated air systems.",
+       "r": "body"
+      },
+      {
+       "c": "Zoned Climate Control",
+       "r": "label"
+      },
+      {
+       "c": "Individual zone control delivers optimal comfort for occupants across the floor plate — no more hot desks or cold corners.",
+       "r": "body"
+      },
+      {
+       "c": "Open Design for Maximum Daylighting",
+       "r": "label"
+      },
+      {
+       "c": "Long spans and open floor plates maximize access to daylight for all occupants — a proven factor in productivity and well-being.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Occupant Wellness",
+    "Prioritize wellness",
+    "Individual zone control delivers optimal comfort for occupants across the floor plate — no more hot desks or cold corners."
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 7447,
+   "tag": "Quote Band",
+   "kind": "instance",
+   "set": "Quote Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "22:212",
+   "score": 8.2,
+   "fit": 1,
+   "hr": 0.65,
+   "vh": 313,
+   "h": 484,
+   "pieces": [
+    {
+     "set": "Quote Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "22:212",
+     "overrides": [
+      {
+       "old": "Pull-quote runs at 22px on mobile with the keyword in SemiBold.",
+       "occ": 1,
+       "new": "By fully maximizing prefabrication and engineering integration, Clark Pacific has transformed what is normally a highly specialized bespoke process for world-class radiant buildings into a ready-to-go, flexible building system.",
+       "runs": [
+        [
+         189,
+         300
+        ],
+        [
+         37,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Name Surname",
+       "occ": 1,
+       "new": "Noah Zallen"
+      },
+      {
+       "old": "Title · Organization",
+       "occ": 1,
+       "new": "Integral Group"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "“",
+       "r": "glyph"
+      },
+      {
+       "c": "By fully maximizing prefabrication and engineering integration, Clark Pacific has transformed what is normally a highly specialized bespoke process for world-class radiant buildings into a ready-to-go, flexible building system.",
+       "r": "title",
+       "w": [
+        [
+         189,
+         300,
+         22
+        ],
+        [
+         37,
+         600,
+         22
+        ],
+        [
+         1,
+         300,
+         22
+        ]
+       ]
+      },
+      {
+       "c": "Noah Zallen",
+       "r": "label"
+      },
+      {
+       "c": "Integral Group",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 7931,
+   "tag": "FAQ Accordion",
+   "kind": "instance",
+   "set": "FAQ Accordion",
+   "variant": "Breakpoint=Mobile",
+   "id": "9:25",
+   "score": 13.8,
+   "fit": 0.8,
+   "hr": 0.57,
+   "vh": 462,
+   "h": 804,
+   "pieces": [
+    {
+     "set": "FAQ Accordion",
+     "variant": "Breakpoint=Mobile",
+     "id": "9:25",
+     "overrides": [
+      {
+       "old": "Open question, first by default",
+       "occ": 1,
+       "new": "What is the NetZERO Building Platform?"
+      },
+      {
+       "old": "Answer copy at 15px.",
+       "occ": 1,
+       "new": "The NetZERO Building Platform is a complete structural office building solution that offers an efficient alternative to traditional design and delivery models. It combines offsite construction, design flexibility, sustainability, energy efficiency, and occupant wellness."
+      },
+      {
+       "old": "Closed question",
+       "occ": 1,
+       "new": "What are the three primary systems in the NetZERO Platform?"
+      },
+      {
+       "old": "Closed question",
+       "occ": 2,
+       "new": "How does NetZERO support occupant wellness?"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Frequently asked questions",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         9,
+         600,
+         32
+        ]
+       ]
+      },
+      {
+       "c": "What is the NetZERO Building Platform?",
+       "r": "label"
+      },
+      {
+       "c": "–",
+       "r": "glyph"
+      },
+      {
+       "c": "The NetZERO Building Platform is a complete structural office building solution that offers an efficient alternative to traditional design and delivery models. It combines offsite construction, design flexibility, sustainability, energy efficiency, and occupant wellness.",
+       "r": "body"
+      },
+      {
+       "c": "What makes NetZERO different from a traditional office building?",
+       "r": "label"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "What are the three primary systems in the NetZERO Platform?",
+       "r": "label"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "How does NetZERO support occupant wellness?",
+       "r": "label"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "What makes NetZERO different from a traditional office building?"
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 8735,
+   "tag": "Projects Photo Mosaic",
+   "kind": "instance",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Mobile",
+   "id": "28:845",
+   "score": 5.7,
+   "fit": 0.63,
+   "hr": 0.74,
+   "vh": 1050,
+   "h": 1414,
+   "pieces": [
+    {
+     "set": "Projects Photo Mosaic",
+     "variant": "Breakpoint=Mobile",
+     "id": "28:845",
+     "overrides": [
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "View All Projects"
+      },
+      {
+       "old": "Structural Projects",
+       "occ": 1,
+       "new": "Fortinet Global Headquarters"
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 1,
+       "new": "Roseville City Hall Annex"
+      },
+      {
+       "old": "View All Projects",
+       "occ": 1,
+       "new": "Apple Park Office Building"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Featured projects",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         30
+        ],
+        [
+         8,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "View All Projects",
+       "r": "label"
+      },
+      {
+       "c": "Fortinet Global Headquarters",
+       "r": "label"
+      },
+      {
+       "c": "LEED Gold Net Zero campus — 172,000 SF showcasing the NetZero Platform's performance and design capabilities.",
+       "r": "body"
+      },
+      {
+       "c": "Roseville City Hall Annex",
+       "r": "label"
+      },
+      {
+       "c": "316 Vernon — completed ahead of schedule using NetZero Platform. 30% less energy consumption attributed to the building's efficient thermal mass.",
+       "r": "body"
+      },
+      {
+       "c": "Apple Park Office Building",
+       "r": "label"
+      },
+      {
+       "c": "Precast structural components at one of the world's most demanding corporate campus environments.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "LEED Gold Net Zero campus — 172,000 SF showcasing the NetZero Platform's performance and design capabilities.",
+    "316 Vernon — completed ahead of schedule using NetZero Platform. 30% less energy consumption attributed to the building's efficient thermal mass.",
+    "Precast structural components at one of the world's most demanding corporate campus environments."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 10149,
+   "tag": "Featured Resources",
+   "kind": "page-specific",
+   "set": "Featured Resources",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:888",
+   "score": -4.6,
+   "fit": 0.33,
+   "hr": 0.28,
+   "vh": 517,
+   "h": 1854,
+   "pieces": [],
+   "unplaced": [
+    "Resources",
+    "View All Resources",
+    "Technical Document",
+    "Infinite Facade® Testing Overview",
+    "A summary of the testing programme behind the Infinite Facade system, including performance results for air, water and structural loading.",
+    "Read More",
+    "Parking Design Guide",
+    "Planning and design guidance for prefabricated parking structures, from bay layouts and circulation through to finish selection.",
+    "Building Forward",
+    "Conversations with industry leaders, innovators and experts on the strategies and best practices shaping how we design and build."
+   ],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 12003,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:349",
+   "score": 4.7,
+   "fit": 0.75,
+   "hr": 0.74,
+   "vh": 305,
+   "h": 411,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:349",
+     "overrides": [
+      {
+       "old": "Ready to build different?",
+       "occ": 1,
+       "new": "Changing the game in commercial structures",
+       "runs": [
+        [
+         21,
+         300
+        ],
+        [
+         21,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Talk to our team about your next project.",
+       "occ": 1,
+       "new": "NetZERO delivers the performance of a world-class radiant building as a ready-to-go product — meeting the 2030 Challenge without sacrificing the proforma."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Changing the game in commercial structures",
+       "r": "head",
+       "w": [
+        [
+         21,
+         300,
+         30
+        ],
+        [
+         21,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "NetZERO delivers the performance of a world-class radiant building as a ready-to-go product — meeting the 2030 Challenge without sacrificing the proforma.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Download Datasheet",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Download Datasheet"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 12414,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 12806,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

@@ -1,0 +1,913 @@
+{
+ "file": "careers.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 11.6,
+   "fit": 1,
+   "hr": 0.98,
+   "vh": 771,
+   "h": 756,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Company · Careers"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "Build the future"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "with us."
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "We're looking for ambitious builders — engineers, craftspeople, and leaders who want to work on the structures that define California."
+      },
+      {
+       "old": "Start a Conversation",
+       "occ": 1,
+       "new": "View Open Positions"
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Our Culture"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Company · Careers",
+       "r": "label"
+      },
+      {
+       "c": "Build the future",
+       "r": "head"
+      },
+      {
+       "c": "with us.",
+       "r": "head"
+      },
+      {
+       "c": "We're looking for ambitious builders — engineers, craftspeople, and leaders who want to work on the structures that define California.",
+       "r": "body"
+      },
+      {
+       "c": "View Open Positions",
+       "r": "label"
+      },
+      {
+       "c": "Our Culture",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 6,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 756,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 5.7,
+   "fit": 0.8,
+   "hr": 0.87,
+   "vh": 732,
+   "h": 845,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+     "id": "21:408",
+     "overrides": [
+      {
+       "old": "Mission Critical Solutions",
+       "occ": 1,
+       "new": "Our Culture"
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 1,
+       "new": "At Clark Pacific, you're not just manufacturing components — you're part of a team that transforms how California builds. Our plants are state-of-the-art, our project teams are collaborative, and our commitment to safety is absolute."
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 2,
+       "new": "From design engineers to concrete finishers, every role plays a direct part in delivering the buildings that shape our region."
+      },
+      {
+       "old": "Learn More",
+       "occ": 2,
+       "new": "Learn about our values"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Learn More",
+       "occ": 1
+      },
+      {
+       "old": "Building Envelope Systems",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Our Culture",
+       "r": "label"
+      },
+      {
+       "c": "Where craft meets innovation",
+       "r": "head",
+       "w": [
+        [
+         18,
+         300,
+         26
+        ],
+        [
+         10,
+         600,
+         26
+        ]
+       ]
+      },
+      {
+       "c": "At Clark Pacific, you're not just manufacturing components — you're part of a team that transforms how California builds. Our plants are state-of-the-art, our project teams are collaborative, and our commitment to safety is absolute.",
+       "r": "body"
+      },
+      {
+       "c": "From design engineers to concrete finishers, every role plays a direct part in delivering the buildings that shape our region.",
+       "r": "body"
+      },
+      {
+       "c": "Learn about our values",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Where craft meets innovation"
+   ],
+   "nov": 4,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 1600,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Mobile",
+   "id": "21:358",
+   "score": 3.5,
+   "fit": 0.57,
+   "hr": 0.16,
+   "vh": 327,
+   "h": 2091,
+   "pieces": [],
+   "unplaced": [
+    "Our Manufacturing Plants",
+    "With facilities in West Sacramento, Woodland, Perris, and French Camp, Clark Pacific offers career opportunities throughout California — with the Pacific Northwest coming soon.",
+    "West Sacramento, CA — Headquarters & Main Plant"
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3691,
+   "tag": "Benefits Grid",
+   "kind": "instance",
+   "set": "Benefits Grid",
+   "variant": "Breakpoint=Mobile",
+   "id": "31:1137",
+   "score": 5.3,
+   "fit": 0.8,
+   "hr": 0.99,
+   "vh": 434,
+   "h": 430,
+   "pieces": [
+    {
+     "set": "Benefits Grid",
+     "variant": "Breakpoint=Mobile",
+     "id": "31:1137",
+     "overrides": [
+      {
+       "old": "Benefits that help you achieve more",
+       "occ": 1,
+       "new": "Our core values",
+       "runs": [
+        [
+         4,
+         300
+        ],
+        [
+         11,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Health & Wellness",
+       "occ": 1,
+       "new": "Determination"
+      },
+      {
+       "old": "401(k) + Company Match",
+       "occ": 1,
+       "new": "Innovation"
+      },
+      {
+       "old": "Paid Time Off",
+       "occ": 1,
+       "new": "Well-being"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Benefit description.",
+       "occ": 1
+      },
+      {
+       "old": "Benefit description.",
+       "occ": 2
+      },
+      {
+       "old": "Benefit description.",
+       "occ": 3
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "What We Stand For",
+       "r": "label"
+      },
+      {
+       "c": "Our core values",
+       "r": "head",
+       "w": [
+        [
+         4,
+         300,
+         30
+        ],
+        [
+         11,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Determination",
+       "r": "title"
+      },
+      {
+       "c": "Innovation",
+       "r": "title"
+      },
+      {
+       "c": "Well-being",
+       "r": "title"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "What We Stand For"
+   ],
+   "nov": 4,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 4121,
+   "tag": "Core Values",
+   "kind": "page-specific",
+   "set": "Core Values",
+   "variant": "Breakpoint=Mobile",
+   "id": "30:987",
+   "score": -14.8,
+   "fit": 0.14,
+   "hr": 0.21,
+   "vh": 296,
+   "h": 1380,
+   "pieces": [],
+   "unplaced": [
+    "Why Clark Pacific",
+    "Benefits that help you achieve more",
+    "Health & Wellness",
+    "Medical, dental, and vision coverage for employees and their families, including mental health support.",
+    "401(k) + Company Match",
+    "Competitive retirement plan with a generous company match to help you build long-term financial security.",
+    "Paid Time Off",
+    "Generous PTO, 10 paid holidays, and paid parental leave — so you can recharge and be present for what matters.",
+    "Career Development",
+    "Tuition reimbursement, professional certifications, and clear advancement pathways within the company.",
+    "Safety-First Culture",
+    "Employee Ownership"
+   ],
+   "nov": 2,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 5501,
+   "tag": "One-off: Open Positions",
+   "kind": "page-specific",
+   "h": 3067
+  },
+  {
+   "top": 8568,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Image left 50/50, Breakpoint=Mobile",
+   "id": "21:334",
+   "score": 4.5,
+   "fit": 0.75,
+   "hr": 0.88,
+   "vh": 660,
+   "h": 748,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Image left 50/50, Breakpoint=Mobile",
+     "id": "21:334",
+     "overrides": [
+      {
+       "old": "Section headline keyword",
+       "occ": 1,
+       "new": "Engineers who build. Careers that grow.",
+       "runs": [
+        [
+         21,
+         300
+        ],
+        [
+         18,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Body copy at 16px on mobile. Image always stacks first, whichever side it sits on at desktop.",
+       "occ": 1,
+       "new": "Join a team where innovation, prefabrication, and hands-on collaboration come together to create smarter, safer, high-performance structures."
+      },
+      {
+       "old": "Learn More",
+       "occ": 1,
+       "new": "Explore Engineering Career Paths"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Engineers who build. Careers that grow.",
+       "r": "head",
+       "w": [
+        [
+         21,
+         300,
+         30
+        ],
+        [
+         18,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "At Clark Pacific, engineers don’t just design — they build.",
+       "r": "body"
+      },
+      {
+       "c": "Join a team where innovation, prefabrication, and hands-on collaboration come together to create smarter, safer, high-performance structures.",
+       "r": "body"
+      },
+      {
+       "c": "Explore Engineering Career Paths",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "At Clark Pacific, engineers don’t just design — they build."
+   ],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 9316,
+   "tag": "Quote Band",
+   "kind": "instance",
+   "set": "Quote Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "22:212",
+   "score": 8.2,
+   "fit": 1,
+   "hr": 0.79,
+   "vh": 313,
+   "h": 394,
+   "pieces": [
+    {
+     "set": "Quote Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "22:212",
+     "overrides": [
+      {
+       "old": "Pull-quote runs at 22px on mobile with the keyword in SemiBold.",
+       "occ": 1,
+       "new": "I started on the plant floor and now lead projects. At Clark Pacific, you see what you build go up — and there’s always a next step.",
+       "runs": [
+        [
+         74,
+         300
+        ],
+        [
+         24,
+         600
+        ],
+        [
+         34,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Name Surname",
+       "occ": 1,
+       "new": "Daniel Reyes"
+      },
+      {
+       "old": "Title · Organization",
+       "occ": 1,
+       "new": "Project Engineer · 9 years at Clark Pacific"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "“",
+       "r": "glyph"
+      },
+      {
+       "c": "I started on the plant floor and now lead projects. At Clark Pacific, you see what you build go up — and there’s always a next step.",
+       "r": "title",
+       "w": [
+        [
+         74,
+         300,
+         22
+        ],
+        [
+         24,
+         600,
+         22
+        ],
+        [
+         34,
+         300,
+         22
+        ]
+       ]
+      },
+      {
+       "c": "Daniel Reyes",
+       "r": "label"
+      },
+      {
+       "c": "Project Engineer · 9 years at Clark Pacific",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 9710,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:349",
+   "score": 3,
+   "fit": 0.6,
+   "hr": 0.38,
+   "vh": 305,
+   "h": 812,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:349",
+     "overrides": [
+      {
+       "old": "Ready to build different?",
+       "occ": 1,
+       "new": "Ready to join the team?",
+       "runs": [
+        [
+         9,
+         300
+        ],
+        [
+         4,
+         600
+        ],
+        [
+         10,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Talk to our team about your next project.",
+       "occ": 1,
+       "new": "Browse all open positions or reach out directly — we're always looking for talented people who want to make an impact."
+      },
+      {
+       "old": "Talk to an Expert",
+       "occ": 1,
+       "new": "Contact HR"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Take the next step",
+       "r": "label"
+      },
+      {
+       "c": "Ready to join the team?",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         32
+        ],
+        [
+         4,
+         600,
+         32
+        ],
+        [
+         10,
+         300,
+         32
+        ]
+       ]
+      },
+      {
+       "c": "Browse all open positions or reach out directly — we're always looking for talented people who want to make an impact.",
+       "r": "body"
+      },
+      {
+       "c": "View All Positions",
+       "r": "label"
+      },
+      {
+       "c": "Contact HR",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Take the next step",
+    "View All Positions"
+   ],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 10522,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 10914,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+const fs=require('fs');const {clean}=require('./clean');let t=JSON.parse(fs.readFileSync(process.argv[2]));if(process.argv[4]!=='raw')t=clean(t);const maxD=+(process.argv[3]||99);
+const p=(n,path,d=0)=>{if(d>maxD)return;const s=n.runs?n.runs.map(r=>r.t).join('').slice(0,48):'';
+console.log(('['+path+']').padEnd(12)+'  '.repeat(d)+n.type+(n.cls?'.'+n.cls.split(' ')[0]:'')+' '+[n.r.x,n.r.y,n.r.w,n.r.h].map(v=>Math.round(v)).join(',')+' '+JSON.stringify(Object.fromEntries(['d','fd','gap','pad','bg','bw','abs','jc','ai','gtc'].filter(k=>n[k]!==undefined).map(k=>[k,n[k]]))).replace(/rgb\((\d+), (\d+), (\d+)\)/g,'$1/$2/$3').slice(0,120)+' '+s);(n.kids||[]).forEach((k,i)=>p(k,path===''?String(i):path+'.'+i,d+1));};p(t,'');

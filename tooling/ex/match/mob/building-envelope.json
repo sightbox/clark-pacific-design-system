@@ -1,0 +1,790 @@
+{
+ "file": "building-envelope.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 11.6,
+   "fit": 1,
+   "hr": 0.88,
+   "vh": 771,
+   "h": 872,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Products · Building Envelope Systems"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "High-performance"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "building envelopes."
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "Clark Pacific designs, engineers, fabricates and installs high-performance building envelope systems — a single-source solution for architects, owners, and general contractors."
+      },
+      {
+       "old": "Start a Conversation",
+       "occ": 1,
+       "new": "Explore Our Systems"
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Products · Building Envelope Systems",
+       "r": "label"
+      },
+      {
+       "c": "High-performance",
+       "r": "head"
+      },
+      {
+       "c": "building envelopes.",
+       "r": "head"
+      },
+      {
+       "c": "Clark Pacific designs, engineers, fabricates and installs high-performance building envelope systems — a single-source solution for architects, owners, and general contractors.",
+       "r": "body"
+      },
+      {
+       "c": "Explore Our Systems",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 6,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 872,
+   "tag": "Card / Standard (grid)",
+   "kind": "page-specific",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:727",
+   "score": -4.5,
+   "fit": 0.35,
+   "hr": 0.23,
+   "vh": 563,
+   "h": 2423,
+   "pieces": [],
+   "unplaced": [
+    "Multi-Scope Prefabricated Envelope",
+    "Infinite Facade®",
+    "A prefabricated, multi-scope building envelope solution with design and aesthetic flexibility. Integrates structure, insulation, windows, and finishes — factory-built for precision and speed.",
+    "Learn More",
+    "Durable Facade Panel",
+    "Architectural Precast",
+    "Extremely durable facade with flexibility in shapes, finishes, and returns. Supports brick, terra cotta, stone, and 100+ custom textures and colors across any building geometry.",
+    "AccelShell™",
+    "An ideal choice for commercial, industrial, and data center projects — used as cladding or a load-bearing system with customizable thermal performance and finish options.",
+    "GFRC",
+    "Lightweight and durable integrated panels with unlimited diversity in color and form. Ideal for complex geometries, thin profiles, and projects where dead load must be minimized."
+   ],
+   "nov": 6,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3295,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 5.7,
+   "fit": 0.8,
+   "hr": 0.76,
+   "vh": 732,
+   "h": 960,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+     "id": "21:408",
+     "overrides": [
+      {
+       "old": "Mission Critical Solutions",
+       "occ": 1,
+       "new": "Our Mission"
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 1,
+       "new": "The building envelope is the most difficult part of any building to design. Design teams are expected to meet client aesthetic goals while satisfying energy codes, waterproofing requirements, and structural constraints — often with multiple subcontractors and conflicting schedules."
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 2,
+       "new": "Our mission is to turn the building envelope into one of the most rewarding parts of your project — by delivering it as a single-source prefabricated system, designed and built to meet every performance requirement before it leaves the factory."
+      },
+      {
+       "old": "Learn More",
+       "occ": 2,
+       "new": "Download Facade System Overview"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Learn More",
+       "occ": 1
+      },
+      {
+       "old": "Building Envelope Systems",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Our Mission",
+       "r": "label"
+      },
+      {
+       "c": "Reduce the complexity of envelope delivery",
+       "r": "head",
+       "w": [
+        [
+         25,
+         300,
+         30
+        ],
+        [
+         17,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "The building envelope is the most difficult part of any building to design. Design teams are expected to meet client aesthetic goals while satisfying energy codes, waterproofing requirements, and structural constraints — often with multiple subcontractors and conflicting schedules.",
+       "r": "body"
+      },
+      {
+       "c": "Our mission is to turn the building envelope into one of the most rewarding parts of your project — by delivering it as a single-source prefabricated system, designed and built to meet every performance requirement before it leaves the factory.",
+       "r": "body"
+      },
+      {
+       "c": "Download Facade System Overview",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Reduce the complexity of envelope delivery"
+   ],
+   "nov": 4,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 4254,
+   "tag": "Icon Grid",
+   "kind": "page-specific",
+   "set": "Icon Grid",
+   "variant": "Layout=Headline left 2×3, Breakpoint=Mobile",
+   "id": "25:613",
+   "score": 6,
+   "fit": 0.53,
+   "hr": 0.41,
+   "vh": 438,
+   "h": 1067,
+   "pieces": [],
+   "unplaced": [
+    "Lower Risk",
+    "Single-source accountability eliminates the finger-pointing between trades that drives most envelope failures.",
+    "Reduce Costs",
+    "Factory efficiency and parallel fabrication reduce total installed cost vs. traditional multi-subcontractor delivery.",
+    "Increase Efficiency",
+    "Panels fabricated offsite while foundation and structure proceed — compressing the overall project schedule.",
+    "Reduce Site Impacts",
+    "Fewer trades on-site, less scaffolding, and just-in-time delivery reduce congestion and site safety exposures."
+   ],
+   "nov": 9,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5321,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 4.2,
+   "fit": 0.67,
+   "hr": 0.74,
+   "vh": 732,
+   "h": 984,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+     "id": "21:408",
+     "overrides": [
+      {
+       "old": "Mission Critical Solutions",
+       "occ": 1,
+       "new": "Our Process"
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 1,
+       "new": "Single-source accountability and constructability determined before manufacturing. Accelerated schedule."
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 2,
+       "new": "Fewer trades on site and just-in-time delivery reduce congestion, creating a safer site. Factory production generates less waste than field-built systems."
+      },
+      {
+       "old": "Learn More",
+       "occ": 2,
+       "new": "Start the Conversation"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Learn More",
+       "occ": 1
+      },
+      {
+       "old": "Building Envelope Systems",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Our Process",
+       "r": "label"
+      },
+      {
+       "c": "Early engagement is the key",
+       "r": "head",
+       "w": [
+        [
+         20,
+         300,
+         30
+        ],
+        [
+         7,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Beginning with schematic design, our envelope experts walk the team through identification of solutions and materials — optimizing the system for aesthetics, performance, and schedule before documents are complete.",
+       "r": "body"
+      },
+      {
+       "c": "Single-source accountability and constructability determined before manufacturing. Accelerated schedule.",
+       "r": "body"
+      },
+      {
+       "c": "Fewer trades on site and just-in-time delivery reduce congestion, creating a safer site. Factory production generates less waste than field-built systems.",
+       "r": "body"
+      },
+      {
+       "c": "Start the Conversation",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Early engagement is the key",
+    "Beginning with schematic design, our envelope experts walk the team through identification of solutions and materials — optimizing the system for aesthetics, performance, and schedule before documents are complete."
+   ],
+   "nov": 4,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 6305,
+   "tag": "Projects Photo Mosaic",
+   "kind": "page-specific",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Mobile",
+   "id": "28:845",
+   "score": 1.2,
+   "fit": 0.45,
+   "hr": 0.68,
+   "vh": 1050,
+   "h": 1550,
+   "pieces": [],
+   "unplaced": [
+    "View All Projects",
+    "Cal State LA Student Housing East",
+    "Infinite Facade® system integrating precast, glazing, and insulation for a 900-unit student housing complex in Los Angeles.",
+    "View Project",
+    "High-performance prefabricated facade system delivering the complex geometry and premium finish quality of a landmark mixed-use tower.",
+    "Brick-inlay Infinite Facade® panels achieved the masonry aesthetic of a historic San Diego neighborhood at a fraction of the schedule."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 7854,
+   "tag": "Finishes Guide",
+   "kind": "instance",
+   "set": "Finishes Guide · Graphic CTA",
+   "variant": "Breakpoint=Mobile",
+   "id": "32:1086",
+   "score": 3.6,
+   "fit": 0.6,
+   "hr": 0.26,
+   "vh": 619,
+   "h": 2378,
+   "pieces": [
+    {
+     "set": "Finishes Guide · Graphic CTA",
+     "variant": "Breakpoint=Mobile",
+     "id": "32:1086",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:122"
+     ],
+     "texts": [
+      {
+       "c": "Free Download",
+       "r": "label"
+      },
+      {
+       "c": "Standard finishes guide",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         30
+        ],
+        [
+         14,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "A wide range of standard colors, forms, textures, and finish combinations for our integrated envelope systems.",
+       "r": "body"
+      },
+      {
+       "c": "Download the Guide",
+       "r": "label"
+      },
+      {
+       "c": "Facade Systems Comparison (PDF)",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "A wide range of standard colors, forms, textures, and finish combinations for our integrated envelope systems.",
+    "Facade Systems Comparison (PDF)"
+   ],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 10233,
+   "tag": "CTA Banner / Light",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Light, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:365",
+   "score": 6.2,
+   "fit": 1,
+   "hr": 0.63,
+   "vh": 273,
+   "h": 436,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Light, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:365",
+     "overrides": [
+      {
+       "old": "Start a conversation",
+       "occ": 1,
+       "new": "Ready to start your next envelope project?",
+       "runs": [
+        [
+         25,
+         300
+        ],
+        [
+         17,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Supporting sentence.",
+       "occ": 1,
+       "new": "Our envelope experts engage early — from schematic design through erection — to deliver a single-source system that meets every performance, schedule, and aesthetic goal."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to start your next envelope project?",
+       "r": "head",
+       "w": [
+        [
+         25,
+         300,
+         30
+        ],
+        [
+         17,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Our envelope experts engage early — from schematic design through erection — to deliver a single-source system that meets every performance, schedule, and aesthetic goal.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 10669,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 11061,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

@@ -1,0 +1,460 @@
+{
+ "file": "podcast-episode.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Editorial header",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Editorial header, Breakpoint=Mobile",
+   "id": "19:325",
+   "score": -7,
+   "fit": 0.29,
+   "hr": 0.61,
+   "vh": 504,
+   "h": 833,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Editorial header, Breakpoint=Mobile",
+     "id": "19:325",
+     "overrides": [
+      {
+       "old": "Insights › Blog",
+       "occ": 1,
+       "new": "Episode 12"
+      },
+      {
+       "old": "Sustainability",
+       "occ": 1,
+       "new": "Episode 12"
+      },
+      {
+       "old": "Article headline in two weights",
+       "occ": 1,
+       "new": "Building for the Future: The Art of Prefabrication for Architecture",
+       "runs": [
+        [
+         25,
+         200
+        ],
+        [
+         42,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Sept 3, 2026 · Author Name · 6 min read",
+       "occ": 1,
+       "new": "-30"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:33",
+      "5:33",
+      "5:222",
+      "5:129",
+      "5:159"
+     ],
+     "texts": [
+      {
+       "c": "Insights",
+       "r": "body"
+      },
+      {
+       "c": "Podcast",
+       "r": "body"
+      },
+      {
+       "c": "Episode 12",
+       "r": "body"
+      },
+      {
+       "c": "Episode 12",
+       "r": "label"
+      },
+      {
+       "c": "42 min",
+       "r": "body"
+      },
+      {
+       "c": "·",
+       "r": "glyph"
+      },
+      {
+       "c": "Architecture",
+       "r": "body"
+      },
+      {
+       "c": "Building for the Future: The Art of Prefabrication for Architecture",
+       "r": "head",
+       "w": [
+        [
+         25,
+         200,
+         30
+        ],
+        [
+         42,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "-30",
+       "r": "body"
+      },
+      {
+       "c": "Spotify",
+       "r": "label"
+      },
+      {
+       "c": "Apple Podcasts",
+       "r": "label"
+      },
+      {
+       "c": "Google Podcasts",
+       "r": "label"
+      },
+      {
+       "c": "Building Forward",
+       "r": "label"
+      },
+      {
+       "c": "The Podcast · Ep. 12",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Insights",
+    "Podcast",
+    "42 min",
+    "Architecture",
+    "Spotify",
+    "Apple Podcasts",
+    "Google Podcasts",
+    "Building Forward",
+    "The Podcast · Ep. 12"
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 833,
+   "tag": "One-off: Episode Body",
+   "kind": "page-specific",
+   "h": 2811
+  },
+  {
+   "top": 3644,
+   "tag": "Filterable Index Grid",
+   "kind": "page-specific",
+   "set": "Filterable Index Grid",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:808",
+   "score": -3.7,
+   "fit": 0.36,
+   "hr": 0.51,
+   "vh": 877,
+   "h": 1705,
+   "pieces": [],
+   "unplaced": [
+    "More episodes",
+    "11",
+    "Data Centers and the Precast Advantage",
+    "10",
+    "Sustainability at Scale: What EPDs Actually Tell You",
+    "09",
+    "The Case for Off-Site Manufacturing"
+   ],
+   "nov": 4,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 5349,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5742,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

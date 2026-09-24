@@ -1,0 +1,1177 @@
+{
+ "file": "accelcore.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Desktop",
+   "id": "19:174",
+   "score": 37.4,
+   "fit": 1,
+   "hr": 1,
+   "vh": 890,
+   "h": 890,
+   "pieces": [
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Desktop",
+     "id": "19:174",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:6",
+      "5:33",
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Clark Pacific is expanding to the Pacific Northwest — new plant opening Q3 2026.",
+       "r": "body"
+      },
+      {
+       "c": "Learn more →",
+       "r": "title"
+      },
+      {
+       "c": "Our Products",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      },
+      {
+       "c": "Projects",
+       "r": "label"
+      },
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Contact",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Products",
+       "r": "body"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "AccelCore™",
+       "r": "body"
+      },
+      {
+       "c": "Data Centers",
+       "r": "label"
+      },
+      {
+       "c": "AccelCore™",
+       "r": "head"
+      },
+      {
+       "c": "A complete prefabricated data center solution.",
+       "r": "head"
+      },
+      {
+       "c": "Structural precast systems and exterior wall panels for mission-critical data centers — integrating early design-assist and in-house manufacturing to support accelerated schedules, sustainability goals, and project predictability.",
+       "r": "body"
+      },
+      {
+       "c": "Get Started",
+       "r": "label"
+      },
+      {
+       "c": "View Webinar",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 890,
+   "tag": "Icon Grid",
+   "kind": "instance",
+   "set": "Icon Grid",
+   "variant": "Layout=3-col spacious, Breakpoint=Desktop",
+   "id": "25:405",
+   "score": 25.7,
+   "fit": 0.93,
+   "hr": 0.85,
+   "vh": 550,
+   "h": 648,
+   "pieces": [
+    {
+     "set": "Icon Grid",
+     "variant": "Layout=3-col spacious, Breakpoint=Desktop",
+     "id": "25:405",
+     "overrides": [
+      {
+       "old": "Advantages of a prefabricated precast data center",
+       "occ": 1,
+       "new": "Advantages of a prefabricated precast data center",
+       "runs": [
+        [
+         38,
+         300
+        ],
+        [
+         11,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Adapts to future expansion.",
+       "occ": 1,
+       "new": "Adapts to future expansion — engineered for heavy data center floor loads, long spans, and flexible bay planning for current and future high-density compute."
+      },
+      {
+       "old": "Parallel offsite fabrication.",
+       "occ": 1,
+       "new": "Parallel offsite fabrication compresses the critical path by 30–50% vs. traditional methods. Structure and enclosure manufactured while site work advances."
+      },
+      {
+       "old": "Reduced rework.",
+       "occ": 1,
+       "new": "Reduced rework, fewer field trades, and predictable logistics — translating to tens of millions in savings on a typical 100MW facility."
+      },
+      {
+       "old": "Factory-controlled production + delivery.",
+       "occ": 1,
+       "new": "Factory-controlled production and just-in-time delivery from regional plants ensure components arrive on schedule, every time."
+      },
+      {
+       "old": "Lower embodied carbon.",
+       "occ": 1,
+       "new": "CARBONSHIELD® replaces 25% of the portland cement in our mixes, reducing embodied carbon by roughly 20% — with EPDs available for every project."
+      },
+      {
+       "old": "Resilient and Durable Materials",
+       "occ": 1,
+       "new": "Resilient + Durable Materials"
+      },
+      {
+       "old": "Fire and weather resistant.",
+       "occ": 1,
+       "new": "Inherent fire resistance (2-hour UL rating), seismic capability, and wind resistance — the structural system that protects critical assets."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Why AccelCore™",
+       "r": "label"
+      },
+      {
+       "c": "Advantages of a prefabricated precast data center",
+       "r": "head",
+       "w": [
+        [
+         38,
+         300,
+         49
+        ],
+        [
+         11,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "Structural Flexibility",
+       "r": "label"
+      },
+      {
+       "c": "Adapts to future expansion — engineered for heavy data center floor loads, long spans, and flexible bay planning for current and future high-density compute.",
+       "r": "body"
+      },
+      {
+       "c": "Faster Schedule",
+       "r": "label"
+      },
+      {
+       "c": "Parallel offsite fabrication compresses the critical path by 30–50% vs. traditional methods. Structure and enclosure manufactured while site work advances.",
+       "r": "body"
+      },
+      {
+       "c": "Lower Total Cost",
+       "r": "label"
+      },
+      {
+       "c": "Reduced rework, fewer field trades, and predictable logistics — translating to tens of millions in savings on a typical 100MW facility.",
+       "r": "body"
+      },
+      {
+       "c": "Predictable Delivery",
+       "r": "label"
+      },
+      {
+       "c": "Factory-controlled production and just-in-time delivery from regional plants ensure components arrive on schedule, every time.",
+       "r": "body"
+      },
+      {
+       "c": "Sustainable, Low-Carbon Options",
+       "r": "label"
+      },
+      {
+       "c": "CARBONSHIELD® replaces 25% of the portland cement in our mixes, reducing embodied carbon by roughly 20% — with EPDs available for every project.",
+       "r": "body"
+      },
+      {
+       "c": "Resilient + Durable Materials",
+       "r": "label"
+      },
+      {
+       "c": "Inherent fire resistance (2-hour UL rating), seismic capability, and wind resistance — the structural system that protects critical assets.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Why AccelCore™"
+   ],
+   "nov": 8,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 1538,
+   "tag": "Stats Row",
+   "kind": "instance",
+   "set": "Stats Row",
+   "variant": "Breakpoint=Desktop",
+   "id": "31:921",
+   "score": 12.1,
+   "fit": 0.88,
+   "hr": 0.92,
+   "vh": 291,
+   "h": 318,
+   "pieces": [
+    {
+     "set": "Stats Row",
+     "variant": "Breakpoint=Desktop",
+     "id": "31:921",
+     "overrides": [
+      {
+       "old": "70+",
+       "occ": 1,
+       "new": "600 psf",
+       "runs": [
+        [
+         3,
+         600
+        ],
+        [
+         4,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Years pioneering prefabricated construction.",
+       "occ": 1,
+       "new": "Max live load superimposed floor capacity"
+      },
+      {
+       "old": "11",
+       "occ": 1,
+       "new": "60ft+",
+       "runs": [
+        [
+         2,
+         600
+        ],
+        [
+         3,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Western states served from regional plants.",
+       "occ": 1,
+       "new": "Long-span capability — fewer interior columns, more open white space"
+      },
+      {
+       "old": "100%",
+       "occ": 1,
+       "new": "30–50%",
+       "runs": [
+        [
+         5,
+         600
+        ],
+        [
+         1,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Metal, wood & concrete scrap diverted from landfill.",
+       "occ": 1,
+       "new": "Faster delivery than traditional construction methods"
+      },
+      {
+       "old": "Single source — design, engineering & manufacturing.",
+       "occ": 1,
+       "new": "Industrial manufacturing capacity serving the Southwest and Western regions"
+      }
+     ],
+     "hide": [
+      {
+       "old": "1",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "600 psf",
+       "r": "head",
+       "w": [
+        [
+         3,
+         600,
+         64
+        ],
+        [
+         4,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Max live load superimposed floor capacity",
+       "r": "body"
+      },
+      {
+       "c": "60ft+",
+       "r": "head",
+       "w": [
+        [
+         2,
+         600,
+         64
+        ],
+        [
+         3,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Long-span capability — fewer interior columns, more open white space",
+       "r": "body"
+      },
+      {
+       "c": "30–50%",
+       "r": "head",
+       "w": [
+        [
+         5,
+         600,
+         64
+        ],
+        [
+         1,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Faster delivery than traditional construction methods",
+       "r": "body"
+      },
+      {
+       "c": "250+ acres",
+       "r": "head",
+       "w": [
+        [
+         3,
+         600,
+         64
+        ],
+        [
+         7,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Industrial manufacturing capacity serving the Southwest and Western regions",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "250+ acres"
+   ],
+   "nov": 7,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 1856,
+   "tag": "Video Module",
+   "kind": "instance",
+   "set": "Video Module",
+   "variant": "Layout=Video left, Breakpoint=Desktop",
+   "id": "36:1050",
+   "score": 6.5,
+   "fit": 0.8,
+   "hr": 0.76,
+   "vh": 522,
+   "h": 688,
+   "pieces": [
+    {
+     "set": "Video Module",
+     "variant": "Layout=Video left, Breakpoint=Desktop",
+     "id": "36:1050",
+     "overrides": [
+      {
+       "old": "Watch",
+       "occ": 1,
+       "new": "Schedule Advantage"
+      },
+      {
+       "old": "Manufactured offsite",
+       "occ": 1,
+       "new": "Accelerated project delivery",
+       "runs": [
+        [
+         20,
+         300
+        ],
+        [
+         8,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Factory precision and parallel scheduling compress the critical path on every project.",
+       "occ": 1,
+       "new": "AccelCore™ combines structure, enclosure, openings, embeds, and MEP coordination into a prefabricated precast system that can be engineered before components arrive on site — supporting faster erection, earlier dry-in, and fewer field-built interfaces."
+      },
+      {
+       "old": "Watch the video",
+       "occ": 1,
+       "new": "Take Advantage of Our Test Fit Services"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Schedule Advantage",
+       "r": "label"
+      },
+      {
+       "c": "Accelerated project delivery",
+       "r": "head",
+       "w": [
+        [
+         20,
+         300,
+         35
+        ],
+        [
+         8,
+         600,
+         35
+        ]
+       ]
+      },
+      {
+       "c": "Offsite construction can deliver projects 30–50% faster than traditional methods. Manufacturing of the structure occurs simultaneously with site and foundation work — schedule delays due to weather and external factors are significantly reduced since the majority of construction takes place in a controlled environment.",
+       "r": "body"
+      },
+      {
+       "c": "AccelCore™ combines structure, enclosure, openings, embeds, and MEP coordination into a prefabricated precast system that can be engineered before components arrive on site — supporting faster erection, earlier dry-in, and fewer field-built interfaces.",
+       "r": "body"
+      },
+      {
+       "c": "Take Advantage of Our Test Fit Services",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Offsite construction can deliver projects 30–50% faster than traditional methods. Manufacturing of the structure occurs simultaneously with site and foundation work — schedule delays due to weather and external factors are significantly reduced since the majority of construction takes place in a controlled environment."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2544,
+   "tag": "CARBONSHIELD",
+   "kind": "instance",
+   "set": "CARBONSHIELD®",
+   "variant": "Breakpoint=Desktop",
+   "id": "32:1017",
+   "score": 11,
+   "fit": 1,
+   "hr": 1,
+   "vh": 652,
+   "h": 652,
+   "pieces": [
+    {
+     "set": "CARBONSHIELD®",
+     "variant": "Breakpoint=Desktop",
+     "id": "32:1017",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Proprietary Concrete Mix",
+       "r": "label"
+      },
+      {
+       "c": "Building for the future",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         45
+        ],
+        [
+         6,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "CARBONSHIELD® is a unique and proprietary concrete mix developed by Clark Pacific that provides the same performance as traditional mixes and is standard in our structural products.",
+       "r": "body"
+      },
+      {
+       "c": "It replaces 25% of the portland cement in our concrete mixes, reducing embodied carbon by roughly 20%. Our goal is double this by 2030, through our continuous R&D efforts and material partnerships.",
+       "r": "body"
+      },
+      {
+       "c": "Download CARBONSHIELD® Datasheet",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3196,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Desktop",
+   "id": "21:231",
+   "score": 4.5,
+   "fit": 0.55,
+   "hr": 0.67,
+   "vh": 445,
+   "h": 662,
+   "pieces": [],
+   "unplaced": [
+    "Critical Infrastructure",
+    "In critical applications where continuous operation is imperative, the choice of materials is crucial. Data centers require resiliency and durability — precast stands out as the ideal solution.",
+    "Wind Disaster Resistant",
+    "Excellent Seismic Performance",
+    "Precast concrete materials that stand the test of time — minimizing lifecycle maintenance costs."
+   ],
+   "nov": 6,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3858,
+   "tag": "FAQ Accordion",
+   "kind": "instance",
+   "set": "FAQ Accordion",
+   "variant": "Breakpoint=Desktop",
+   "id": "9:2",
+   "score": 17.8,
+   "fit": 0.83,
+   "hr": 0.84,
+   "vh": 661,
+   "h": 785,
+   "pieces": [
+    {
+     "set": "FAQ Accordion",
+     "variant": "Breakpoint=Desktop",
+     "id": "9:2",
+     "overrides": [
+      {
+       "old": "Frequently Asked Questions",
+       "occ": 1,
+       "new": "Frequently asked questions",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         9,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "What is Infinite Facade® and what's included?",
+       "occ": 1,
+       "new": "What is AccelCore™?"
+      },
+      {
+       "old": "A unitized prefabricated building envelope — a structural frame with your choice of Concrete or GFRC skin, off-the-shelf high-tolerance connections, and up to 4\" of factory-installed HFO spray-foam insulation.",
+       "occ": 1,
+       "new": "AccelCore™ is Clark Pacific's prefabricated structural solution for data centers and other critical facilities. The system brings together major precast building components — including structure, floor and roof systems, insulated wall panels, openings, embeds, connections, and coordinated equipment interfaces — into a factory-produced kit of parts."
+      },
+      {
+       "old": "Can it accommodate full-height windows and custom geometry?",
+       "occ": 1,
+       "new": "How does AccelCore™ improve schedule?"
+      },
+      {
+       "old": "What finishes and veneers can be applied to the frame?",
+       "occ": 1,
+       "new": "Can AccelCore™ support multi-story data centers and campus rollouts?"
+      },
+      {
+       "old": "How does Infinite Facade improve the construction schedule?",
+       "occ": 1,
+       "new": "Does AccelCore™ support sustainability and lower embodied carbon goals?"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Frequently asked questions",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         9,
+         600,
+         49
+        ]
+       ]
+      },
+      {
+       "c": "What is AccelCore™?",
+       "r": "title"
+      },
+      {
+       "c": "–",
+       "r": "glyph"
+      },
+      {
+       "c": "AccelCore™ is Clark Pacific's prefabricated structural solution for data centers and other critical facilities. The system brings together major precast building components — including structure, floor and roof systems, insulated wall panels, openings, embeds, connections, and coordinated equipment interfaces — into a factory-produced kit of parts.",
+       "r": "body"
+      },
+      {
+       "c": "Why choose AccelCore™ instead of a steel or cast-in-place concrete approach?",
+       "r": "title"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "How does AccelCore™ improve schedule?",
+       "r": "title"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "Can AccelCore™ support multi-story data centers and campus rollouts?",
+       "r": "title"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "Does AccelCore™ support sustainability and lower embodied carbon goals?",
+       "r": "title"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Why choose AccelCore™ instead of a steel or cast-in-place concrete approach?"
+   ],
+   "nov": 6,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4643,
+   "tag": "Related Content Row",
+   "kind": "instance",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Desktop",
+   "id": "27:677",
+   "score": 18.4,
+   "fit": 1,
+   "hr": 0.71,
+   "vh": 650,
+   "h": 460,
+   "pieces": [
+    {
+     "set": "Related Content Row",
+     "variant": "Breakpoint=Desktop",
+     "id": "27:677",
+     "overrides": [
+      {
+       "old": "Related projects",
+       "occ": 1,
+       "new": "Explore Accel™ products",
+       "runs": [
+        [
+         8,
+         300
+        ],
+        [
+         15,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Torrey View",
+       "occ": 1,
+       "new": "AccelShell™"
+      },
+      {
+       "old": "San Diego, CA · 2025",
+       "occ": 1,
+       "new": "Insulated wall panels engineered to meet desired thermal performance — cladding or load bearing, with 100+ finish options."
+      },
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "Learn More"
+      },
+      {
+       "old": "UC Davis West Village",
+       "occ": 1,
+       "new": "AccelDeck™"
+      },
+      {
+       "old": "Davis, CA · 2024",
+       "occ": 1,
+       "new": "Prefabricated elevated chiller support system — accelerates the construction schedule an additional 4–8 weeks."
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Learn More"
+      },
+      {
+       "old": "Silicon Valley Hub",
+       "occ": 1,
+       "new": "AccelGen™"
+      },
+      {
+       "old": "Santa Clara, CA · 2025",
+       "occ": 1,
+       "new": "Prefabricated power buildings and generator enclosures — factory-built electrical infrastructure for data center campus delivery."
+      },
+      {
+       "old": "Read More",
+       "occ": 3,
+       "new": "Learn More"
+      }
+     ],
+     "hide": [
+      {
+       "old": "View All",
+       "occ": 1
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 1
+      },
+      {
+       "old": "Read More",
+       "occ": 1
+      },
+      {
+       "old": "Read More",
+       "occ": 2
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Explore Accel™ products",
+       "r": "head",
+       "w": [
+        [
+         8,
+         300,
+         35
+        ],
+        [
+         15,
+         600,
+         35
+        ]
+       ]
+      },
+      {
+       "c": "AccelShell™",
+       "r": "title"
+      },
+      {
+       "c": "Insulated wall panels engineered to meet desired thermal performance — cladding or load bearing, with 100+ finish options.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "AccelDeck™",
+       "r": "title"
+      },
+      {
+       "c": "Prefabricated elevated chiller support system — accelerates the construction schedule an additional 4–8 weeks.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "AccelGen™",
+       "r": "title"
+      },
+      {
+       "c": "Prefabricated power buildings and generator enclosures — factory-built electrical infrastructure for data center campus delivery.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 10,
+   "nhide": 4,
+   "hideItems": []
+  },
+  {
+   "top": 5103,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+   "id": "23:206",
+   "score": 7.8,
+   "fit": 1,
+   "hr": 0.69,
+   "vh": 513,
+   "h": 352,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+     "id": "23:206",
+     "overrides": [
+      {
+       "old": "Ready to accelerate your next project?",
+       "occ": 1,
+       "new": "Ready to accelerate your data center project?",
+       "runs": [
+        [
+         25,
+         300
+        ],
+        [
+         20,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Our team works as an extension of yours — from early design-assist through construction, with single-source accountability throughout.",
+       "occ": 1,
+       "new": "Our team works as an extension of yours — early design-assist, in-house manufacturing, and single-source accountability from contract through warranty."
+      },
+      {
+       "old": "View Projects",
+       "occ": 1,
+       "new": "View Case Study"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Talk to an Expert",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to accelerate your data center project?",
+       "r": "head",
+       "w": [
+        [
+         25,
+         300,
+         45
+        ],
+        [
+         20,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Our team works as an extension of yours — early design-assist, in-house manufacturing, and single-source accountability from contract through warranty.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "View Case Study",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 5455,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5855,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

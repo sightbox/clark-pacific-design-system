@@ -1,0 +1,626 @@
+{
+ "file": "gfrc.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 11,
+   "fit": 0.78,
+   "hr": 0.9,
+   "vh": 771,
+   "h": 854,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1,
+       "new": "GFRC"
+      },
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Building Envelope Systems"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "Glass Fiber"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "Reinforced Concrete."
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "Where form meets function. Lightweight, sculptural panels ideal for high-rise buildings in high seismic zones — and for creating intricate shapes that traditional precast cannot achieve."
+      },
+      {
+       "old": "Start a Conversation",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "View Finishes Guide"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:33",
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope",
+       "r": "body"
+      },
+      {
+       "c": "GFRC",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "label"
+      },
+      {
+       "c": "Glass Fiber",
+       "r": "head"
+      },
+      {
+       "c": "Reinforced Concrete.",
+       "r": "head"
+      },
+      {
+       "c": "Where form meets function. Lightweight, sculptural panels ideal for high-rise buildings in high seismic zones — and for creating intricate shapes that traditional precast cannot achieve.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "View Finishes Guide",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Products",
+    "Building Envelope"
+   ],
+   "nov": 7,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 854,
+   "tag": "Split Content",
+   "kind": "instance",
+   "set": "Split Content",
+   "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+   "id": "21:408",
+   "score": 5.7,
+   "fit": 0.8,
+   "hr": 0.36,
+   "vh": 732,
+   "h": 2049,
+   "pieces": [
+    {
+     "set": "Split Content",
+     "variant": "Layout=Stacked list + photo, Breakpoint=Mobile",
+     "id": "21:408",
+     "overrides": [
+      {
+       "old": "Mission Critical Solutions",
+       "occ": 1,
+       "new": "Overview"
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 1,
+       "new": "GFRC panels are an excellent choice for high-rise buildings in areas of greater seismic activity and for creating decorative and intricate shapes and applications."
+      },
+      {
+       "old": "Block body copy.",
+       "occ": 2,
+       "new": "GFRC panels are comprised of a 1\" thick composite glass fiber concrete skin with flexible steel pins to the Infinite Facade frame — delivering unlimited diversity in color and form at a fraction of the weight of traditional precast."
+      },
+      {
+       "old": "Learn More",
+       "occ": 2,
+       "new": "Demand More from the Building Envelope"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Learn More",
+       "occ": 1
+      },
+      {
+       "old": "Building Envelope Systems",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Overview",
+       "r": "label"
+      },
+      {
+       "c": "Form meets function",
+       "r": "head",
+       "w": [
+        [
+         11,
+         300,
+         30
+        ],
+        [
+         8,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "GFRC panels are an excellent choice for high-rise buildings in areas of greater seismic activity and for creating decorative and intricate shapes and applications.",
+       "r": "body"
+      },
+      {
+       "c": "GFRC panels are comprised of a 1\" thick composite glass fiber concrete skin with flexible steel pins to the Infinite Facade frame — delivering unlimited diversity in color and form at a fraction of the weight of traditional precast.",
+       "r": "body"
+      },
+      {
+       "c": "Demand More from the Building Envelope",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Form meets function"
+   ],
+   "nov": 4,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 2903,
+   "tag": "Assembly + Specifications",
+   "kind": "page-specific",
+   "set": "Assembly + Specifications",
+   "variant": "Breakpoint=Mobile",
+   "id": "33:1066",
+   "score": -1.6,
+   "fit": 0.42,
+   "hr": 0.5,
+   "vh": 817,
+   "h": 1636,
+   "pieces": [],
+   "unplaced": [
+    "Skin Thickness",
+    "Overall System Depth",
+    "7\" minimum",
+    "Assembly",
+    "GFRC mechanically attached to HSS frame",
+    "System Weight",
+    "18–20 psf (typical)",
+    "Panel Size",
+    "15' × 30' typical; up to 35'",
+    "Lightweight and durable",
+    "Unlimited diversity in color and form",
+    "Ideal for sculptural and intricate shapes",
+    "Excellent for high seismic zones"
+   ],
+   "nov": 9,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 4538,
+   "tag": "Projects Photo Mosaic",
+   "kind": "page-specific",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Mobile",
+   "id": "28:845",
+   "score": 1.2,
+   "fit": 0.45,
+   "hr": 0.68,
+   "vh": 1050,
+   "h": 1537,
+   "pieces": [],
+   "unplaced": [
+    "View All Projects",
+    "UCSF Tidelands Student Housing",
+    "GFRC panels delivering complex geometry and architectural finish quality for a landmark UCSF student housing facility.",
+    "View Project",
+    "Intricate GFRC panels achieving a distinctive high-rise residential identity in downtown Los Angeles.",
+    "Sculptural GFRC facade system creating a distinctive coastal character for a mixed-use development in Santa Monica."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6075,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:349",
+   "score": 6.2,
+   "fit": 1,
+   "hr": 0.81,
+   "vh": 305,
+   "h": 376,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:349",
+     "overrides": [
+      {
+       "old": "Ready to build different?",
+       "occ": 1,
+       "new": "Ready to explore GFRC for your project?",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         4,
+         600
+        ],
+        [
+         18,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Talk to our team about your next project.",
+       "occ": 1,
+       "new": "Our facade specialists engage early to explore what's possible — GFRC unlocks complex geometry and seismic performance that standard precast cannot achieve."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to explore GFRC for your project?",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         30
+        ],
+        [
+         4,
+         600,
+         30
+        ],
+        [
+         18,
+         300,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Our facade specialists engage early to explore what's possible — GFRC unlocks complex geometry and seismic performance that standard precast cannot achieve.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6451,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6843,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

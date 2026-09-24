@@ -1,0 +1,719 @@
+{
+ "file": "project-detail.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Editorial header",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Editorial header, Breakpoint=Desktop",
+   "id": "19:270",
+   "score": -0.8,
+   "fit": 1,
+   "hr": 0.84,
+   "vh": 414,
+   "h": 491,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:29",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:76",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Editorial header, Breakpoint=Desktop",
+     "id": "19:270",
+     "overrides": [
+      {
+       "old": "6 min read",
+       "occ": 1,
+       "new": "PCI Design Award"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Insights › Building Envelope",
+       "occ": 1
+      },
+      {
+       "old": "Article",
+       "occ": 1
+      },
+      {
+       "old": "How prefabrication is compressing the schedule",
+       "occ": 1
+      },
+      {
+       "old": "March 12, 2026",
+       "occ": 1
+      },
+      {
+       "old": "•",
+       "occ": 1
+      },
+      {
+       "old": "By Jordan Ellis",
+       "occ": 1
+      },
+      {
+       "old": "•",
+       "occ": 2
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:6",
+      "5:195"
+     ],
+     "texts": [
+      {
+       "c": "PCI Design Award",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 1,
+   "nhide": 7,
+   "hideItems": []
+  },
+  {
+   "top": 491,
+   "tag": "One-off: Project Title + Location Band",
+   "kind": "page-specific",
+   "h": 165
+  },
+  {
+   "top": 656,
+   "tag": "One-off: Main Content + Sidebar",
+   "kind": "page-specific",
+   "h": 1653
+  },
+  {
+   "top": 2309,
+   "tag": "Quote Band",
+   "kind": "instance",
+   "set": "Quote Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "22:205",
+   "score": 5.6,
+   "fit": 1,
+   "hr": 0.9,
+   "vh": 483,
+   "h": 433,
+   "pieces": [
+    {
+     "set": "Quote Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "22:205",
+     "overrides": [
+      {
+       "old": "“",
+       "occ": 1,
+       "new": "\""
+      },
+      {
+       "old": "Clark Pacific delivered our building envelope months ahead of schedule — the single-source model removed the coordination risk we’d carried on every prior project.",
+       "occ": 1,
+       "new": "Through collaborative design, advanced manufacturing and efficient construction, we transform the way buildings are delivered. Our people are paving the way for prefabrication as a smarter, safer and more efficient way to bring great designs to life, while reducing risk and providing owners with cost, schedule and scope certainty."
+      },
+      {
+       "old": "Dana Reyes",
+       "occ": 1,
+       "new": "Clark Pacific"
+      }
+     ],
+     "hide": [
+      {
+       "old": "VP of Construction · Meridian Development",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "\"",
+       "r": "glyph"
+      },
+      {
+       "c": "Through collaborative design, advanced manufacturing and efficient construction, we transform the way buildings are delivered. Our people are paving the way for prefabrication as a smarter, safer and more efficient way to bring great designs to life, while reducing risk and providing owners with cost, schedule and scope certainty.",
+       "r": "head"
+      },
+      {
+       "c": "Clark Pacific",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 2742,
+   "tag": "Related Content Row",
+   "kind": "instance",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Desktop",
+   "id": "27:677",
+   "score": 16.5,
+   "fit": 0.79,
+   "hr": 0.94,
+   "vh": 650,
+   "h": 689,
+   "pieces": [
+    {
+     "set": "Related Content Row",
+     "variant": "Breakpoint=Desktop",
+     "id": "27:677",
+     "overrides": [
+      {
+       "old": "View All",
+       "occ": 1,
+       "new": "Parking"
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 1,
+       "new": "St. Joseph's Medical Center"
+      },
+      {
+       "old": "San Diego, CA · 2025",
+       "occ": 1,
+       "new": "Stockton, CA"
+      },
+      {
+       "old": "Read More",
+       "occ": 1,
+       "new": "Parking"
+      },
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "Aggie Square Parking Structure 6"
+      },
+      {
+       "old": "Davis, CA · 2024",
+       "occ": 1,
+       "new": "Sacramento, CA"
+      },
+      {
+       "old": "Read More",
+       "occ": 2,
+       "new": "Parking"
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "UC Davis Health Parking Structure 5"
+      },
+      {
+       "old": "Santa Clara, CA · 2025",
+       "occ": 1,
+       "new": "Sacramento, CA"
+      },
+      {
+       "old": "Read More",
+       "occ": 3,
+       "new": "View Project"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Torrey View",
+       "occ": 1
+      },
+      {
+       "old": "UC Davis West Village",
+       "occ": 1
+      },
+      {
+       "old": "Silicon Valley Hub",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Related projects",
+       "r": "head",
+       "w": [
+        [
+         8,
+         300,
+         45
+        ],
+        [
+         8,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "View All Projects",
+       "r": "label"
+      },
+      {
+       "c": "Parking",
+       "r": "label"
+      },
+      {
+       "c": "St. Joseph's Medical Center",
+       "r": "label"
+      },
+      {
+       "c": "Stockton, CA",
+       "r": "body"
+      },
+      {
+       "c": "View Project",
+       "r": "label"
+      },
+      {
+       "c": "Parking",
+       "r": "label"
+      },
+      {
+       "c": "Aggie Square Parking Structure 6",
+       "r": "label"
+      },
+      {
+       "c": "Sacramento, CA",
+       "r": "body"
+      },
+      {
+       "c": "View Project",
+       "r": "label"
+      },
+      {
+       "c": "Parking",
+       "r": "label"
+      },
+      {
+       "c": "UC Davis Health Parking Structure 5",
+       "r": "label"
+      },
+      {
+       "c": "Sacramento, CA",
+       "r": "body"
+      },
+      {
+       "c": "View Project",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "View All Projects",
+    "View Project",
+    "View Project"
+   ],
+   "nov": 10,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 3431,
+   "tag": "Related Content Row",
+   "kind": "instance",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Desktop",
+   "id": "27:677",
+   "score": 16,
+   "fit": 1,
+   "hr": 0.53,
+   "vh": 650,
+   "h": 346,
+   "pieces": [
+    {
+     "set": "Related Content Row",
+     "variant": "Breakpoint=Desktop",
+     "id": "27:677",
+     "overrides": [
+      {
+       "old": "Torrey View",
+       "occ": 1,
+       "new": "Parking | Design-Build"
+      },
+      {
+       "old": "San Diego, CA · 2025",
+       "occ": 1,
+       "new": "Design, manufacture, and build the complete parking structure — single-source accountability throughout."
+      },
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "Learn More"
+      },
+      {
+       "old": "UC Davis West Village",
+       "occ": 1,
+       "new": "Building Envelope Systems"
+      },
+      {
+       "old": "Davis, CA · 2024",
+       "occ": 1,
+       "new": "Prefabricated, single-source solutions for the entire building envelope — from Infinite Facade® to GFRC."
+      },
+      {
+       "old": "Data Centers",
+       "occ": 1,
+       "new": "Learn More"
+      },
+      {
+       "old": "Silicon Valley Hub",
+       "occ": 1,
+       "new": "High Performance Structural"
+      },
+      {
+       "old": "Santa Clara, CA · 2025",
+       "occ": 1,
+       "new": "Our integrated structural platform delivers efficiency, durability, and resilience across every building type."
+      },
+      {
+       "old": "Read More",
+       "occ": 3,
+       "new": "Learn More"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Related projects",
+       "occ": 1
+      },
+      {
+       "old": "View All",
+       "occ": 1
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 1
+      },
+      {
+       "old": "Read More",
+       "occ": 1
+      },
+      {
+       "old": "Read More",
+       "occ": 2
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Parking | Design-Build",
+       "r": "title"
+      },
+      {
+       "c": "Design, manufacture, and build the complete parking structure — single-source accountability throughout.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "title"
+      },
+      {
+       "c": "Prefabricated, single-source solutions for the entire building envelope — from Infinite Facade® to GFRC.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      },
+      {
+       "c": "High Performance Structural",
+       "r": "title"
+      },
+      {
+       "c": "Our integrated structural platform delivers efficiency, durability, and resilience across every building type.",
+       "r": "body"
+      },
+      {
+       "c": "Learn More",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 9,
+   "nhide": 5,
+   "hideItems": []
+  },
+  {
+   "top": 3777,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+   "id": "23:206",
+   "score": 5.4,
+   "fit": 1,
+   "hr": 0.63,
+   "vh": 513,
+   "h": 324,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Content left, Breakpoint=Desktop",
+     "id": "23:206",
+     "overrides": [
+      {
+       "old": "Ready to accelerate your next project?",
+       "occ": 1,
+       "new": "Ready to start your next project?",
+       "runs": [
+        [
+         20,
+         300
+        ],
+        [
+         13,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Our team works as an extension of yours — from early design-assist through construction, with single-source accountability throughout.",
+       "occ": 1,
+       "new": "Our design-assist team engages early — optimizing the system for your site, program, and schedule before a single component is cast."
+      }
+     ],
+     "hide": [
+      {
+       "old": "Talk to an Expert",
+       "occ": 1
+      },
+      {
+       "old": "View Projects",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to start your next project?",
+       "r": "head",
+       "w": [
+        [
+         20,
+         300,
+         45
+        ],
+        [
+         13,
+         600,
+         45
+        ]
+       ]
+      },
+      {
+       "c": "Our design-assist team engages early — optimizing the system for your site, program, and schedule before a single component is cast.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 2,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 4101,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4501,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

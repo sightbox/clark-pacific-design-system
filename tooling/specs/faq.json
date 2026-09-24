@@ -1,0 +1,17 @@
+{"name":"FAQ Accordion","group":"03 · Content Panels",
+ "desc":"Site-wide FAQ. Headline + FAQ Item list on hairline dividers. First item open by default; click toggles Open/Closed (250ms). Item copy is editable through the exposed FAQ Item instances; hide unused items with the Show item toggles.",
+ "items":[{"name":"FAQ Item","desc":"One question row. Open shows the answer and a 40×3 orange accent bar. Click toggles State (250ms).","variants":[
+   {"props":{"State":"Open","Breakpoint":"Desktop"},"src":"desk/d-faq-accordion","path":"1.0","bp":"Desktop","names":["Question",null,"Answer"]},
+   {"props":{"State":"Closed","Breakpoint":"Desktop"},"src":"desk/d-faq-accordion","path":"1.1","bp":"Desktop","names":["Question",null]},
+   {"props":{"State":"Open","Breakpoint":"Mobile"},"src":"mob/m-faq","path":"1","bp":"Mobile","names":["Question",null,"Answer"]},
+   {"props":{"State":"Closed","Breakpoint":"Mobile"},"src":"mob/m-faq","path":"2","bp":"Mobile","names":["Question",null]}]}],
+ "variants":[
+   {"props":{"Breakpoint":"Desktop"},"src":"desk/d-faq-accordion","bp":"Desktop","names":["Heading"],"uses":[
+     {"path":"1.0","item":"FAQ Item","variant":"State=Open, Breakpoint=Desktop","show":"Show item 1","nm":"FAQ Item 1"},
+     {"path":"1.1","item":"FAQ Item","variant":"State=Closed, Breakpoint=Desktop","show":"Show item 2","nm":"FAQ Item 2"},
+     {"path":"1.2","item":"FAQ Item","variant":"State=Closed, Breakpoint=Desktop","show":"Show item 3","nm":"FAQ Item 3"},
+     {"path":"1.3","item":"FAQ Item","variant":"State=Closed, Breakpoint=Desktop","show":"Show item 4","nm":"FAQ Item 4"}]},
+   {"props":{"Breakpoint":"Mobile"},"src":"mob/m-faq","bp":"Mobile","names":["Heading"],"uses":[
+     {"path":"1","item":"FAQ Item","variant":"State=Open, Breakpoint=Mobile","show":"Show item 1","nm":"FAQ Item 1"},
+     {"path":"2","item":"FAQ Item","variant":"State=Closed, Breakpoint=Mobile","show":"Show item 2","nm":"FAQ Item 2"},
+     {"path":"3","item":"FAQ Item","variant":"State=Closed, Breakpoint=Mobile","show":"Show item 3","nm":"FAQ Item 3"}]}]}

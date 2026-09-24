@@ -1,0 +1,666 @@
+{
+ "file": "design-assist.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 12.9,
+   "fit": 0.88,
+   "hr": 0.98,
+   "vh": 771,
+   "h": 789,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1,
+       "new": "Design-Assist"
+      },
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Parking Consulting & Design"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "Design-"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "Assist."
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "In-house all-service parking structure design team that focuses on one thing only — parking structures. We focus on efficient layout and aesthetics before entitlements, saving time and money."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Products · Parking",
+       "r": "body"
+      },
+      {
+       "c": "Design-Assist",
+       "r": "body"
+      },
+      {
+       "c": "Parking Consulting & Design",
+       "r": "label"
+      },
+      {
+       "c": "Design-",
+       "r": "head"
+      },
+      {
+       "c": "Assist.",
+       "r": "head"
+      },
+      {
+       "c": "In-house all-service parking structure design team that focuses on one thing only — parking structures. We focus on efficient layout and aesthetics before entitlements, saving time and money.",
+       "r": "body"
+      },
+      {
+       "c": "Start a Conversation",
+       "r": "label"
+      },
+      {
+       "c": "Download Datasheet",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Products · Parking"
+   ],
+   "nov": 5,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 789,
+   "tag": "Split Content",
+   "kind": "page-specific",
+   "set": "Split Content",
+   "variant": "Layout=Bulleted, Breakpoint=Mobile",
+   "id": "21:358",
+   "score": -5.5,
+   "fit": 0.31,
+   "hr": 0.26,
+   "vh": 327,
+   "h": 1264,
+   "pieces": [],
+   "unplaced": [
+    "Our approach follows our standard design process to ensure Design for Manufacturing and Assembly (DfMA) best practices. Our team collaborates with product management, manufacturing, logistics, and erection experts to ensure the most efficient delivery of your parking structure.",
+    "Our Services Include",
+    "Site Analysis",
+    "Site Planning",
+    "Parking Consulting",
+    "Design — Conceptual through Construction Documents",
+    "Architect of Record",
+    "BIM/Revit Platform",
+    "Navis Works / Clash Detection"
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2053,
+   "tag": "Icon Grid",
+   "kind": "page-specific",
+   "set": "Icon Grid",
+   "variant": "Layout=Headline left 2×3, Breakpoint=Mobile",
+   "id": "25:613",
+   "score": -14.7,
+   "fit": 0.1,
+   "hr": 0.3,
+   "vh": 438,
+   "h": 1447,
+   "pieces": [],
+   "unplaced": [
+    "Easily incorporate prefabricated building strategies",
+    "Increase design efficiency throughout the process",
+    "Leverage standards and best practices",
+    "Quickly design efficient parking layouts",
+    "Deliver more comprehensive design during the conception phase",
+    "Ensure all project goals are on target from day one",
+    "Constructability optimized for prefabrication",
+    "Minimal changes required during construction",
+    "Increased opportunity to focus on aesthetics"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "top": 3500,
+   "tag": "Image Gallery",
+   "kind": "page-specific",
+   "set": "Image Gallery",
+   "variant": "Breakpoint=Mobile",
+   "id": "28:884",
+   "score": -2.9,
+   "fit": 0.25,
+   "hr": 0.49,
+   "vh": 433,
+   "h": 879,
+   "pieces": [],
+   "unplaced": [
+    "Project gallery",
+    "Kilroy Oyster Point",
+    "01 / 05"
+   ],
+   "nov": 1,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 4379,
+   "tag": "Projects Photo Mosaic",
+   "kind": "instance",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Mobile",
+   "id": "28:845",
+   "score": 5.7,
+   "fit": 0.63,
+   "hr": 0.74,
+   "vh": 1050,
+   "h": 1422,
+   "pieces": [
+    {
+     "set": "Projects Photo Mosaic",
+     "variant": "Breakpoint=Mobile",
+     "id": "28:845",
+     "overrides": [
+      {
+       "old": "Parking Structures",
+       "occ": 1,
+       "new": "View All Projects"
+      },
+      {
+       "old": "Structural Projects",
+       "occ": 1,
+       "new": "Coleman Highline Parking Structure 4"
+      },
+      {
+       "old": "Building Envelope",
+       "occ": 1,
+       "new": "Brokaw Road Phase II"
+      },
+      {
+       "old": "View All Projects",
+       "occ": 1,
+       "new": "Stevens Creek Parking Structure"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Featured projects",
+       "r": "head",
+       "w": [
+        [
+         9,
+         300,
+         30
+        ],
+        [
+         8,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "View All Projects",
+       "r": "label"
+      },
+      {
+       "c": "Coleman Highline Parking Structure 4",
+       "r": "label"
+      },
+      {
+       "c": "Design-Assist services provided full BIM coordination on a complex Silicon Valley campus parking structure.",
+       "r": "body"
+      },
+      {
+       "c": "Brokaw Road Phase II",
+       "r": "label"
+      },
+      {
+       "c": "Early design-assist engagement optimized the structural system layout for a compressed infill site in San Jose.",
+       "r": "body"
+      },
+      {
+       "c": "Stevens Creek Parking Structure",
+       "r": "label"
+      },
+      {
+       "c": "Full design-assist through construction documents — from concept through Architect of Record services.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Design-Assist services provided full BIM coordination on a complex Silicon Valley campus parking structure.",
+    "Early design-assist engagement optimized the structural system layout for a compressed infill site in San Jose.",
+    "Full design-assist through construction documents — from concept through Architect of Record services."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5800,
+   "tag": "Featured Resources",
+   "kind": "page-specific",
+   "set": "Featured Resources",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:888",
+   "score": -4.6,
+   "fit": 0.33,
+   "hr": 0.28,
+   "vh": 517,
+   "h": 1854,
+   "pieces": [],
+   "unplaced": [
+    "Resources",
+    "View All Resources",
+    "Technical Document",
+    "Infinite Facade® Testing Overview",
+    "A summary of the testing programme behind the Infinite Facade system, including performance results for air, water and structural loading.",
+    "Read More",
+    "Parking Design Guide",
+    "Planning and design guidance for prefabricated parking structures, from bay layouts and circulation through to finish selection.",
+    "Building Forward",
+    "Conversations with industry leaders, innovators and experts on the strategies and best practices shaping how we design and build."
+   ],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 7654,
+   "tag": "CTA Banner / Light",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Light, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:365",
+   "score": 6,
+   "fit": 1,
+   "hr": 0.66,
+   "vh": 273,
+   "h": 411,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Light, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:365",
+     "overrides": [
+      {
+       "old": "Start a conversation",
+       "occ": 1,
+       "new": "Streamline your next parking structure with our design services",
+       "runs": [
+        [
+         48,
+         300
+        ],
+        [
+         15,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Supporting sentence.",
+       "occ": 1,
+       "new": "Let our parking consultants and design team guide your project from site analysis through construction documents — focused on prefabrication efficiency from day one."
+      },
+      {
+       "old": "Talk to an Expert",
+       "occ": 1,
+       "new": "Put Our Team in the Driver's Seat"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Streamline your next parking structure with our design services",
+       "r": "head",
+       "w": [
+        [
+         48,
+         300,
+         30
+        ],
+        [
+         15,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Let our parking consultants and design team guide your project from site analysis through construction documents — focused on prefabrication efficiency from day one.",
+       "r": "body"
+      },
+      {
+       "c": "Put Our Team in the Driver's Seat",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 8065,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 8458,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

@@ -1,0 +1,539 @@
+{
+ "file": "project-detail.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Editorial header",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Editorial header, Breakpoint=Mobile",
+   "id": "19:325",
+   "score": 0.8,
+   "fit": 1,
+   "hr": 0.36,
+   "vh": 504,
+   "h": 180,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Editorial header, Breakpoint=Mobile",
+     "id": "19:325",
+     "overrides": [
+      {
+       "old": "Sustainability",
+       "occ": 1,
+       "new": "PCI Design Award"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Insights › Blog",
+       "occ": 1
+      },
+      {
+       "old": "Article headline in two weights",
+       "occ": 1
+      },
+      {
+       "old": "Sept 3, 2026 · Author Name · 6 min read",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:195"
+     ],
+     "texts": [
+      {
+       "c": "PCI Design Award",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 1,
+   "nhide": 3,
+   "hideItems": []
+  },
+  {
+   "top": 180,
+   "tag": "One-off: Project Title + Location Band",
+   "kind": "page-specific",
+   "h": 321
+  },
+  {
+   "top": 501,
+   "tag": "One-off: Main Content + Sidebar",
+   "kind": "page-specific",
+   "h": 2920
+  },
+  {
+   "top": 3421,
+   "tag": "Quote Band",
+   "kind": "instance",
+   "set": "Quote Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "22:212",
+   "score": 1.7,
+   "fit": 0.67,
+   "hr": 0.64,
+   "vh": 313,
+   "h": 486,
+   "pieces": [
+    {
+     "set": "Quote Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "22:212",
+     "overrides": [
+      {
+       "old": "“",
+       "occ": 1,
+       "new": "\""
+      },
+      {
+       "old": "Name Surname",
+       "occ": 1,
+       "new": "Clark Pacific"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Pull-quote runs at 22px on mobile with the keyword in SemiBold.",
+       "occ": 1
+      },
+      {
+       "old": "Title · Organization",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "\"",
+       "r": "glyph"
+      },
+      {
+       "c": "Through collaborative design, advanced manufacturing and efficient construction, we transform the way buildings are delivered. Our people are paving the way for prefabrication as a smarter, safer and more efficient way to bring great designs to life, while reducing risk and providing owners with cost, schedule and scope certainty.",
+       "r": "body"
+      },
+      {
+       "c": "Clark Pacific",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Through collaborative design, advanced manufacturing and efficient construction, we transform the way buildings are delivered. Our people are paving the way for prefabrication as a smarter, safer and more efficient way to bring great designs to life, while reducing risk and providing owners with cost, schedule and scope certainty."
+   ],
+   "nov": 2,
+   "nhide": 2,
+   "hideItems": []
+  },
+  {
+   "top": 3907,
+   "tag": "Related Content Row",
+   "kind": "page-specific",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:727",
+   "score": 0.4,
+   "fit": 0.43,
+   "hr": 0.4,
+   "vh": 563,
+   "h": 1402,
+   "pieces": [],
+   "unplaced": [
+    "View All Projects",
+    "Parking",
+    "St. Joseph's Medical Center",
+    "Stockton, CA",
+    "View Project",
+    "Aggie Square Parking Structure 6",
+    "Sacramento, CA",
+    "Sacramento, CA"
+   ],
+   "nov": 5,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5309,
+   "tag": "Related Content Row",
+   "kind": "page-specific",
+   "set": "Related Content Row",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:727",
+   "score": 3.6,
+   "fit": 0.56,
+   "hr": 0.71,
+   "vh": 563,
+   "h": 792,
+   "pieces": [],
+   "unplaced": [
+    "Parking | Design-Build",
+    "Design, manufacture, and build the complete parking structure — single-source accountability throughout.",
+    "Prefabricated, single-source solutions for the entire building envelope — from Infinite Facade® to GFRC.",
+    "Our integrated structural platform delivers efficiency, durability, and resilience across every building type."
+   ],
+   "nov": 5,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 6101,
+   "tag": "CTA Banner / Blue",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:349",
+   "score": 6.2,
+   "fit": 1,
+   "hr": 0.87,
+   "vh": 305,
+   "h": 351,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Blue, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:349",
+     "overrides": [
+      {
+       "old": "Ready to build different?",
+       "occ": 1,
+       "new": "Ready to start your next project?",
+       "runs": [
+        [
+         20,
+         300
+        ],
+        [
+         13,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Talk to our team about your next project.",
+       "occ": 1,
+       "new": "Our design-assist team engages early — optimizing the system for your site, program, and schedule before a single component is cast."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Ready to start your next project?",
+       "r": "head",
+       "w": [
+        [
+         20,
+         300,
+         30
+        ],
+        [
+         13,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "Our design-assist team engages early — optimizing the system for your site, program, and schedule before a single component is cast.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6452,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 6844,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}

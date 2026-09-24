@@ -1,0 +1,303 @@
+{
+ "file": "in-the-news.html",
+ "bp": "Desktop",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Index",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Index, Breakpoint=Desktop",
+   "id": "19:251",
+   "score": 8,
+   "fit": 1,
+   "hr": 0.69,
+   "vh": 512,
+   "h": 746,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:29",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:76",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Index, Breakpoint=Desktop",
+     "id": "19:251",
+     "overrides": [
+      {
+       "old": "Portfolio",
+       "occ": 1,
+       "new": "Insights"
+      },
+      {
+       "old": "Built different,",
+       "occ": 1,
+       "new": "Clark Pacific"
+      },
+      {
+       "old": "delivered better.",
+       "occ": 1,
+       "new": "in the news."
+      },
+      {
+       "old": "Parking structures, data centers, building envelopes, and structural systems across California and the American West.",
+       "occ": 1,
+       "new": "Press releases, awards, industry coverage, and company milestones."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:6"
+     ],
+     "texts": [
+      {
+       "c": "Insights",
+       "r": "label"
+      },
+      {
+       "c": "Clark Pacific",
+       "r": "head"
+      },
+      {
+       "c": "in the news.",
+       "r": "head"
+      },
+      {
+       "c": "Press releases, awards, industry coverage, and company milestones.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 746,
+   "tag": "Filterable Index Grid",
+   "kind": "page-specific",
+   "set": "Filterable Index Grid",
+   "variant": "Breakpoint=Desktop",
+   "id": "27:749",
+   "score": -5,
+   "fit": 0.4,
+   "hr": 0.31,
+   "vh": 641,
+   "h": 2096,
+   "pieces": [],
+   "unplaced": [
+    "All",
+    "Press Releases",
+    "Coverage",
+    "Awards",
+    "18 stories",
+    "Search",
+    "Press Release · Sep 2026",
+    "Clark Pacific opens Pacific Northwest manufacturing plant",
+    "The new facility expands capacity for data center and envelope projects across the region.",
+    "Read More",
+    "ENR California · Aug 2026",
+    "Precast accelerates delivery on Sacramento data center campus",
+    "Coverage of a total-precast shell erected in under five months.",
+    "Read More",
+    "Award · Jul 2026",
+    "PCI Design Award for UC Davis Health parking structure",
+    "Recognized for structural efficiency and architectural finish.",
+    "Read More",
+    "Construction Dive · Jun 2026",
+    "How offsite manufacturing is reshaping the West Coast market",
+    "Read More",
+    "CARBONSHIELD® now standard across structural products",
+    "Lower-carbon mix designs become the default rather than an option.",
+    "Top Specialty Contractor, California region",
+    "Recognition for safety performance and project delivery.",
+    "Read More"
+   ],
+   "nov": 17,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 2842,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Desktop",
+   "id": "14:36",
+   "score": 6.6,
+   "fit": 1,
+   "hr": 1,
+   "vh": 399,
+   "h": 399,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Desktop",
+     "id": "14:36",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         49
+        ],
+        [
+         13,
+         600,
+         49
+        ],
+        [
+         1,
+         300,
+         25
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3242,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Desktop",
+   "id": "16:31",
+   "score": 41.8,
+   "fit": 1,
+   "hr": 1,
+   "vh": 500,
+   "h": 500,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Desktop",
+     "id": "16:31",
+     "overrides": [],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 0,
+   "nhide": 0,
+   "hideItems": []
+  }
+ ]
+}

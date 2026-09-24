@@ -1,0 +1,1264 @@
+{
+ "file": "parc.html",
+ "bp": "Mobile",
+ "sections": [
+  {
+   "top": 0,
+   "tag": "Header + Hero / Standard interior",
+   "kind": "instance",
+   "set": "Hero",
+   "variant": "Type=Standard interior, Breakpoint=Mobile",
+   "id": "19:287",
+   "score": 12.5,
+   "fit": 0.88,
+   "hr": 0.89,
+   "vh": 771,
+   "h": 869,
+   "pieces": [
+    {
+     "set": "Announcement Bar",
+     "id": "14:32",
+     "overrides": []
+    },
+    {
+     "set": "Header",
+     "id": "18:260",
+     "overlay": true,
+     "overrides": []
+    },
+    {
+     "set": "Hero",
+     "variant": "Type=Standard interior, Breakpoint=Mobile",
+     "id": "19:287",
+     "overrides": [
+      {
+       "old": "Products › Data Centers",
+       "occ": 1,
+       "new": "PARC™"
+      },
+      {
+       "old": "Mission Critical",
+       "occ": 1,
+       "new": "Pre-Engineered Parking Structure"
+      },
+      {
+       "old": "Data",
+       "occ": 1,
+       "new": "PARC™"
+      },
+      {
+       "old": "Centers.",
+       "occ": 1,
+       "new": "A turnkey parking structure solution."
+      },
+      {
+       "old": "Prefabricated precast structural and enclosure systems for hyperscale and colocation data centers.",
+       "occ": 1,
+       "new": "PARC reduces the complexity of designing and building parking structures — offering owners and developers a more efficient and effective solution with single-source accountability from entitlement through handover."
+      },
+      {
+       "old": "Start a Conversation",
+       "occ": 1,
+       "new": "Download Datasheet"
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Talk to an Expert"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [
+      "5:33"
+     ],
+     "texts": [
+      {
+       "c": "Products · Parking",
+       "r": "body"
+      },
+      {
+       "c": "PARC™",
+       "r": "body"
+      },
+      {
+       "c": "Pre-Engineered Parking Structure",
+       "r": "label"
+      },
+      {
+       "c": "PARC™",
+       "r": "head"
+      },
+      {
+       "c": "A turnkey parking structure solution.",
+       "r": "head"
+      },
+      {
+       "c": "PARC reduces the complexity of designing and building parking structures — offering owners and developers a more efficient and effective solution with single-source accountability from entitlement through handover.",
+       "r": "body"
+      },
+      {
+       "c": "Download Datasheet",
+       "r": "label"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Products · Parking"
+   ],
+   "nov": 7,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 869,
+   "tag": "Video Module",
+   "kind": "instance",
+   "set": "Video Module",
+   "variant": "Layout=Full width, Breakpoint=Mobile",
+   "id": "36:1158",
+   "score": 4.5,
+   "fit": 0.75,
+   "hr": 0.64,
+   "vh": 446,
+   "h": 700,
+   "pieces": [
+    {
+     "set": "Video Module",
+     "variant": "Layout=Full width, Breakpoint=Mobile",
+     "id": "36:1158",
+     "overrides": [
+      {
+       "old": "Watch",
+       "occ": 1,
+       "new": "Product-Based Delivery"
+      },
+      {
+       "old": "Video module headline",
+       "occ": 1,
+       "new": "Single source for the entire parking structure",
+       "runs": [
+        [
+         22,
+         300
+        ],
+        [
+         24,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Supporting copy.",
+       "occ": 1,
+       "new": "PARC reduces the complexity of designing and building parking structures and offers owners & developers a more efficient and effective solution. Clark Pacific’s advanced product-based delivery model relies on experienced teams guiding the process from entitlement to hand over."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Product-Based Delivery",
+       "r": "label"
+      },
+      {
+       "c": "Single source for the entire parking structure",
+       "r": "head",
+       "w": [
+        [
+         22,
+         300,
+         26
+        ],
+        [
+         24,
+         600,
+         26
+        ]
+       ]
+      },
+      {
+       "c": "PARC reduces the complexity of designing and building parking structures and offers owners & developers a more efficient and effective solution. Clark Pacific’s advanced product-based delivery model relies on experienced teams guiding the process from entitlement to hand over.",
+       "r": "body"
+      },
+      {
+       "c": "Watch the Video",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Watch the Video"
+   ],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 1569,
+   "tag": "Icon Grid",
+   "kind": "instance",
+   "set": "Icon Grid",
+   "variant": "Layout=Headline left 2×3, Breakpoint=Mobile",
+   "id": "25:613",
+   "score": 8.4,
+   "fit": 1,
+   "hr": 0.73,
+   "vh": 438,
+   "h": 596,
+   "pieces": [
+    {
+     "set": "Icon Grid",
+     "variant": "Layout=Headline left 2×3, Breakpoint=Mobile",
+     "id": "25:613",
+     "overrides": [
+      {
+       "old": "Offsite benefits",
+       "occ": 1,
+       "new": "How does product-based delivery benefit you?",
+       "runs": [
+        [
+         32,
+         300
+        ],
+        [
+         12,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 1,
+       "new": "Complete pre-design based on requirements, standard products & best practices"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 2,
+       "new": "Ready to manufacture + build + install"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 3,
+       "new": "Easily customized to accommodate unique project-specific requirements"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 4,
+       "new": "Smoother path to stakeholder consensus with a single point of contact, entitlements through handover"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Accelerated schedules",
+       "occ": 1
+      },
+      {
+       "old": "Budget certainty",
+       "occ": 1
+      },
+      {
+       "old": "Less waste",
+       "occ": 1
+      },
+      {
+       "old": "Higher quality",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:117",
+      "5:117",
+      "5:117",
+      "5:117"
+     ],
+     "texts": [
+      {
+       "c": "How does product-based delivery benefit you?",
+       "r": "head",
+       "w": [
+        [
+         32,
+         300,
+         26
+        ],
+        [
+         12,
+         600,
+         26
+        ]
+       ]
+      },
+      {
+       "c": "Complete pre-design based on requirements, standard products & best practices",
+       "r": "body"
+      },
+      {
+       "c": "Ready to manufacture + build + install",
+       "r": "body"
+      },
+      {
+       "c": "Easily customized to accommodate unique project-specific requirements",
+       "r": "body"
+      },
+      {
+       "c": "Smoother path to stakeholder consensus with a single point of contact, entitlements through handover",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 5,
+   "nhide": 4,
+   "hideItems": []
+  },
+  {
+   "top": 2165,
+   "tag": "Icon Grid",
+   "kind": "instance",
+   "set": "Icon Grid",
+   "variant": "Layout=Headline left 2×3, Breakpoint=Mobile",
+   "id": "25:613",
+   "score": 12,
+   "fit": 0.69,
+   "hr": 0.42,
+   "vh": 438,
+   "h": 1033,
+   "pieces": [
+    {
+     "set": "Icon Grid",
+     "variant": "Layout=Headline left 2×3, Breakpoint=Mobile",
+     "id": "25:613",
+     "overrides": [
+      {
+       "old": "Offsite benefits",
+       "occ": 1,
+       "new": "Benefits of PARC",
+       "runs": [
+        [
+         12,
+         300
+        ],
+        [
+         4,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Accelerated schedules",
+       "occ": 1,
+       "new": "Accelerated Schedules"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 1,
+       "new": "30%–50% faster than traditional methods. Manufacturing of the structure occurs simultaneously with site and foundation work."
+      },
+      {
+       "old": "Budget certainty",
+       "occ": 1,
+       "new": "Resilient + Adaptable Design"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 2,
+       "new": "Long-span double tees create open, flexible layouts with fewer interior columns — improving visibility, circulation, and adaptability for future uses."
+      },
+      {
+       "old": "Less waste",
+       "occ": 1,
+       "new": "Safety + Navigation"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 3,
+       "new": "Designed for increased safety and better navigation with intentionally brighter lighting above code minimum at entrances, pathways, and circulation areas."
+      },
+      {
+       "old": "Higher quality",
+       "occ": 1,
+       "new": "CARBONSHIELD® Standard"
+      },
+      {
+       "old": "Short supporting line.",
+       "occ": 4,
+       "new": "Every PARC structure uses our proprietary low-carbon concrete mix as standard — reducing embodied carbon by ~20% vs. traditional mixes."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Benefits of PARC",
+       "r": "head",
+       "w": [
+        [
+         12,
+         300,
+         32
+        ],
+        [
+         4,
+         600,
+         32
+        ]
+       ]
+      },
+      {
+       "c": "In-House Parking Consultants",
+       "r": "label"
+      },
+      {
+       "c": "Dedicated parking specialists guide the process from entitlement to handover — with deep expertise in parking structure design, layout, and code compliance.",
+       "r": "body"
+      },
+      {
+       "c": "Single Warranty",
+       "r": "label"
+      },
+      {
+       "c": "One 5-year warranty for the entire parking structure — no finger-pointing between trades, no gaps in coverage.",
+       "r": "body"
+      },
+      {
+       "c": "Accelerated Schedules",
+       "r": "label"
+      },
+      {
+       "c": "30%–50% faster than traditional methods. Manufacturing of the structure occurs simultaneously with site and foundation work.",
+       "r": "body"
+      },
+      {
+       "c": "Resilient + Adaptable Design",
+       "r": "label"
+      },
+      {
+       "c": "Long-span double tees create open, flexible layouts with fewer interior columns — improving visibility, circulation, and adaptability for future uses.",
+       "r": "body"
+      },
+      {
+       "c": "Safety + Navigation",
+       "r": "label"
+      },
+      {
+       "c": "Designed for increased safety and better navigation with intentionally brighter lighting above code minimum at entrances, pathways, and circulation areas.",
+       "r": "body"
+      },
+      {
+       "c": "CARBONSHIELD® Standard",
+       "r": "label"
+      },
+      {
+       "c": "Every PARC structure uses our proprietary low-carbon concrete mix as standard — reducing embodied carbon by ~20% vs. traditional mixes.",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "In-House Parking Consultants",
+    "Dedicated parking specialists guide the process from entitlement to handover — with deep expertise in parking structure design, layout, and code compliance.",
+    "Single Warranty",
+    "One 5-year warranty for the entire parking structure — no finger-pointing between trades, no gaps in coverage."
+   ],
+   "nov": 9,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 3198,
+   "tag": "CARBONSHIELD",
+   "kind": "instance",
+   "set": "CARBONSHIELD®",
+   "variant": "Breakpoint=Mobile",
+   "id": "32:1037",
+   "score": 6.7,
+   "fit": 0.8,
+   "hr": 0.76,
+   "vh": 652,
+   "h": 859,
+   "pieces": [
+    {
+     "set": "CARBONSHIELD®",
+     "variant": "Breakpoint=Mobile",
+     "id": "32:1037",
+     "overrides": [
+      {
+       "old": "CARBONSHIELD®",
+       "occ": 1,
+       "new": "Proprietary Concrete Mix"
+      },
+      {
+       "old": "Building for the future",
+       "occ": 1,
+       "new": "Building for the future",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         6,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Approved CARBONSHIELD copy: 25% of portland cement replaced, ~20% less embodied carbon.",
+       "occ": 1,
+       "new": "It replaces 25% of the portland cement in our concrete mixes, reducing embodied carbon by roughly 20%. Our goal is double this by 2030, through our continuous R&D efforts and material partnerships."
+      },
+      {
+       "old": "Download Datasheet",
+       "occ": 1,
+       "new": "Download CARBONSHIELD® Datasheet"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Proprietary Concrete Mix",
+       "r": "label"
+      },
+      {
+       "c": "Building for the future",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         30
+        ],
+        [
+         6,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "CARBONSHIELD® is a unique and proprietary concrete mix developed by Clark Pacific that provides the same performance as traditional mixes and is standard in our structural products.",
+       "r": "body"
+      },
+      {
+       "c": "It replaces 25% of the portland cement in our concrete mixes, reducing embodied carbon by roughly 20%. Our goal is double this by 2030, through our continuous R&D efforts and material partnerships.",
+       "r": "body"
+      },
+      {
+       "c": "Download CARBONSHIELD® Datasheet",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "CARBONSHIELD® is a unique and proprietary concrete mix developed by Clark Pacific that provides the same performance as traditional mixes and is standard in our structural products."
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4056,
+   "tag": "Finishes Guide",
+   "kind": "instance",
+   "set": "Finishes Guide · Graphic CTA",
+   "variant": "Breakpoint=Mobile",
+   "id": "32:1086",
+   "score": 2.3,
+   "fit": 0.67,
+   "hr": 0.54,
+   "vh": 619,
+   "h": 337,
+   "pieces": [
+    {
+     "set": "Finishes Guide · Graphic CTA",
+     "variant": "Breakpoint=Mobile",
+     "id": "32:1086",
+     "overrides": [
+      {
+       "old": "Standard finishes guide",
+       "occ": 1,
+       "new": "The Parking Design Guide",
+       "runs": [
+        [
+         4,
+         300
+        ],
+        [
+         20,
+         600
+        ]
+       ]
+      }
+     ],
+     "hide": [
+      {
+       "old": "Free Download",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "The Parking Design Guide",
+       "r": "head",
+       "w": [
+        [
+         4,
+         300,
+         26
+        ],
+        [
+         20,
+         600,
+         26
+        ]
+       ]
+      },
+      {
+       "c": "Planning and design guidance for prefabricated parking structures — bay layouts, circulation, seismic systems, and finish options.",
+       "r": "body"
+      },
+      {
+       "c": "Download the Guide",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Planning and design guidance for prefabricated parking structures — bay layouts, circulation, seismic systems, and finish options."
+   ],
+   "nov": 1,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 4393,
+   "tag": "Quote Band",
+   "kind": "instance",
+   "set": "Quote Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "22:212",
+   "score": 8.2,
+   "fit": 1,
+   "hr": 0.69,
+   "vh": 313,
+   "h": 454,
+   "pieces": [
+    {
+     "set": "Quote Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "22:212",
+     "overrides": [
+      {
+       "old": "Pull-quote runs at 22px on mobile with the keyword in SemiBold.",
+       "occ": 1,
+       "new": "Prefabrication met all of our prerequisites whereas cast-in-place would have taken longer, cost more, required a greater footprint on site and been very disruptive to Major League Soccer games.",
+       "runs": [
+        [
+         43,
+         600
+        ],
+        [
+         150,
+         300
+        ]
+       ]
+      },
+      {
+       "old": "Name Surname",
+       "occ": 1,
+       "new": "Deke Hunter"
+      },
+      {
+       "old": "Title · Organization",
+       "occ": 1,
+       "new": "Hunter Properties"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "“",
+       "r": "glyph"
+      },
+      {
+       "c": "Prefabrication met all of our prerequisites whereas cast-in-place would have taken longer, cost more, required a greater footprint on site and been very disruptive to Major League Soccer games.",
+       "r": "title",
+       "w": [
+        [
+         43,
+         600,
+         22
+        ],
+        [
+         150,
+         300,
+         22
+        ]
+       ]
+      },
+      {
+       "c": "Deke Hunter",
+       "r": "label"
+      },
+      {
+       "c": "Hunter Properties",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 4847,
+   "tag": "FAQ Accordion",
+   "kind": "instance",
+   "set": "FAQ Accordion",
+   "variant": "Breakpoint=Mobile",
+   "id": "9:25",
+   "score": 13.8,
+   "fit": 0.8,
+   "hr": 0.57,
+   "vh": 462,
+   "h": 804,
+   "pieces": [
+    {
+     "set": "FAQ Accordion",
+     "variant": "Breakpoint=Mobile",
+     "id": "9:25",
+     "overrides": [
+      {
+       "old": "Open question, first by default",
+       "occ": 1,
+       "new": "What is the typical floor-to-floor height in a PARC structure?"
+      },
+      {
+       "old": "Answer copy at 15px.",
+       "occ": 1,
+       "new": "PARC structures are typically designed with floor-to-floor heights of approximately 11'–6\" on accessible parking levels and 10'–6\" on typical parking levels. These clearances are optimized for efficient layouts while allowing space for lighting, signage, and MEP systems."
+      },
+      {
+       "old": "Closed question",
+       "occ": 1,
+       "new": "How is lighting handled in a precast parking structure?"
+      },
+      {
+       "old": "Closed question",
+       "occ": 2,
+       "new": "Are the double tees the lowest point of the ceiling?"
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Frequently asked questions",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         9,
+         600,
+         32
+        ]
+       ]
+      },
+      {
+       "c": "What is the typical floor-to-floor height in a PARC structure?",
+       "r": "label"
+      },
+      {
+       "c": "–",
+       "r": "glyph"
+      },
+      {
+       "c": "PARC structures are typically designed with floor-to-floor heights of approximately 11'–6\" on accessible parking levels and 10'–6\" on typical parking levels. These clearances are optimized for efficient layouts while allowing space for lighting, signage, and MEP systems.",
+       "r": "body"
+      },
+      {
+       "c": "How does the column layout differ from cast-in-place construction?",
+       "r": "label"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "How is lighting handled in a precast parking structure?",
+       "r": "label"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      },
+      {
+       "c": "Are the double tees the lowest point of the ceiling?",
+       "r": "label"
+      },
+      {
+       "c": "+",
+       "r": "glyph"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "How does the column layout differ from cast-in-place construction?"
+   ],
+   "nov": 4,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 5651,
+   "tag": "Image Gallery",
+   "kind": "page-specific",
+   "set": "Image Gallery",
+   "variant": "Breakpoint=Mobile",
+   "id": "28:884",
+   "score": -2.9,
+   "fit": 0.25,
+   "hr": 0.48,
+   "vh": 433,
+   "h": 905,
+   "pieces": [],
+   "unplaced": [
+    "Project gallery",
+    "CSU Sacramento Parking Structure 5",
+    "01 / 05"
+   ],
+   "nov": 1,
+   "nhide": 1,
+   "hideItems": []
+  },
+  {
+   "top": 6557,
+   "tag": "Projects Photo Mosaic",
+   "kind": "page-specific",
+   "set": "Projects Photo Mosaic",
+   "variant": "Breakpoint=Mobile",
+   "id": "28:845",
+   "score": 1,
+   "fit": 0.45,
+   "hr": 0.68,
+   "vh": 1050,
+   "h": 1537,
+   "pieces": [],
+   "unplaced": [
+    "View All Projects",
+    "Brokaw Road Phase II",
+    "PARC structure delivering 900+ stalls in San Jose on a constrained infill site adjacent to active operations.",
+    "View Project",
+    "PCI Design Award winner — PARC structure serving an active healthcare campus with zero disruption to daily operations.",
+    "PARC structure at a mixed-use Silicon Valley campus — delivered on a compressed schedule alongside active commercial operations."
+   ],
+   "nov": 5,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 8093,
+   "tag": "Featured Resources",
+   "kind": "page-specific",
+   "set": "Featured Resources",
+   "variant": "Breakpoint=Mobile",
+   "id": "27:888",
+   "score": -4.6,
+   "fit": 0.33,
+   "hr": 0.28,
+   "vh": 517,
+   "h": 1854,
+   "pieces": [],
+   "unplaced": [
+    "Resources",
+    "View All Resources",
+    "Technical Document",
+    "Infinite Facade® Testing Overview",
+    "A summary of the testing programme behind the Infinite Facade system, including performance results for air, water and structural loading.",
+    "Read More",
+    "Parking Design Guide",
+    "Planning and design guidance for prefabricated parking structures, from bay layouts and circulation through to finish selection.",
+    "Building Forward",
+    "Conversations with industry leaders, innovators and experts on the strategies and best practices shaping how we design and build."
+   ],
+   "nov": 3,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 9947,
+   "tag": "CTA Banner / Light",
+   "kind": "instance",
+   "set": "CTA Banner",
+   "variant": "Surface=Light, Layout=Stacked, Breakpoint=Mobile",
+   "id": "23:365",
+   "score": 4.7,
+   "fit": 0.75,
+   "hr": 0.59,
+   "vh": 273,
+   "h": 461,
+   "pieces": [
+    {
+     "set": "CTA Banner",
+     "variant": "Surface=Light, Layout=Stacked, Breakpoint=Mobile",
+     "id": "23:365",
+     "overrides": [
+      {
+       "old": "Start a conversation",
+       "occ": 1,
+       "new": "Let's start talking about your next parking structure",
+       "runs": [
+        [
+         31,
+         300
+        ],
+        [
+         22,
+         600
+        ]
+       ]
+      },
+      {
+       "old": "Supporting sentence.",
+       "occ": 1,
+       "new": "PARC gives you the simplicity of a product-based delivery with the quality and accountability of a single-source partner — from entitlements through a 5-year warranty."
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Let's start talking about your next parking structure",
+       "r": "head",
+       "w": [
+        [
+         31,
+         300,
+         30
+        ],
+        [
+         22,
+         600,
+         30
+        ]
+       ]
+      },
+      {
+       "c": "PARC gives you the simplicity of a product-based delivery with the quality and accountability of a single-source partner — from entitlements through a 5-year warranty.",
+       "r": "body"
+      },
+      {
+       "c": "Talk to an Expert",
+       "r": "label"
+      },
+      {
+       "c": "Download Datasheet",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Download Datasheet"
+   ],
+   "nov": 2,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 10408,
+   "tag": "Brand Sign-off Band",
+   "kind": "instance",
+   "set": "Brand Sign-off Band",
+   "variant": "Breakpoint=Mobile",
+   "id": "14:47",
+   "score": -1,
+   "fit": 0.33,
+   "hr": 0.48,
+   "vh": 188,
+   "h": 393,
+   "pieces": [
+    {
+     "set": "Brand Sign-off Band",
+     "variant": "Breakpoint=Mobile",
+     "id": "14:47",
+     "overrides": [
+      {
+       "old": "Build different. Achieve more.",
+       "occ": 1,
+       "new": "Build different. Achieve more.™",
+       "runs": [
+        [
+         17,
+         300
+        ],
+        [
+         13,
+         600
+        ],
+        [
+         1,
+         300
+        ]
+       ]
+      }
+     ],
+     "hide": [],
+     "hideItems": [],
+     "icons": [],
+     "texts": [
+      {
+       "c": "Build different. Achieve more.™",
+       "r": "head",
+       "w": [
+        [
+         17,
+         300,
+         32
+        ],
+        [
+         13,
+         600,
+         32
+        ],
+        [
+         1,
+         300,
+         20
+        ]
+       ]
+      },
+      {
+       "c": "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+       "r": "body"
+      },
+      {
+       "c": "Our Approach",
+       "r": "label"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Clark Pacific is a leading manufacturer of prefabricated building systems. We are transforming design and construction by delivering high-quality, cost-effective buildings with less risk.",
+    "Our Approach"
+   ],
+   "nov": 1,
+   "nhide": 0,
+   "hideItems": []
+  },
+  {
+   "top": 10801,
+   "tag": "Footer",
+   "kind": "instance",
+   "set": "Footer",
+   "variant": "Breakpoint=Mobile",
+   "id": "16:105",
+   "score": -10.9,
+   "fit": 0.32,
+   "hr": 0.69,
+   "vh": 625,
+   "h": 912,
+   "pieces": [
+    {
+     "set": "Footer",
+     "variant": "Breakpoint=Mobile",
+     "id": "16:105",
+     "overrides": [
+      {
+       "old": "Stay in the loop",
+       "occ": 1,
+       "new": "Subscribe to our Quarterly Newsletter"
+      },
+      {
+       "old": "Email address",
+       "occ": 1,
+       "new": "Enter your email"
+      },
+      {
+       "old": "Privacy · Terms · Accessibility · Cookies",
+       "occ": 1,
+       "new": "Cookie Settings"
+      }
+     ],
+     "hide": [
+      {
+       "old": "Clark Pacific is a leading manufacturer of prefabricated building systems.",
+       "occ": 1
+      },
+      {
+       "old": "in",
+       "occ": 1
+      },
+      {
+       "old": "IG",
+       "occ": 1
+      },
+      {
+       "old": "YT",
+       "occ": 1
+      },
+      {
+       "old": "f",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 2
+      },
+      {
+       "old": "Resources",
+       "occ": 1
+      },
+      {
+       "old": "+",
+       "occ": 3
+      },
+      {
+       "old": "→",
+       "occ": 1
+      }
+     ],
+     "hideItems": [],
+     "icons": [
+      "5:12",
+      "5:15",
+      "5:18",
+      "5:21",
+      "5:26",
+      "5:30"
+     ],
+     "texts": [
+      {
+       "c": "Products",
+       "r": "label"
+      },
+      {
+       "c": "Data Centers",
+       "r": "body"
+      },
+      {
+       "c": "Building Envelope Systems",
+       "r": "body"
+      },
+      {
+       "c": "Parking | Design-Build",
+       "r": "body"
+      },
+      {
+       "c": "High Performance Structural Solutions",
+       "r": "body"
+      },
+      {
+       "c": "Company",
+       "r": "label"
+      },
+      {
+       "c": "Our Approach",
+       "r": "body"
+      },
+      {
+       "c": "Sustainability",
+       "r": "body"
+      },
+      {
+       "c": "Leadership",
+       "r": "body"
+      },
+      {
+       "c": "Careers",
+       "r": "body"
+      },
+      {
+       "c": "Contact",
+       "r": "body"
+      },
+      {
+       "c": "Become a Trade Partner",
+       "r": "body"
+      },
+      {
+       "c": "Subscribe to our Quarterly Newsletter",
+       "r": "label"
+      },
+      {
+       "c": "Enter your email",
+       "r": "body"
+      },
+      {
+       "c": "© 2026 Clark Pacific. All rights reserved.",
+       "r": "body"
+      },
+      {
+       "c": "Privacy Policy",
+       "r": "body"
+      },
+      {
+       "c": "Terms of Use",
+       "r": "body"
+      },
+      {
+       "c": "Accessibility",
+       "r": "body"
+      },
+      {
+       "c": "Cookie Settings",
+       "r": "body"
+      }
+     ]
+    }
+   ],
+   "unplaced": [
+    "Data Centers",
+    "Building Envelope Systems",
+    "Parking | Design-Build",
+    "High Performance Structural Solutions",
+    "Our Approach",
+    "Sustainability",
+    "Leadership",
+    "Careers",
+    "Contact",
+    "Become a Trade Partner",
+    "Privacy Policy",
+    "Terms of Use",
+    "Accessibility"
+   ],
+   "nov": 3,
+   "nhide": 10,
+   "hideItems": []
+  }
+ ]
+}
