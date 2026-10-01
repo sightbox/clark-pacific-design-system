@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body { margin: 0; -webkit-font-smoothing: antialiased; }
+a { color: #004A9F; text-decoration: underline; }
+a:hover { color: #FF8600; }
+doc-page:not(:defined) { visibility: hidden; }
+</style>
+<script src="./doc-page.js"></script>
+</helmet>
+<doc-page margin="0.7in">
+
+<div style="display: flex; flex-direction: column; gap: 14px; padding-bottom: 28px; border-bottom: 1px solid #DEDFE0;">
+  <img src="uploads/CP_Logo_Long_Web.svg" alt="Clark Pacific" style="height: 28px; width: auto; align-self: flex-start;">
+  <div style="font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #7F8A92;">Figma 2.5 · For Kim · 30 Sep 2026</div>
+  <h1 style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 40px; line-height: 44px; letter-spacing: -0.04em; text-transform: uppercase; color: #52565A;"><span style="font-weight: 200;">How to add the </span><span style="font-weight: 600;">new components</span></h1>
+  <p style="margin: 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 24px; color: #52565A;">This adds 45 new section components to your Clark Pacific Figma file. <strong>It doesn't change anything you've already done.</strong> Your pages, your edits and your existing components stay as they are. You'll copy the new ones onto a page of their own, and after that you can use them anywhere.</p>
+  <div style="display: flex; flex-wrap: wrap; gap: 10px; font-family: 'Inter', sans-serif; font-size: 13px; color: #52565A;">
+    <span style="padding: 6px 10px; background: #F0F0F0;">About 20–30 minutes</span>
+    <span style="padding: 6px 10px; background: #F0F0F0;">9 steps</span>
+    <span style="padding: 6px 10px; background: #F0F0F0;">Fully undoable (Step 1)</span>
+  </div>
+</div>
+
+<h2 style="margin: 32px 0 12px; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; color: #52565A;">What you're getting</h2>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; break-inside: avoid;">
+  <div style="border: 1px solid #DEDFE0; padding: 18px; display: flex; flex-direction: column; gap: 6px;">
+    <div style="font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #7F8A92;">Figma file</div>
+    <div style="font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 600; color: #52565A;">Clark Pacific 2.5 Additions</div>
+    <p style="margin: 0; font-family: 'Inter', sans-serif; font-size: 13px; line-height: 20px; color: #52565A;">A separate file with the 45 components, already built as Figma components, each with a yellow dev note beside it. You copy from this file; you don't work in it.</p>
+  </div>
+  <div style="border: 1px solid #DEDFE0; padding: 18px; display: flex; flex-direction: column; gap: 6px;">
+    <div style="font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #7F8A92;">Document</div>
+    <div style="font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 600; color: #52565A;">Figma 2.5 Dev Notes</div>
+    <p style="margin: 0; font-family: 'Inter', sans-serif; font-size: 13px; line-height: 20px; color: #52565A;">For your developers. Explains how every module behaves (accordions, carousels, filters), including the ones already in your file.</p>
+  </div>
+</div>
+<figure style="margin: 18px 0 0; break-inside: avoid;">
+  <div style="background: #F5F5F5; border: 1px solid #DEDFE0; padding: 20px; display: flex; flex-direction: column; gap: 6px;">
+    <div style="font-family: 'Inter', sans-serif; font-size: 10px; color: #9747FF; font-weight: 500;">❖ 2.5 / CTA Decision Panel / Content left · Blue</div>
+    <div style="display: flex; gap: 14px; align-items: flex-start;">
+      <div style="flex: 1; min-width: 0;"><img src="screenshots/guide/fig-comp-blue.png" alt="A 2.5 component in Figma" style="width: 100%; display: block; outline: 1.5px solid #9747FF;"></div>
+      <div style="width: 22%; flex-shrink: 0;"><img src="screenshots/guide/fig-note-blue.png" alt="Its dev note" style="width: 100%; display: block;"></div>
+    </div>
+    <div style="margin-top: 12px; font-family: 'Inter', sans-serif; font-size: 10px; color: #9747FF; font-weight: 500;">❖ 2.5 / CTA Decision Panel / Content left · White</div>
+    <div style="display: flex; gap: 14px;"><div style="flex: 1; min-width: 0;"><img src="screenshots/guide/fig-comp-white.png" alt="" style="width: 100%; display: block; outline: 1.5px solid #9747FF;"></div><div style="width: 22%; flex-shrink: 0;"></div></div>
+  </div>
+  <figcaption style="margin-top: 8px; font-family: 'Inter', sans-serif; font-size: 12px; color: #7F8A92;">The 2.5 Additions file, page <strong>Components · 2.5 Additions</strong>: each component (purple outline = it's already a component) with its yellow dev note on the right.</figcaption>
+</figure>
+
+<div style="margin-top: 28px; background: #FFF4C7; border: 1px solid #EAD87A; padding: 18px 20px; display: flex; flex-direction: column; gap: 8px; break-inside: avoid;">
+  <div style="font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #52565A;">The three rules</div>
+  <ol style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 4px; font-family: 'Inter', sans-serif; font-size: 14px; line-height: 22px; color: #52565A;">
+    <li>Paste onto the <strong>new page</strong> only, never onto your existing Components page.</li>
+    <li>Keep each one as its <strong>own component</strong>. Don't merge it into an existing one.</li>
+    <li><strong>Don't edit your existing components.</strong> If something looks off, send it to Nathan instead.</li>
+  </ol>
+</div>
+
+<!-- STEP 1 -->
+<div style="margin-top: 40px; display: flex; align-items: baseline; gap: 14px;"><span style="font-family: 'Poppins', sans-serif; font-size: 40px; font-weight: 200; line-height: 1; color: #FF8600;">01</span><h2 style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; color: #52565A;">Save a backup version</h2></div>
+<p style="margin: 10px 0 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 24px; color: #52565A;">In <strong>your Clark Pacific file</strong>, click the file name at the top of the left panel, then <strong>File → Save to version history</strong>. Title it <strong>Before 2.5</strong> and click Save. This is your safety net: if anything goes wrong, Step 9 takes you straight back here.</p>
+<div style="margin-top: 16px; background: #F5F5F5; padding: 28px; display: flex; gap: 28px; align-items: flex-start; justify-content: center; flex-wrap: wrap; break-inside: avoid;">
+  <div style="width: 240px; background: #FFFFFF; box-shadow: 0 6px 24px rgba(0,0,0,0.14); padding: 6px 0; font-family: 'Inter', sans-serif; font-size: 12px; color: #333333;">
+    <div style="padding: 6px 14px; color: #8C8C8C;">File</div>
+    <div style="padding: 6px 14px;">New design file</div>
+    <div style="padding: 6px 14px;">Duplicate</div>
+    <div style="padding: 6px 14px; background: #0D99FF; color: #FFFFFF; display: flex; justify-content: space-between;"><span>Save to version history</span><span>⌥⌘S</span></div>
+    <div style="padding: 6px 14px;">Show version history</div>
+    <div style="padding: 6px 14px;">Export…</div>
+  </div>
+  <div style="width: 300px; background: #FFFFFF; box-shadow: 0 6px 24px rgba(0,0,0,0.14); padding: 18px; display: flex; flex-direction: column; gap: 12px; font-family: 'Inter', sans-serif;">
+    <div style="font-size: 13px; font-weight: 600; color: #333333;">Save to version history</div>
+    <div style="display: flex; flex-direction: column; gap: 4px;"><span style="font-size: 11px; color: #8C8C8C;">Title</span><div style="border: 2px solid #0D99FF; padding: 7px 9px; font-size: 13px; color: #333333;">Before 2.5</div></div>
+    <div style="display: flex; justify-content: flex-end; gap: 8px;"><span style="padding: 7px 12px; border: 1px solid #E6E6E6; font-size: 12px; color: #333333;">Cancel</span><span style="padding: 7px 12px; background: #0D99FF; font-size: 12px; font-weight: 500; color: #FFFFFF;">Save</span></div>
+  </div>
+</div>
+
+<!-- STEP 2 -->
+<div style="margin-top: 40px; display: flex; align-items: baseline; gap: 14px;"><span style="font-family: 'Poppins', sans-serif; font-size: 40px; font-weight: 200; line-height: 1; color: #FF8600;">02</span><h2 style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; color: #52565A;">Add a new page for them</h2></div>
+<p style="margin: 10px 0 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 24px; color: #52565A;">Still in your file, find the <strong>Pages</strong> list at the top of the left panel. Click the <strong>+</strong> and name the new page <strong>Components · 2.5 Additions</strong>. Everything you paste in the next steps goes here, away from your existing work.</p>
+<div style="margin-top: 16px; background: #F5F5F5; padding: 28px; display: flex; justify-content: center; break-inside: avoid;">
+  <div style="width: 300px; background: #FFFFFF; border: 1px solid #E6E6E6; font-family: 'Inter', sans-serif; font-size: 12px; color: #333333;">
+    <div style="padding: 10px 14px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #E6E6E6;"><span style="font-weight: 600;">Pages</span><span style="width: 22px; height: 22px; display: flex; align-items: center; justify-content: center; font-size: 16px; outline: 2px solid #FF8600; outline-offset: 1px;">+</span></div>
+    <div style="padding: 7px 14px;">00 · Cover</div>
+    <div style="padding: 7px 14px;">Components</div>
+    <div style="padding: 7px 14px;">Pages · Desktop</div>
+    <div style="padding: 7px 14px;">Pages · Mobile</div>
+    <div style="padding: 7px 14px; background: #E5F4FF; font-weight: 600; display: flex; justify-content: space-between;"><span>Components · 2.5 Additions</span><span style="color: #0D99FF; font-weight: 500;">new</span></div>
+  </div>
+</div>
+<p style="margin: 8px 0 0; font-family: 'Inter', sans-serif; font-size: 12px; color: #7F8A92; text-align: center;">Your page names may differ. That's fine; just add the new one.</p>
+
+<!-- STEP 3 -->
+<div style="margin-top: 40px; display: flex; align-items: baseline; gap: 14px;"><span style="font-family: 'Poppins', sans-serif; font-size: 40px; font-weight: 200; line-height: 1; color: #FF8600;">03</span><h2 style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; color: #52565A;">Copy a component from 2.5</h2></div>
+<p style="margin: 10px 0 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 24px; color: #52565A;">Open the <strong>Clark Pacific 2.5 Additions</strong> file. Each component has its name printed above it, starting with <strong>2.5 /</strong>. Click the component (not the yellow note) so a <span style="color: #9747FF; font-weight: 600;">purple box</span> surrounds the whole thing, then press <span style="display: inline-flex; padding: 1px 7px; border: 1px solid #BFBFBF; border-bottom-width: 2px; font-family: 'Inter', sans-serif; font-size: 13px;">⌘ C</span>.</p>
+<div style="margin-top: 16px; background: #F5F5F5; padding: 28px; display: flex; flex-direction: column; gap: 10px; break-inside: avoid;">
+  <div style="font-family: 'Inter', sans-serif; font-size: 11px; color: #9747FF; font-weight: 500;">❖ 2.5 / CTA Decision Panel / Content left · Blue</div>
+  <div style="display: flex; gap: 18px; align-items: flex-start;">
+    <div style="flex: 1; min-width: 0; outline: 2px solid #9747FF; position: relative;">
+      <img src="screenshots/guide/fig-comp-blue.png" alt="" style="width: 100%; display: block;">
+      <span style="position: absolute; left: -4px; top: -4px; width: 7px; height: 7px; background: #FFFFFF; border: 1.5px solid #9747FF;"></span><span style="position: absolute; right: -4px; top: -4px; width: 7px; height: 7px; background: #FFFFFF; border: 1.5px solid #9747FF;"></span><span style="position: absolute; left: -4px; bottom: -4px; width: 7px; height: 7px; background: #FFFFFF; border: 1.5px solid #9747FF;"></span><span style="position: absolute; right: -4px; bottom: -4px; width: 7px; height: 7px; background: #FFFFFF; border: 1.5px solid #9747FF;"></span>
+    </div>
+    <div style="width: 130px; flex-shrink: 0; background: #FFF4C7; border: 1px solid #EAD87A; padding: 12px; font-family: 'Inter', sans-serif; font-size: 11px; line-height: 16px; color: #52565A;"><strong>Dev note</strong><br>Copied separately in Step 6.</div>
+  </div>
+</div>
+<div style="margin-top: 14px; display: flex; flex-direction: column; gap: 6px; font-family: 'Inter', sans-serif; font-size: 13px; line-height: 20px; color: #52565A;">
+  <div><strong>Tip: selecting.</strong> If a click selects just a headline or button inside it, click the name in the <strong>Layers</strong> panel on the left instead. The top-level layer named "2.5 / …" is the whole component.</div>
+  <div><strong>Tip: several at once.</strong> Hold <strong>Shift</strong> and click several names in Layers to copy a batch. Batches of about five are easiest to check.</div>
+  <div><strong>Only copy from Components · 2.5 Additions.</strong> The file's other page, <strong>Building blocks (from 2.0)</strong>, holds copies of the buttons, text links and icons these components use. You don't need to copy it.</div>
+</div>
+
+<!-- STEP 4 -->
+<div style="margin-top: 40px; display: flex; align-items: baseline; gap: 14px;"><span style="font-family: 'Poppins', sans-serif; font-size: 40px; font-weight: 200; line-height: 1; color: #FF8600;">04</span><h2 style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; color: #52565A;">Paste onto the new page</h2></div>
+<p style="margin: 10px 0 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 24px; color: #52565A;">Go back to your file and click <strong>Components · 2.5 Additions</strong> in the Pages list. Check the page name is highlighted, then click an empty spot on the canvas and press <span style="display: inline-flex; padding: 1px 7px; border: 1px solid #BFBFBF; border-bottom-width: 2px; font-size: 13px;">⌘ V</span>. Stack them top to bottom with some space between; the order doesn't matter.</p>
+<div style="margin-top: 14px; border-left: 3px solid #004A9F; padding: 4px 0 4px 14px; font-family: 'Inter', sans-serif; font-size: 13px; line-height: 20px; color: #52565A;">Before every paste, look at the Pages list. If <strong>Components</strong> or a Pages page is highlighted, switch to the 2.5 page first.</div>
+
+<!-- STEP 5 -->
+<div style="margin-top: 40px; display: flex; align-items: baseline; gap: 14px;"><span style="font-family: 'Poppins', sans-serif; font-size: 40px; font-weight: 200; line-height: 1; color: #FF8600;">05</span><h2 style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; color: #52565A;">Check it came in as a component</h2></div>
+<p style="margin: 10px 0 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 24px; color: #52565A;">There's nothing to convert: each one is already a component. With the pasted one selected, look at its name in <strong>Layers</strong>. A <span style="color: #9747FF; font-weight: 600;">purple four-diamond icon</span> means it's ready. If you see a hollow diamond instead, it came in linked to the 2.5 file: right-click → <strong>Detach instance</strong> (<span style="display: inline-flex; padding: 1px 7px; border: 1px solid #BFBFBF; border-bottom-width: 2px; font-size: 13px;">⌥ ⌘ B</span>), then right-click → <strong>Create component</strong> (<span style="display: inline-flex; padding: 1px 7px; border: 1px solid #BFBFBF; border-bottom-width: 2px; font-size: 13px;">⌥ ⌘ K</span>).</p>
+<div style="margin-top: 16px; background: #F5F5F5; padding: 28px; display: flex; flex-direction: column; gap: 14px; align-items: center; break-inside: avoid;">
+  <div style="display: flex; align-items: center; gap: 12px;"><span style="font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.08em; color: #9747FF; width: 92px;">READY</span><div style="width: 260px; background: #FFFFFF; border: 1px solid #9747FF; padding: 8px 12px; display: flex; align-items: center; gap: 8px; font-family: 'Inter', sans-serif; font-size: 12px; color: #9747FF; font-weight: 500;"><span style="font-size: 13px;">❖</span><span>2.5 / CTA Decision Panel / …</span></div></div>
+  <div style="display: flex; align-items: center; gap: 12px;"><span style="font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.08em; color: #8C8C8C; width: 92px;">NEEDS A FIX</span><div style="width: 260px; background: #FFFFFF; border: 1px solid #E6E6E6; padding: 8px 12px; display: flex; align-items: center; gap: 8px; font-family: 'Inter', sans-serif; font-size: 12px; color: #333333;"><span style="font-size: 13px; color: #9747FF;">◇</span><span>2.5 / CTA Decision Panel / …</span></div></div>
+</div>
+<p style="margin: 14px 0 0; font-family: 'Inter', sans-serif; font-size: 13px; line-height: 20px; color: #52565A;"><strong>Check the name.</strong> In Layers it should read exactly like the label above the component in the 2.5 file, starting with <strong>2.5 /</strong>. If it doesn't, double-click the name in Layers and type it in. The slashes group your new components into folders in the Assets panel.</p>
+<p style="margin: 8px 0 0; font-family: 'Inter', sans-serif; font-size: 13px; line-height: 20px; color: #52565A;"><strong>Don't group them.</strong> Never choose "Create component set" or "Combine as variants"; each one stays its own component.</p>
+<p style="margin: 8px 0 0; font-family: 'Inter', sans-serif; font-size: 13px; line-height: 20px; color: #52565A;"><strong>Styles named "Flagged/2.5".</strong> Some colours and type sizes come in with names like <em>Flagged/2.5 · #FFFFFF 72%</em>. They're values from the library that aren't in the 2.0 system yet. Leave them as they are; your developers and Nathan will decide whether to keep or replace them.</p>
+
+<!-- STEP 6 -->
+<div style="margin-top: 40px; display: flex; align-items: baseline; gap: 14px;"><span style="font-family: 'Poppins', sans-serif; font-size: 40px; font-weight: 200; line-height: 1; color: #FF8600;">06</span><h2 style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; color: #52565A;">Bring the dev notes along</h2></div>
+<p style="margin: 10px 0 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 24px; color: #52565A;">Copy the yellow card beside each component and paste it next to that component on the 2.5 page. <strong>Leave the notes as plain frames.</strong> Don't make them components. They're there so your developers see the behavior next to the design. Eleven components are tagged <span style="font-family: 'Inter', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 0.08em; padding: 2px 6px; background: #52565A; color: #FFFFFF;">INTERACTIVE</span>; for those, the note matters most.</p>
+
+<!-- STEP 7 -->
+<div style="margin-top: 40px; display: flex; align-items: baseline; gap: 14px;"><span style="font-family: 'Poppins', sans-serif; font-size: 40px; font-weight: 200; line-height: 1; color: #FF8600;">07</span><h2 style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; color: #52565A;">Use one on a page</h2></div>
+<p style="margin: 10px 0 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 24px; color: #52565A;">Open the desktop page you want to change. In the left panel, click <strong>Assets</strong> and type <strong>2.5</strong> in the search. Drag the one you want onto the page and drop it on the <span style="color: #0D99FF; font-weight: 600;">blue line</span> that appears between two sections.</p>
+<div style="margin-top: 16px; background: #F5F5F5; padding: 28px; display: flex; gap: 24px; align-items: flex-start; justify-content: center; flex-wrap: wrap; break-inside: avoid;">
+  <div style="width: 270px; background: #FFFFFF; border: 1px solid #E6E6E6; font-family: 'Inter', sans-serif; font-size: 12px; color: #333333;">
+    <div style="padding: 10px 14px; display: flex; gap: 16px; border-bottom: 1px solid #E6E6E6;"><span style="color: #8C8C8C;">Layers</span><span style="font-weight: 600;">Assets</span></div>
+    <div style="margin: 10px 12px; border: 2px solid #0D99FF; padding: 6px 9px; color: #333333;">2.5</div>
+    <div style="padding: 4px 14px 6px; font-weight: 600;">▾ 2.5</div>
+    <div style="padding: 5px 26px; color: #9747FF;">▸ CTA Decision Panel <span style="color: #8C8C8C;">6</span></div>
+    <div style="padding: 5px 26px; color: #9747FF;">▸ Carousel <span style="color: #8C8C8C;">3</span></div>
+    <div style="padding: 5px 26px; color: #9747FF;">▸ Icon Module <span style="color: #8C8C8C;">3</span></div>
+    <div style="padding: 5px 26px 12px; color: #9747FF;">▸ Projects <span style="color: #8C8C8C;">6</span></div>
+  </div>
+  <div style="width: 240px; display: flex; flex-direction: column; gap: 0; font-family: 'Inter', sans-serif; font-size: 11px; color: #7F8A92;">
+    <div style="height: 54px; background: #FFFFFF; border: 1px solid #E6E6E6; display: flex; align-items: center; padding: 0 12px;">Split Content</div>
+    <div style="height: 3px; background: #0D99FF; margin: 3px 0;"></div>
+    <div style="height: 54px; background: #FFFFFF; border: 1px solid #E6E6E6; display: flex; align-items: center; padding: 0 12px;">Stats Row</div>
+    <div style="height: 54px; background: #FFFFFF; border: 1px solid #E6E6E6; border-top: 0; display: flex; align-items: center; padding: 0 12px;">CTA Banner</div>
+    <div style="margin-top: 8px; color: #0D99FF; font-weight: 500;">↑ Drop on the blue line</div>
+  </div>
+</div>
+<div style="margin-top: 14px; border-left: 3px solid #FF8600; padding: 4px 0 4px 14px; font-family: 'Inter', sans-serif; font-size: 13px; line-height: 20px; color: #52565A;"><strong>About Swap Instance.</strong> Right-click → Swap instance works too, but it <strong>replaces</strong> the section, and text or photo labels you've edited in it won't come along. On sections you've already worked on, drag the new one in beside it, copy your text across, then delete the old one.</div>
+
+<!-- STEP 8 -->
+<div style="margin-top: 40px; display: flex; align-items: baseline; gap: 14px;"><span style="font-family: 'Poppins', sans-serif; font-size: 40px; font-weight: 200; line-height: 1; color: #FF8600;">08</span><h2 style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; color: #52565A;">Do &amp; don't</h2></div>
+<div style="margin-top: 14px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; break-inside: avoid;">
+  <div style="border-top: 3px solid #009663; background: #FFFFFF; border-left: 1px solid #DEDFE0; border-right: 1px solid #DEDFE0; border-bottom: 1px solid #DEDFE0; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; font-family: 'Inter', sans-serif; font-size: 13px; line-height: 20px; color: #52565A;">
+    <div style="font-size: 11px; font-weight: 600; letter-spacing: 0.1em; color: #009663;">DO</div>
+    <div>✓ Paste only onto Components · 2.5 Additions</div>
+    <div>✓ Check each one shows the ❖ component icon</div>
+    <div>✓ Keep the "2.5 /" at the start of names</div>
+    <div>✓ Drag new ones onto pages from Assets</div>
+    <div>✓ Edit text and photo labels on a page as usual</div>
+  </div>
+  <div style="border-top: 3px solid #52565A; background: #FFFFFF; border-left: 1px solid #DEDFE0; border-right: 1px solid #DEDFE0; border-bottom: 1px solid #DEDFE0; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; font-family: 'Inter', sans-serif; font-size: 13px; line-height: 20px; color: #52565A;">
+    <div style="font-size: 11px; font-weight: 600; letter-spacing: 0.1em; color: #52565A;">DON'T</div>
+    <div>✕ Paste onto your existing Components page</div>
+    <div>✕ Use "Combine as variants" or "Create component set"</div>
+    <div>✕ Resize, re-layout or rename existing components</div>
+    <div>✕ Detach instances on your pages</div>
+    <div>✕ Turn the yellow notes into components</div>
+  </div>
+</div>
+
+<!-- STEP 9 -->
+<div style="margin-top: 40px; display: flex; align-items: baseline; gap: 14px;"><span style="font-family: 'Poppins', sans-serif; font-size: 40px; font-weight: 200; line-height: 1; color: #FF8600;">09</span><h2 style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; color: #52565A;">If something goes wrong</h2></div>
+<p style="margin: 10px 0 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 24px; color: #52565A;">For a single slip, press <span style="display: inline-flex; padding: 1px 7px; border: 1px solid #BFBFBF; border-bottom-width: 2px; font-size: 13px;">⌘ Z</span> to undo. For anything bigger: <strong>File → Show version history</strong>, find <strong>Before 2.5</strong>, click the <strong>•••</strong> beside it and choose <strong>Restore this version</strong>. Everything goes back to how it was before Step 1. Then message Nathan.</p>
+<div style="margin-top: 16px; background: #F5F5F5; padding: 28px; display: flex; justify-content: center; break-inside: avoid;">
+  <div style="width: 300px; background: #FFFFFF; border: 1px solid #E6E6E6; font-family: 'Inter', sans-serif; font-size: 12px; color: #333333;">
+    <div style="padding: 10px 14px; font-weight: 600; border-bottom: 1px solid #E6E6E6;">Version history</div>
+    <div style="padding: 9px 14px; display: flex; flex-direction: column; gap: 2px;"><span>Current version</span><span style="color: #8C8C8C; font-size: 11px;">Autosave</span></div>
+    <div style="padding: 9px 14px; background: #E5F4FF; display: flex; justify-content: space-between; align-items: center;"><div style="display: flex; flex-direction: column; gap: 2px;"><span style="font-weight: 600;">Before 2.5</span><span style="color: #8C8C8C; font-size: 11px;">Kim · today</span></div><span style="position: relative;">•••<span style="position: absolute; right: -6px; top: 20px; width: 170px; background: #FFFFFF; box-shadow: 0 6px 24px rgba(0,0,0,0.14); padding: 4px 0; z-index: 1;"><span style="display: block; padding: 6px 12px; background: #0D99FF; color: #FFFFFF;">Restore this version</span><span style="display: block; padding: 6px 12px;">Duplicate</span></span></span></div>
+    <div style="height: 64px;"></div>
+  </div>
+</div>
+
+<!-- CHECKLIST -->
+<h2 style="margin: 44px 0 6px; font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; color: #52565A; break-before: page;">Checklist · all 45</h2>
+<p style="margin: 0 0 16px; font-family: 'Inter', sans-serif; font-size: 13px; line-height: 20px; color: #7F8A92;">Tick each one once it's on the 2.5 page with the ❖ icon. ● = Interactive: check the dev note came along too.</p>
+<div style="column-count: 2; column-gap: 32px; font-family: 'Inter', sans-serif; font-size: 12px; line-height: 18px; color: #52565A;">
+  <div style="break-inside: avoid; margin-bottom: 14px;"><div style="font-weight: 600; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding-bottom: 4px; border-bottom: 1px solid #52565A; margin-bottom: 4px;">Content Panels · 3</div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>CTA / Footer image band</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Split Content / Products intro</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Split Content / Product detail + spec table</span></div>
+  </div>
+  <div style="break-inside: avoid; margin-bottom: 14px;"><div style="font-weight: 600; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding-bottom: 4px; border-bottom: 1px solid #52565A; margin-bottom: 4px;">Cards &amp; Grids · 8</div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Cards / Insights feed · Filterable ●</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Carousel / Image + content · 3-up ●</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Carousel / Image + content · 4-up ●</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Carousel / Product highlights ●</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Lists / Product category list</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Icon Module / 4-col</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Icon Module / 3-col</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Icon Module / 2-col horizontal</span></div>
+  </div>
+  <div style="break-inside: avoid; margin-bottom: 14px;"><div style="font-weight: 600; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding-bottom: 4px; border-bottom: 1px solid #52565A; margin-bottom: 4px;">CTAs · 10</div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>CTA Decision Panel / Content left · Blue</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>CTA Decision Panel / Content left · Dark Charcoal</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>CTA Decision Panel / Content left · White</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>CTA Decision Panel / Content right · Light</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>CTA Decision Panel / Content right · Blue</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>CTA Decision Panel / Content right · Dark Charcoal</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Promo / Tagline statement band</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Promo / Content promo band · Podcast</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Promo / Content promo band · Webinar</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>CTA / Asset download block</span></div>
+  </div>
+  <div style="break-inside: avoid; margin-bottom: 14px;"><div style="font-weight: 600; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding-bottom: 4px; border-bottom: 1px solid #52565A; margin-bottom: 4px;">Data Display · 2</div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Stats Row / Accent dividers</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Project Detail / Spec panel ●</span></div>
+  </div>
+  <div style="break-inside: avoid; margin-bottom: 14px;"><div style="font-weight: 600; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding-bottom: 4px; border-bottom: 1px solid #52565A; margin-bottom: 4px;">Company Pages · 6</div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Careers / Open positions list ●</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Sustainability / Sustainable callout</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Sustainability / Stats band</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Sustainability / EPD + credentials grid</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>About / Timeline · Horizontal</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>About / Territory map</span></div>
+  </div>
+  <div style="break-inside: avoid; margin-bottom: 14px;"><div style="font-weight: 600; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding-bottom: 4px; border-bottom: 1px solid #52565A; margin-bottom: 4px;">Insights · 3</div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Insights / Filter bar ●</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Insights / Webinar card · List</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Insights / Content archive · Paginated ●</span></div>
+  </div>
+  <div style="break-inside: avoid; margin-bottom: 14px;"><div style="font-weight: 600; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding-bottom: 4px; border-bottom: 1px solid #52565A; margin-bottom: 4px;">Product Pages · 7</div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Products / Sub-category card grid</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Products / Structural components strip</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Products / Product intro · Infinite Facade®</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Products / Finish grid · Infinite Facade®</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Stats Row / Light · Infinite Facade®</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Sustainability / Video + bullet highlights</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Sustainability / Initiatives list</span></div>
+  </div>
+  <div style="break-inside: avoid; margin-bottom: 14px;"><div style="font-weight: 600; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding-bottom: 4px; border-bottom: 1px solid #52565A; margin-bottom: 4px;">Projects · 6</div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Projects / Filter bar ●</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Projects / Project card grid</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Projects / Resource card · 4 variants</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Projects / Featured blog post</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Projects / Detail sidebar trio ●</span></div>
+    <div style="display: flex; gap: 8px; padding: 3px 0;"><span style="width: 11px; height: 11px; border: 1px solid #7F8A92; flex-shrink: 0; margin-top: 3px;"></span><span>Projects / Overview accordion · Alt detail ●</span></div>
+  </div>
+</div>
+
+<div style="margin-top: 28px; padding-top: 18px; border-top: 1px solid #DEDFE0; font-family: 'Inter', sans-serif; font-size: 13px; line-height: 20px; color: #52565A; break-inside: avoid;"><strong>For your developers:</strong> send them <strong>Figma 2.5 Dev Notes</strong>. It covers these 45 plus the modules already in your file, including the expandable FAQ list (click a question to open its answer, one open at a time). Questions or anything that looks wrong: message Nathan before changing an existing component.</div>
+
+</doc-page>
+</x-dc>
+</body>
+</html>

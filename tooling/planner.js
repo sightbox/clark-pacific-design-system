@@ -6,7 +6,7 @@ const PALETTE = {
   '222,223,224,1': 'Neutral/Border', '255,255,255,1': 'Neutral/White', '82,86,90,0.84': 'Overlay/Scrim',
   '255,255,255,0.25': 'Overlay/On-dark divider', '82,86,90,0.28': 'Text/Faded', '255,255,255,0.38': 'Text/Faded on dark',
   '0,0,0,0.12': 'Track/Light', '255,255,255,0.55': 'Outline/On-dark',
-  '255,255,255,0.3': 'Flagged/On-dark muted', '255,255,255,0.32': 'Flagged/Accent line on photo', '0,0,0,0.18': 'Flagged/Dot inactive',
+  '255,255,255,0.12': 'State/Hover fill on dark', '255,255,255,0.3': 'Flagged/On-dark muted', '255,255,255,0.32': 'Flagged/Accent line on photo', '0,0,0,0.18': 'Flagged/Dot inactive',
 };
 const X = require('./extras');
 const WEIGHTS = { 200: 'ExtraLight', 300: 'Light', 400: 'Regular', 500: 'Medium', 600: 'SemiBold', 700: 'Bold' };
@@ -32,6 +32,7 @@ function colorRef(s, warn) {
   const key = `${p[0]},${p[1]},${p[2]},${+p[3].toFixed(2)}`;
   if (PALETTE[key]) return PALETTE[key];
   warn.add('unmapped color ' + key);
+  if (process.env.CP_FLAG_PREFIX) { const hx = p.slice(0, 3).map(v => Math.round(v).toString(16).padStart(2, '0')).join('').toUpperCase(); return `${process.env.CP_FLAG_PREFIX} · #${hx} ${Math.round(p[3] * 100)}%`; }
   return '#' + p.slice(0, 3).map(v => Math.round(v).toString(16).padStart(2, '0')).join('') + '@' + +p[3].toFixed(2);
 }
 const near = (a, b, t = 1.5) => Math.abs(a - b) <= t;
@@ -101,7 +102,15 @@ function frameNode(n, bp, warn, parent, depth) {
   if (n.bgi) {
     const g = X.parseGradient(n.bgi, n.r.w, n.r.h);
     if (!g) warn.add('unparsed background-image: ' + n.bgi.slice(0, 60));
-    else if (g.repeating) warn.add('dropped repeating gradient texture');
+    else if (g.repeating) {
+      warn.add('dropped repeating gradient texture');
+      if (process.env.CP_FLAG_PREFIX && !f.f) { // 2.5: FPO stripe texture = photo slot -> nearest 2.0 placeholder fill
+        const cs = (n.bgi.match(/rgba?\([^)]+\)/g) || []).map(parseColor);
+        const a = cs.reduce((m, c) => m + c[3], 0) / (cs.length || 1), lum = cs.reduce((m, c) => m + (c[0] + c[1] + c[2]) / 765, 0) / (cs.length || 1);
+        f.f = a < 0.5 ? 'State/Hover fill on dark' : lum > 0.5 ? 'Neutral/BG Alt' : 'Text/Dark Charcoal';
+        if (!f.n) f.n = 'Image placeholder';
+      }
+    }
     else {
       const line = X.accentLine(g, n.r.w, n.r.h);
       if (line) extraAbs.push({ t: 'L', n: 'Accent line', a: line.a, b: line.b, sw: line.width, col: colorRef(`rgba(${line.color.join(', ')})`, warn) });

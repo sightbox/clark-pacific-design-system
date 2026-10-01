@@ -39,3 +39,12 @@ Figures left exactly as supplied:
 
 - Set the cover as the file thumbnail: right-click the **Cover** frame → *Set as thumbnail*.
 - Save a version after changes; publish the library.
+
+## Figma 2.5 addendum (30 Sep 2026)
+
+See [`addendum-2.5.md`](addendum-2.5.md).
+
+1. **Needs client confirmation:** finishes-guide download behind a form or direct; the 40% cement figure also appears on the new Sustainability stats band.
+2. **Kim to confirm:** whether the expandable list she described is the FAQ or the Project Detail accordion.
+3. **Flagged styles to review:** 20 `Flagged/2.5 · #HEX NN%` paint styles, 11 `Flagged/2.5 · Desktop · …` text styles, 1 flagged effect. Map each to the nearest 2.0 style or approve it.
+4. **Not built yet:** prototype interactions for the 11 interactive components, text properties, mobile versions.

@@ -10,7 +10,7 @@ URL pattern for a node: `https://www.figma.com/design/gwXCIJW8u9a6s3txBv30M2/CP-
 | 00 · Cover | `0:1` | Cover `119:2` · Page order & flags `119:40` |
 | 00 · Guide | `138:20` | 1 · Start here `138:21` · 2 · System foundations `139:20` · 3 · The component library `140:20` · 4 · Building a page `141:26` · 5 · Preview, handoff and upkeep `142:26` |
 | 01 · Foundations | `2:2` | Overview `60:2` · Color `61:2` · Typography `62:2` · Type · Added styles `62:197` · Layout `63:2` · Buttons & links `64:2` |
-| 02 · Components | `2:3` | Sections: 00 · Primitives `5:2` · 01 · Global `14:28` · 02 · Heroes `19:173` · 03 · Content Panels `8:2` · 04 · CTAs & Buttons `23:205` · 05 · Cards & Grids `24:214` · 06 · Data & Company `30:921` · 07 · Product Detail & Media `32:1016` · 08 · Forms `33:1094` |
+| 02 · Components | `2:3` | Sections: 00 · Primitives `5:2` · 01 · Global `14:28` · 02 · Heroes `19:173` · 03 · Content Panels `8:2` · 04 · CTAs & Buttons `23:205` · 05 · Cards & Grids `24:214` · 2.5 Additions `206:1071` (x 32792; 2.5 addendum, see below) · 06 · Data & Company `30:921` · 07 · Product Detail & Media `32:1016` · 08 · Forms `33:1094` |
 | 03 · Pages Desktop | `81:2` | 38 frames `Desktop / <Page>` (1440 wide) + `Build notes / Desktop / <Page>`, rows of 8 in manifest order |
 | 04 · Pages Mobile | `81:3` | 38 frames `Mobile / <Page>` (390 wide) + Build notes, rows of 8 |
 | 05 · Page References · Desktop | `2:4` | html.to.design imports, one SECTION per page (`<file>.html …`) |
@@ -35,3 +35,16 @@ Page order (manifest): About Us, AccelCore, AccelDeck, AccelGen, AccelShell, Arc
 | Logo / Long | set | `6:45` |
 
 Full variant → ID map: `tooling/sets.json` (set name → variant name → node id).
+
+## Figma 2.5 Additions file
+
+File: **Clark Pacific 2.5 Additions**, key `EQ2vqFYpJhDbodciKa3FOj`, Sightbox team.
+
+| Page | ID | Contents |
+|---|---|---|
+| Components · 2.5 Additions | `0:1` | 45 components `2.5 / …` in manifest order (x 0, 240px apart) + `Dev note / …` frames at x ≈ 1520. Test component `2.5 / CTA Decision Panel / Content left · Blue` = `5:16` |
+| Building blocks (from 2.0) | — | Button `2:27`, Text Link `2:78`, Text Link / Card `2:99`, Accent Bar `2:105`, 47 icons (`tooling/a25/registry25.json`) |
+
+## 2.5 Additions in this design-system file
+
+The same 45 components are also built directly into **02 · Components** (`2:3`), in the section **2.5 Additions** (`206:1071`, x 32792, to the right of 05 · Cards & Grids). They're in manifest order, 240px apart, with the dev notes at x 1640 inside the section. The first component is `2.5 / CTA / Footer image band` (`206:1082`). They use this file's own 2.0 Button, Accent Bar and icon components (`tooling/registry.json`). The 20 `Flagged/2.5 · #HEX NN%` paint styles (`tooling/a25/flagged-ds.txt`), 11 `Flagged/2.5 · Desktop · …` text styles and the `Flagged/2.5 · Ring #DEDFE0 1.5` effect style were added for them. No existing 2.0 section, component or style was changed.

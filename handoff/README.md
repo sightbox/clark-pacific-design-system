@@ -204,6 +204,20 @@ All copy is final approved or realistic sample copy. The web team will supply ph
 - `reference/CLAUDE (project rules).md`: the project's decision log, with every locked rule and why.
 - `reference/cp-static-mobile.js`: the mobile reflow rules.
 
+## Addendum: Figma 2.5 section components (30 Sep 2026)
+
+Clark Pacific now owns the Figma file, and Kim is already editing it. The client found that most section components from the library never made it into Figma. **45 new desktop components** are in `source/kits/additions-2.5.html` (artboards `id="a25-…"`). They're listed in `manifest.json → additions25` with their group, an `interactive` flag (11 of them) and per-component `behavior` and `intent` notes.
+
+**Rules for this addendum (they override the build order above wherever the two conflict):**
+- **Work additions-only, in a separate file** (e.g. "Clark Pacific 2.5 Additions") unless Nathan explicitly gives you Clark Pacific's own file. Never modify, rename, merge into or restructure an existing 2.0 component or page, and never swap instances on Kim's pages.
+- Put everything on a page named `Components · 2.5 Additions`.
+- Name each component exactly as its manifest `name` (every name starts with `2.5 /`). Make each one its own component (no component sets combining them with 2.0 components). Keep the same Section → Container → Column structure, text properties and style bindings as the main build.
+- Put a dev-note frame (yellow `#FFF4C7`, 1px `#EAD87A` stroke, Inter) beside each component, holding its `behavior` and `intent` text, as a plain frame, **not** a component. For `interactive: true`, also wire the prototype interaction described there where Figma can express it (accordion open/close, tab/filter chip states, carousel dots).
+- These are desktop only for now; there are no mobile twins yet. Don't invent mobile variants unless asked.
+- Save a named version ("Before 2.5") before the first write.
+
+Test with one component first (`a25-cta-decision-panel-content-left-blue`), check it against the HTML at 1440, then do the rest in batches of about five.
+
 ## Acceptance checks (run at the end, read-only)
 - 0 layers with a colour or text not bound to a style (placeholders excepted).
 - No font other than Poppins, and no weight 700.

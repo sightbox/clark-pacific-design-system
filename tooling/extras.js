@@ -1,7 +1,7 @@
 // Instance matchers (primitives), gradients, polygons and shadows for the planner.
 const fs = require('fs');
 const path = require('path');
-const REG = JSON.parse(fs.readFileSync(path.join(__dirname, 'registry.json')));
+const REG = JSON.parse(fs.readFileSync(process.env.CP_REG || path.join(__dirname, 'registry.json')));
 
 // ---- Icon geometry index (same canonicalisation for the index and for lookups)
 function geomKey(svg) {

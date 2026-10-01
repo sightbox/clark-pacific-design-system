@@ -18,6 +18,10 @@ Start with its **00 · Cover** (flags and page order) and **00 · Guide** (how t
 | 04 · Pages Mobile | The same 38 pages at 390 |
 | 05 / 06 · Page References | The imported HTML screens, aligned to system styles — reference only |
 
+## Figma 2.5 addendum (30 Sep 2026)
+
+45 section components that never made it into Figma were added as real components in a separate file, **[Clark Pacific 2.5 Additions](https://www.figma.com/design/EQ2vqFYpJhDbodciKa3FOj)** (key `EQ2vqFYpJhDbodciKa3FOj`), with a yellow dev note beside each and Kim's step-by-step guide for bringing them into the design-system file. Details, decisions and open questions: [`docs/addendum-2.5.md`](docs/addendum-2.5.md). Source and handoff files: `handoff/addendum-2.5/`.
+
 ## What's in this repo
 
 ```
@@ -28,7 +32,8 @@ tokens/        Design tokens generated from the Figma styles
   source/figma-styles.json       raw export from Figma — the source for the files above
 figma/         Map of the Figma file: page and node IDs, component inventory
 docs/          guide.md (the walkthrough), flags.md (open items), build-log.md (decisions), maintaining.md
-handoff/       The original build brief: README, manifest, source HTML (kits + 38×2 pages), reference docs
+handoff/       The build brief: README, manifest, source HTML (kits + 38×2 pages + additions-2.5), reference docs
+  addendum-2.5/                  Figma 2.5 package: Kim's guide (HTML + PDF), Claude Design frames, dev notes, manifest
 tooling/       The scripts that built the Figma file (extract → plan → components → pages → checks)
 .claude/       Claude Code skills for working on the file (build a page, run checks, refresh tokens)
 CLAUDE.md      Project rules and Figma-API gotchas for Claude Code sessions
