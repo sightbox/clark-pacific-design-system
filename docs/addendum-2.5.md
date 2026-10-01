@@ -113,7 +113,7 @@ How they were made:
 - **Text fields.** Mobile texts are bound to the same text properties as desktop, matched by content, so one edit changes both breakpoints.
 - **Show heading** on the card grid and structural strip applies to mobile too.
 - **Styles.** Every fill, stroke, effect and text in the mobile variants is on a style. Three new `Flagged/2.5 · Mobile · …` text styles cover off-scale mobile sizes.
-- **Mobile pages.** Pages on 04 · Pages Mobile still use their Page-specific frames. Swapping them for the new Mobile variants is the next step.
+- **Mobile pages.** The nine sections swapped on desktop are swapped on 04 · Pages Mobile too (Careers, Sustainability, Projects, In The News, Resources, Blog, Webinars, and the two on Data Centers), using the Breakpoint=Mobile variants and the same copy and trims as desktop. Originals are on 06 · Page References · Mobile, in the section Replaced page-specific frames · 1 Oct 2026. Build notes record each swap.
 
 Tooling:
 - `tooling/a25/extract-mobile.js`: 390 render + reflow → `ex/a25m`.
@@ -123,7 +123,6 @@ Tooling:
 
 ## Not done yet
 
-- Swap the Page-specific frames on 04 · Pages Mobile for the new Breakpoint=Mobile variants.
 - The same interactions, text properties and fixes in the separate 2.5 Additions file (kept as-is for Kim's guide).
 
 ## Open questions
