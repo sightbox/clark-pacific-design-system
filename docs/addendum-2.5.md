@@ -89,9 +89,41 @@ Component fixes made during the swaps:
 
 Flag for review: `2.5 / Insights / Webinar card · List` runs edge to edge (no 72px side padding), as in the source. On the Webinars page it sits under a padded filter bar.
 
+## Mobile versions (1 Oct 2026)
+
+Every 2.5 component now has a `Breakpoint` property (Desktop / Mobile), as the 2.0 library does: 46 sets (the 45 plus Photo gallery) and 101 mobile variants.
+
+How they were made:
+- **Source.** `handoff/source/kits/additions-2.5.html` rendered at 390 and reflowed with the handoff's own rules, `handoff/reference/cp-static-mobile.js`: type map, 20px gutters, stacked grids and rows, reduced vertical spacing. The rules only touch an element's descendants, so the extractor also applies them to each artboard's own frame.
+- **Targeted fixes where the generic rules fought the dev notes:**
+  - Card carousels: a swipe row of one 300px card plus a peek, with dots; the arrows are removed.
+  - Product highlights: arrows removed, full-width image.
+  - Anything the source marks `overflow-x: auto` (tab bars, timeline, structural strip) stays on one line and clips at the edge.
+  - Careers job rows: the title goes on its own line.
+  - Stats grids: row spacing added.
+  - Sustainability stats band: its gutter restored.
+  - Negative-margin bullets brought back inside the frame.
+- **States.** Interactive components have a mobile variant for every desktop state, wired the same way:
+  - Tabs and chips switch state.
+  - Carousels move by dots or by tapping the cards.
+  - Product highlights moves by dots or by tapping the photo.
+  - The spec panel opens the Lightbox from "+6".
+  - The accordion opens one section at a time.
+  - The trio and the accordion use the mobile Photo gallery.
+- **Text fields.** Mobile texts are bound to the same text properties as desktop, matched by content, so one edit changes both breakpoints.
+- **Show heading** on the card grid and structural strip applies to mobile too.
+- **Styles.** Every fill, stroke, effect and text in the mobile variants is on a style. Three new `Flagged/2.5 · Mobile · …` text styles cover off-scale mobile sizes.
+- **Mobile pages.** Pages on 04 · Pages Mobile still use their Page-specific frames. Swapping them for the new Mobile variants is the next step.
+
+Tooling:
+- `tooling/a25/extract-mobile.js`: 390 render + reflow → `ex/a25m`.
+- `build.js` with `CP_BP=Mobile`.
+- `a25/mbatch.js`: packs plain components.
+- `a25/mob.js`: stored as `sharedPluginData('a25','mob')`; `addPlain`, `addToSet`, `bindProps`, `layoutSet`.
+
 ## Not done yet
 
-- Mobile versions (none drawn yet).
+- Swap the Page-specific frames on 04 · Pages Mobile for the new Breakpoint=Mobile variants.
 - The same interactions, text properties and fixes in the separate 2.5 Additions file (kept as-is for Kim's guide).
 
 ## Open questions
