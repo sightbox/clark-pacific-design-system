@@ -64,7 +64,7 @@ The 45 were built as real components, not imported as frames, in two places:
 
 ## 2.5 components on the Desktop pages (1 Oct 2026)
 
-Seven one-off frames on 03 · Pages Desktop were replaced with 2.5 instances. The copy comes from each page, and Build notes record what was trimmed (FPO copy policy). The originals are kept on **05 · Page References · Desktop** → section **Replaced page-specific frames · 1 Oct 2026**.
+Nine one-off frames on 03 · Pages Desktop were replaced with 2.5 instances. The copy comes from each page, and Build notes record what was trimmed (FPO copy policy). The originals are kept on **05 · Page References · Desktop** → section **Replaced page-specific frames · 1 Oct 2026**.
 
 | Page | Was | Now |
 |---|---|---|
@@ -75,10 +75,12 @@ Seven one-off frames on 03 · Pages Desktop were replaced with 2.5 instances. Th
 | Resources | Page-specific / Filterable Index Grid | 2.5 / Insights / Content archive · Paginated (page chips, 5 of 9 resources) |
 | Webinars | Page-specific / Filterable Index Grid | 2.5 / Insights / Filter bar + Webinar card · List (2 of 6 webinars) |
 | Blog | Page-specific / Filterable Index Grid | 2.5 / Cards / Insights feed · Filterable (6 of 9 articles; Sustainability chip dropped) |
+| Data Centers | Page-specific / Card / Standard (grid) | 2.5 / Products / Sub-category card grid, Show heading on ("Data center solutions"), page card copy |
+| Data Centers | Page-specific / Structural Components Strip | 2.5 / Products / Structural components strip, Show heading on ("Structural components") |
 
 How the matches were chosen and checked:
 - Candidates were found by text overlap, then checked by structure. Frames that only shared words were left alone: Homepage, Finishes and Infinite Facade split sections, Podcast, Project Detail.
-- Not swapped: Data Centers · Card / Standard (grid) and Structural Components Strip. They match the Sub-category card grid and Structural components strip, but carry a section heading those components lack. Adding an optional heading to the two components would allow the swap.
+- **Optional heading.** `Sub-category card grid` and `Structural components strip` gained a `Show heading` boolean (off by default) that reveals a two-weight heading block: Heading LG at the grid's 32px gutter, and Heading MD at 72px for the strip. The headline is edited on the canvas, not through a text property, so the keyword run keeps its style.
 - Mobile pages keep their Page-specific frames until mobile 2.5 components exist (noted on each page).
 
 Component fixes made during the swaps:
