@@ -35,3 +35,12 @@ Page order (manifest): About Us, AccelCore, AccelDeck, AccelGen, AccelShell, Arc
 | Logo / Long | set | `6:45` |
 
 Full variant → ID map: `tooling/sets.json` (set name → variant name → node id).
+
+## Figma 2.5 Additions file
+
+File: **Clark Pacific 2.5 Additions**, key `EQ2vqFYpJhDbodciKa3FOj`, Sightbox team.
+
+| Page | ID | Contents |
+|---|---|---|
+| Components · 2.5 Additions | `0:1` | 45 components `2.5 / …` in manifest order (x 0, 240px apart) + `Dev note / …` frames at x ≈ 1520. Test component `2.5 / CTA Decision Panel / Content left · Blue` = `5:16` |
+| Building blocks (from 2.0) | — | Button `2:27`, Text Link `2:78`, Text Link / Card `2:99`, Accent Bar `2:105`, 47 icons (`tooling/a25/registry25.json`) |

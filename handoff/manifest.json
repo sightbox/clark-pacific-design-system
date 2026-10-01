@@ -814,5 +814,517 @@
         "Filterable Index Grid"
       ]
     }
-  ]
+  ],
+  "additions25": {
+    "note": "45 desktop section components added 30 Sep 2026 (Figma 2.5). Not in the 2.0 file. Build each as its own component named exactly as \"name\" — additions only; never modify, merge into, or restructure existing 2.0 components. Mobile variants not yet drawn: build Desktop only and leave Breakpoint=Mobile for a later pass (use reference/cp-static-mobile.js rules if asked).",
+    "source": "source/kits/additions-2.5.html",
+    "components": [
+      {
+        "id": "a25-cta-footer-image-band",
+        "name": "2.5 / CTA / Footer image band",
+        "group": "Content Panels",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Buttons: Primary darkens to #003D84 on hover; outlined buttons get a 12% fill of their outline colour."
+        ],
+        "intent": "Full-bleed photo band with overlaid centered CTA. Blue primary button on dark."
+      },
+      {
+        "id": "a25-split-content-products-intro",
+        "name": "2.5 / Split Content / Products intro",
+        "group": "Content Panels",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Text link: bar fills left → right to the label width on hover, Orange #FF8600, 400ms ease."
+        ],
+        "intent": "Two-Column 50/50. Heading left, body + CTA right. Standard light panel split."
+      },
+      {
+        "id": "a25-split-content-product-detail-spec-table",
+        "name": "2.5 / Split Content / Product detail + spec table",
+        "group": "Content Panels",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [],
+        "intent": "Two-Column with a spec table (label / value rows on hairline dividers). Product photo left."
+      },
+      {
+        "id": "a25-cards-insights-feed-filterable",
+        "name": "2.5 / Cards / Insights feed · Filterable",
+        "group": "Cards & Grids",
+        "interactive": true,
+        "mobile": null,
+        "behavior": [
+          "FILTER. Chips (All / Articles / Podcasts / Webinars) filter the grid by content type; one active at a time, All by default.",
+          "Active chip in Orange. Grid re-flows without a page reload."
+        ],
+        "intent": "New — filterable 3-up grid. Type badges: Article / Podcast / Webinar. Click the filter pills above the grid."
+      },
+      {
+        "id": "a25-carousel-image-content-3-up",
+        "name": "2.5 / Carousel / Image + content · 3-up",
+        "group": "Cards & Grids",
+        "interactive": true,
+        "mobile": null,
+        "behavior": [
+          "CAROUSEL. ‹ › arrows move one card at a time; arrows dim to 30% at either end (no loop).",
+          "Mobile: swipe row with pagination dots."
+        ],
+        "intent": "3 columns separated by 2px white gap. Each column: image → static accent bar (3px, Blue/Orange alternating) → type + date → uppercase bold title → body → Read More. The Read More track runs the full column width for structure; the short accent bar marks the label and fills on hover. Prev/Next arrows navigate. Used on Insights index, Projects index, and featured content strips."
+      },
+      {
+        "id": "a25-carousel-image-content-4-up",
+        "name": "2.5 / Carousel / Image + content · 4-up",
+        "group": "Cards & Grids",
+        "interactive": true,
+        "mobile": null,
+        "behavior": [
+          "CAROUSEL. ‹ › arrows move one card at a time; arrows dim at the ends (no loop).",
+          "Mobile: swipe row with dots."
+        ],
+        "intent": "Same card anatomy as 3-up but four columns. Use on wider content areas."
+      },
+      {
+        "id": "a25-carousel-product-highlights",
+        "name": "2.5 / Carousel / Product highlights",
+        "group": "Cards & Grids",
+        "interactive": true,
+        "mobile": null,
+        "behavior": [
+          "CAROUSEL. Arrows and dots advance the slide; the active dot is the orange 26×6 pill.",
+          "Eyebrow and body copy change with the slide."
+        ],
+        "intent": "Interactive — arrows and dots advance the slide. Use for product highlight reels."
+      },
+      {
+        "id": "a25-lists-product-category-list",
+        "name": "2.5 / Lists / Product category list",
+        "group": "Cards & Grids",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Each item is a link to its product page; hover turns it Orange."
+        ],
+        "intent": "Products index — 4-column. Typos fixed (Infinite Facade, Glass & Glazing)."
+      },
+      {
+        "id": "a25-icon-module-4-col",
+        "name": "2.5 / Icon Module / 4-col",
+        "group": "Cards & Grids",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Static."
+        ],
+        "intent": "Icon + headline + description. 2/3/4-col variants fold behind a layout prop. Maps to Services / Capabilities List component."
+      },
+      {
+        "id": "a25-icon-module-3-col",
+        "name": "2.5 / Icon Module / 3-col",
+        "group": "Cards & Grids",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Static."
+        ],
+        "intent": "Icon + headline + description. 2/3/4-col variants fold behind a layout prop. Maps to Services / Capabilities List component."
+      },
+      {
+        "id": "a25-icon-module-2-col-horizontal",
+        "name": "2.5 / Icon Module / 2-col horizontal",
+        "group": "Cards & Grids",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Static."
+        ],
+        "intent": "Icon + headline + description. 2/3/4-col variants fold behind a layout prop. Maps to Services / Capabilities List component."
+      },
+      {
+        "id": "a25-cta-decision-panel-content-left-blue",
+        "name": "2.5 / CTA Decision Panel / Content left · Blue",
+        "group": "CTAs",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Buttons: Primary darkens to #003D84 on hover; outlined buttons get a 12% fill of their outline colour."
+        ],
+        "intent": "Dimensional CTA — headline + value statement + project image + one primary action. Six orientations: three content-left (image right) and three content-right (image left), across Blue / Dark / White-Light surfaces. Button: white or blue fill per surface; no white text on orange."
+      },
+      {
+        "id": "a25-cta-decision-panel-content-left-dark-charcoal",
+        "name": "2.5 / CTA Decision Panel / Content left · Dark Charcoal",
+        "group": "CTAs",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Buttons: Primary darkens to #003D84 on hover; outlined buttons get a 12% fill of their outline colour."
+        ],
+        "intent": "Dimensional CTA — headline + value statement + project image + one primary action. Six orientations: three content-left (image right) and three content-right (image left), across Blue / Dark / White-Light surfaces. Button: white or blue fill per surface; no white text on orange."
+      },
+      {
+        "id": "a25-cta-decision-panel-content-left-white",
+        "name": "2.5 / CTA Decision Panel / Content left · White",
+        "group": "CTAs",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Buttons: Primary darkens to #003D84 on hover; outlined buttons get a 12% fill of their outline colour."
+        ],
+        "intent": "Dimensional CTA — headline + value statement + project image + one primary action. Six orientations: three content-left (image right) and three content-right (image left), across Blue / Dark / White-Light surfaces. Button: white or blue fill per surface; no white text on orange."
+      },
+      {
+        "id": "a25-cta-decision-panel-content-right-light",
+        "name": "2.5 / CTA Decision Panel / Content right · Light",
+        "group": "CTAs",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Buttons: Primary darkens to #003D84 on hover; outlined buttons get a 12% fill of their outline colour."
+        ],
+        "intent": "Dimensional CTA — headline + value statement + project image + one primary action. Six orientations: three content-left (image right) and three content-right (image left), across Blue / Dark / White-Light surfaces. Button: white or blue fill per surface; no white text on orange."
+      },
+      {
+        "id": "a25-cta-decision-panel-content-right-blue",
+        "name": "2.5 / CTA Decision Panel / Content right · Blue",
+        "group": "CTAs",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Buttons: Primary darkens to #003D84 on hover; outlined buttons get a 12% fill of their outline colour."
+        ],
+        "intent": "Dimensional CTA — headline + value statement + project image + one primary action. Six orientations: three content-left (image right) and three content-right (image left), across Blue / Dark / White-Light surfaces. Button: white or blue fill per surface; no white text on orange."
+      },
+      {
+        "id": "a25-cta-decision-panel-content-right-dark-charcoal",
+        "name": "2.5 / CTA Decision Panel / Content right · Dark Charcoal",
+        "group": "CTAs",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Buttons: Primary darkens to #003D84 on hover; outlined buttons get a 12% fill of their outline colour."
+        ],
+        "intent": "Dimensional CTA — headline + value statement + project image + one primary action. Six orientations: three content-left (image right) and three content-right (image left), across Blue / Dark / White-Light surfaces. Button: white or blue fill per surface; no white text on orange."
+      },
+      {
+        "id": "a25-promo-tagline-statement-band",
+        "name": "2.5 / Promo / Tagline statement band",
+        "group": "CTAs",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Static."
+        ],
+        "intent": "One-Column centered statement. Lead-scale, bold keyword. Sits on white."
+      },
+      {
+        "id": "a25-promo-content-promo-band-podcast",
+        "name": "2.5 / Promo / Content promo band · Podcast",
+        "group": "CTAs",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Band links to the Podcast index.",
+          "Buttons: Primary darkens to #003D84 on hover; outlined buttons get a 12% fill of their outline colour."
+        ],
+        "intent": "New — full-width dark promotional band. Eyebrow + headline left, CTA right. Used on homepage for podcast; works for any content promotion (webinar, guide, event)."
+      },
+      {
+        "id": "a25-promo-content-promo-band-webinar",
+        "name": "2.5 / Promo / Content promo band · Webinar",
+        "group": "CTAs",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Band links to the webinar detail / registration.",
+          "Buttons: Primary darkens to #003D84 on hover; outlined buttons get a 12% fill of their outline colour."
+        ],
+        "intent": "New — full-width dark promotional band. Eyebrow + headline left, CTA right. Used on homepage for podcast; works for any content promotion (webinar, guide, event)."
+      },
+      {
+        "id": "a25-cta-asset-download-block",
+        "name": "2.5 / CTA / Asset download block",
+        "group": "CTAs",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Button downloads the asset directly (spec sheet, guide or whitepaper).",
+          "Buttons: Primary darkens to #003D84 on hover; outlined buttons get a 12% fill of their outline colour."
+        ],
+        "intent": "New — configurable for any spec sheet, guide, or whitepaper. Thumbnail left, description + download CTA right."
+      },
+      {
+        "id": "a25-stats-row-accent-dividers",
+        "name": "2.5 / Stats Row / Accent dividers",
+        "group": "Data Display",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Static."
+        ],
+        "intent": "White background. Dark numerals, gray body, orange accent dividers between sections."
+      },
+      {
+        "id": "a25-project-detail-spec-panel",
+        "name": "2.5 / Project Detail / Spec panel",
+        "group": "Data Display",
+        "interactive": true,
+        "mobile": null,
+        "behavior": [
+          "\"+6\" thumbnail opens a full-screen lightbox gallery.",
+          "Clicking any thumbnail swaps the main photo."
+        ],
+        "intent": "New — structured sidebar for project detail pages. Photo + thumbnail strip left; key/value spec rows + product badges right."
+      },
+      {
+        "id": "a25-careers-open-positions-list",
+        "name": "2.5 / Careers / Open positions list",
+        "group": "Company Pages",
+        "interactive": true,
+        "mobile": null,
+        "behavior": [
+          "FILTER. Department tabs filter the list (underline indicator on the active tab).",
+          "Each job row links out to the posting in the ATS."
+        ],
+        "intent": "Filter tab row (underline indicator) + job rows. Each row: title + dept tag + location + type pill + \"Apply →\" CTA. Interactive — clicking filters shows matching jobs only. Rows on 1px #DEDFE0 dividers."
+      },
+      {
+        "id": "a25-sustainability-sustainable-callout",
+        "name": "2.5 / Sustainability / Sustainable callout",
+        "group": "Company Pages",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Static."
+        ],
+        "intent": "Green keyword — the sanctioned exception (sustainability content). Two-Column 50/50."
+      },
+      {
+        "id": "a25-sustainability-stats-band",
+        "name": "2.5 / Sustainability / Stats band",
+        "group": "Company Pages",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Static. Confirm the 40% cement figure with Clark Pacific before launch."
+        ],
+        "intent": "Converted to the light treatment August 2026 — the dark band is retired, and a stats row carries no CTA, so it is not a sanctioned coloured surface. Same anatomy as the canonical Stats Row (Simple Dividers): white surface between top and bottom #DEDFE0 hairlines, 1px divider between cells, SemiBold Dark Charcoal numerals. The Green accent bar is kept — this is sustainability content."
+      },
+      {
+        "id": "a25-sustainability-epd-credentials-grid",
+        "name": "2.5 / Sustainability / EPD + credentials grid",
+        "group": "Company Pages",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Each credential tile links to its PDF."
+        ],
+        "intent": "Open 2×2 grid on white, 28px gutters (the #F0F0F0 hairline field was retired August 2026 — the fill now sits only on the individual credential boxes, which is the sanctioned use). Each box: white 64×64 icon card (green checkmark) + SemiBold uppercase title + body. Use for third-party certifications, green building contributions, or verified claims."
+      },
+      {
+        "id": "a25-about-timeline-horizontal",
+        "name": "2.5 / About / Timeline · Horizontal",
+        "group": "Company Pages",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Scrolls horizontally at narrow widths; show a fade at the right edge to hint more."
+        ],
+        "intent": "Horizontal milestone strip, horizontally scrollable at narrow widths. Connecting line at node center. Each node: filled circle (filled = key milestone, outline = standard) + year + uppercase title + caption body. First/last nodes use brand colors."
+      },
+      {
+        "id": "a25-about-territory-map",
+        "name": "2.5 / About / Territory map",
+        "group": "Company Pages",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Static image — Clark Pacific to supply the map artwork."
+        ],
+        "intent": "Schematic SVG map: two CA plants (West Sacramento HQ + Woodland), Pacific NW expansion in 2026. Primary service territory shaded Blue, expansion area shaded Orange. Legend + stat callouts to the right. Used on About Us and Contact pages."
+      },
+      {
+        "id": "a25-insights-filter-bar",
+        "name": "2.5 / Insights / Filter bar",
+        "group": "Insights",
+        "interactive": true,
+        "mobile": null,
+        "behavior": [
+          "FILTER. Underline tab row filters the list below; active tab gets the 2px bar."
+        ],
+        "intent": "Underline-indicator tab row. Active tab: #52565A text + 2px bottom border. Inactive: #7F8A92. Used on Webinars, In the News, and Podcast index pages. Horizontally scrollable at narrow widths."
+      },
+      {
+        "id": "a25-insights-webinar-card-list",
+        "name": "2.5 / Insights / Webinar card · List",
+        "group": "Insights",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Whole card links to the webinar detail page. Badge reads On Demand or Upcoming."
+        ],
+        "intent": "Horizontal list card. 320px dark video thumbnail left with play button + \"On Demand\" badge. Right: category tag + title + date (if applicable) + description + \"Watch Now →\". Rows separated by 1px #DEDFE0 dividers. Stacks vertically in a bordered container."
+      },
+      {
+        "id": "a25-insights-content-archive-paginated",
+        "name": "2.5 / Insights / Content archive · Paginated",
+        "group": "Insights",
+        "interactive": true,
+        "mobile": null,
+        "behavior": [
+          "FILTER + SEARCH + PAGINATION. Type chips filter; search narrows; result count updates.",
+          "Numbered pagination with prev/next; prev/next dim at the ends. Page change scrolls to the list top."
+        ],
+        "intent": "Paginated list for In the News and Resources index pages. Search bar + content-type filter chips + result count + sorted row list (thumbnail · type badge · title · date · excerpt · CTA) + numbered pagination. Interactive — filter chips and pagination are JS-driven. 5 items per page."
+      },
+      {
+        "id": "a25-products-sub-category-card-grid",
+        "name": "2.5 / Products / Sub-category card grid",
+        "group": "Product Pages",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Whole card is the link; the underline animates on hover."
+        ],
+        "intent": "2×2 (or 2×1) grid of product sub-category cards. Each: 16:9 photo placeholder + eyebrow (product type) + bold uppercase title + description + animated underline text link. All cards white with a 1px #DEDFE0 outline and 28px gutters — the alternating BG Alt fills and 1px-packed gutters are retired (June 2026)."
+      },
+      {
+        "id": "a25-products-structural-components-strip",
+        "name": "2.5 / Products / Structural components strip",
+        "group": "Product Pages",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Scrolls horizontally when items overflow."
+        ],
+        "intent": "Horizontal scrollable strip inside a bordered container. Each item: 64×64px BG Alt icon cell + SemiBold uppercase label below. 1px #DEDFE0 right dividers. White background, equal column widths. Used on Data Centers page to list structural components (L Beams, R Beams, etc.)."
+      },
+      {
+        "id": "a25-products-product-intro-infinite-facade",
+        "name": "2.5 / Products / Product intro · Infinite Facade®",
+        "group": "Product Pages",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Text link: bar fills left → right to the label width on hover, Orange #FF8600, 400ms ease."
+        ],
+        "intent": "Brand-neutral eyebrow — Infinite Facade® uses the standard palette. Two-Column 50/50 with product imagery, on white."
+      },
+      {
+        "id": "a25-products-finish-grid-infinite-facade",
+        "name": "2.5 / Products / Finish grid · Infinite Facade®",
+        "group": "Product Pages",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "\"View finishes guide\" text link — Orange hover."
+        ],
+        "intent": "Ten finish swatches. \"View finishes guide\" text-link uses the Orange accent bar — left-aligned, fills on hover."
+      },
+      {
+        "id": "a25-stats-row-light-infinite-facade",
+        "name": "2.5 / Stats Row / Light · Infinite Facade®",
+        "group": "Product Pages",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Static."
+        ],
+        "intent": "White background — the only stats surface. The dark stats band is retired (June 2026): all modules sit on white. Extra-large bold numerals (92px), equal column padding, hairline dividers."
+      },
+      {
+        "id": "a25-sustainability-video-bullet-highlights",
+        "name": "2.5 / Sustainability / Video + bullet highlights",
+        "group": "Product Pages",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Play button plays the video inline."
+        ],
+        "intent": "Green keyword — sanctioned exception for sustainability content. Video thumbnail left, bullet points right."
+      },
+      {
+        "id": "a25-sustainability-initiatives-list",
+        "name": "2.5 / Sustainability / Initiatives list",
+        "group": "Product Pages",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Static."
+        ],
+        "intent": "Green applied. Two columns, six distinct sustainability initiatives with icon wells."
+      },
+      {
+        "id": "a25-projects-filter-bar",
+        "name": "2.5 / Projects / Filter bar",
+        "group": "Projects",
+        "interactive": true,
+        "mobile": null,
+        "behavior": [
+          "FILTER + SEARCH. Category chips and Region chips combine (AND). Search narrows further.",
+          "\"Showing N projects\" count updates live; badges use the category colours (Parking Orange, Envelope Blue, Data Centers gray)."
+        ],
+        "intent": "Full-width interactive filter for the Projects index. Search bar first (users frequently search by product name), then product-type pills (filled #52565A = active, #F0F0F0 = inactive) + Region row. Live filtered project count. Grid updates to match. Used at the top of the Projects index page, above the project card grid."
+      },
+      {
+        "id": "a25-projects-project-card-grid",
+        "name": "2.5 / Projects / Project card grid",
+        "group": "Projects",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Whole card is the link; the photo darkens slightly on hover."
+        ],
+        "intent": "4:3 photo with embedded product badge (top-left — category colors: Parking = Orange, Building Envelope / Facades = Blue, Data Centers & Structural = Dark Charcoal until a color is chosen) + 3px Orange accent bar + bold uppercase title + industry · region metadata + \"View Project →\". Used on Projects index and related projects strips."
+      },
+      {
+        "id": "a25-projects-resource-card-4-variants",
+        "name": "2.5 / Projects / Resource card · 4 variants",
+        "group": "Projects",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Video variants: play overlay opens the video in a lightbox. Format badge sits top-left."
+        ],
+        "intent": "3:2 photo with optional video play button overlay + format badge (filled = primary type, outlined = secondary) + product category + uppercase title + excerpt + CTA. Used on Resources index. Format badges: Webinar/Podcast use outlined; Datasheet/Case Study/Guide use filled."
+      },
+      {
+        "id": "a25-projects-featured-blog-post",
+        "name": "2.5 / Projects / Featured blog post",
+        "group": "Projects",
+        "interactive": false,
+        "mobile": null,
+        "behavior": [
+          "Whole block links to the post."
+        ],
+        "intent": "16:9 image left (1.2fr) + right column: \"Featured\" dark badge, category + date, bold title, excerpt, \"Read Article →\". Used at top of Blog index, on white."
+      },
+      {
+        "id": "a25-projects-detail-sidebar-trio",
+        "name": "2.5 / Projects / Detail sidebar trio",
+        "group": "Projects",
+        "interactive": true,
+        "mobile": null,
+        "behavior": [
+          "Photo gallery: thumbnail click swaps the main photo; \"+N\" opens a lightbox.",
+          "Facts & Figures and Project Team are static."
+        ],
+        "intent": "Three sidebar components used together on Project Detail pages: Photo Gallery (main + 5 thumbnails), Facts & Figures spec table, Project Team credits. All use 1px #DEDFE0 border containers with #F0F0F0 header band."
+      },
+      {
+        "id": "a25-projects-overview-accordion-alt-detail",
+        "name": "2.5 / Projects / Overview accordion · Alt detail",
+        "group": "Projects",
+        "interactive": true,
+        "mobile": null,
+        "behavior": [
+          "EXPANDABLE LIST. Three sections — Project Overview, Facts & Figures, Project Team. Click a header to open it; opening one closes the others.",
+          "Project Overview is open on load. Sign flips + → –."
+        ],
+        "intent": "Alternate detail layout: photo gallery left, accordion right (same 1.5/1 split as the sidebar trio). The page leads with an expandable Project Overview — the written project description (not every project has a formal case study) — with Facts & Figures and Project Team collapsed beneath. Opening one section collapses the others. Interactive — click the section headers."
+      }
+    ]
+  }
 }
