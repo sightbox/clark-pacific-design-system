@@ -74,7 +74,7 @@ Each batch call deletes existing frames with the same title before rebuilding, s
 
 ## 7. Figma 2.5 addendum (`a25/`)
 
-Builds the 45 `additions25` components into a fresh file whose 2.0 library isn't available. Run from `tooling/`.
+Builds the 45 `additions25` components, either into a fresh file whose 2.0 library isn't available (the 2.5 Additions file) or into a section of this design-system file. Run from `tooling/`.
 
 | Script | Role |
 |---|---|
@@ -83,9 +83,18 @@ Builds the 45 `additions25` components into a fresh file whose 2.0 library isn't
 | `a25/lib25.js` | converter + `make(PLAN,NOTE,IDX)` (component, description, dev note, stacking); stored in the file as `sharedPluginData('a25','lib')`. `node a25/install.js` re-stores it; `a25/patch.js` emits in-place patches |
 | `a25/build.js` | `node a25/build.js <a25-id>` → one call. Fixes icon colour/weight read from `<svg>` and maps non-Poppins/Inter captions to the placeholder caption style |
 | `a25/batch.js` | `LIMIT=42000 [SKIP=id,…] node a25/batch.js <outdir> [id…]` → packed calls |
+| `a25/fixpass.js` | paste into `use_figma` after the build: replaces the 65/35 stat-divider gradients with two 1px rectangles, puts raw effects on a `Flagged/2.5` effect style, and binds every unstyled text run (exact → nearest 2.0 style → new `Flagged/2.5 · Desktop · …` style). Set `PAGE` / `SECTION` at the top |
 | `a25/shot.js` | `node a25/shot.js <outdir> <a25-id>…` → source screenshots for comparison |
 
 Planner switches used by the addendum (off by default, so the 2.0 pipeline is unchanged): `CP_FLAG_PREFIX` names off-token colours `<prefix> · #HEX NN%` instead of raw values and turns striped FPO textures into `Image placeholder` frames on the nearest 2.0 placeholder fill; `CP_REG` points `extras.js` at another registry. Extract with `node extract-batch.js ../handoff/source/kits/additions-2.5.html ex/a25 1440 a25-`.
+
+**Into the design-system file.** `lib25.js` takes options `{page, section, sx, sy, pad}`, and `batch.js` passes them through `LIBOPTS`. The DS build used `node a25/setup.js styles a25/flagged-ds.txt` for the flagged paints, then:
+
+```
+CP_REG=registry.json LIBOPTS="{page:'02 · Components',section:'2.5 Additions',sx:32792,sy:0,pad:120}" LIMIT=42000 node a25/batch.js <outdir>
+```
+
+followed by `a25/fixpass.js`.
 
 ## Data
 

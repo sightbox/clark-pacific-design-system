@@ -6,7 +6,7 @@ const man=JSON.parse(fs.readFileSync(path.join(T,'../../design_handoff_figma_bui
 const skip=(process.env.SKIP||'').split(',').filter(Boolean);
 if(!ids.length)ids=man.map(c=>c.id).filter(i=>!skip.includes(i));
 const LIMIT=+(process.env.LIMIT||45000);
-const head="const L=await (eval('('+figma.root.getSharedPluginData('a25','lib')+')'))(figma);const R=[];\n";
+const head="const L=await (eval('('+figma.root.getSharedPluginData('a25','lib')+')'))(figma"+(process.env.LIBOPTS?','+process.env.LIBOPTS:'')+");const R=[];\n";
 let cur=[],size=head.length,n=0;const files=[];
 const flush=()=>{if(!cur.length)return;const f=path.join(out,`b${String(++n).padStart(2,'0')}.js`);fs.writeFileSync(f,head+cur.join('')+"return R;");files.push([f,cur.length,size]);cur=[];size=head.length;};
 for(const id of ids){

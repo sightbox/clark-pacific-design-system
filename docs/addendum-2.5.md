@@ -12,12 +12,15 @@ On 30 Sep 2026 Kim found that most of the library's section components never mad
 | Developer notes | `handoff/reference/Figma 2.5 Dev Notes.md` |
 | Kim's guide (HTML + PDF) | `handoff/addendum-2.5/Clark Pacific Figma 2.5 Guide.dc.html` / `.pdf` |
 | Claude Design source frames and full package manifest | `handoff/addendum-2.5/` |
-| Figma build | file **Clark Pacific 2.5 Additions**, key `EQ2vqFYpJhDbodciKa3FOj` (Sightbox team) |
+| Figma build | file **Clark Pacific 2.5 Additions**, key `EQ2vqFYpJhDbodciKa3FOj` (Sightbox team), **and** this design system (`gwXCIJW8u9a6s3txBv30M2`) → 02 · Components → section **2.5 Additions** |
 | Build tooling | `tooling/a25/` (see `tooling/README.md` § 7) |
 
 ## The Figma build
 
-The 45 were built as real components, not imported as frames.
+The 45 were built as real components, not imported as frames, in two places:
+
+1. **In the design-system file** (the main copy): page **02 · Components**, section **2.5 Additions** (`206:1071`) to the right of 05 · Cards & Grids. They use this file's own 2.0 Button, Accent Bar and icons, and are published with the library. Each has its description and dev note. The audit (30 Sep 2026) found no unbound fill, stroke, effect or text, and no overlaps, and the existing sections were untouched.
+2. **In the separate 2.5 Additions file**, which is kept as Kim's working copy for the guide. It's described below.
 
 - **Page `Components · 2.5 Additions`:** the 45 components in manifest order, each named exactly as its manifest `name` (`2.5 / …`), with a yellow dev note (plain frame, `Annotation/*` styles) to its right. Each component's description holds its intent and behaviour.
 - **Page `Building blocks (from 2.0)`:** the 2.0 library isn't published to the Sightbox team, so the file carries copies of what the 45 use: all 26 paint and 81 text styles (from `tokens/source/figma-styles.json`), the Button, Text Link, Text Link / Card and Accent Bar sets (rebuilt from the 2.0 file's structure, hover reactions included) and the 47 icons. Logo / Long was not copied; none of the 45 use it.

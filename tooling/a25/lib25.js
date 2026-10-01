@@ -1,4 +1,4 @@
-async function A25LIB(figma){
+async function A25LIB(figma,opts){opts=opts||{};
 let IMG={};
 const W={200:'ExtraLight',300:'Light',400:'Regular',500:'Medium',600:'SemiBold',700:'Bold'};
 const PS={},TS={};
@@ -138,24 +138,25 @@ async function build(n,parent){
 
 async function make(PLAN,NOTE,IDX){
 scan(PLAN);
-const pg=figma.root.children.find(p=>p.name==='Components · 2.5 Additions');await figma.setCurrentPageAsync(pg);
+const pg=figma.root.children.find(p=>p.name===(opts.page||'Components · 2.5 Additions'));await figma.setCurrentPageAsync(pg);
+let host=pg;const PAD=opts.section?(opts.pad||120):0;if(opts.section){host=pg.children.find(n=>n.type==='SECTION'&&n.name===opts.section);if(!host){host=figma.createSection();host.name=opts.section;pg.appendChild(host);host.x=opts.sx||0;host.y=opts.sy||0;host.resizeWithoutConstraints(3000,1000);}}
 for(const f of fonts){const [family,style]=f.split('|');await figma.loadFontAsync({family,style});}
 for(const s of Object.values(TS))await figma.loadFontAsync(s.fontName);
 await figma.loadFontAsync({family:'Inter',style:'Regular'});await figma.loadFontAsync({family:'Inter',style:'Semi Bold'});
-for(const n of pg.children.filter(n=>n.name===NOTE.title||n.name==='Dev note / '+NOTE.title))n.remove();
+for(const n of host.children.filter(n=>n.name===NOTE.title||n.name==='Dev note / '+NOTE.title))n.remove();
 // annotation styles (dev notes are annotations, not part of the 2.0 system)
 const ensureP=async(name,hex,desc)=>{let s=(await figma.getLocalPaintStylesAsync()).find(x=>x.name===name);if(!s){s=figma.createPaintStyle();s.name=name;s.description=desc;const c=v=>parseInt(hex.slice(v,v+2),16)/255;s.paints=[{type:'SOLID',color:{r:c(1),g:c(3),b:c(5)}}];}return s;};
 const ensureT=async(name,style,size,lh)=>{let s=(await figma.getLocalTextStylesAsync()).find(x=>x.name===name);if(!s){s=figma.createTextStyle();s.name=name;s.fontName={family:'Inter',style};s.fontSize=size;s.lineHeight={unit:'PIXELS',value:lh};s.description='2.5 dev notes only.';}return s;};
 const nf=await ensureP('Annotation/Dev note','#FFF4C7','2.5 dev-note card fill. Annotation only.');
 const ns=await ensureP('Annotation/Dev note border','#EAD87A','2.5 dev-note card border. Annotation only.');
 const tH=await ensureT('Annotation/Dev note title','Semi Bold',14,20),tB=await ensureT('Annotation/Dev note body','Regular',13,19);
-const node=await build(PLAN,pg);
+const node=await build(PLAN,host);
 const comp=figma.createComponentFromNode(node);comp.name=NOTE.title;
 comp.description=NOTE.intent+(NOTE.behavior.length?'\n\nBehaviour:\n- '+NOTE.behavior.join('\n- '):'')+(NOTE.interactive?'\n\nInteractive.':'');
 // stack in manifest order at x=0, 240px apart (heights recorded on the page; run a25/relayout after rebuilds that change height)
-let y=0;const order=JSON.parse(pg.getSharedPluginData('a25','order')||'{}');order[NOTE.id]={i:IDX,h:Math.ceil(comp.height)};pg.setSharedPluginData('a25','order',JSON.stringify(order));
+let y=0;const order=JSON.parse(host.getSharedPluginData('a25','order')||'{}');order[NOTE.id]={i:IDX,h:Math.ceil(comp.height)};host.setSharedPluginData('a25','order',JSON.stringify(order));
 for(const [k,v] of Object.entries(order))if(v.i<IDX)y+=v.h+240;
-comp.x=0;comp.y=y;
+comp.x=PAD;comp.y=y+PAD;
 const card=figma.createAutoLayout('VERTICAL',{name:'Dev note / '+NOTE.title,itemSpacing:10});card.paddingTop=card.paddingBottom=card.paddingLeft=card.paddingRight=20;
 await card.setFillStyleIdAsync(nf.id);card.strokes=[{type:'SOLID',color:{r:0,g:0,b:0}}];await card.setStrokeStyleIdAsync(ns.id);card.strokeWeight=1;
 card.resize(360,card.height);card.counterAxisSizingMode='FIXED';
@@ -164,7 +165,8 @@ await tx(tH,'DEV NOTE · '+NOTE.title.replace(/^2\.5 \/ /,''));
 await tx(tB,NOTE.group+(NOTE.interactive?' · Interactive':'')+' · '+NOTE.id);
 await tx(tB,NOTE.intent);
 for(const b of NOTE.behavior)await tx(tB,'• '+b);
-card.x=comp.width+80;card.y=y;pg.appendChild(card);
+card.x=PAD+comp.width+80;card.y=y+PAD;host.appendChild(card);
+if(host.type==='SECTION'){host.resizeWithoutConstraints(Math.max(...host.children.map(n=>n.x+n.width))+PAD,Math.max(...host.children.map(n=>n.y+n.height))+PAD);}
 return {id:comp.id,note:card.id,w:comp.width,h:comp.height,y,unbound:[...new Set(unbound)].slice(0,40)};
 }
 return {make,build,PS,TS,unbound};
