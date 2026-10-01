@@ -12,14 +12,14 @@ On 30 Sep 2026 Kim found that most of the library's section components never mad
 | Developer notes | `handoff/reference/Figma 2.5 Dev Notes.md` |
 | Kim's guide (HTML + PDF) | `handoff/addendum-2.5/Clark Pacific Figma 2.5 Guide.dc.html` / `.pdf` |
 | Claude Design source frames and full package manifest | `handoff/addendum-2.5/` |
-| Figma build | file **Clark Pacific 2.5 Additions**, key `EQ2vqFYpJhDbodciKa3FOj` (Sightbox team), **and** this design system (`gwXCIJW8u9a6s3txBv30M2`) → 02 · Components → section **2.5 Additions** |
+| Figma build | file **Clark Pacific 2.5 Additions**, key `EQ2vqFYpJhDbodciKa3FOj` (Sightbox team), **and** this design system (`gwXCIJW8u9a6s3txBv30M2`) → 02 · Components → eight **2.5 · <group>** sections |
 | Build tooling | `tooling/a25/` (see `tooling/README.md` § 7) |
 
 ## The Figma build
 
 The 45 were built as real components, not imported as frames, in two places:
 
-1. **In the design-system file** (the main copy): page **02 · Components**, section **2.5 Additions** (`206:1071`) to the right of 05 · Cards & Grids. They use this file's own 2.0 Button, Accent Bar and icons, and are published with the library. Each has its description and dev note. The audit (30 Sep 2026) found no unbound fill, stroke, effect or text, and no overlaps, and the existing sections were untouched.
+1. **In the design-system file** (the main copy): page **02 · Components**, in eight `2.5 · <group>` sections on the second row (see `figma/file-map.md`). They use this file's own 2.0 Button, Accent Bar and icons, and are published with the library. Each has its description and dev note. The audit (30 Sep 2026) found no unbound fill, stroke, effect or text, and no overlaps, and the existing sections were untouched.
 2. **In the separate 2.5 Additions file**, which is kept as Kim's working copy for the guide. It's described below.
 
 - **Page `Components · 2.5 Additions`:** the 45 components in manifest order, each named exactly as its manifest `name` (`2.5 / …`), with a yellow dev note (plain frame, `Annotation/*` styles) to its right. Each component's description holds its intent and behaviour.
@@ -37,11 +37,35 @@ The 45 were built as real components, not imported as frames, in two places:
 7. **Radii** from the source (4px carousel frames, 2px tiles/badges) are kept and flagged here; the 2.0 rule is radius 0 except circles and pills.
 8. Buttons and text links in the 45 are instances only where the source matches a 2.0 variant exactly (2 Buttons, Green Accent Bars, icons). The others (white buttons on blue, 45% outline buttons, text links on a `#000000 10%` track) differ from the 2.0 variants and stay as frames.
 
+## Prototype and editable text (design-system file, 1 Oct 2026)
+
+- **Click interactions.** The 10 interactive components are now component sets whose variants hold each state. Clicks switch variants with Smart Animate.
+  - Insights filter bar: `Tab`.
+  - Insights feed: `Filter`.
+  - Careers list: `Department`. Empty departments show an FPO empty-state line.
+  - Content archive: `Filter` × `Page`. Filters reset to page 1. Pages 2–3 reuse the rows as FPO.
+  - Projects filter bar: `Type` × `Region`, 20 variants. The count and empty state update.
+  - Carousels 3-up and 4-up: `Slide` 1–3. The arrows dim at the ends. Two FPO cards were added to each so there is something to scroll to.
+  - Product highlights: `Slide` 1–5. The dots, arrows, caption and copy change. The copy for slides 2–5 is FPO, taken from the product cards.
+  - Spec panel: `Photo` 1–3 + `Lightbox`. "+6" opens it and ✕ closes it.
+  - Overview accordion: `Open`. One section is open at a time.
+- **Photo gallery.** A new nested set, `2.5 / Projects / Photo gallery` (`Photo` 1–5), is used in the Detail sidebar trio and the Overview accordion. Thumbnails swap the photo, and clicking the photo advances.
+- **Search fields** aren't prototyped.
+- **Editable text.** Every 2.5 component has text properties named by item and role, e.g. `Card 2 · Heading`, `Tab 3 · Label` or `Body`. There are 524 in total.
+  - Two-weight keyword headlines are not properties, following the 2.0 rule: binding would flatten the keyword run.
+  - Text that changes between variants (counts, slide copy, captions) stays on the layer.
+  - Nested 2.0 Button / Text Link instances are exposed, so their labels can be edited from the parent.
+- **Fixes made at the same time:**
+  - Carousel arrows now sit inside the 72px gutters (they were off-frame).
+  - Facts & Figures label/value rows have their spacing.
+  - Stats Row · Light · Infinite Facade® dividers are on the right edge of cells 1–3, as in the source.
+  - These three fixes are not in the separate 2.5 Additions file.
+- **Tooling:** `tooling/a25/ix.js`, stored in the file as `sharedPluginData('a25','ix')`.
+
 ## Not done yet
 
-- Prototype interactions for the 11 interactive components (accordion, filter chips, carousel dots).
-- Text component properties.
 - Mobile versions (none drawn yet).
+- The same interactions, text properties and fixes in the separate 2.5 Additions file (kept as-is for Kim's guide).
 
 ## Open questions
 
