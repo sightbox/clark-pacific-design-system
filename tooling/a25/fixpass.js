@@ -1,4 +1,4 @@
-// Fix pass for the 45 2.5 components. Set PAGE (and SECTION when they sit in a section).
+// Fix pass for the 2.5 components. Set PAGE and SECTION (since 1 Oct 2026 the DS file splits them into '2.5 · <group>' sections — run once per section).
 const PAGE='02 · Components',SECTION='2.5 Additions';
 const pg=figma.root.children.find(p=>p.name===PAGE);await figma.setCurrentPageAsync(pg);
 const host=SECTION?pg.children.find(n=>n.type==='SECTION'&&n.name===SECTION):pg;
