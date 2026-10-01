@@ -74,6 +74,7 @@ async function A25IX(figma,opts){
   function role(t){
     const nm=typeof t.textStyleId==='string'?(SN[t.textStyleId]||''):'';
     if(t.parent&&t.parent.name==='cp-textlink')return 'Link';
+    const pf=t.parent;if(pf&&pf.type==='FRAME'&&pf.fills&&pf.fills.length&&pf.height<40&&pf.children.length===1&&!/Display|Heading/.test(nm))return 'Badge';
     if(/Display|Heading|Lead|Quote/.test(nm))return 'Heading';
     if(/Eyebrow/.test(nm))return 'Eyebrow';
     if(/Button|Link/.test(nm))return 'Link';
@@ -82,29 +83,42 @@ async function A25IX(figma,opts){
     if(/Placeholder/.test(nm))return 'Placeholder';
     return 'Label';
   }
-  const similar=(a,b)=>a!==b&&a.type===b.type&&a.name===b.name&&('children' in a)&&('children' in b)&&((a.children.length===b.children.length&&Math.abs(a.height-b.height)<a.height*0.6+8)||(a.parent.layoutMode==='HORIZONTAL'&&Math.abs(a.height-b.height)<a.height*0.3+4));
+  const ntext=n=>n.findAllWithCriteria?n.findAllWithCriteria({types:['TEXT']}).length:0;
+  const similar=(a,b)=>{if(a===b||a.type!==b.type||a.name!==b.name||!('children' in a)||!('children' in b))return false;const h=Math.min(a.height,b.height),d=Math.abs(a.height-b.height);
+    return (a.children.length===b.children.length&&d<h*0.6+8)||(a.parent.layoutMode==='HORIZONTAL'&&d<h*0.3+4);};
+  // {node,label,tab}: innermost repeated ancestor. >=60px repeated 2+ times = Card/Item; <60px single-text chips repeated 3+ times = Tab.
   function item(t,root){
     let n=t.parent;
-    while(n&&n!==root){const p=n.parent;if(p&&n.type!=='TEXT'){const sib=p.children.filter(c=>c===n||similar(c,n));
-      if(sib.length>=2){const hasImg=n.findOne&&n.findOne(x=>x.name==='Image placeholder');const kind=hasImg?'Card':(n.height<60&&n.width<260?'Tab':'Item');return kind+' '+(sib.indexOf(n)+1);}}
+    while(n&&n!==root){const p=n.parent;if(p&&n.type!=='TEXT'){const sib=p.children.filter(c=>c===n||similar(c,n));const k=sib.length,i=sib.indexOf(n)+1;
+      if(n.height>=60&&k>=2){const img=n.findOne&&n.findOne(x=>x.name==='Image placeholder');return {node:n,label:(img?'Card ':'Item ')+i,tab:false};}
+      if(n.height<60&&k>=3&&sib.every(s=>ntext(s)===1))return {node:n,label:'Tab '+i,tab:true};}
       n=p;}
-    return '';
+    return {node:root,label:'',tab:false};
   }
+  // Text properties: one per single-style text present (same content) in every variant.
+  // Names: "<Card|Tab|Item> N · <role>"; within an item the largest text is "Title", a 2nd Label is "Meta".
   async function textProps(node){
     const vars=node.type==='COMPONENT_SET'?[...node.children]:[node];
     const keyed=v=>{const m=new Map(),seen={};for(const t of texts(v)){if(inInstance(t,v))continue;const c=t.characters;seen[c]=(seen[c]||0)+1;m.set(c+'#'+seen[c],t);}return m;};
-    const maps=vars.map(keyed);const base=maps[0];const used={};let n=0,skipped=0;
+    const maps=vars.map(keyed);const base=maps[0];let skipped=0;
+    const groups=new Map();
     for(const [k,t] of base){
       const c=t.characters.trim();
-      if(c.length<2||GLYPH.has(c)){continue;}
+      if(c.length<2||GLYPH.has(c))continue;
       if(t.getStyledTextSegments(['textStyleId']).length>1){skipped++;continue;}
       if(!maps.every(m=>m.has(k))){skipped++;continue;}
       if(t.componentPropertyReferences&&t.componentPropertyReferences.characters)continue;
-      const it=item(t,vars[0]);let name=(it?it+' · ':'')+role(t);
-      if(used[name]){used[name]++;name=name+' '+used[name];}else used[name]=1;
-      const key=node.addComponentProperty(name,'TEXT',t.characters);
-      for(const m of maps)m.get(k).componentPropertyReferences={characters:key};
-      n++;
+      const io=item(t,vars[0]);const g=groups.get(io.node)||{label:io.label,tab:io.tab,list:[]};g.list.push([k,t,role(t)]);groups.set(io.node,g);
+    }
+    let n=0;const used={};
+    const gl=[...groups.values()].sort((a,b)=>{const ay=a.list[0][1].absoluteBoundingBox,by=b.list[0][1].absoluteBoundingBox;return (ay.y-by.y)||(ay.x-by.x);});
+    for(const g of gl){
+      if(g.tab){for(const r of g.list)r[2]='Label';}
+      else if(g.label){const cand=g.list.filter(r=>!['Link','Badge','Placeholder'].includes(r[2]));if(cand.length>1){const big=cand.reduce((a,b)=>(b[1].fontSize>a[1].fontSize?b:a));big[2]='Title';}
+        let lab=0;for(const r of g.list)if(r[2]==='Label'){lab++;if(lab>1)r[2]='Meta';}}
+      for(const [k,t,r] of g.list){let name=(g.label?g.label+' \u00b7 ':'')+r;if(used[name]){used[name]++;name+=' '+used[name];}else used[name]=1;
+        const key=node.addComponentProperty(name,'TEXT',t.characters);
+        for(const m of maps)m.get(k).componentPropertyReferences={characters:key};n++;}
     }
     return {props:n,skipped};
   }
