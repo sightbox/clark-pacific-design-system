@@ -85,6 +85,8 @@ Builds the 45 `additions25` components, either into a fresh file whose 2.0 libra
 | `a25/batch.js` | `LIMIT=42000 [SKIP=id,…] node a25/batch.js <outdir> [id…]` → packed calls |
 | `a25/fixpass.js` | paste into `use_figma` after the build: replaces the 65/35 stat-divider gradients with two 1px rectangles, puts raw effects on a `Flagged/2.5` effect style, and binds every unstyled text run (exact → nearest 2.0 style → new `Flagged/2.5 · Desktop · …` style). Set `PAGE` / `SECTION` at the top |
 | `a25/ix.js` | interactions + text-property helpers (`variants`, `tabs`, `click`, `setText`, `emptyState`, `textProps`, `relayout`), stored as `sharedPluginData('a25','ix')`; load with `eval` like the converter |
+| `a25/extract-mobile.js` | `node a25/extract-mobile.js [ex/a25m] [shotsDir]` → 390 extraction using `handoff/reference/cp-static-mobile.js` plus per-component fixes; `CP_BP=Mobile node a25/build.js <id>` plans one mobile variant |
+| `a25/mbatch.js` / `a25/mob.js` | mobile batch packer and the stored helper (`sharedPluginData('a25','mob')`) that turns a component into a Breakpoint set or adds mobile state variants to an existing set |
 | `a25/shot.js` | `node a25/shot.js <outdir> <a25-id>…` → source screenshots for comparison |
 
 Planner switches used by the addendum (off by default, so the 2.0 pipeline is unchanged): `CP_FLAG_PREFIX` names off-token colours `<prefix> · #HEX NN%` instead of raw values and turns striped FPO textures into `Image placeholder` frames on the nearest 2.0 placeholder fill; `CP_REG` points `extras.js` at another registry. Extract with `node extract-batch.js ../handoff/source/kits/additions-2.5.html ex/a25 1440 a25-`.

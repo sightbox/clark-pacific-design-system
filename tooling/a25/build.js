@@ -12,8 +12,9 @@ const id = process.argv[2];
 const man = JSON.parse(fs.readFileSync(path.join(T, '../../design_handoff_figma_build/manifest.json'))).additions25.components;
 const idx = man.findIndex(c => c.id === id); if (idx < 0) throw new Error('not in manifest: ' + id);
 const m = man[idx];
-const tree = JSON.parse(fs.readFileSync(path.join(T, 'ex/a25', id + '.json')));
-const { plan: p, warnings } = plan(tree, { bp: 'Desktop', name: m.name });
+const BP = process.env.CP_BP || 'Desktop'; // Mobile: reads ex/a25m (a25/extract-mobile.js) and binds Mobile/* text styles
+const tree = JSON.parse(fs.readFileSync(path.join(T, BP === 'Mobile' ? 'ex/a25m' : 'ex/a25', id + '.json')));
+const { plan: p, warnings } = plan(tree, { bp: BP, name: m.name });
 // icons whose stroke colour/weight sit on the <path>s read as black / 0 from the <svg>: the paths are Dark Charcoal at the icon's own weight
 // placeholder captions set in system monospace fonts -> the 2.0 placeholder caption style (Inter)
 (function fixFonts(n) { if (n.t === 'T' && n.ff && !['Poppins', 'Inter'].includes(n.ff)) { n.ff = 'Inter'; n.fw = 400; n.s = 'Utility/Placeholder Caption'; } (n.k || []).forEach(fixFonts); })(p);
