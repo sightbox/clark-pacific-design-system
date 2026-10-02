@@ -121,6 +121,17 @@ Tooling:
 - `a25/mbatch.js`: packs plain components.
 - `a25/mob.js`: stored as `sharedPluginData('a25','mob')`; `addPlain`, `addToSet`, `bindProps`, `layoutSet`.
 
+## Pages rebuilt from the library (1 Oct 2026)
+
+Both page sets (03 · Pages Desktop, 04 · Pages Mobile) were rebuilt so every section is a library instance: 720 sections, no `Page-specific / …` frames, and each desktop page has the same sections as its mobile twin. Full detail and per-batch tables are in `docs/build-log.md` §7–§11.
+
+- **Rule used:** extend or add a component when a layout appears on three or more pages; otherwise trim the copy to fit an existing one.
+- **2.0 brought up to 2.5 standard:** Mobile variants rebuilt from the Desktop designs (Featured Resources, Resource Card, Related Content Row, Project Card, Timeline, Core Values, Assembly + Specifications, Image Gallery slides, Process Steps, System Overview + Materials); Split Content mobile gained the Eyebrow property; Process Steps gained Show heading + Heading; Project Card gained Show category.
+- **New sets for repeating layouts:** Feature list + media (Check / Dot / Number / Chips, media left or right) and Card grid (2-up, 1-up on mobile), both in 03 · Content Panels.
+- **Every other panel became a component** in the new section **04 · Page panels** (42 sets, Desktop + Mobile each, a text property per single-style text layer). Builder: `tooling/a25/panel.js` (stored in the file as `a25/panel`).
+- **Originals** are kept in the "Replaced page-specific frames · 1 Oct 2026" sections on 05 and 06 Page References.
+- **Checks:** acceptance run clean on all six pages (0 unbound text, no off-palette, no detached instances; the only unbound fills are mask vectors inside imported icons and the white diagonal lines in the dark editorial headers); overlap/spill scan clean on both breakpoints.
+
 ## Not done yet
 
 - The same interactions, text properties and fixes in the separate 2.5 Additions file (kept as-is for Kim's guide).

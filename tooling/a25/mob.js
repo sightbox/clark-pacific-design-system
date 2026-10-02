@@ -55,5 +55,14 @@ async function A25MOB(figma){
     return {name,mobiles:mobs.length,bound,miss:[...new Set(miss)].slice(0,8),exposed:ex};
   }
   async function click(node,dest,dur){await node.setReactionsAsync([{trigger:{type:'ON_CLICK'},actions:[{type:'NODE',destinationId:dest.id,navigation:'CHANGE_TO',transition:{type:'SMART_ANIMATE',easing:{type:'EASE_OUT'},duration:dur||0.3},preserveScrollPosition:false}]}]);}
-  return {L,pg,find,texts,keyed,buildMobile,bindProps,expose,layoutSet,addPlain,addToSet,click,fontsFor};
+  // 2.0 sets: build a variant from PLAN and put it in set `setName` as `name`, replacing an existing variant of that name
+  // (only if the old one has no instances). Returns {c, old, instances}.
+  async function buildVariant(PLAN,setName,name){
+    const S=find(setName);if(!S||S.type!=='COMPONENT_SET')throw new Error('no set '+setName);
+    const old=S.children.find(v=>v.name===name);let inst=0;if(old){inst=(await old.getInstancesAsync()).length;}
+    const c=await buildMobile(PLAN,S.parent);c.name=old?name+' (new)':name;S.appendChild(c);
+    if(old&&!inst){old.remove();c.name=name;}
+    return {c,set:S,oldKept:!!(old&&inst),instances:inst};
+  }
+  return {L,pg,find,buildVariant,texts,keyed,buildMobile,bindProps,expose,layoutSet,addPlain,addToSet,click,fontsFor};
 }
