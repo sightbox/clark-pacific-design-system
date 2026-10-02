@@ -63,7 +63,7 @@ table.ix tr { break-inside: avoid; }
 
 <!-- STEP 1 -->
 <div class="step"><span>01</span><h2>Find them</h2></div>
-<p class="p">Open the <strong>02 · Components</strong> page. It now has two rows. The top row is your existing library, in order from <strong>00 · Primitives</strong> to <strong>08 · Forms</strong>. The second row holds the new components in eight sections whose names start with <strong>2.5 ·</strong>. Each component has a yellow dev note beside it for your developers.</p>
+<p class="p">Open the <strong>02 · Components</strong> page. It now has two rows. The top row is your existing library, in order from <strong>00 · Primitives</strong> to <strong>08 · Forms</strong>. The second row holds the new components in eight sections whose names start with <strong>2.5 ·</strong>. Each component has a yellow dev note beside it for your developers. Below those sits a third group, <strong>04 · Page panels</strong>: 42 panels that used to be one-off frames on the pages (contact form, locations, article body, podcast and webinar pieces and so on). They behave like every other component.</p>
 <div class="stage">
   <div style="font-family: 'Inter', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 0.1em; color: #7F8A92; margin-bottom: 6px;">TOP ROW · YOUR EXISTING LIBRARY</div>
   <div style="display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: 6px;">
@@ -187,6 +187,16 @@ table.ix tr { break-inside: avoid; }
 <!-- STEP 7 -->
 <div class="step"><span>07</span><h2>If something goes wrong</h2></div>
 <p class="p">For a single slip, press <span class="k">⌘ Z</span>. For anything bigger: <strong>File → Show version history</strong>, find the last version saved before the problem, click the <strong>•••</strong> beside it and choose <strong>Restore this version</strong>. Then message Nathan.</p>
+
+<!-- STEP 8 -->
+<div class="step"><span>08</span><h2>The pages now use the library</h2></div>
+<p class="p">On <strong>03 · Pages Desktop</strong> and <strong>04 · Pages Mobile</strong> every section is now an instance of a library component. Nothing is a one-off frame any more, and each desktop page has the same sections as its mobile twin.</p>
+<ul class="p" style="margin: 8px 0 0 18px; padding: 0;">
+  <li><strong>To change copy:</strong> click the section, then edit the text fields in the right-hand panel. Headings with bold keywords are edited on the layer itself (double-click into the instance).</li>
+  <li><strong>Two new sets</strong> were added for layouts that repeat: <strong>Feature list + media</strong> (a list with check, dot, number or chip markers beside a photo) and <strong>Card grid</strong> (a heading and a grid of photo cards). Both sit in <strong>03 · Content Panels</strong>.</li>
+  <li><strong>Mobile</strong> versions of Featured Resources, Related Content Row, Timeline, Core Values, Assembly + Specifications, Image Gallery and Process Steps were rebuilt to match the desktop designs. Process Steps also has an optional heading.</li>
+  <li><strong>The old frames</strong> were kept: the sections called <em>Replaced page-specific frames</em> on 05 and 06 Page References hold the originals, in case you want to compare.</li>
+</ul>
 
 <div style="margin-top: 28px; padding-top: 18px; border-top: 1px solid #DEDFE0; font-family: 'Inter', sans-serif; font-size: 13px; line-height: 20px; color: #52565A; break-inside: avoid;"><strong>For your developers:</strong> send them <strong>Figma 2.5 Dev Notes</strong>. It covers these 45 plus the modules already in your file, including the expandable FAQ list (click a question to open its answer, one open at a time). Mobile versions of the 45 are still to come. Questions, or anything that looks wrong: message Nathan before changing a component.</div>
 

@@ -9,10 +9,12 @@ const src = fs.readFileSync(path.join(T, 'extract.js'), 'utf8');
 const fn = eval(src.slice(src.indexOf('const tree = await page.evaluate((sel) => {') + 'const tree = await page.evaluate('.length, src.indexOf('}, selector);') + 1));
 const rules = fs.readFileSync(path.join(T, '../handoff/reference/cp-static-mobile.js'), 'utf8')
   .replace('root.cpStaticMobile = function', 'root.cpMobilize = mobilize; root.cpStaticMobile = function');
-const file = path.join(T, '../handoff/source/kits/additions-2.5.html');
+const file = process.env.KIT ? path.resolve(process.env.KIT) : path.join(T, '../handoff/source/kits/additions-2.5.html');
+const IDRE = new RegExp('id="(' + (process.env.IDPRE || 'a25-') + '[^"]*)"', 'g');
 (async () => {
   const outdir = path.resolve(T, process.argv[2] || 'ex/a25m'), shots = process.argv[3];
-  const ids = [...new Set([...fs.readFileSync(file, 'utf8').matchAll(/id="(a25-[^"]*)"/g)].map(m => m[1]))];
+  let ids = [...new Set([...fs.readFileSync(file, 'utf8').matchAll(IDRE)].map(m => m[1]))];
+  if (process.env.IDS) ids = process.env.IDS.split(',');
   const b = await chromium.launch({ channel: 'chrome' });
   const p = await b.newPage({ viewport: { width: 390, height: 1000 }, deviceScaleFactor: 2 });
   await p.goto('file://' + file); await p.evaluate(() => document.fonts.ready);

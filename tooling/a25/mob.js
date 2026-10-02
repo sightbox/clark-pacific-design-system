@@ -55,5 +55,22 @@ async function A25MOB(figma){
     return {name,mobiles:mobs.length,bound,miss:[...new Set(miss)].slice(0,8),exposed:ex};
   }
   async function click(node,dest,dur){await node.setReactionsAsync([{trigger:{type:'ON_CLICK'},actions:[{type:'NODE',destinationId:dest.id,navigation:'CHANGE_TO',transition:{type:'SMART_ANIMATE',easing:{type:'EASE_OUT'},duration:dur||0.3},preserveScrollPosition:false}]}]);}
-  return {L,pg,find,texts,keyed,buildMobile,bindProps,expose,layoutSet,addPlain,addToSet,click,fontsFor};
+  // 2.0 sets: build a variant from PLAN and put it in set `setName` as `name`, replacing an existing variant of that name
+  // (only if the old one has no instances). Returns {c, old, instances}.
+  async function buildVariant(PLAN,setName,name){
+    const S=find(setName);if(!S||S.type!=='COMPONENT_SET')throw new Error('no set '+setName);
+    const old=S.children.find(v=>v.name===name);let inst=0;if(old){inst=(await old.getInstancesAsync()).length;}
+    const c=await buildMobile(PLAN,S.parent);c.name=old?name+' (new)':name;S.appendChild(c);
+    if(old&&!inst){old.remove();c.name=name;}
+    return {c,set:S,oldKept:!!(old&&inst),instances:inst};
+  }
+  // replace one-off cp-textlink frames by the shared hover link instances
+  async function convertLinks(v){const link=pg.findOne(n=>n.type==='COMPONENT_SET'&&n.name==='2.5 / Text link');const labelKey=Object.keys(link.componentPropertyDefinitions).find(k=>k.startsWith('Label#'));
+    const TSN={};for(const s of await figma.getLocalTextStylesAsync())TSN[s.id]=s.name;const PSN={};for(const s of await figma.getLocalPaintStylesAsync())PSN[s.id]=s.name;
+    const SM={'Desktop/Button':'Desktop Button','Mobile/Eyebrow':'Mobile Eyebrow','Desktop/Eyebrow Small':'Desktop Eyebrow Small','Mobile/Eyebrow Small':'Mobile Eyebrow Small','Desktop/Label':'Desktop Label','Mobile/Label':'Mobile Label','Mobile/Button':'Mobile Eyebrow'};let n=0;
+    for(const f of v.findAll(x=>x.type==='FRAME'&&x.name==='cp-textlink')){const t=f.children[0],tr=f.children[1],bar=tr&&tr.children[0];const st=SM[TSN[t.textStyleId]];if(!st||!bar)continue;
+      const light=PSN[tr.fillStyleId]==='Track/Light';const nm='Style='+st+', Track='+(light?'Light':'Hairline')+', Rest='+(bar.width>1?'Short':'None')+', State=Default';const main=link.children.find(x=>x.name===nm);if(!main)continue;
+      const inst=main.createInstance();const p=f.parent;p.insertChild(p.children.indexOf(f),inst);const hs=f.layoutSizingHorizontal;inst.setProperties({[labelKey]:t.characters});if(hs==='FILL')inst.layoutSizingHorizontal='FILL';inst.isExposedInstance=true;f.remove();n++;}
+    return n;}
+  return {L,pg,find,buildVariant,convertLinks,texts,keyed,buildMobile,bindProps,expose,layoutSet,addPlain,addToSet,click,fontsFor};
 }

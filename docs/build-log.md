@@ -44,3 +44,95 @@ Overview, Color, Typography, Added styles, Layout, Buttons & links — generated
 - An overflow check that only looks at clipping frames misses text spilling out of fixed-height, non-clipping containers.
 - Imported (html.to.design) frames bake hard line breaks and fixed widths into text; clean them before reusing the layers.
 - Plugin API cannot save versions, publish libraries or set the file thumbnail — those are manual.
+
+
+## 6. 2.5 acceptance run (1 Oct 2026)
+
+Run after the 2.5 additions, mobile variants and page swaps (`/cp-acceptance`):
+
+- **Styles.** Unbound text 0 on both page sets after `rebind.js` (4 stray runs per breakpoint were repaired). Unbound fills 0 on 02 · Components. The only remaining flags are logo-artwork vectors inside Header instances (exempt by design). No Bold 700, no detached instances, no orange text on dark.
+- **Radius.** 36 on 02 · Components, all in the 2.5 sets (2px tiles, 4px carousel frames), flagged in `docs/addendum-2.5.md`.
+- **Overlap and spill.** 0 overlaps and 0 spills on Desktop and Mobile. One spill (EPD tile copy on Mobile / Sustainability) was fixed in the component: the tiles now hug their content, as do the Icon Module 3-col and Stats band mobile variants.
+- **Component sets.** All 88 sets with a `Breakpoint` property have both Desktop and Mobile, including all 46 of the 2.5 sets.
+- **Page structure.** Every section on both page sets is an instance or a `Page-specific /` frame. Mobile pages carry two more top-level sections than their Desktop twins (the split Announcement Bar and Header), as before.
+
+## 7. Page rebuild · Batch 1 — mobile fallbacks (1 Oct 2026)
+
+Mobile page frames that were `Page-specific / …` copies of sections the desktop pages already use as library instances were swapped to instances. The 2.0 Mobile variants were rebuilt where they were condensed designs, by cloning the Desktop variant and restyling it with Mobile text styles (same text properties, so desktop and mobile copy move together). Originals are kept in `06 · Page References · Mobile` → "Replaced page-specific frames · 1 Oct 2026".
+
+| Component | Mobile variant change | Mobile pages swapped |
+|---|---|---|
+| Featured Resources | Rebuilt: heading + 3 stacked cards (Show item 1–3 kept) | 8 |
+| Resource Card | Mobile = full card (photo, bar, type, title, body, link) | — |
+| Related Content Row | Rebuilt from Desktop; stacked Project Cards | 7 |
+| Project Card | Mobile Default = full card (category, title, meta, link) | — |
+| Timeline | Rebuilt: left spine, year, card per milestone | 1 (About Us) |
+| Core Values | Rebuilt: stacked values with marker | 1 (About Us) |
+| Assembly + Specifications | Rebuilt: photo, spec list, project types (benefit props removed) | 2 (AccelDeck, Architectural Precast) |
+| Image Gallery | Rebuilt 5 slide variants: heading, label, photo, thumbs, caption | 3 |
+| Split Content | Mobile Image left/right and 40/60 variants gain the Eyebrow property | 12 |
+
+Not swapped (the desktop twin is also page-specific): Parking "Watch Now" section, AccelShell and GFRC Assembly + Specs, Careers Core Values, the page-specific Split Content frames. These are Batch 3/4 candidates. Benefits Grid Mobile left as is (already an instance on Careers).
+
+Checks after the batch: text overlap and spill scan clean on both breakpoints; 0 unbound text on the Mobile pages.
+
+## 8. Page rebuild · Batch 2 — swaps to existing components (1 Oct 2026)
+
+| Section | Replaced with | Pages |
+|---|---|---|
+| Projects Photo Mosaic (page copy was photo + title + description cards) | Related Content Row (Project Card; new **Show category** boolean on Project Card hides the category line) | Architectural Precast, Building Envelope, GFRC, Infinite Facade, PARC, Parking · Desktop + Mobile |
+| Tagline Statement Band | 2.5 / Promo / Tagline statement band (supporting paragraph trimmed) | Design Build · D + M |
+| Process Steps (with heading) | Process Steps — gained optional **Show heading** + **Heading** properties; Mobile variant rebuilt with 3 stacked steps | Data Centers · D + M |
+| Full Swatch Grid | 2.5 / Products / Finish grid (card descriptions trimmed, intro moves below the grid) | Finishes · D + M |
+| System Overview + Materials (mobile) | System Overview + Materials; Mobile variant rebuilt from Desktop | Infinite Facade · M |
+
+Reviewed and left page-specific (no component matches yet): Latest Episode Featured (player layout), Locations (plant list with tabs), Form / Contact (form left, direct-contact sidebar right), Main Content + Sidebar, Leadership grid (4-column, board list), Filterable Index Grid frames (episode list, webinar cards, homepage insights), Comparison Table (AccelDeck desktop), Section Divider (1px rule). These move to Batch 4.
+Homepage note: the desktop page uses the project Filterable Index Grid for what is an insights teaser; fix with the Batch 4 component.
+Checks: overlap/spill scan clean; 0 unbound fills; 0 unbound text except the 14th character (arrow glyph) in two hover labels.
+
+## 9. Page rebuild · Batch 3 — Split Content leftovers, Icon Grid, Card grid (1 Oct 2026)
+
+Two new components in `02 · Components` → 03 · Content Panels, built for layouts that repeat on three or more pages:
+
+| New component | Variants / properties | Replaces page-specific frames on |
+|---|---|---|
+| **Feature list + media** | List style (Check / Dot / Number / Chips) × Media (Right / Left, desktop) + Mobile stack; Eyebrow, Body, Body 2 (+ Show), Item 1–7 (+ Show), Photo caption, Show link (+ exposed link) | NetZero (check), Parking (dot + link), Careers (dot), AccelShell (chips), Our Approach ×2 (number; chips with media left), Lab Solutions mobile (chips) |
+| **Card grid** | Desktop 2-up / Mobile 1-up; Card 1–4 Label, Title, Body, Photo caption, Show card; exposed link per card | Building Envelope, Parking, Structural Solutions · Desktop + Mobile |
+
+Existing components reused: **Process Steps** (Show heading, all-light steps) for the Structural Solutions numbered columns; **Icon Grid** Mobile for Building Envelope (mobile frame was a copy of what desktop already uses).
+
+Trimmed copy: Our Approach numbered items merge title and caption ("Title — caption"); Parking's video media is a photo placeholder; Careers' four-photo grid is one photo; NetZero keeps its green eyebrow as an instance override; line breaks in imported copy removed.
+
+Left page-specific (single-page layouts): Infinite Facade configuration cards, finish thumbnails and performance card; NetZero stat cards; Lab Solutions stat band and two-column spec; AccelCore and AccelGen card lists; Design Assist chip grid and nine-icon grid; Trade Partner chip grid; Architectural Precast cards beside check list; Homepage intro. Candidates for a later pass if they start repeating.
+Checks: overlap/spill clean; no new unbound fills/text; no detached instances.
+
+## 10. Page rebuild · Batch 4 — every remaining page panel is a component (1 Oct 2026)
+
+Every remaining `Page-specific / …` frame is now a library component, so all 720 page sections (desktop + mobile) are instances. Each panel became a component set with Breakpoint = Desktop / Mobile, built from the page design itself (same layout and copy), with a text property for every single-style text layer (`Eyebrow 1`, `Body 3`, `Title 2`, …). Multi-style headings keep their keyword runs and are edited on the layer. They live in `02 · Components` → **04 · Page panels** (stored builder: `a25/panel`, repo copy to follow).
+
+42 sets: Contact form + sidebar · Locations list · Finish Categories · Glazing Configurations · Performance Standards · Section Divider · Assembly + Specifications (AccelShell, GFRC) · Icon Grid (Value cards, Project goals) · Core Values · Careers · Benefits Grid · Careers · Comparison Table · Diagrams · Split Content variants (Design services list, System configurations, Finish options, Performance standards, Stat band, Design freedom + specs, Products intro list, Critical infrastructure list, Accel system cards, NetZero stats, Partner criteria) · Article Body (Article, News release) · Leadership grid · Team, Leadership list · Board · Featured Resources · Watch now · Editorial header (dark) (Podcast episode, Webinar) · Episode Body · Episode list (More episodes, All episodes) · Latest Episode Featured · Main Content + Sidebar · Two Paths · Contact promo · Questions · Video + Sidebar · Webinar list · More webinars · Project Title + Location Band · Insights teaser (Homepage; the desktop page previously used the project Filterable Index Grid for this content).
+
+Method notes: hard line breaks in imported copy were removed so text wraps naturally; over-wide one-liners were switched to wrap; Benefits Grid · Careers and Comparison Table · Diagrams keep the page's existing 2.0 mobile instance (their mobile variant was copied from it).
+Checks: overlap/spill scan clean on both breakpoints; page structure check: 0 page-specific frames, every section an instance, desktop/mobile section counts match; every Breakpoint set has Desktop and Mobile; 0 unbound text on pages; remaining unbound fills are mask vectors inside imported icons; gradient overlays on the dark editorial header are still raw gradients (bind to an Overlay style in a later pass).
+
+## 11. Page rebuild · Batch 5 — final acceptance (1 Oct 2026)
+
+Acceptance run on all six pages after the library was published:
+
+| Page | Unbound fill | Unbound text | Off-palette | Orange on dark | Detached |
+|---|---|---|---|---|---|
+| 00 · Cover | 0 | 0 | 0 | 0 | 0 |
+| 138 · Guide | 0 | 0 | 0 | – | 0 |
+| 01 · Foundations | 0 | 0 | 0 | – | 0 |
+| 02 · Components | 4 (mask vectors in imported icons) | 2 (arrow glyph in hover labels) | 0 | 0 | 0 |
+| 03 · Pages Desktop | 2 (mask vectors) | 0 | 2 (black icon mask vectors) | 0 | 0 |
+| 04 · Pages Mobile | 2 (mask vectors) | 0 | 2 (black icon mask vectors) | 0 | 0 |
+
+Also: overlap/spill scan clean on both breakpoints; page structure check: 0 `Page-specific / …` frames, every section an instance, desktop/mobile section counts equal (header and announcement bar excluded); every Breakpoint set has Desktop and Mobile. The dark editorial header's scrim is now `Overlay/Hero scrim` (it was raw black); its white diagonal lines stay a raw white gradient (the Overlay style doesn't reproduce them).
+
+## 12. Follow-ups after the rebuild (1 Oct 2026)
+
+- **Visual pass.** Whole-page screenshots of Careers, Contact, Infinite Facade, Our Approach, Homepage, Webinar Detail and Podcast (desktop) showed no broken layouts. Mobile pages were checked by the scans only (the 390px screenshots of 7,000px pages are too small to read).
+- **Build notes.** Every page's Build notes panel lost its stale "Page-specific" entries and gained a "Rebuilt from the library · 1 Oct 2026" entry listing each replaced frame, what it became and any trimmed copy.
+- **Dev notes.** Yellow dev notes added for the 42 page panels (04 · Page panels, re-packed with a note to the right of each set) and for Feature list + media and Card grid (03 · Content Panels, moved below the existing sets so nothing overlaps).
+- **Tooling.** `tooling/a25/mob.js` now matches the stored copy (`convertLinks` added). The old `figma-2.5-acceptance` branch only held §6 above; it is superseded and can be deleted.
