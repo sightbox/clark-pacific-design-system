@@ -44,3 +44,13 @@ Overview, Color, Typography, Added styles, Layout, Buttons & links — generated
 - An overflow check that only looks at clipping frames misses text spilling out of fixed-height, non-clipping containers.
 - Imported (html.to.design) frames bake hard line breaks and fixed widths into text; clean them before reusing the layers.
 - Plugin API cannot save versions, publish libraries or set the file thumbnail — those are manual.
+
+## 6. 2.5 acceptance run (1 Oct 2026)
+
+Run after the 2.5 additions, mobile variants and page swaps (`/cp-acceptance`):
+
+- **Styles.** Unbound text 0 on both page sets after `rebind.js` (4 stray runs per breakpoint were repaired). Unbound fills 0 on 02 · Components. The only remaining flags are logo-artwork vectors inside Header instances (exempt by design). No Bold 700, no detached instances, no orange text on dark.
+- **Radius.** 36 on 02 · Components, all in the 2.5 sets (2px tiles, 4px carousel frames), flagged in `docs/addendum-2.5.md`.
+- **Overlap and spill.** 0 overlaps and 0 spills on Desktop and Mobile. One spill (EPD tile copy on Mobile / Sustainability) was fixed in the component: the tiles now hug their content, as do the Icon Module 3-col and Stats band mobile variants.
+- **Component sets.** All 88 sets with a `Breakpoint` property have both Desktop and Mobile, including all 46 of the 2.5 sets.
+- **Page structure.** Every section on both page sets is an instance or a `Page-specific /` frame. Mobile pages carry two more top-level sections than their Desktop twins (the split Announcement Bar and Header), as before.
