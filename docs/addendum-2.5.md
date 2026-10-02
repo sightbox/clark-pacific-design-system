@@ -125,8 +125,23 @@ Tooling:
 
 - The same interactions, text properties and fixes in the separate 2.5 Additions file (kept as-is for Kim's guide).
 
+## Hover states (2 Oct 2026)
+
+Prototype hover for the non-button elements (buttons are deliberately left out):
+
+- **Text links.** A shared set, `2.5 / Text link` (section `2.5 · Shared parts`), replaces the 626 one-off link frames. Properties: Style (the six text styles used), Track (Light 3px | Hairline 2px), Rest (None | Short bar), State (Default | Hover), plus a Label text property. Hover fills the orange bar to the full label width, Smart Animate, 400ms ease. The links are exposed nested instances, so the label is edited under **Text link** in the panel. The old per-component `… · Link` text properties were removed, and the page overrides were re-applied.
+- **Project card grid.** `Hover` variants (Card 1–3, desktop): the photo darkens (Overlay/Scrim at 40%).
+- **Sub-category card grid.** `Hover` variants (Card 1–4, desktop): the underline fills.
+- **Product category list.** `Hover` variants (Item 1–13, desktop): the item turns Orange.
+- **Not done:** the cards inside Projects / Filter bar (the multiplication with its 20 states was too heavy) and mobile (no hover on touch).
+- Text properties on the hover variants are bound by content to the same properties as the default variant.
+
+## Decisions (2 Oct 2026)
+
+- **Kim's expandable list:** it is both the FAQ and the Project Detail accordion.
+- **Finishes guide:** the download stays as designed (no form gate). Settled.
+- **40% cement figure:** stays as is (Sustainability stats band and Stats Row · Light · Infinite Facade®). Settled.
+
 ## Open questions
 
-- Clark Pacific: should the finishes-guide download sit behind a form?
-- Clark Pacific: confirm the 40% cement figure (Sustainability stats band and Stats Row · Light · Infinite Facade®).
-- Kim: is the expandable list she described the FAQ or the Project Detail accordion?
+None. The three earlier questions were answered (see Decisions above).
