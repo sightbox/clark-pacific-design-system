@@ -64,5 +64,13 @@ async function A25MOB(figma){
     if(old&&!inst){old.remove();c.name=name;}
     return {c,set:S,oldKept:!!(old&&inst),instances:inst};
   }
-  return {L,pg,find,buildVariant,texts,keyed,buildMobile,bindProps,expose,layoutSet,addPlain,addToSet,click,fontsFor};
+  // replace one-off cp-textlink frames by the shared hover link instances
+  async function convertLinks(v){const link=pg.findOne(n=>n.type==='COMPONENT_SET'&&n.name==='2.5 / Text link');const labelKey=Object.keys(link.componentPropertyDefinitions).find(k=>k.startsWith('Label#'));
+    const TSN={};for(const s of await figma.getLocalTextStylesAsync())TSN[s.id]=s.name;const PSN={};for(const s of await figma.getLocalPaintStylesAsync())PSN[s.id]=s.name;
+    const SM={'Desktop/Button':'Desktop Button','Mobile/Eyebrow':'Mobile Eyebrow','Desktop/Eyebrow Small':'Desktop Eyebrow Small','Mobile/Eyebrow Small':'Mobile Eyebrow Small','Desktop/Label':'Desktop Label','Mobile/Label':'Mobile Label','Mobile/Button':'Mobile Eyebrow'};let n=0;
+    for(const f of v.findAll(x=>x.type==='FRAME'&&x.name==='cp-textlink')){const t=f.children[0],tr=f.children[1],bar=tr&&tr.children[0];const st=SM[TSN[t.textStyleId]];if(!st||!bar)continue;
+      const light=PSN[tr.fillStyleId]==='Track/Light';const nm='Style='+st+', Track='+(light?'Light':'Hairline')+', Rest='+(bar.width>1?'Short':'None')+', State=Default';const main=link.children.find(x=>x.name===nm);if(!main)continue;
+      const inst=main.createInstance();const p=f.parent;p.insertChild(p.children.indexOf(f),inst);const hs=f.layoutSizingHorizontal;inst.setProperties({[labelKey]:t.characters});if(hs==='FILL')inst.layoutSizingHorizontal='FILL';inst.isExposedInstance=true;f.remove();n++;}
+    return n;}
+  return {L,pg,find,buildVariant,convertLinks,texts,keyed,buildMobile,bindProps,expose,layoutSet,addPlain,addToSet,click,fontsFor};
 }

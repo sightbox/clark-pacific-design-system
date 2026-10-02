@@ -45,6 +45,17 @@ Overview, Color, Typography, Added styles, Layout, Buttons & links — generated
 - Imported (html.to.design) frames bake hard line breaks and fixed widths into text; clean them before reusing the layers.
 - Plugin API cannot save versions, publish libraries or set the file thumbnail — those are manual.
 
+
+## 6. 2.5 acceptance run (1 Oct 2026)
+
+Run after the 2.5 additions, mobile variants and page swaps (`/cp-acceptance`):
+
+- **Styles.** Unbound text 0 on both page sets after `rebind.js` (4 stray runs per breakpoint were repaired). Unbound fills 0 on 02 · Components. The only remaining flags are logo-artwork vectors inside Header instances (exempt by design). No Bold 700, no detached instances, no orange text on dark.
+- **Radius.** 36 on 02 · Components, all in the 2.5 sets (2px tiles, 4px carousel frames), flagged in `docs/addendum-2.5.md`.
+- **Overlap and spill.** 0 overlaps and 0 spills on Desktop and Mobile. One spill (EPD tile copy on Mobile / Sustainability) was fixed in the component: the tiles now hug their content, as do the Icon Module 3-col and Stats band mobile variants.
+- **Component sets.** All 88 sets with a `Breakpoint` property have both Desktop and Mobile, including all 46 of the 2.5 sets.
+- **Page structure.** Every section on both page sets is an instance or a `Page-specific /` frame. Mobile pages carry two more top-level sections than their Desktop twins (the split Announcement Bar and Header), as before.
+
 ## 7. Page rebuild · Batch 1 — mobile fallbacks (1 Oct 2026)
 
 Mobile page frames that were `Page-specific / …` copies of sections the desktop pages already use as library instances were swapped to instances. The 2.0 Mobile variants were rebuilt where they were condensed designs, by cloning the Desktop variant and restyling it with Mobile text styles (same text properties, so desktop and mobile copy move together). Originals are kept in `06 · Page References · Mobile` → "Replaced page-specific frames · 1 Oct 2026".
@@ -118,3 +129,10 @@ Acceptance run on all six pages after the library was published:
 | 04 · Pages Mobile | 2 (mask vectors) | 0 | 2 (black icon mask vectors) | 0 | 0 |
 
 Also: overlap/spill scan clean on both breakpoints; page structure check: 0 `Page-specific / …` frames, every section an instance, desktop/mobile section counts equal (header and announcement bar excluded); every Breakpoint set has Desktop and Mobile. The dark editorial header's scrim is now `Overlay/Hero scrim` (it was raw black); its white diagonal lines stay a raw white gradient (the Overlay style doesn't reproduce them).
+
+## 12. Follow-ups after the rebuild (1 Oct 2026)
+
+- **Visual pass.** Whole-page screenshots of Careers, Contact, Infinite Facade, Our Approach, Homepage, Webinar Detail and Podcast (desktop) showed no broken layouts. Mobile pages were checked by the scans only (the 390px screenshots of 7,000px pages are too small to read).
+- **Build notes.** Every page's Build notes panel lost its stale "Page-specific" entries and gained a "Rebuilt from the library · 1 Oct 2026" entry listing each replaced frame, what it became and any trimmed copy.
+- **Dev notes.** Yellow dev notes added for the 42 page panels (04 · Page panels, re-packed with a note to the right of each set) and for Feature list + media and Card grid (03 · Content Panels, moved below the existing sets so nothing overlaps).
+- **Tooling.** `tooling/a25/mob.js` now matches the stored copy (`convertLinks` added). The old `figma-2.5-acceptance` branch only held §6 above; it is superseded and can be deleted.
